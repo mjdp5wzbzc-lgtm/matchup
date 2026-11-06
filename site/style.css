@@ -171,3 +171,16 @@ td.o{color:var(--up);font-weight:700}td.u{color:var(--dn)}
 .stybox.lv2{background:linear-gradient(135deg,rgba(255,122,26,.25),rgba(255,122,26,.06));border-color:var(--acc)}
 .stybox .t{font:700 18px/1 "Barlow Condensed",sans-serif;text-transform:uppercase;color:var(--acc2)}
 .tools .chip{align-self:stretch;border-radius:10px}
+
+/* tennis */
+.tcard{display:block}
+.tl1{font-size:12px;color:var(--tx2);margin-bottom:8px;display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.tp{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:3px 0}
+.tn{min-width:0;display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.tn small{color:var(--tx3)}
+.tnum{display:flex;align-items:center;gap:10px}
+.tnum .big{font-size:20px;font-weight:700;min-width:44px;text-align:right}
+.todd{font:600 13px Inter,sans-serif;padding:2px 7px;border-radius:6px;background:var(--card2);color:var(--tx2)}
+.todd.v{background:var(--acc);color:#140a02}
+.pbar{height:5px;border-radius:3px;background:var(--card2);margin-top:6px;overflow:hidden}
+.pbar i{display:block;height:100%;background:linear-gradient(90deg,var(--acc),var(--acc2))}

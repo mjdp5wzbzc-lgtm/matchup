@@ -47,7 +47,11 @@ async function getJSON(url){
 /* ------------------------------------------------------------------ routeur */
 async function route(){
   const h = location.hash || "#/";
-  document.querySelectorAll("[data-nav]").forEach(a => a.classList.toggle("on", (h.startsWith("#/dvp") ? "dvp" : "list") === a.dataset.nav));
+  document.querySelectorAll("[data-nav]").forEach(a => a.classList.toggle("on", (h.startsWith("#/dvp") ? "dvp" : h.startsWith("#/tennis") ? "tennis" : "list") === a.dataset.nav));
+  if (h.startsWith("#/tennis")) {
+    try { return await renderTennis(h); }
+    catch (e) { $app.innerHTML = `<div class="empty">Données tennis introuvables pour l'instant.<br><small>Elles arrivent au prochain passage du robot.</small></div>`; console.error(e); return; }
+  }
   try {
     if (!T) T = await getJSON("data/today.json");
     const meta = document.getElementById("meta");
@@ -392,6 +396,115 @@ async function renderDvp(){
     document.querySelector(".dvp thead").onclick = e => { const th = e.target.closest("[data-s]"); if (th) { S.dvpStat = th.dataset.s; draw(); } };
   };
   draw();
+}
+
+/* ================================================================== TENNIS */
+let TN = null;
+const SURF = { hard:"Dur", clay:"Terre battue", grass:"Gazon" };
+const TS = { tour:"all", value:false, sort:"time", tab:"res" };
+const pctS = x => x == null ? "–" : Math.round(x * 100) + "%";
+const odd = x => x ? x.toFixed(2) : "–";
+const VAL = { Strong:"Strong", Moderate:"Moderate", Slight:"Slight" };
+
+async function renderTennis(h){
+  if (!TN) TN = await getJSON("data/tennis.json");
+  document.getElementById("meta").textContent = `Tennis mis à jour le ${new Date(TN.generated).toLocaleString("fr-FR")} · ${TN.n_hist} matchs en base`;
+  if (h.startsWith("#/tennis/m/")) return renderTennisMatch(h.slice(11));
+  const draw = () => {
+    let ms = TN.matches.filter(m => (TS.tour === "all" || m.tour === TS.tour) && (!TS.value || m.value));
+    if (TS.sort === "value") ms = ms.slice().sort((a, b) => ((b.value || {}).gap || 0) - ((a.value || {}).gap || 0));
+    const nV = TN.matches.filter(m => m.value).length;
+    $app.innerHTML = `<div class="hero"><div><h1>Tennis du jour</h1><div class="sub">ATP et WTA · probabilités Elo par surface, styles de jeu, face à face${TN.has_odds ? "" : " · pas de clé cotes : value signals désactivés"}</div></div>
+      <div class="kpis"><div class="kpi"><div class="big">${TN.matches.length}</div><small>Matchs</small></div><div class="kpi"><div class="big" style="color:var(--acc)">${nV}</div><small>Value</small></div></div></div>
+      <div class="chips" id="ttour">${[["all","Tous"],["atp","ATP"],["wta","WTA"]].map(([k, v]) => `<button class="chip ${TS.tour === k ? "on" : ""}" data-t="${k}">${v}</button>`).join("")}
+        <button class="chip ${TS.value ? "on" : ""}" id="tval">💎 Value seulement</button>
+        <button class="chip ${TS.sort === "value" ? "on" : ""}" id="tsort">Trier par value</button></div>
+      <div class="list">${ms.map(tCard).join("") || `<div class="empty">Aucun match.</div>`}</div>
+      <p class="note">Les value signals comparent la cote à une probabilité mélangeant notre modèle et le marché, par prudence. Analyse statistique, pas un pronostic.</p>`;
+    document.getElementById("ttour").onclick = e => { const b = e.target.closest("[data-t]"); if (b) { TS.tour = b.dataset.t; draw(); } };
+    document.getElementById("tval").onclick = () => { TS.value = !TS.value; draw(); };
+    document.getElementById("tsort").onclick = () => { TS.sort = TS.sort === "value" ? "time" : "value"; draw(); };
+  };
+  draw();
+}
+
+function pRow(P, p, o, isVal){
+  return `<div class="tp"><div class="tn"><b>${esc(P.name)}</b>${P.rank ? ` <small>#${P.rank}</small>` : ""}${P.style ? ` <span class="tag style">${esc(TN.styles[P.style])}</span>` : ""}</div>
+    <div class="tnum"><span class="big">${pctS(p)}</span>${o ? `<span class="todd ${isVal ? "v" : ""}">${odd(o)}</span>` : ""}</div></div>`;
+}
+function tCard(m){
+  const v = m.value;
+  const t = m.state === "pre" ? timeOf(m.date + "Z") : esc(m.detail || "");
+  return `<a class="row tcard ${v ? "styhot lv" + (v.level === "Strong" ? 2 : 1) : ""}" href="#/tennis/m/${m.id}">
+    <div class="tl1"><span class="st q">${m.tour.toUpperCase()}</span> ${esc(m.event)} · ${esc(m.round)} · ${SURF[m.surface]} · ${t}
+      ${v ? `<span class="sbadge lv${v.level === "Strong" ? 2 : 1}">💎 ${v.level} +${Math.round(v.gap * 100)}%</span>` : ""}</div>
+    ${pRow(m.A, m.p, m.odds[0], v && v.side === 0)}${pRow(m.B, 1 - m.p, m.odds[1], v && v.side === 1)}
+    <div class="pbar"><i style="width:${Math.round(m.p * 100)}%"></i></div>
+    ${m.h2h.length ? `<div class="note" style="margin-top:4px">H2H ${m.h2h.filter(x => x.w).length}-${m.h2h.filter(x => !x.w).length}</div>` : ""}
+  </a>`;
+}
+
+function renderTennisMatch(id){
+  const m = TN.matches.find(x => x.id === id);
+  if (!m) { $app.innerHTML = `<div class="empty">Match introuvable. <a href="#/tennis" style="color:var(--acc2)">Retour</a></div>`; return; }
+  const TABS = [["res","⭐ Résumé"],["sty","🎯 Styles"],["h2h","🆚 H2H"],["form","📈 Forme"],["fat","🔋 Fatigue"],["odds","💶 Cotes"]];
+  const draw = () => {
+    $app.innerHTML = `<a class="back" href="#/tennis">← Tennis du jour</a>
+    <div class="ph"><div class="l1">${m.tour.toUpperCase()} · ${esc(m.event)} · ${esc(m.round)} · ${SURF[m.surface]}</div>
+      <h1 style="font-size:26px">${esc(m.A.name)} <span style="color:var(--tx3)">vs</span> ${esc(m.B.name)}</h1>
+      <div class="stats"><div><small>${esc(m.A.name.split(" ").slice(-1)[0])}</small><div class="big">${pctS(m.p)}</div></div>
+      <div><small>${esc(m.B.name.split(" ").slice(-1)[0])}</small><div class="big">${pctS(1 - m.p)}</div></div>
+      ${m.value ? `<div><small>Value</small><div class="big" style="color:var(--acc2)">${m.value.level}</div></div>` : ""}</div>
+      <div class="pbar" style="margin-top:12px"><i style="width:${Math.round(m.p * 100)}%"></i></div></div>
+    <div class="tabs">${TABS.map(([k, v]) => `<button class="tab ${k === TS.tab ? "on" : ""}" data-tab="${k}">${v}</button>`).join("")}</div>
+    <div id="tab">${({ res:tRes, sty:tSt, h2h:tH, form:tF, fat:tFa, odds:tO }[TS.tab] || tRes)(m)}</div>`;
+    document.querySelector(".tabs").onclick = e => { const b = e.target.closest("[data-tab]"); if (b) { TS.tab = b.dataset.tab; draw(); } };
+  };
+  draw();
+}
+function who(m, sgn){ return sgn > 0 ? m.A.name : sgn < 0 ? m.B.name : null; }
+function tRes(m){
+  const fav = m.p >= 0.5 ? m.A : m.B, pf = Math.max(m.p, 1 - m.p);
+  return `<div class="clair"><b>💡 EN CLAIR</b>${esc(fav.name)} est favori${m.tour === "wta" ? "te" : ""} du modèle à ${pctS(pf)}${m.p_mkt ? `, le marché le donne à ${pctS(m.p >= 0.5 ? m.p_mkt : 1 - m.p_mkt)}` : ""}.${m.value ? ` Value « ${m.value.level} » sur ${esc((m.value.side ? m.B : m.A).name)} : cote ${odd(m.value.odds)} contre une cote juste estimée à ${odd(m.value.fair)} (écart +${Math.round(m.value.gap * 100)} %).` : ""}</div>
+  <div class="card">${m.fac.map(f => `<div class="fac ${f[0] ? (f[0] > 0 ? "p" : "m") : ""}"><span class="ic" style="${f[0] ? "" : "background:var(--card2);color:var(--tx3)"}">${f[0] ? "●" : "i"}</span><div>${f[0] ? `<small style="color:var(--tx3)">Avantage ${esc(who(m, f[0]))}</small><br>` : ""}${esc(f[1])}</div></div>`).join("")}</div>
+  <h3>D'où vient la probabilité</h3><div class="grid3">
+    <div class="box"><small>Elo global</small><div class="big">${pctS(m.p_all)}</div><div class="s">${m.A.elo} / ${m.B.elo}</div></div>
+    <div class="box"><small>Elo ${SURF[m.surface].toLowerCase()}</small><div class="big">${pctS(m.p_surf)}</div><div class="s">${m.A.selo} / ${m.B.selo}</div></div>
+    <div class="box"><small>Modèle final</small><div class="big">${pctS(m.p)}</div><div class="s">+ styles et fatigue</div></div></div>
+  <p class="note">Probabilités pour ${esc(m.A.name)}. Fiabilité : ${m.conf} matchs mini dans l'historique pour l'un des deux${m.conf < 15 ? " (faible)" : ""}.</p>`;
+}
+function tSt(m){
+  const a = m.arche;
+  const card = P => `<div class="box"><small>${esc(P.name)}</small><div class="big" style="font-size:20px">${P.style ? esc(TN.styles[P.style]) : "Style inconnu"}</div><div class="s">${esc(P.style_note || "Pas assez d'informations fiables sur ce joueur.")}${P.style_src ? ` · <a href="${esc(P.style_src)}" target="_blank" rel="noopener" style="color:var(--acc2)">source</a>` : ""}</div></div>`;
+  const rec = (P, O) => O.style ? `<div class="grid2">${box(`${esc(P.name)} vs « ${esc(TN.styles[O.style])} »`, P.vs_style[0], P.vs_style[1], "toutes surfaces")}${box(`Sur ${SURF[m.surface].toLowerCase()}`, P.vs_style_s[0], P.vs_style_s[1])}</div>` : "";
+  return `${a ? `<div class="stybox ${((a.surf[1] >= 30 ? a.surf : a.all)[0] / Math.max(1, (a.surf[1] >= 30 ? a.surf : a.all)[1])) >= .55 || ((a.surf[1] >= 30 ? a.surf : a.all)[0] / Math.max(1, (a.surf[1] >= 30 ? a.surf : a.all)[1])) <= .45 ? "lv2" : ""}"><div class="t">Insight d'archétype</div>
+     <div>Les « ${esc(TN.styles[m.A.style])} » contre les « ${esc(TN.styles[m.B.style])} » : <b>${a.surf[1] ? Math.round(100 * a.surf[0] / a.surf[1]) + " %" : "–"}</b> de victoires sur ${SURF[m.surface].toLowerCase()} (${a.surf[1]} matchs), ${a.all[1] ? Math.round(100 * a.all[0] / a.all[1]) : "–"} % toutes surfaces (${a.all[1]} matchs).</div></div>` : `<div class="clair"><b>💡 EN CLAIR</b>${!m.A.style || !m.B.style ? "Le style d'au moins un des deux joueurs n'est pas connu." : "Les deux joueurs ont le même style : pas d'avantage d'archétype."}</div>`}
+  <div class="grid2">${card(m.A)}${card(m.B)}</div>
+  ${rec(m.A, m.B) ? `<h3>Bilan face à ce style</h3>${rec(m.A, m.B)}${rec(m.B, m.A)}` : ""}`;
+}
+function tH(m){
+  if (!m.h2h.length) return `<div class="card note">Jamais affrontés dans notre historique (depuis 2024, circuit principal).</div>`;
+  const wa = m.h2h.filter(x => x.w).length;
+  return `<div class="grid2">${box(`Victoires ${esc(m.A.name)}`, wa, m.h2h.length)}${box(`Sur ${SURF[m.surface].toLowerCase()}`, m.h2h.filter(x => x.w && x.s === m.surface).length, m.h2h.filter(x => x.s === m.surface).length)}</div>
+  <div class="card" style="margin-top:8px"><div class="tw"><table><thead><tr><th>Date</th><th>Tournoi</th><th>Surface</th><th>Vainqueur</th><th>Score</th></tr></thead><tbody>
+  ${m.h2h.map(x => `<tr><td>${x.d.split("-").reverse().join("/")}</td><td>${esc(x.ev)} <small style="color:var(--tx3)">${esc(x.r)}</small></td><td>${SURF[x.s]}</td><td class="${x.w ? "o" : "u"}">${esc(x.w ? m.A.name : m.B.name)}</td><td>${esc(x.sc)}</td></tr>`).join("")}</tbody></table></div></div>`;
+}
+function tF(m){
+  const blk = P => `<h3>${esc(P.name)} · ${P.form.split("").map(c => `<span class="dot ${c === "V" ? "o" : "u"}"></span>`).join("")}</h3>
+  <div class="grid2">${box("12 derniers mois", P.yr[0], P.yr[1])}${box(`Sur ${SURF[m.surface].toLowerCase()}`, P.yr_s[0], P.yr_s[1])}</div>
+  <div class="card" style="margin-top:8px"><div class="tw"><table><thead><tr><th>Date</th><th>Adversaire</th><th>Surface</th><th>Résultat</th><th>Score</th></tr></thead><tbody>
+  ${P.last.map(x => `<tr><td>${x.d.slice(5).split("-").reverse().join("/")}</td><td>${esc(x.o)}</td><td>${SURF[x.s]}</td><td class="${x.w ? "o" : "u"}">${x.w ? "V" : "D"}${x.ret ? " (ab.)" : ""}</td><td>${esc(x.sc)}</td></tr>`).join("")}</tbody></table></div></div>`;
+  return blk(m.A) + blk(m.B);
+}
+function tFa(m){
+  const f = P => `<div class="box"><small>${esc(P.name)}</small><div class="big">${P.d7}</div><div class="s">matchs sur 7 jours · ${P.d7_sets} sets · ${P.d3} sur 3 jours</div></div>`;
+  return `<div class="clair"><b>💡 EN CLAIR</b>Plus un joueur a enchaîné les matchs et les sets récemment, plus le modèle le pénalise légèrement.</div><div class="grid2">${f(m.A)}${f(m.B)}</div>`;
+}
+function tO(m){
+  if (!m.odds[0]) return `<div class="card note">${TN.has_odds ? "Pas de cote trouvée pour ce match (souvent le cas hors ATP/WTA principal)." : "Ajoute ta clé The Odds API (secret ODDS_API_KEY) pour voir les cotes et les value signals."}</div>`;
+  const r = (P, o, p) => `<tr><td>${esc(P.name)}</td><td>${odd(o)}</td><td>${pctS(1 / o)}</td><td>${pctS(p)}</td><td>${odd(1 / p)}</td><td class="${p * o - 1 > 0 ? "o" : "u"}">${(p * o - 1 >= 0 ? "+" : "") + Math.round((p * o - 1) * 100)} %</td></tr>`;
+  return `<div class="card"><div class="tw"><table><thead><tr><th>Joueur</th><th>Meilleure cote</th><th>Proba implicite</th><th>Proba modèle</th><th>Cote juste</th><th>Écart</th></tr></thead><tbody>${r(m.A, m.odds[0], m.p)}${r(m.B, m.odds[1], 1 - m.p)}</tbody></table></div>
+  <p class="note">Seuils : Slight dès +8 %, Moderate dès +15 %, Strong dès +25 %, calculés sur une probabilité mélangeant modèle et marché pour limiter les faux signaux. Un écart positif n'est jamais une garantie.</p></div>`;
 }
 
 route();

@@ -134,5 +134,87 @@ def main():
     print("Données fictives générées.")
 
 
-if __name__ == "__main__":
+if __name__ == "__main__" and "--tennis" not in sys.argv:
     main()
+
+
+def tennis_mock():
+    """Données tennis FICTIVES (format identique à scripts/tennis.py)."""
+    import json as _json
+    from common import load_json
+    random.seed(11)
+    tdir = os.path.join(RAW, "tennis")
+    shutil.rmtree(tdir, ignore_errors=True)
+    styles = load_json(os.path.join(RAW, "tennis_styles.json"))["players"]
+    pool = {"atp": [v for v in styles.values() if v["tour"] == "ATP"],
+            "wta": [v for v in styles.values() if v["tour"] == "WTA"]}
+    for t in pool:
+        pool[t] += [{"name": f"Joueur{'' if t == 'atp' else 'se'} Inconnu{i}", "style": None, "rank_ref": 160 + i} for i in range(10)]
+    edge = {("SC", "CA"): 0.08, ("TL", "GS"): 0.06, ("AF", "CR"): 0.05, ("CA", "FP"): 0.07}
+    events = [("Australian Open", "01"), ("Indian Wells", "03"), ("Miami Open", "03"), ("Monte-Carlo Masters", "04"),
+              ("Mutua Madrid Open", "05"), ("Roland Garros", "05"), ("Halle Open", "06"), ("Wimbledon", "07"),
+              ("Hamburg Open", "07"), ("Cincinnati Open", "08"), ("US Open", "09"), ("Shanghai Masters", "10"),
+              ("Paris Masters", "11")]
+    from tennis import surface_of
+    mid = 1
+    def strength(p):
+        return 2200 - (p.get("rank_ref") or 170) * 3.5 + random.gauss(0, 40)
+    for t in ("atp", "wta"):
+        for year in (2024, 2025, 2026):
+            for ev, mo in events:
+                if year == 2026 and int(mo) > 10:
+                    continue
+                date = f"{year}-{mo}-15"
+                surf = surface_of(ev, date)
+                players = random.sample(pool[t], 64)
+                bymonth = os.path.join(tdir, t, f"{year}-{mo}.json")
+                cur = load_json(bymonth, [])
+                rnd = players
+                rname = ["1er tour", "2e tour", "3e tour", "8e de finale", "Quart de finale", "Demi-finale", "Finale"]
+                ri = 0
+                while len(rnd) > 1:
+                    nxt = []
+                    for i in range(0, len(rnd), 2):
+                        a, b = rnd[i], rnd[i + 1]
+                        d = (strength(a) - strength(b)) / 400
+                        adj = edge.get((a["style"], b["style"]), 0) - edge.get((b["style"], a["style"]), 0)
+                        if surf == "clay" and a["style"] == "TL": adj += 0.05
+                        if surf == "clay" and b["style"] == "TL": adj -= 0.05
+                        pa = 1 / (1 + 10 ** (-d)) + adj
+                        wa = random.random() < pa
+                        sets = [[6, random.randint(2, 4)] for _ in range(2)]
+                        mk = lambda p, win: {"id": norm_name(p["name"]).replace(" ", "-"), "name": p["name"], "cc": "",
+                                             "win": win, "sets": [[s[0] if win else s[1], None] for s in sets]}
+                        cur.append({"id": str(mid), "tour": t, "date": f"{year}-{mo}-{10 + ri:02d}T12:00", "event": ev, "eid": ev,
+                                    "round": rname[ri], "state": "post", "done": True, "walkover": False, "retired": False,
+                                    "detail": "Final", "surface": surf, "p": [mk(a, wa), mk(b, not wa)]})
+                        mid += 1
+                        nxt.append(a if wa else b)
+                    rnd = nxt
+                    ri += 1
+                os.makedirs(os.path.dirname(bymonth), exist_ok=True)
+                save_json(bymonth, cur)
+    now = dt.datetime.now(dt.timezone.utc)
+    today = []
+    for t in ("atp", "wta"):
+        players = random.sample(pool[t][:120], 24)
+        for i in range(0, 24, 2):
+            a, b = players[i], players[i + 1]
+            st = (now + dt.timedelta(hours=2 + i)).isoformat()[:16]
+            today.append({"id": f"T{t}{i}", "tour": t, "date": st, "event": "Paris Masters" if t == "atp" else "WTA Finals",
+                          "eid": "x", "round": "2e tour", "state": "pre", "done": False, "walkover": False, "retired": False,
+                          "detail": "", "surface": "hard",
+                          "p": [{"id": norm_name(p["name"]).replace(" ", "-"), "name": p["name"], "cc": "", "win": False, "sets": []} for p in (a, b)]})
+    ranks = {norm_name(v["name"]): {"rank": v.get("rank_ref"), "pts": None} for v in styles.values()}
+    save_json(os.path.join(tdir, "today.json"), {"matches": today, "ranks": ranks})
+    games = []
+    for m in today:
+        oa = round(random.uniform(1.3, 3.2), 2)
+        ob = round(1 / max(0.05, 1.06 - 1 / oa), 2)
+        games.append({"start": m["date"], "odds": {m["p"][0]["name"]: oa, m["p"][1]["name"]: ob}})
+    save_json(os.path.join(tdir, "odds.json"), {"at": now.isoformat(), "games": games})
+    print("Données tennis fictives générées.")
+
+
+if __name__ == "__main__" and "--tennis" in sys.argv:
+    tennis_mock()

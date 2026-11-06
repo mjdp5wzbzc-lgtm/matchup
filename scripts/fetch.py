@@ -346,6 +346,12 @@ def main():
         sync_odds()
     except Exception as e:
         print(f"Lignes : erreur {e}")
+    # Partie tennis (indépendante : une panne tennis ne bloque jamais la NBA)
+    try:
+        import tennis
+        tennis.main()
+    except Exception as e:
+        print(f"Tennis : erreur {e}")
 
 
 if __name__ == "__main__":
