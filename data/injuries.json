@@ -339,6 +339,16 @@
  ],
  "GS": [
   {
+   "id": "3102531",
+   "name": "Kristaps Porzingis",
+   "pos": "C",
+   "status": "Out",
+   "type": "Illness",
+   "return": "2027-01-02",
+   "comment": "Porzingis announced on his social media that he's stepping away from basketball.",
+   "date": "2026-11-06T21:26Z"
+  },
+  {
    "id": "4997536",
    "name": "Gui Santos",
    "pos": "F",
@@ -347,16 +357,6 @@
    "return": "2026-11-07",
    "comment": "Santos (knee) is questionable for Saturday's game versus Orlando, per Nick Friedell of The Athletic.",
    "date": "2026-11-06T20:49Z"
-  },
-  {
-   "id": "3102531",
-   "name": "Kristaps Porzingis",
-   "pos": "C",
-   "status": "Out",
-   "type": "Illness",
-   "return": "2026-12-01",
-   "comment": "The Warriors have stopped issuing salary payments to Porzingis, who remains away from the team and is considering retirement, Anthony Slater and Shams Charania of ESPN reported Wednesday.",
-   "date": "2026-11-04T17:00Z"
   },
   {
    "id": "4432171",
@@ -1005,5 +1005,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-06T21:31:12.413775+00:00"
+ "_updated": "2026-11-06T21:46:55.304026+00:00"
 }
