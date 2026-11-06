@@ -63,16 +63,6 @@
  ],
  "BOS": [
   {
-   "id": "4066354",
-   "name": "Payton Pritchard",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Eye",
-   "return": "2026-11-06",
-   "comment": "Pritchard (eye) is questionable for Friday against Charlotte, Taylor Snow of the Celtics' official site reports.",
-   "date": "2026-11-05T21:09Z"
-  },
-  {
    "id": "4433188",
    "name": "Devin Carter",
    "pos": "G",
@@ -130,21 +120,21 @@
    "id": "3032979",
    "name": "Dennis Schroder",
    "pos": "G",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Thigh",
-   "return": "2026-11-06",
-   "comment": "Schroder (thigh) is questionable for Friday's game against the Celtics.",
-   "date": "2026-11-05T22:11Z"
+   "return": "2026-11-09",
+   "comment": "Schroder (thigh) is out for Friday's game versus Boston.",
+   "date": "2026-11-06T18:09Z"
   },
   {
    "id": "4433249",
    "name": "Moussa Diabate",
    "pos": "F",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Quadriceps",
-   "return": "2026-11-06",
-   "comment": "Diabate (quadriceps) is questionable for Friday's game against the Celtics.",
-   "date": "2026-11-05T22:08Z"
+   "return": "2026-11-09",
+   "comment": "Diabate (quadriceps) has been ruled out for Friday's game against Boston, according to the Hornets' official injury report.",
+   "date": "2026-11-06T18:08Z"
   },
   {
    "id": "5061575",
@@ -175,8 +165,8 @@
    "status": "Out",
    "type": "Hamstring",
    "return": "2026-11-08",
-   "comment": "Claxton (hamstring) was recalled from the G League's Windy City Bulls on Thursday.",
-   "date": "2026-11-05T23:39Z"
+   "comment": "Head coach Tiago Splittler said Friday that Claxton (hamstring) is expected to make his season debut Sunday against the 76ers, per Joel Lorenzi of The Athletic.",
+   "date": "2026-11-06T18:21Z"
   },
   {
    "id": "4066650",
@@ -556,11 +546,11 @@
    "id": "4432847",
    "name": "Terrence Shannon Jr.",
    "pos": "G",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Hip",
-   "return": "2026-11-06",
-   "comment": "Shannon (hip) is questionable for Friday's game against New Orleans.",
-   "date": "2026-11-05T22:58Z"
+   "return": "2026-11-08",
+   "comment": "Shannon (hip) has been ruled out for Friday's game against New Orleans.",
+   "date": "2026-11-06T18:06Z"
   },
   {
    "id": "4594268",
@@ -593,16 +583,6 @@
    "return": "2026-11-09",
    "comment": "Missi (knee) is out for Friday's game against Minnesota.",
    "date": "2026-11-05T20:47Z"
-  },
-  {
-   "id": "4397688",
-   "name": "Trey Murphy III",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Knee",
-   "return": "2026-11-06",
-   "comment": "Murphy (knee) is probable for Friday's game against Minnesota.",
-   "date": "2026-11-05T20:19Z"
   }
  ],
  "NY": [
@@ -883,14 +863,44 @@
  ],
  "TOR": [
   {
+   "id": "3134908",
+   "name": "Jakob Poeltl",
+   "pos": "C",
+   "status": "Day-To-Day",
+   "type": "Shoulder",
+   "return": "2026-11-06",
+   "comment": "Poeltl (shoulder) is listed as probable for Friday's game against Milwaukee.",
+   "date": "2026-11-06T18:03Z"
+  },
+  {
+   "id": "4395724",
+   "name": "Immanuel Quickley",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Hamstring",
+   "return": "2026-11-06",
+   "comment": "Quickley (hamstring) is questionable for Friday against the Bucks.",
+   "date": "2026-11-06T17:59Z"
+  },
+  {
    "id": "4433134",
    "name": "Scottie Barnes",
    "pos": "F",
    "status": "Day-To-Day",
    "type": "Groin",
    "return": "2026-11-06",
-   "comment": "Barnes (groin) is questionable to play Friday's game against the Bucks.",
-   "date": "2026-11-06T01:26Z"
+   "comment": "Barnes (adductor) was not present at the morning shootaround, Michael Grange of Sportsnet.careports.",
+   "date": "2026-11-06T17:47Z"
+  },
+  {
+   "id": "2993874",
+   "name": "Kyle Anderson",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Illness",
+   "return": "2026-11-06",
+   "comment": "Anderson is questionable for Friday against the Bucks due to illness.",
+   "date": "2026-11-06T16:06Z"
   },
   {
    "id": "6450",
@@ -920,9 +930,9 @@
    "pos": "C",
    "status": "Out",
    "type": "Foot",
-   "return": "2026-11-13",
-   "comment": "Nurkic (foot) is out for Wednesday's game against the Pelicans.",
-   "date": "2026-11-03T23:07Z"
+   "return": "2026-11-20",
+   "comment": "Nurkic (toe) has begun participating in on-court activities as he continues recovering from a right foot injury sustained during an Oct. 4 preseason game against Denver. He will be re-evaluated in two weeks, the Jazz announced Friday.",
+   "date": "2026-11-06T18:20Z"
   },
   {
    "id": "4277961",
@@ -997,5 +1007,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-06T15:55:57.520038+00:00"
+ "_updated": "2026-11-06T18:58:22.349632+00:00"
 }
