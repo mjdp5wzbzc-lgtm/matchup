@@ -19,6 +19,7 @@ from common import (RAW, GAMES_DIR, LINES_DIR, SITE_DATA, STATS, LOG_FIELDS, ET,
 BUCKET_FR = {"G": "meneurs/arrières", "F": "ailiers", "C": "pivots"}
 BUCKET_SHORT = {"G": "Arrière", "F": "Ailier", "C": "Pivot"}
 STAT_KEYS = list(STATS.keys())
+MIN_GAMES_WITHOUT = 8   # matchs sans le coéquipier requis pour afficher une flèche « Absences »
 OUT_STATUSES = {"out", "doubtful", "suspension", "suspended"}
 
 
@@ -295,8 +296,8 @@ def with_without(pid, team, mates, logs, team_games, seasons, info):
         out.append({
             "id": mid, "name": m["name"], "status": m["status"],
             "n_with": len(w), "n_wo": len(wo),
-            "with": {s: r1(avg_stat(w, s)) for s in STAT_KEYS} | {"min": r1(mean(r["min"] for r in w))},
-            "wo": {s: r1(avg_stat(wo, s)) for s in STAT_KEYS} | {"min": r1(mean(r["min"] for r in wo))},
+            "with": {s: r1(avg_stat(w, s)) for s in STAT_KEYS} | {k: r1(mean(r[k] for r in w)) for k in ("min", "fga", "tpa", "fta")},
+            "wo": {s: r1(avg_stat(wo, s)) for s in STAT_KEYS} | {k: r1(mean(r[k] for r in wo)) for k in ("min", "fga", "tpa", "fta")},
         })
     return out
 
@@ -495,7 +496,7 @@ def main():
                         add(-1, f"Temps de jeu en baisse : {l5min:.1f} min sur 5 matchs contre {mpg:.1f}.", "MIN")
                 # 5. absences
                 for m in ww:
-                    if m["wo"].get(s) is None or m["with"].get(s) is None or m["n_wo"] < 3:
+                    if m["wo"].get(s) is None or m["with"].get(s) is None or m["n_wo"] < MIN_GAMES_WITHOUT:
                         continue
                     delta = m["wo"][s] - m["with"][s]
                     if delta >= max(1.0, 0.1 * A):

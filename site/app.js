@@ -282,10 +282,17 @@ function tH2H(D, p, s, line){
 function tAbs(D, p, s){
   const W = D.withwo || [];
   const inj = (T.injuries[D.team] || []);
-  return `<div class="clair"><b>💡 EN CLAIR</b>${inj.length ? `${inj.length} joueur${inj.length > 1 ? "s" : ""} ${des(D.team)} sur le rapport de blessures.` : `Personne sur le rapport de blessures ${des(D.team)}.`} Ci-dessous, ses chiffres avec et sans chaque coéquipier absent ce soir.</div>
-  ${W.length ? W.map(m => { const dv = (m.wo[s] ?? 0) - (m.with[s] ?? 0); return `<div class="card" style="margin-bottom:8px"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px"><b>${esc(m.name)}</b>${stBadge(m.status)}</div>
-    <div class="grid2"><div class="box"><small>Avec lui (${m.n_with} m.)</small><div class="big">${f1(m.with[s])}</div><div class="s">${f1(m.with.min)} min</div></div>
-    <div class="box"><small>Sans lui (${m.n_wo} m.)</small><div class="big ${dv > 0.5 ? "good" : dv < -0.5 ? "bad" : ""}">${f1(m.wo[s])}</div><div class="s">${f1(m.wo.min)} min · ${dv >= 0 ? "+" : ""}${f1(dv)}</div></div></div></div>`; }).join("")
+  const MIN = 8;
+  const cmp = (lab, a, b) => { const d = (b ?? 0) - (a ?? 0); return `<tr><td>${lab}</td><td>${f1(a)}</td><td class="${d > 0.5 ? "o" : d < -0.5 ? "u" : ""}">${f1(b)}</td><td class="${d > 0.5 ? "o" : d < -0.5 ? "u" : ""}">${d >= 0 ? "+" : ""}${f1(d)}</td></tr>`; };
+  return `<div class="clair"><b>💡 EN CLAIR</b>${inj.length ? `${inj.length} joueur${inj.length > 1 ? "s" : ""} ${des(D.team)} sur le rapport de blessures.` : `Personne sur le rapport de blessures ${des(D.team)}.`} Ci-dessous, ses chiffres avec et sans chaque coéquipier absent ce soir. Un écart ne compte dans les facteurs qu'à partir de ${MIN} matchs sans le joueur.</div>
+  ${W.length ? W.map(m => `<div class="card" style="margin-bottom:8px">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px"><b>${esc(m.name)}</b>${stBadge(m.status)}</div>
+    ${m.n_wo < MIN ? `<div class="note" style="margin:0 0 6px;color:var(--mid)">⚠️ Seulement ${m.n_wo} match${m.n_wo > 1 ? "s" : ""} sans lui : échantillon trop petit, à prendre avec prudence.</div>` : ""}
+    <div class="tw"><table><thead><tr><th></th><th>Avec<br><small>${m.n_with} m.</small></th><th>Sans<br><small>${m.n_wo} m.</small></th><th>Écart</th></tr></thead><tbody>
+      ${cmp(STATS[s], m.with[s], m.wo[s])}
+      ${cmp("Minutes", m.with.min, m.wo.min)}
+      ${m.with.fga != null ? cmp("Tirs tentés", m.with.fga, m.wo.fga) + cmp("Tirs à 3 pts", m.with.tpa, m.wo.tpa) + cmp("Lancers francs", m.with.fta, m.wo.fta) : ""}
+    </tbody></table></div></div>`).join("")
   : `<div class="card note">Pas assez de matchs sans les absents du soir pour comparer (minimum 2).</div>`}
   ${inj.length ? `<h3>Rapport de blessures · ${esc(team(D.team))}</h3><div class="card">${inj.map(i => `<div class="fac"><div>${stBadge(i.status)} <b>${esc(i.name)}</b><div class="note" style="margin:2px 0 0">${esc(i.comment || "")}</div></div></div>`).join("")}</div>` : ""}`;
 }
