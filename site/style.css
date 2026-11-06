@@ -151,3 +151,23 @@ td.o{color:var(--up);font-weight:700}td.u{color:var(--dn)}
 .foot{max-width:960px;margin:0 auto;padding:20px 16px 40px;color:var(--tx3);font-size:12px;border-top:1px solid var(--line)}
 .foot p{margin:4px 0}
 .foot .warn{color:var(--tx2)}
+
+/* style favorable */
+.row.styhot{border-color:rgba(255,122,26,.45);background:linear-gradient(90deg,rgba(255,122,26,.08),var(--card) 45%)}
+.row.styhot.lv2{border-color:var(--acc);box-shadow:0 0 0 1px rgba(255,122,26,.35),0 6px 24px -10px rgba(255,122,26,.5)}
+.sbadge{display:inline-block;padding:2px 7px;border-radius:6px;font-size:11px;font-weight:700;background:rgba(255,122,26,.16);color:var(--acc2)}
+.sbadge.lv2{background:var(--acc);color:#140a02}
+.stystrip{margin:0 0 12px}
+.sth{font:700 16px/1 "Barlow Condensed",sans-serif;text-transform:uppercase;letter-spacing:.03em;margin-bottom:8px;color:var(--acc2)}
+.sth small{background:var(--acc);color:#140a02;border-radius:999px;padding:1px 7px;margin-left:4px;font-size:12px}
+.stycard{flex:none;width:170px;display:flex;flex-direction:column;gap:4px;padding:10px 12px;border-radius:12px;background:var(--card);border:1px solid rgba(255,122,26,.35)}
+.stycard.lv2{border-color:var(--acc);background:linear-gradient(160deg,rgba(255,122,26,.2),var(--card) 70%)}
+.stycard small{font-size:10px;color:var(--tx3);text-transform:uppercase;letter-spacing:.05em}
+.stycard b{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.stycard .tag{align-self:flex-start}
+.stycard .lvl{font-size:12px;font-weight:700;color:var(--acc2)}
+.stycard .mini{font-size:12px;color:var(--tx2)}
+.stybox{border-radius:12px;padding:12px;margin-bottom:12px;background:rgba(255,122,26,.1);border:1px solid rgba(255,122,26,.4);font-size:14px;display:flex;flex-direction:column;gap:6px}
+.stybox.lv2{background:linear-gradient(135deg,rgba(255,122,26,.25),rgba(255,122,26,.06));border-color:var(--acc)}
+.stybox .t{font:700 18px/1 "Barlow Condensed",sans-serif;text-transform:uppercase;color:var(--acc2)}
+.tools .chip{align-self:stretch;border-radius:10px}

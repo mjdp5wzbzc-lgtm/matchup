@@ -19,6 +19,8 @@ from common import (RAW, GAMES_DIR, LINES_DIR, SITE_DATA, STATS, LOG_FIELDS, ET,
 BUCKET_FR = {"G": "meneurs/arrières", "F": "ailiers", "C": "pivots"}
 BUCKET_SHORT = {"G": "Arrière", "F": "Ailier", "C": "Pivot"}
 STAT_KEYS = list(STATS.keys())
+STY_MIN_OWN = 6         # matchs mini du joueur face au profil défensif pour « style favorable »
+STY_MIN_GROUP = 30      # matchs mini des joueurs de son style face à l'équipe
 MIN_GAMES_WITHOUT = 8   # matchs sans le coéquipier requis pour afficher une flèche « Absences »
 OUT_STATUSES = {"out", "doubtful", "suspension", "suspended"}
 
@@ -452,7 +454,7 @@ def main():
             ww = with_without(pid, team, mates_out, logs, team_games, {cur, cur - 1}, info)
             name_key = norm_name(i["name"])
 
-            s_out, factors = {}, {}
+            s_out, factors, style_edge = {}, {}, {}
             for s in STAT_KEYS:
                 A = avg_stat(base_rows, s)
                 if A is None:
@@ -523,16 +525,40 @@ def main():
                             add(1, f"Plus productif {lieu} : {v:.1f} contre {allv:.1f} au global.", "VEN")
                         elif rel <= -0.10 and allv - v >= 0.7:
                             add(-1, f"Moins productif {lieu} : {v:.1f} contre {allv:.1f} au global.", "VEN")
-                # 8. style vs style
-                if len(style_rows) >= 5 and opp_profile and opp_profile != "Équilibrée":
-                    v = avg_stat(style_rows, s)
-                    allv = avg_stat([r for r in played if r["season"] >= cur - 1], s)
-                    if allv and v is not None:
-                        rel = (v - allv) / allv
-                        if rel >= 0.12 and v - allv >= 0.7:
-                            add(1, f"Face aux défenses « {opp_profile} » : {v:.1f} de moyenne sur {len(style_rows)} matchs.", "STY")
-                        elif rel <= -0.12 and allv - v >= 0.7:
-                            add(-1, f"Face aux défenses « {opp_profile} » : seulement {v:.1f} sur {len(style_rows)} matchs.", "STY")
+                # 8. style vs style : lui face à ce profil de défense + les joueurs de son style face à cette équipe
+                sty_level, sty_info = 0, None
+                if opp_profile and opp_profile != "Équilibrée":
+                    own_ok = own_bad = grp_ok = grp_bad = False
+                    own = grp = None
+                    if len(style_rows) >= 5:
+                        v = avg_stat(style_rows, s)
+                        allv = avg_stat([r for r in played if r["season"] >= cur - 1], s)
+                        if allv and v is not None:
+                            rel = (v - allv) / allv
+                            hit = sum(1 for r in style_rows if stat_value(r, s) > line) / len(style_rows)
+                            own = {"n": len(style_rows), "avg": r1(v), "base": r1(allv), "rel": round(rel, 3), "hit": round(hit, 3)}
+                            own_ok = len(style_rows) >= STY_MIN_OWN and rel >= 0.15 and hit >= 0.6 and v - allv >= 0.7
+                            own_bad = rel <= -0.10
+                            if rel >= 0.12 and v - allv >= 0.7:
+                                add(1, f"Face aux défenses « {opp_profile} » : {v:.1f} de moyenne sur {len(style_rows)} matchs (ligne passée {round(hit * 100)} % du temps).", "STY")
+                            elif rel <= -0.12 and allv - v >= 0.7:
+                                add(-1, f"Face aux défenses « {opp_profile} » : seulement {v:.1f} sur {len(style_rows)} matchs.", "STY")
+                    ag = style_vs_team.get((style, opp), {}).get(s)
+                    if ag and ag[0] >= STY_MIN_GROUP:
+                        rate = ag[1] / ag[0]
+                        grp = {"n": ag[0], "rate": round(rate, 3)}
+                        grp_ok = rate >= 0.58
+                        grp_bad = rate <= 0.45
+                        if grp_ok:
+                            add(1, f"Les « {style} » dépassent leur moyenne {round(rate * 100)} % du temps face {aux(teams_meta.get(opp, {}).get('short', opp))} ({ag[0]} matchs).", "STY")
+                        elif rate <= 0.42:
+                            add(-1, f"Les « {style} » ne dépassent leur moyenne que {round(rate * 100)} % du temps face {aux(teams_meta.get(opp, {}).get('short', opp))} ({ag[0]} matchs).", "STY")
+                    if own_ok and grp_ok:
+                        sty_level = 2
+                    elif (own_ok and not grp_bad) or (grp_ok and not own_bad and own is not None and own["rel"] >= 0.05):
+                        sty_level = 1
+                    if sty_level:
+                        sty_info = {"level": sty_level, "profile": opp_profile, "own": own, "grp": grp}
                 # 9. fatigue
                 if team in played_yday:
                     add(-1, "Deuxième match en deux soirs pour son équipe (back-to-back).", "B2B")
@@ -542,8 +568,10 @@ def main():
                 score = sum(f[0] for f in F)
                 hit10 = sum(1 for r in l10 if stat_value(r, s) > line) if line is not None else None
                 s_out[s] = [r1(A), r1(a5), r1(a10), line, 1 if book is not None else 0, score,
-                            sorted({f[2] + ("+" if f[0] > 0 else "-") for f in F}), hit10, len(l10)]
+                            sorted({f[2] + ("+" if f[0] > 0 else "-") for f in F}), hit10, len(l10), sty_level]
                 factors[s] = F
+                if sty_info:
+                    style_edge[s] = sty_info
 
             if not s_out:
                 continue
@@ -594,6 +622,7 @@ def main():
                          "opp": op.get("pace"), "team_rank": mp.get("pace_rank"), "opp_rank": op.get("pace_rank")},
                 "dvp": {b: dvp.get(opp, {}).get(b, {}) for b in "GFC"},
                 "factors": factors,
+                "style_edge": style_edge,
                 "withwo": ww,
                 "same_style_vs_opp": {s: v for s, v in sty_agg.items()},
                 "career": career, "shot": shot,

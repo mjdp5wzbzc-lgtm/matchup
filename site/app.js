@@ -7,13 +7,15 @@ const PARTS = { pts:["pts"], reb:["reb"], ast:["ast"], tpm:["tpm"], pr:["pts","r
 const TAGS = { DEF:"Défense", PACE:"Rythme", FORM:"Forme", MIN:"Minutes", ABS:"Absences", H2H:"H2H", VEN:"Dom/Ext", STY:"Style", B2B:"Fatigue", B2BO:"Adv. fatigué" };
 const BUCKET = { G:"Meneurs / arrières", F:"Ailiers", C:"Pivots" };
 const BUCKET1 = { G:"Arrière", F:"Ailier", C:"Pivot" };
-const IDX = { avg:0, l5:1, l10:2, line:3, book:4, score:5, tags:6, hit:7, n:8 };
+const IDX = { avg:0, l5:1, l10:2, line:3, book:4, score:5, tags:6, hit:7, n:8, sty:9 };
+const styLv = (p, st) => (p.s[st] && p.s[st][9]) || 0;
+const STYLAB = ["", "🎯 Style favorable", "🎯 Style très favorable"];
 
 const store = {
   get(k, d){ try { const v = localStorage.getItem("mu_" + k); return v === null ? d : JSON.parse(v); } catch { return d; } },
   set(k, v){ try { localStorage.setItem("mu_" + k, JSON.stringify(v)); } catch {} }
 };
-const S = { stat: store.get("stat", "pts"), game: "all", sort: store.get("sort", "ctx"), q: "", tab: store.get("tab", "fac"), dvpPos: "C", dvpStat: "pts" };
+const S = { stat: store.get("stat", "pts"), game: "all", sort: store.get("sort", "ctx"), q: "", tab: store.get("tab", "fac"), dvpPos: "C", dvpStat: "pts", styOnly: false };
 let T = null, DVP = null;
 const cache = {};
 
@@ -87,9 +89,11 @@ function renderList(){
     <input id="q" type="search" placeholder="Chercher un joueur ou une équipe…" value="${esc(S.q)}">
     <select id="sort">
       <option value="ctx">Trier : contexte</option><option value="avg">Moyenne</option>
-      <option value="form">Forme (5 derniers)</option><option value="hit">Réussite sur 10</option><option value="edge">Moyenne − ligne</option>
+      <option value="form">Forme (5 derniers)</option><option value="hit">Réussite sur 10</option><option value="edge">Moyenne − ligne</option><option value="sty">Style favorable</option>
     </select>
+    <button class="chip ${S.styOnly ? "on" : ""}" id="styonly">🎯 Style favorable</button>
   </div>
+  <div id="stystrip"></div>
   <div class="list" id="list"></div>
   <section class="sec"><h2>Absences et relais</h2><div class="abs" id="abs"></div></section>`;
   document.getElementById("sort").value = S.sort;
@@ -100,7 +104,7 @@ function renderList(){
 
 function rowsData(){
   const q = S.q.trim().toLowerCase();
-  let ps = T.players.filter(p => p.s[S.stat] && (S.game === "all" || p.g === S.game));
+  let ps = T.players.filter(p => p.s[S.stat] && (S.game === "all" || p.g === S.game) && (!S.styOnly || styLv(p, S.stat) > 0));
   if (q) ps = ps.filter(p => (p.n + " " + p.t + " " + p.o + " " + team(p.t) + " " + team(p.o)).toLowerCase().includes(q));
   const v = p => {
     const s = p.s[S.stat], line = userLine(p.id, S.stat, s[IDX.line]);
@@ -109,6 +113,7 @@ function rowsData(){
       case "form": return (s[IDX.l5] - s[IDX.avg]) / (s[IDX.avg] || 1);
       case "hit": return s[IDX.n] ? s[IDX.hit] / s[IDX.n] : 0;
       case "edge": return s[IDX.avg] - line;
+      case "sty": return styLv(p, S.stat) * 1000 + s[IDX.score] * 10 + s[IDX.avg] / 100;
       default: return s[IDX.score] * 100 + s[IDX.avg];
     }
   };
@@ -116,7 +121,17 @@ function rowsData(){
   return ps;
 }
 
+function drawStrip(){
+  const el = document.getElementById("stystrip");
+  const ps = T.players.filter(p => styLv(p, S.stat) > 0 && !isOut(p.st) && (S.game === "all" || p.g === S.game))
+    .sort((a, b) => styLv(b, S.stat) - styLv(a, S.stat) || b.s[S.stat][IDX.score] - a.s[S.stat][IDX.score]);
+  if (!ps.length) { el.innerHTML = ""; return; }
+  el.innerHTML = `<div class="stystrip"><div class="sth">🎯 Matchups de style du soir · ${STATS[S.stat]} <small>${ps.length}</small></div>
+    <div class="chips">${ps.slice(0, 15).map(p => { const s = p.s[S.stat], lv = styLv(p, S.stat); return `<a class="stycard lv${lv}" href="#/p/${p.id}"><small>${esc(p.t)} ${p.h ? "vs" : "@"} ${esc(p.o)}</small><b>${esc(p.n)}</b><span class="tag style">${esc(p.sty)}</span><span class="lvl">${lv === 2 ? "Très favorable" : "Favorable"}</span><span class="mini">Moy. ${f1(s[IDX.avg])} · ligne ${userLine(p.id, S.stat, s[IDX.line])}</span></a>`; }).join("")}</div></div>`;
+}
+
 function drawRows(){
+  drawStrip();
   const ps = rowsData();
   const el = document.getElementById("list");
   if (!ps.length) { el.innerHTML = `<div class="empty">Aucun joueur.</div>`; return; }
@@ -127,11 +142,12 @@ function drawRows(){
     const sc = s[IDX.score];
     const tags = (s[IDX.tags] || []).map(t => { const k = t.slice(0, -1), pos = t.endsWith("+"); return `<span class="f ${pos ? "p" : "m"}">${pos ? "▲" : "▼"} ${TAGS[k] || k}</span>`; }).join("");
     const hitTxt = custom ? "" : `<div class="hit">ligne passée <b>${s[IDX.hit]}/${s[IDX.n]}</b></div>`;
-    return `<a class="row ${isOut(p.st) ? "isout" : ""}" href="#/p/${p.id}">
+    const lv = styLv(p, S.stat);
+    return `<a class="row ${isOut(p.st) ? "isout" : ""} ${lv ? "styhot lv" + lv : ""}" href="#/p/${p.id}">
       <div class="who">
         <div class="l1">${esc(p.t)} ${p.h ? "vs" : "@"} ${esc(team(p.o))} ${stBadge(p.st)}</div>
         <div class="name">${esc(p.n)}</div>
-        <div class="l3"><span class="tag style">${esc(p.sty)}</span><span>${f1(p.min)} min</span>${hitTxt}</div>
+        <div class="l3"><span class="tag style">${esc(p.sty)}</span>${lv ? `<span class="sbadge lv${lv}">${STYLAB[lv]}</span>` : ""}<span>${f1(p.min)} min</span>${hitTxt}</div>
         ${tags ? `<div class="ctx">${tags}</div>` : ""}
       </div>
       <div class="nums">
@@ -165,6 +181,7 @@ function bindList(){
   document.getElementById("statchips").onclick = e => { const b = e.target.closest("[data-stat]"); if (!b) return; S.stat = b.dataset.stat; store.set("stat", S.stat); document.querySelectorAll("#statchips .chip").forEach(c => c.classList.toggle("on", c === b)); drawRows(); };
   document.getElementById("gamechips").onclick = e => { const b = e.target.closest("[data-game]"); if (!b) return; S.game = b.dataset.game; document.querySelectorAll("#gamechips .chip").forEach(c => c.classList.toggle("on", c === b)); drawRows(); drawAbs(); };
   document.getElementById("q").oninput = e => { S.q = e.target.value; drawRows(); };
+  document.getElementById("styonly").onclick = e => { S.styOnly = !S.styOnly; e.currentTarget.classList.toggle("on", S.styOnly); drawRows(); };
   document.getElementById("sort").onchange = e => { S.sort = e.target.value; store.set("sort", S.sort); drawRows(); };
 }
 
@@ -186,7 +203,7 @@ async function renderPlayer(id){
     <div class="ph">
       <div class="l1">${esc(team(D.team))} ${D.home ? "vs" : "@"} ${esc(team(D.opp))} · ${BUCKET1[D.bucket]} (${esc(D.pos)}) ${stBadge(D.status)}</div>
       <h1>${esc(D.name)}</h1>
-      <span class="tag style">${esc(D.style)}</span>
+      <span class="tag style">${esc(D.style)}</span>${styLv(p, S.stat) ? ` <span class="sbadge lv${styLv(p, S.stat)}">${STYLAB[styLv(p, S.stat)]}</span>` : ""}
       ${D.injury && D.injury.comment ? `<div class="note">${esc(D.injury.comment)}</div>` : ""}
       <div class="stats">
         <div><small>Moyenne</small><div class="big">${f1(s[IDX.avg])}</div></div>
@@ -304,7 +321,12 @@ function tSty(D, p, s, line){
   const [a, b] = hits(D, rows, s, line), [c, d] = hits(D, ext, s, line), [e, f] = hits(D, dom, s, line);
   const agg = (D.same_style_vs_opp || {})[s];
   const tags = (T.teams[D.opp] || {}).tags || [];
-  return `<div class="clair"><b>💡 EN CLAIR</b>Défense ${des(D.opp)} : « ${esc(prof)} »${tags.length > 1 ? ` (aussi : ${tags.slice(1).map(esc).join(", ")})` : ""}. ${D.home ? "À domicile" : "À l'extérieur"}, il passe la ligne ${D.home ? `${e} fois sur ${f}` : `${c} fois sur ${d}`} face à ce type de défense.</div>
+  const E = (D.style_edge || {})[s];
+  const hot = E ? `<div class="stybox lv${E.level}"><div class="t">${STYLAB[E.level]} ce soir</div>
+    ${E.own ? `<div>Lui face aux défenses « ${esc(E.profile)} » : <b>${f1(E.own.avg)}</b> de moyenne sur ${E.own.n} matchs, contre ${f1(E.own.base)} au global (${E.own.rel >= 0 ? "+" : ""}${Math.round(E.own.rel * 100)} %).</div>` : ""}
+    ${E.grp ? `<div>Les « ${esc(D.style)} » face ${aux(D.opp)} : au-dessus de leur moyenne <b>${Math.round(E.grp.rate * 100)} %</b> du temps (${E.grp.n} matchs).</div>` : ""}
+    <div class="note" style="margin-top:6px">${E.level === 2 ? "Ses propres matchs ET ceux des joueurs de son style vont dans le même sens." : "Un des deux signaux est nettement favorable, l'autre ne le contredit pas."}</div></div>` : "";
+  return `${hot}<div class="clair"><b>💡 EN CLAIR</b>Défense ${des(D.opp)} : « ${esc(prof)} »${tags.length > 1 ? ` (aussi : ${tags.slice(1).map(esc).join(", ")})` : ""}. ${D.home ? "À domicile" : "À l'extérieur"}, il passe la ligne ${D.home ? `${e} fois sur ${f}` : `${c} fois sur ${d}`} face à ce type de défense.</div>
   <h3>Lui vs défenses « ${esc(prof)} » (2 saisons)</h3>
   <div class="grid3">${box("Global", a, b)}${box("Extérieur", c, d)}${box("Domicile", e, f)}</div>
   <h3>Les « ${esc(D.style)} » vs ${esc(team(D.opp))}</h3>
