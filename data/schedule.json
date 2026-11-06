@@ -1,0 +1,118 @@
+{
+ "generated": "2026-11-06T08:39:28.183440+00:00",
+ "days": [
+  {
+   "date": "2026-11-06",
+   "games": [
+    {
+     "id": "401909287",
+     "start": "2026-11-07T00:00Z",
+     "home": "ATL",
+     "away": "WSH",
+     "state": "pre",
+     "detail": "11/6 - 7:00 PM EST",
+     "score": {
+      "home": "0",
+      "away": "0"
+     }
+    },
+    {
+     "id": "401909288",
+     "start": "2026-11-07T00:00Z",
+     "home": "CHA",
+     "away": "BOS",
+     "state": "pre",
+     "detail": "11/6 - 7:00 PM EST",
+     "score": {
+      "home": "0",
+      "away": "0"
+     }
+    },
+    {
+     "id": "401909289",
+     "start": "2026-11-07T00:30Z",
+     "home": "CLE",
+     "away": "PHI",
+     "state": "pre",
+     "detail": "11/6 - 7:30 PM EST",
+     "score": {
+      "home": "0",
+      "away": "0"
+     }
+    },
+    {
+     "id": "401909290",
+     "start": "2026-11-07T01:00Z",
+     "home": "DAL",
+     "away": "UTAH",
+     "state": "pre",
+     "detail": "11/6 - 8:00 PM EST",
+     "score": {
+      "home": "0",
+      "away": "0"
+     }
+    },
+    {
+     "id": "401909291",
+     "start": "2026-11-07T01:00Z",
+     "home": "MEM",
+     "away": "OKC",
+     "state": "pre",
+     "detail": "11/6 - 8:00 PM EST",
+     "score": {
+      "home": "0",
+      "away": "0"
+     }
+    },
+    {
+     "id": "401909292",
+     "start": "2026-11-07T01:00Z",
+     "home": "MIL",
+     "away": "TOR",
+     "state": "pre",
+     "detail": "11/6 - 8:00 PM EST",
+     "score": {
+      "home": "0",
+      "away": "0"
+     }
+    },
+    {
+     "id": "401909293",
+     "start": "2026-11-07T01:00Z",
+     "home": "NO",
+     "away": "MIN",
+     "state": "pre",
+     "detail": "11/6 - 8:00 PM EST",
+     "score": {
+      "home": "0",
+      "away": "0"
+     }
+    },
+    {
+     "id": "401909294",
+     "start": "2026-11-07T03:00Z",
+     "home": "LAL",
+     "away": "POR",
+     "state": "pre",
+     "detail": "11/6 - 10:00 PM EST",
+     "score": {
+      "home": "0",
+      "away": "0"
+     }
+    },
+    {
+     "id": "401909295",
+     "start": "2026-11-07T03:00Z",
+     "home": "SAC",
+     "away": "SA",
+     "state": "pre",
+     "detail": "11/6 - 10:00 PM EST",
+     "score": {
+      "home": "0",
+      "away": "0"
+     }
+    }
+   ]
+  }
+ ]
+}
