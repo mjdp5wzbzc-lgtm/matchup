@@ -78,7 +78,7 @@
    "pos": "G",
    "status": "Out",
    "type": "Illness",
-   "return": "2026-11-08",
+   "return": "2026-11-06",
    "comment": "Carter (illness) practiced with the G League's Maine Celtics on Wednesday.",
    "date": "2026-11-04T23:58Z"
   }
@@ -544,11 +544,11 @@
    "id": "4697268",
    "name": "Kam Jones",
    "pos": "G",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Ankle",
-   "return": "2026-11-08",
+   "return": "2026-11-06",
    "comment": "Jones (ankle/two-way player) is out for Friday's game against Toronto.",
-   "date": "2026-11-06T00:26Z"
+   "date": "2026-11-06T15:08Z"
   }
  ],
  "MIN": [
@@ -940,7 +940,7 @@
    "pos": "G",
    "status": "Out",
    "type": "Knee",
-   "return": "2026-11-08",
+   "return": "2026-11-06",
    "comment": "Alexander won't play Wednesday against the Grizzlies due to a left knee bone bruise.",
    "date": "2026-10-24T23:18Z"
   }
@@ -997,5 +997,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-06T13:11:33.947684+00:00"
+ "_updated": "2026-11-06T15:55:57.520038+00:00"
 }
