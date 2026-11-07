@@ -53,16 +53,6 @@
  ],
  "BKN": [
   {
-   "id": "4712896",
-   "name": "Noah Clowney",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Illness",
-   "return": "2026-11-07",
-   "comment": "Clowney is listed as questionable for Saturday's game against the Hawks due to an illness.",
-   "date": "2026-11-07T15:19Z"
-  },
-  {
    "id": "4432194",
    "name": "Day'Ron Sharpe",
    "pos": "C",
@@ -311,8 +301,8 @@
    "name": "Gary Payton II",
    "pos": "G",
    "status": "Day-To-Day",
-   "type": "Calf",
-   "return": "2026-11-07",
+   "type": null,
+   "return": null,
    "comment": "Payton is questionable to play Saturday against the Magic due to right calf tightness.",
    "date": "2026-11-06T22:21Z"
   },
@@ -505,18 +495,8 @@
    "status": "Day-To-Day",
    "type": "Fracture",
    "return": "2026-11-08",
-   "comment": "Beringer was ruled out for the second half of Friday's game against the Pelicans due to a nasal fracture, Dane Moore of 'The Dane Moore NBA Podcast' reports.",
-   "date": "2026-11-07T15:05Z"
-  },
-  {
-   "id": "4432847",
-   "name": "Terrence Shannon Jr.",
-   "pos": "G",
-   "status": "Out",
-   "type": "Hip",
-   "return": "2026-11-08",
-   "comment": "Shannon (hip) has been ruled out for Friday's game against New Orleans.",
-   "date": "2026-11-06T18:06Z"
+   "comment": "Beringer (nose) is questionable for Sunday's game against the Jazz.",
+   "date": "2026-11-07T23:10Z"
   },
   {
    "id": "4594268",
@@ -679,14 +659,24 @@
  ],
  "PHI": [
   {
+   "id": "3059318",
+   "name": "Joel Embiid",
+   "pos": "C",
+   "status": "Day-To-Day",
+   "type": "Foot",
+   "return": "2026-11-08",
+   "comment": "Embiid (foot) is probable for Sunday's game against the Bulls.",
+   "date": "2026-11-07T23:12Z"
+  },
+  {
    "id": "5105637",
    "name": "Adem Bona",
    "pos": "C",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Back",
-   "return": "2026-11-08",
-   "comment": "Bona (neck) is listed as out for Friday's game versus the Cavaliers.",
-   "date": "2026-11-07T17:38Z"
+   "return": "2026-11-10",
+   "comment": "Bona (back) is out for Sunday's game in Chicago.",
+   "date": "2026-11-07T23:07Z"
   },
   {
    "id": "4870562",
@@ -891,6 +881,16 @@
  ],
  "UTAH": [
   {
+   "id": "4066336",
+   "name": "Lauri Markkanen",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Wrist",
+   "return": "2026-11-08",
+   "comment": "Markkanen is questionable for Sunday's game against the Timberwolves due to a right wrist sprain.",
+   "date": "2026-11-07T23:14Z"
+  },
+  {
    "id": "3102530",
    "name": "Jusuf Nurkic",
    "pos": "C",
@@ -916,11 +916,11 @@
    "id": "6583",
    "name": "Anthony Davis",
    "pos": "F",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Ankle",
-   "return": "2026-11-07",
-   "comment": "Davis (ankle) is questionable for Saturday's game against the Thunder.",
-   "date": "2026-11-07T19:13Z"
+   "return": "2026-11-09",
+   "comment": "Davis (ankle) won't play Saturday against the Thunder.",
+   "date": "2026-11-07T23:33Z"
   },
   {
    "id": "4432187",
@@ -963,5 +963,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-07T23:02:02.915783+00:00"
+ "_updated": "2026-11-07T23:59:09.126040+00:00"
 }
