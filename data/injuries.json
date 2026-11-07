@@ -1,6 +1,26 @@
 {
  "ATL": [
   {
+   "id": "4585618",
+   "name": "Keshon Gilbert",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Knee",
+   "return": "2026-11-07",
+   "comment": "Gilbert is out for Friday's game against the Wizards due to left knee inflammation.",
+   "date": "2026-11-07T15:08Z"
+  },
+  {
+   "id": "4873201",
+   "name": "Asa Newell",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Toe",
+   "return": "2026-11-07",
+   "comment": "Newell (toe) is out for Friday's game against Washington.",
+   "date": "2026-11-07T15:07Z"
+  },
+  {
    "id": "4701230",
    "name": "Jalen Johnson",
    "pos": "F",
@@ -9,26 +29,6 @@
    "return": "2026-11-07",
    "comment": "Johnson (ankle) is out for Friday's game against the Wizards.",
    "date": "2026-11-06T22:06Z"
-  },
-  {
-   "id": "4585618",
-   "name": "Keshon Gilbert",
-   "pos": "G",
-   "status": "Out",
-   "type": "Knee",
-   "return": "2026-11-07",
-   "comment": "Gilbert is out for Friday's game against the Wizards due to left knee inflammation.",
-   "date": "2026-11-05T22:41Z"
-  },
-  {
-   "id": "4873201",
-   "name": "Asa Newell",
-   "pos": "F",
-   "status": "Out",
-   "type": "Toe",
-   "return": "2026-11-07",
-   "comment": "Newell (toe) is out for Friday's game against Washington.",
-   "date": "2026-11-05T22:33Z"
   },
   {
    "id": "3146557",
@@ -75,6 +75,16 @@
  ],
  "BKN": [
   {
+   "id": "4712896",
+   "name": "Noah Clowney",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Illness",
+   "return": "2026-11-07",
+   "comment": "Clowney is listed as questionable for Saturday's game against the Hawks due to an illness.",
+   "date": "2026-11-07T15:19Z"
+  },
+  {
    "id": "4432194",
    "name": "Day'Ron Sharpe",
    "pos": "C",
@@ -100,7 +110,7 @@
    "pos": "F",
    "status": "Out",
    "type": "Shoulder",
-   "return": "2026-11-06",
+   "return": "2026-11-07",
    "comment": "Bilodeau (shoulder) has been ruled out for Sunday's game against Indiana.",
    "date": "2026-10-25T17:19Z"
   }
@@ -194,21 +204,21 @@
    "id": "4066757",
    "name": "Sam Merrill",
    "pos": "G",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Elbow",
    "return": "2026-11-07",
    "comment": "Merrill (elbow) won't return to Friday's game against the 76ers, Dave McMenamin of ESPN.com reports.",
-   "date": "2026-11-07T02:10Z"
+   "date": "2026-11-07T15:08Z"
   },
   {
    "id": "4066328",
    "name": "Jarrett Allen",
    "pos": "C",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Knee",
    "return": "2026-11-07",
    "comment": "Allen (knee) is out for Friday's game against the 76ers.",
-   "date": "2026-11-06T23:55Z"
+   "date": "2026-11-07T15:07Z"
   },
   {
    "id": "4683747",
@@ -514,11 +524,11 @@
    "id": "5279133",
    "name": "Joan Beringer",
    "pos": "F",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Fracture",
    "return": "2026-11-08",
    "comment": "Beringer was ruled out for the second half of Friday's game against the Pelicans due to a nasal fracture, Dane Moore of 'The Dane Moore NBA Podcast' reports.",
-   "date": "2026-11-07T02:41Z"
+   "date": "2026-11-07T15:05Z"
   },
   {
    "id": "4432847",
@@ -580,19 +590,19 @@
    "id": "4432823",
    "name": "Jaylin Williams",
    "pos": "F",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Back",
    "return": "2026-11-07",
    "comment": "Williams (back) has been ruled out for Friday's game against the Grizzlies.",
-   "date": "2026-11-05T23:20Z"
+   "date": "2026-11-07T15:04Z"
   },
   {
    "id": "5159925",
    "name": "Nikola Topic",
    "pos": "G",
    "status": "Out",
-   "type": "Back",
-   "return": "2026-11-13",
+   "type": null,
+   "return": null,
    "comment": "Topic (back) is listed as out for Wednesday's game against Cleveland.",
    "date": "2026-11-03T22:49Z"
   },
@@ -790,11 +800,11 @@
    "id": "4065732",
    "name": "De'Andre Hunter",
    "pos": "F",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Illness",
    "return": "2026-11-08",
    "comment": "Hunter (illness) is listed as out for Friday's game against San Antonio.",
-   "date": "2026-11-07T00:36Z"
+   "date": "2026-11-07T15:05Z"
   },
   {
    "id": "4898371",
@@ -928,11 +938,11 @@
    "id": "6583",
    "name": "Anthony Davis",
    "pos": "F",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Ankle",
    "return": "2026-11-07",
    "comment": "Davis (ankle) is listed as out for Friday's game against the Hawks.",
-   "date": "2026-11-06T22:37Z"
+   "date": "2026-11-07T15:05Z"
   },
   {
    "id": "4432187",
@@ -975,5 +985,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-07T12:57:21.487032+00:00"
+ "_updated": "2026-11-07T15:45:20.793060+00:00"
 }
