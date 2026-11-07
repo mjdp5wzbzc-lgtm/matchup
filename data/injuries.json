@@ -181,6 +181,16 @@
  ],
  "CLE": [
   {
+   "id": "4066328",
+   "name": "Jarrett Allen",
+   "pos": "C",
+   "status": "Out",
+   "type": "Knee",
+   "return": "2026-11-07",
+   "comment": "Allen (knee) is out for Friday's game against the 76ers.",
+   "date": "2026-11-06T23:55Z"
+  },
+  {
    "id": "4683747",
    "name": "Jaylon Tyson",
    "pos": "G",
@@ -189,26 +199,6 @@
    "return": "2026-11-07",
    "comment": "Tyson (ankle) is out for Friday's game against the 76ers.",
    "date": "2026-11-05T22:23Z"
-  },
-  {
-   "id": "4576087",
-   "name": "Peyton Watson",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Hamstring",
-   "return": "2026-11-06",
-   "comment": "Watson (hamstring) is questionable for Friday's game against the 76ers.",
-   "date": "2026-11-05T22:15Z"
-  },
-  {
-   "id": "4066328",
-   "name": "Jarrett Allen",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Knee",
-   "return": "2026-11-06",
-   "comment": "Allen (knee) is questionable for Friday's game against Philadelphia.",
-   "date": "2026-11-05T22:13Z"
   }
  ],
  "DAL": [
@@ -841,42 +831,32 @@
  ],
  "TOR": [
   {
-   "id": "3134908",
-   "name": "Jakob Poeltl",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Shoulder",
-   "return": "2026-11-06",
-   "comment": "Poeltl (shoulder) is listed as probable for Friday's game against Milwaukee.",
-   "date": "2026-11-06T18:03Z"
+   "id": "4433134",
+   "name": "Scottie Barnes",
+   "pos": "F",
+   "status": "Out",
+   "type": "Groin",
+   "return": "2026-11-09",
+   "comment": "Barnes (adductor) is listed as out for Friday's game against Milwaukee, Michael Grange of Sportsnet.ca reports.",
+   "date": "2026-11-06T23:44Z"
   },
   {
    "id": "4395724",
    "name": "Immanuel Quickley",
    "pos": "G",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Hamstring",
-   "return": "2026-11-06",
-   "comment": "Quickley (hamstring) is questionable for Friday against the Bucks.",
-   "date": "2026-11-06T17:59Z"
-  },
-  {
-   "id": "4433134",
-   "name": "Scottie Barnes",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Groin",
-   "return": "2026-11-06",
-   "comment": "Barnes (adductor) was not present at the morning shootaround, Michael Grange of Sportsnet.careports.",
-   "date": "2026-11-06T17:47Z"
+   "return": "2026-11-09",
+   "comment": "Quickley (hamstring) won't play Friday in Milwaukee, Michael Grange of Sportsnet.ca reports.",
+   "date": "2026-11-06T23:41Z"
   },
   {
    "id": "2993874",
    "name": "Kyle Anderson",
    "pos": "F",
    "status": "Day-To-Day",
-   "type": "Illness",
-   "return": "2026-11-06",
+   "type": null,
+   "return": null,
    "comment": "Anderson is questionable for Friday against the Bucks due to illness.",
    "date": "2026-11-06T16:06Z"
   },
@@ -985,5 +965,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-06T23:28:58.175095+00:00"
+ "_updated": "2026-11-07T00:07:28.319833+00:00"
 }
