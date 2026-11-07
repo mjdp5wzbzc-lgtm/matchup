@@ -511,6 +511,16 @@
  ],
  "MIN": [
   {
+   "id": "5279133",
+   "name": "Joan Beringer",
+   "pos": "F",
+   "status": "Out",
+   "type": "Fracture",
+   "return": "2026-11-08",
+   "comment": "Beringer was ruled out for the second half of Friday's game against the Pelicans due to a nasal fracture, Dane Moore of 'The Dane Moore NBA Podcast' reports.",
+   "date": "2026-11-07T02:41Z"
+  },
+  {
    "id": "4432847",
    "name": "Terrence Shannon Jr.",
    "pos": "G",
@@ -965,5 +975,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-07T02:39:50.525350+00:00"
+ "_updated": "2026-11-07T03:40:05.925629+00:00"
 }

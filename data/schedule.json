@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T02:39:50.348096+00:00",
+ "generated": "2026-11-07T03:40:05.808536+00:00",
  "days": [
   {
    "date": "2026-11-06",
@@ -33,11 +33,11 @@
      "start": "2026-11-07T00:30Z",
      "home": "CLE",
      "away": "PHI",
-     "state": "in",
-     "detail": "11:41 - 4th",
+     "state": "post",
+     "detail": "Final",
      "score": {
-      "home": "91",
-      "away": "74"
+      "home": "119",
+      "away": "95"
      }
     },
     {
@@ -45,11 +45,11 @@
      "start": "2026-11-07T01:00Z",
      "home": "DAL",
      "away": "UTAH",
-     "state": "in",
-     "detail": "5:27 - 3rd",
+     "state": "post",
+     "detail": "Final",
      "score": {
-      "home": "77",
-      "away": "70"
+      "home": "112",
+      "away": "100"
      }
     },
     {
@@ -57,11 +57,11 @@
      "start": "2026-11-07T01:00Z",
      "home": "MEM",
      "away": "OKC",
-     "state": "in",
-     "detail": "4:41 - 3rd",
+     "state": "post",
+     "detail": "Final",
      "score": {
-      "home": "68",
-      "away": "92"
+      "home": "97",
+      "away": "128"
      }
     },
     {
@@ -69,11 +69,11 @@
      "start": "2026-11-07T01:00Z",
      "home": "MIL",
      "away": "TOR",
-     "state": "in",
-     "detail": "6:57 - 3rd",
+     "state": "post",
+     "detail": "Final",
      "score": {
-      "home": "67",
-      "away": "66"
+      "home": "107",
+      "away": "121"
      }
     },
     {
@@ -82,10 +82,10 @@
      "home": "NO",
      "away": "MIN",
      "state": "in",
-     "detail": "6:40 - 3rd",
+     "detail": "32.4 - 4th",
      "score": {
-      "home": "63",
-      "away": "66"
+      "home": "104",
+      "away": "112"
      }
     },
     {
@@ -93,11 +93,11 @@
      "start": "2026-11-07T03:00Z",
      "home": "LAL",
      "away": "POR",
-     "state": "pre",
-     "detail": "11/6 - 10:00 PM EST",
+     "state": "in",
+     "detail": "53.1 - 1st",
      "score": {
-      "home": "0",
-      "away": "0"
+      "home": "17",
+      "away": "27"
      }
     },
     {
@@ -105,11 +105,11 @@
      "start": "2026-11-07T03:00Z",
      "home": "SAC",
      "away": "SA",
-     "state": "pre",
-     "detail": "11/6 - 10:00 PM EST",
+     "state": "in",
+     "detail": "5:03 - 1st",
      "score": {
-      "home": "0",
-      "away": "0"
+      "home": "20",
+      "away": "20"
      }
     }
    ]
