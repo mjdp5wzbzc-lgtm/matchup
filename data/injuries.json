@@ -153,8 +153,18 @@
    "status": "Day-To-Day",
    "type": "Knee",
    "return": "2026-11-08",
-   "comment": "Awaka (ankle) is active for Monday's game against the 76ers.",
-   "date": "2026-11-07T21:33Z"
+   "comment": "Awaka (knee) is questionable for Sundays' game against the 76ers.",
+   "date": "2026-11-07T21:36Z"
+  },
+  {
+   "id": "4397189",
+   "name": "Jalen Smith",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Finger",
+   "return": "2026-11-08",
+   "comment": "Smith (finger) is probable for Sunday's game against Philadelphia.",
+   "date": "2026-11-07T21:31Z"
   },
   {
    "id": "4278067",
@@ -175,16 +185,6 @@
    "return": "2026-11-11",
    "comment": "Collins (illness) is out for Sunday's game against Philadelphia.",
    "date": "2026-11-07T21:24Z"
-  },
-  {
-   "id": "4397189",
-   "name": "Jalen Smith",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Finger",
-   "return": "2026-11-08",
-   "comment": "Smith (hand) won't return to Wednesday's game against the Knicks.",
-   "date": "2026-11-05T01:35Z"
   }
  ],
  "CLE": [
@@ -270,7 +270,7 @@
    "pos": "G",
    "status": "Out",
    "type": "Hip",
-   "return": "2026-11-08",
+   "return": "2026-11-09",
    "comment": "Joe (hip) has been ruled out for Wednesday's game against Philadelphia.",
    "date": "2026-11-03T21:18Z"
   },
@@ -941,5 +941,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-07T21:44:18.659953+00:00"
+ "_updated": "2026-11-07T22:06:54.070677+00:00"
 }
