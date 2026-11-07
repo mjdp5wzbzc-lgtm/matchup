@@ -111,10 +111,10 @@
    "name": "Brandon Miller",
    "pos": "F",
    "status": "Day-To-Day",
-   "type": "Undisclosed",
-   "return": "2026-11-06",
-   "comment": "Miller ended Wednesday's 114-104 loss to the Nets with 10 points (2-15 FG, 1-10 3Pt, 5-5 FT), four rebounds and one assist over 26 minutes.",
-   "date": "2026-11-07T00:59Z"
+   "type": "Groin",
+   "return": "2026-11-09",
+   "comment": "Miller (groin) won't return to Friday's game against the Celtics, Brett Siegel of ClutchPoints.com reports.",
+   "date": "2026-11-07T01:07Z"
   },
   {
    "id": "3032979",
@@ -955,5 +955,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-07T01:04:25.441798+00:00"
+ "_updated": "2026-11-07T01:30:31.070546+00:00"
 }

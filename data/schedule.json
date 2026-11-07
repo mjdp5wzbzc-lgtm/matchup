@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T01:04:25.092716+00:00",
+ "generated": "2026-11-07T01:30:30.960952+00:00",
  "days": [
   {
    "date": "2026-11-06",
@@ -10,10 +10,10 @@
      "home": "ATL",
      "away": "WSH",
      "state": "in",
-     "detail": "Halftime",
+     "detail": "5:54 - 3rd",
      "score": {
-      "home": "66",
-      "away": "59"
+      "home": "84",
+      "away": "76"
      }
     },
     {
@@ -22,10 +22,10 @@
      "home": "CHA",
      "away": "BOS",
      "state": "in",
-     "detail": "2:37 - 2nd",
+     "detail": "8:01 - 3rd",
      "score": {
-      "home": "31",
-      "away": "62"
+      "home": "45",
+      "away": "79"
      }
     },
     {
@@ -34,10 +34,10 @@
      "home": "CLE",
      "away": "PHI",
      "state": "in",
-     "detail": "2:51 - 1st",
+     "detail": "5:25 - 2nd",
      "score": {
-      "home": "25",
-      "away": "12"
+      "home": "49",
+      "away": "41"
      }
     },
     {
@@ -45,11 +45,11 @@
      "start": "2026-11-07T01:00Z",
      "home": "DAL",
      "away": "UTAH",
-     "state": "pre",
-     "detail": "11/6 - 8:00 PM EST",
+     "state": "in",
+     "detail": "2:17 - 1st",
      "score": {
-      "home": "0",
-      "away": "0"
+      "home": "22",
+      "away": "23"
      }
     },
     {
@@ -57,11 +57,11 @@
      "start": "2026-11-07T01:00Z",
      "home": "MEM",
      "away": "OKC",
-     "state": "pre",
-     "detail": "11/6 - 8:00 PM EST",
+     "state": "in",
+     "detail": "1:11 - 1st",
      "score": {
-      "home": "0",
-      "away": "0"
+      "home": "26",
+      "away": "30"
      }
     },
     {
@@ -69,11 +69,11 @@
      "start": "2026-11-07T01:00Z",
      "home": "MIL",
      "away": "TOR",
-     "state": "pre",
-     "detail": "11/6 - 8:00 PM EST",
+     "state": "in",
+     "detail": "6:31 - 1st",
      "score": {
-      "home": "0",
-      "away": "0"
+      "home": "15",
+      "away": "4"
      }
     },
     {
@@ -81,11 +81,11 @@
      "start": "2026-11-07T01:00Z",
      "home": "NO",
      "away": "MIN",
-     "state": "pre",
-     "detail": "11/6 - 8:00 PM EST",
+     "state": "in",
+     "detail": "1:28 - 1st",
      "score": {
-      "home": "0",
-      "away": "0"
+      "home": "28",
+      "away": "25"
      }
     },
     {
