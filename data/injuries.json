@@ -61,18 +61,6 @@
    "date": "2026-09-21T19:50Z"
   }
  ],
- "BOS": [
-  {
-   "id": "4433188",
-   "name": "Devin Carter",
-   "pos": "G",
-   "status": "Out",
-   "type": "Illness",
-   "return": "2026-11-06",
-   "comment": "Carter (illness) practiced with the G League's Maine Celtics on Wednesday.",
-   "date": "2026-11-04T23:58Z"
-  }
- ],
  "BKN": [
   {
    "id": "4712896",
@@ -103,16 +91,6 @@
    "return": "2026-11-11",
    "comment": "The Nets exercised Demin's third-year team option for the 2027-28 season, Sharif Phillips-Keaton of USA Today reports Thursday.",
    "date": "2026-10-29T17:09Z"
-  },
-  {
-   "id": "5105626",
-   "name": "Tyler Bilodeau",
-   "pos": "F",
-   "status": "Out",
-   "type": "Shoulder",
-   "return": "2026-11-07",
-   "comment": "Bilodeau (shoulder) has been ruled out for Sunday's game against Indiana.",
-   "date": "2026-10-25T17:19Z"
   }
  ],
  "CHA": [
@@ -174,7 +152,7 @@
    "pos": "F",
    "status": "Day-To-Day",
    "type": "Illness",
-   "return": "2026-11-08",
+   "return": "2026-11-11",
    "comment": "Collins didn't practice Friday due to an illness, per K.C. Johnson of Chicago Sports Network.",
    "date": "2026-11-06T19:19Z"
   },
@@ -264,16 +242,6 @@
   }
  ],
  "DEN": [
-  {
-   "id": "3978",
-   "name": "DeMar DeRozan",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Back",
-   "return": "2026-11-07",
-   "comment": "DeRozan (back) is probable for Saturday's game against the Pacers.",
-   "date": "2026-11-06T22:48Z"
-  },
   {
    "id": "4432181",
    "name": "Julian Strawther",
@@ -393,24 +361,14 @@
  ],
  "IND": [
   {
-   "id": "2530530",
-   "name": "T.J. McConnell",
+   "id": "4396993",
+   "name": "Tyrese Haliburton",
    "pos": "G",
    "status": "Out",
    "type": "Hamstring",
-   "return": "2026-11-07",
-   "comment": "McConnell (hamstring) is questionable for Saturday's game against Denver.",
-   "date": "2026-11-06T23:06Z"
-  },
-  {
-   "id": "3133603",
-   "name": "Kelly Oubre Jr.",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Calf",
-   "return": "2026-11-07",
-   "comment": "Oubre (calf) is questionable for Saturday's game against Denver.",
-   "date": "2026-11-06T23:04Z"
+   "return": "2026-11-13",
+   "comment": "Haliburton (hamstring) is progressing well but does not have a timetable to return, Dustin Dopirak of The Indianapolis Star reports.",
+   "date": "2026-11-07T20:46Z"
   },
   {
    "id": "5157066",
@@ -431,16 +389,6 @@
    "return": "2027-01-02",
    "comment": "Head coach Rick Carlise confirmed Sheppard will miss \"months\" after undergoing surgery to repair a torn meniscus in his left knee, Tony East of Forbes.com reports.",
    "date": "2026-10-28T21:41Z"
-  },
-  {
-   "id": "4396993",
-   "name": "Tyrese Haliburton",
-   "pos": "G",
-   "status": "Out",
-   "type": "Hamstring",
-   "return": "2026-11-13",
-   "comment": "Haliburton (hamstring) will miss at least the next two weeks of action, Shams Charania of ESPN reports.",
-   "date": "2026-10-28T21:30Z"
   }
  ],
  "LAC": [
@@ -517,18 +465,6 @@
    "date": "2026-11-05T23:03Z"
   }
  ],
- "MIL": [
-  {
-   "id": "4697268",
-   "name": "Kam Jones",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Ankle",
-   "return": "2026-11-06",
-   "comment": "Jones (ankle/two-way player) is out for Friday's game against Toronto.",
-   "date": "2026-11-06T15:08Z"
-  }
- ],
  "MIN": [
   {
    "id": "5279133",
@@ -600,11 +536,11 @@
    "id": "4432823",
    "name": "Jaylin Williams",
    "pos": "F",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Back",
-   "return": "2026-11-07",
-   "comment": "Williams (back) has been ruled out for Friday's game against the Grizzlies.",
-   "date": "2026-11-07T15:04Z"
+   "return": "2026-11-10",
+   "comment": "Williams (back) has been ruled out for Saturday's game against the Wizards, Brandon Rahbar of DailyThunder.com reports.",
+   "date": "2026-11-07T19:10Z"
   },
   {
    "id": "5061603",
@@ -648,6 +584,16 @@
   }
  ],
  "ORL": [
+  {
+   "id": "4066320",
+   "name": "Desmond Bane",
+   "pos": "G",
+   "status": "Out",
+   "type": "Illness",
+   "return": "2026-11-10",
+   "comment": "Bane (illness) has been ruled out for Saturday's game against the Warriors.",
+   "date": "2026-11-07T19:36Z"
+  },
   {
    "id": "4065654",
    "name": "Jonathan Isaac",
@@ -764,6 +710,16 @@
   }
  ],
  "POR": [
+  {
+   "id": "4066211",
+   "name": "Robert Williams III",
+   "pos": "C",
+   "status": "Out",
+   "type": "Rest",
+   "return": "2026-11-10",
+   "comment": "Williams closed Wednesday's 132-119 victory over the Suns with nine points (4-8 FG, 1-1 FT), eight rebounds, one assist, three blocks and two steals over 16 minutes.",
+   "date": "2026-11-07T21:04Z"
+  },
   {
    "id": "4578893",
    "name": "Vit Krejci",
@@ -921,16 +877,6 @@
    "return": "2026-12-14",
    "comment": "Jackson has been diagnosed with a torn MCL in his right knee and will be sidelined for 6-to-8 weeks, per Shams Charania of ESPN.",
    "date": "2026-10-27T19:25Z"
-  },
-  {
-   "id": "4433268",
-   "name": "Trey Alexander",
-   "pos": "G",
-   "status": "Out",
-   "type": "Knee",
-   "return": "2026-11-06",
-   "comment": "Alexander won't play Wednesday against the Grizzlies due to a left knee bone bruise.",
-   "date": "2026-10-24T23:18Z"
   }
  ],
  "WSH": [
@@ -941,8 +887,8 @@
    "status": "Day-To-Day",
    "type": "Ankle",
    "return": "2026-11-07",
-   "comment": "Davis (ankle) is listed as out for Friday's game against the Hawks.",
-   "date": "2026-11-07T15:05Z"
+   "comment": "Davis (ankle) is questionable for Saturday's game against the Thunder.",
+   "date": "2026-11-07T19:13Z"
   },
   {
    "id": "4432187",
@@ -985,5 +931,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-07T18:51:35.371334+00:00"
+ "_updated": "2026-11-07T21:27:33.129112+00:00"
 }
