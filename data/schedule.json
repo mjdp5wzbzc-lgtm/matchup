@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T01:30:30.960952+00:00",
+ "generated": "2026-11-07T02:39:50.348096+00:00",
  "days": [
   {
    "date": "2026-11-06",
@@ -9,11 +9,11 @@
      "start": "2026-11-07T00:00Z",
      "home": "ATL",
      "away": "WSH",
-     "state": "in",
-     "detail": "5:54 - 3rd",
+     "state": "post",
+     "detail": "Final",
      "score": {
-      "home": "84",
-      "away": "76"
+      "home": "139",
+      "away": "132"
      }
     },
     {
@@ -21,11 +21,11 @@
      "start": "2026-11-07T00:00Z",
      "home": "CHA",
      "away": "BOS",
-     "state": "in",
-     "detail": "8:01 - 3rd",
+     "state": "post",
+     "detail": "Final",
      "score": {
-      "home": "45",
-      "away": "79"
+      "home": "80",
+      "away": "119"
      }
     },
     {
@@ -34,10 +34,10 @@
      "home": "CLE",
      "away": "PHI",
      "state": "in",
-     "detail": "5:25 - 2nd",
+     "detail": "11:41 - 4th",
      "score": {
-      "home": "49",
-      "away": "41"
+      "home": "91",
+      "away": "74"
      }
     },
     {
@@ -46,10 +46,10 @@
      "home": "DAL",
      "away": "UTAH",
      "state": "in",
-     "detail": "2:17 - 1st",
+     "detail": "5:27 - 3rd",
      "score": {
-      "home": "22",
-      "away": "23"
+      "home": "77",
+      "away": "70"
      }
     },
     {
@@ -58,10 +58,10 @@
      "home": "MEM",
      "away": "OKC",
      "state": "in",
-     "detail": "1:11 - 1st",
+     "detail": "4:41 - 3rd",
      "score": {
-      "home": "26",
-      "away": "30"
+      "home": "68",
+      "away": "92"
      }
     },
     {
@@ -70,10 +70,10 @@
      "home": "MIL",
      "away": "TOR",
      "state": "in",
-     "detail": "6:31 - 1st",
+     "detail": "6:57 - 3rd",
      "score": {
-      "home": "15",
-      "away": "4"
+      "home": "67",
+      "away": "66"
      }
     },
     {
@@ -82,10 +82,10 @@
      "home": "NO",
      "away": "MIN",
      "state": "in",
-     "detail": "1:28 - 1st",
+     "detail": "6:40 - 3rd",
      "score": {
-      "home": "28",
-      "away": "25"
+      "home": "63",
+      "away": "66"
      }
     },
     {

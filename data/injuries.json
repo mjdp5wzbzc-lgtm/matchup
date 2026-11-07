@@ -191,6 +191,16 @@
  ],
  "CLE": [
   {
+   "id": "4066757",
+   "name": "Sam Merrill",
+   "pos": "G",
+   "status": "Out",
+   "type": "Elbow",
+   "return": "2026-11-07",
+   "comment": "Merrill (elbow) won't return to Friday's game against the 76ers, Dave McMenamin of ESPN.com reports.",
+   "date": "2026-11-07T02:10Z"
+  },
+  {
    "id": "4066328",
    "name": "Jarrett Allen",
    "pos": "C",
@@ -955,5 +965,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-07T01:30:31.070546+00:00"
+ "_updated": "2026-11-07T02:39:50.525350+00:00"
 }
