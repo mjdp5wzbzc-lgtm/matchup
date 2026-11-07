@@ -4,21 +4,31 @@
    "id": "4585618",
    "name": "Keshon Gilbert",
    "pos": "G",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Knee",
-   "return": "2026-11-07",
-   "comment": "Gilbert is out for Friday's game against the Wizards due to left knee inflammation.",
-   "date": "2026-11-07T15:08Z"
+   "return": "2026-11-09",
+   "comment": "Gilbert (knee) is out for Saturday's game against Brooklyn.",
+   "date": "2026-11-07T18:17Z"
   },
   {
    "id": "4873201",
    "name": "Asa Newell",
    "pos": "F",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Toe",
-   "return": "2026-11-07",
-   "comment": "Newell (toe) is out for Friday's game against Washington.",
-   "date": "2026-11-07T15:07Z"
+   "return": "2026-11-09",
+   "comment": "Newell (toe)  is out for Saturday's game against the Nets.",
+   "date": "2026-11-07T18:16Z"
+  },
+  {
+   "id": "3146557",
+   "name": "Jock Landale",
+   "pos": "C",
+   "status": "Out",
+   "type": "Hip",
+   "return": "2026-11-09",
+   "comment": "Landale (hip) has been ruled out for Saturday's game against the Nets.",
+   "date": "2026-11-07T18:14Z"
   },
   {
    "id": "4701230",
@@ -27,18 +37,8 @@
    "status": "Out",
    "type": "Ankle",
    "return": "2026-11-07",
-   "comment": "Johnson (ankle) is out for Friday's game against the Wizards.",
-   "date": "2026-11-06T22:06Z"
-  },
-  {
-   "id": "3146557",
-   "name": "Jock Landale",
-   "pos": "C",
-   "status": "Out",
-   "type": "Hip",
-   "return": "2026-11-07",
-   "comment": "Landale (hip) has been ruled out for Friday's game against the Wizards.",
-   "date": "2026-11-05T22:12Z"
+   "comment": "Johnson (ankle) is probable for Saturday's game against Brooklyn.",
+   "date": "2026-11-07T18:10Z"
   },
   {
    "id": "4712863",
@@ -117,6 +117,16 @@
  ],
  "CHA": [
   {
+   "id": "4433249",
+   "name": "Moussa Diabate",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Quadriceps",
+   "return": "2026-11-09",
+   "comment": "Diabate (quadriceps) has been ruled out for Friday's game against Boston, according to the Hornets' official injury report.",
+   "date": "2026-11-07T17:39Z"
+  },
+  {
    "id": "4433287",
    "name": "Brandon Miller",
    "pos": "F",
@@ -135,16 +145,6 @@
    "return": "2026-11-09",
    "comment": "Schroder (thigh) is out for Friday's game versus Boston.",
    "date": "2026-11-06T18:09Z"
-  },
-  {
-   "id": "4433249",
-   "name": "Moussa Diabate",
-   "pos": "F",
-   "status": "Out",
-   "type": "Quadriceps",
-   "return": "2026-11-09",
-   "comment": "Diabate (quadriceps) has been ruled out for Friday's game against Boston, according to the Hornets' official injury report.",
-   "date": "2026-11-06T18:08Z"
   },
   {
    "id": "5061575",
@@ -201,34 +201,34 @@
  ],
  "CLE": [
   {
-   "id": "4066757",
-   "name": "Sam Merrill",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Elbow",
-   "return": "2026-11-07",
-   "comment": "Merrill (elbow) won't return to Friday's game against the 76ers, Dave McMenamin of ESPN.com reports.",
-   "date": "2026-11-07T15:08Z"
-  },
-  {
-   "id": "4066328",
-   "name": "Jarrett Allen",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Knee",
-   "return": "2026-11-07",
-   "comment": "Allen (knee) is out for Friday's game against the 76ers.",
-   "date": "2026-11-07T15:07Z"
-  },
-  {
    "id": "4683747",
    "name": "Jaylon Tyson",
    "pos": "G",
    "status": "Out",
    "type": "Ankle",
-   "return": "2026-11-07",
-   "comment": "Tyson (ankle) is out for Friday's game against the 76ers.",
-   "date": "2026-11-05T22:23Z"
+   "return": "2026-11-09",
+   "comment": "Tyson (ankle) is out for Saturday's game against the Knicks.",
+   "date": "2026-11-07T18:14Z"
+  },
+  {
+   "id": "4066757",
+   "name": "Sam Merrill",
+   "pos": "G",
+   "status": "Out",
+   "type": "Elbow",
+   "return": "2026-11-09",
+   "comment": "Merrill (elbow) is out for Saturday's game against the Knicks.",
+   "date": "2026-11-07T18:13Z"
+  },
+  {
+   "id": "4066328",
+   "name": "Jarrett Allen",
+   "pos": "C",
+   "status": "Out",
+   "type": "Knee",
+   "return": "2026-11-09",
+   "comment": "Allen (knee) is out for Saturday's game against the Knicks",
+   "date": "2026-11-07T18:11Z"
   }
  ],
  "DAL": [
@@ -487,6 +487,16 @@
  ],
  "MEM": [
   {
+   "id": "5105462",
+   "name": "Richie Saunders",
+   "pos": "G",
+   "status": "Out",
+   "type": "Knee",
+   "return": "2026-12-01",
+   "comment": "Saunders signed a two-way contract with the Grizzlies on Saturday, Shams Charania of ESPN reports.",
+   "date": "2026-11-07T17:24Z"
+  },
+  {
    "id": "4432810",
    "name": "Isaiah Stewart",
    "pos": "C",
@@ -597,16 +607,6 @@
    "date": "2026-11-07T15:04Z"
   },
   {
-   "id": "5159925",
-   "name": "Nikola Topic",
-   "pos": "G",
-   "status": "Out",
-   "type": null,
-   "return": null,
-   "comment": "Topic (back) is listed as out for Wednesday's game against Cleveland.",
-   "date": "2026-11-03T22:49Z"
-  },
-  {
    "id": "5061603",
    "name": "Thomas Sorber",
    "pos": "C",
@@ -704,11 +704,11 @@
    "id": "5105637",
    "name": "Adem Bona",
    "pos": "C",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Back",
    "return": "2026-11-08",
    "comment": "Bona (neck) is listed as out for Friday's game versus the Cavaliers.",
-   "date": "2026-11-06T23:10Z"
+   "date": "2026-11-07T17:38Z"
   },
   {
    "id": "4870562",
@@ -864,21 +864,21 @@
    "id": "4433134",
    "name": "Scottie Barnes",
    "pos": "F",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Groin",
    "return": "2026-11-09",
    "comment": "Barnes (adductor) is listed as out for Friday's game against Milwaukee, Michael Grange of Sportsnet.ca reports.",
-   "date": "2026-11-06T23:44Z"
+   "date": "2026-11-07T17:39Z"
   },
   {
    "id": "4395724",
    "name": "Immanuel Quickley",
    "pos": "G",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Hamstring",
    "return": "2026-11-09",
    "comment": "Quickley (hamstring) won't play Friday in Milwaukee, Michael Grange of Sportsnet.ca reports.",
-   "date": "2026-11-06T23:41Z"
+   "date": "2026-11-07T17:37Z"
   },
   {
    "id": "6450",
@@ -985,5 +985,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-07T15:45:20.793060+00:00"
+ "_updated": "2026-11-07T18:51:35.371334+00:00"
 }
