@@ -1,24 +1,24 @@
 {
  "ATL": [
   {
-   "id": "4585618",
-   "name": "Keshon Gilbert",
-   "pos": "G",
-   "status": "Out",
-   "type": "Knee",
-   "return": "2026-11-09",
-   "comment": "Gilbert (knee) is out for Saturday's game against Brooklyn.",
-   "date": "2026-11-07T18:17Z"
-  },
-  {
    "id": "4873201",
    "name": "Asa Newell",
    "pos": "F",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Toe",
    "return": "2026-11-09",
    "comment": "Newell (toe)  is out for Saturday's game against the Nets.",
-   "date": "2026-11-07T18:16Z"
+   "date": "2026-11-08T15:59Z"
+  },
+  {
+   "id": "4585618",
+   "name": "Keshon Gilbert",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Knee",
+   "return": "2026-11-09",
+   "comment": "Gilbert (knee) is out for Saturday's game against Brooklyn.",
+   "date": "2026-11-08T15:59Z"
   },
   {
    "id": "3146557",
@@ -51,7 +51,29 @@
    "date": "2026-09-21T19:50Z"
   }
  ],
+ "BOS": [
+  {
+   "id": "4351852",
+   "name": "Mitchell Robinson",
+   "pos": "C",
+   "status": "Day-To-Day",
+   "type": "Illness",
+   "return": "2026-11-08",
+   "comment": "Robinson (illness) is questionable for Sunday's game versus Milwaukee, Bobby Krivitsky of Forbes.com reports.",
+   "date": "2026-11-08T18:21Z"
+  }
+ ],
  "BKN": [
+  {
+   "id": "4702670",
+   "name": "Grant Nelson",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Knee",
+   "return": "2026-11-10",
+   "comment": "Nelson signed a two-way contract with the Nets on Friday, Michael Scotto of HoopsHype.com reports.",
+   "date": "2026-11-08T16:21Z"
+  },
   {
    "id": "5101761",
    "name": "Mikel Brown Jr.",
@@ -179,6 +201,26 @@
  ],
  "CLE": [
   {
+   "id": "4066757",
+   "name": "Sam Merrill",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Elbow",
+   "return": "2026-11-09",
+   "comment": "Merrill (elbow) is out for Saturday's game against the Knicks.",
+   "date": "2026-11-08T16:01Z"
+  },
+  {
+   "id": "4066328",
+   "name": "Jarrett Allen",
+   "pos": "C",
+   "status": "Day-To-Day",
+   "type": "Knee",
+   "return": "2026-11-09",
+   "comment": "Allen (knee) is out for Saturday's game against the Knicks",
+   "date": "2026-11-08T16:01Z"
+  },
+  {
    "id": "4683747",
    "name": "Jaylon Tyson",
    "pos": "G",
@@ -187,26 +229,6 @@
    "return": "2026-11-09",
    "comment": "Tyson (ankle) is out for Saturday's game against the Knicks.",
    "date": "2026-11-07T18:14Z"
-  },
-  {
-   "id": "4066757",
-   "name": "Sam Merrill",
-   "pos": "G",
-   "status": "Out",
-   "type": "Elbow",
-   "return": "2026-11-09",
-   "comment": "Merrill (elbow) is out for Saturday's game against the Knicks.",
-   "date": "2026-11-07T18:13Z"
-  },
-  {
-   "id": "4066328",
-   "name": "Jarrett Allen",
-   "pos": "C",
-   "status": "Out",
-   "type": "Knee",
-   "return": "2026-11-09",
-   "comment": "Allen (knee) is out for Saturday's game against the Knicks",
-   "date": "2026-11-07T18:11Z"
   }
  ],
  "DAL": [
@@ -255,6 +277,16 @@
  ],
  "DET": [
   {
+   "id": "4433621",
+   "name": "Jalen Duren",
+   "pos": "C",
+   "status": "Out",
+   "type": "Hamstring",
+   "return": "2026-11-24",
+   "comment": "Duren (hamstring) has begun on-court activity and will be re-evaluated in two weeks, Hunter Patterson of The Athletic reports.",
+   "date": "2026-11-08T16:05Z"
+  },
+  {
    "id": "4395702",
    "name": "Isaiah Joe",
    "pos": "G",
@@ -263,16 +295,6 @@
    "return": "2026-11-09",
    "comment": "Joe (hip) has been ruled out for Sunday's game against the Lakers.",
    "date": "2026-11-07T21:59Z"
-  },
-  {
-   "id": "4433621",
-   "name": "Jalen Duren",
-   "pos": "C",
-   "status": "Out",
-   "type": "Hamstring",
-   "return": "2026-11-09",
-   "comment": "Duren will be re-evaluated in two weeks due to a right hamstring strain, Eric Vincent of ClutchPoints.com reports.",
-   "date": "2026-10-25T14:56Z"
   }
  ],
  "GS": [
@@ -418,11 +440,11 @@
    "id": "3945274",
    "name": "Luka Doncic",
    "pos": "G",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Back",
-   "return": "2026-11-08",
-   "comment": "Doncic (back) is questionable for Sunday's game against the Pistons.",
-   "date": "2026-11-07T22:11Z"
+   "return": "2026-11-09",
+   "comment": "Doncic has been ruled out for Sunday's game at Detroit due to lower-back tightness, Trevor Lane of LakersNation.com reports.",
+   "date": "2026-11-08T18:19Z"
   }
  ],
  "MEM": [
@@ -457,17 +479,19 @@
    "date": "2026-11-05T23:03Z"
   }
  ],
- "MIN": [
+ "MIL": [
   {
-   "id": "5279133",
-   "name": "Joan Beringer",
-   "pos": "F",
+   "id": "4277843",
+   "name": "Gary Trent Jr.",
+   "pos": "G",
    "status": "Day-To-Day",
-   "type": "Fracture",
+   "type": "Illness",
    "return": "2026-11-08",
-   "comment": "Beringer (nose) is questionable for Sunday's game against the Jazz.",
-   "date": "2026-11-07T23:10Z"
-  },
+   "comment": "Trent (illness) has been downgraded to questionable for Sunday's game against Boston.",
+   "date": "2026-11-08T18:23Z"
+  }
+ ],
+ "MIN": [
   {
    "id": "4594268",
    "name": "Anthony Edwards",
@@ -506,11 +530,11 @@
    "id": "3062679",
    "name": "Josh Hart",
    "pos": "G",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Ankle",
    "return": "2026-11-10",
    "comment": "Hart is out for Saturday's game against the Cavaliers due to right ankle soreness.",
-   "date": "2026-11-06T21:48Z"
+   "date": "2026-11-08T16:01Z"
   }
  ],
  "OKC": [
@@ -570,11 +594,11 @@
    "id": "4066320",
    "name": "Desmond Bane",
    "pos": "G",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Illness",
    "return": "2026-11-10",
    "comment": "Bane (illness) has been ruled out for Saturday's game against the Warriors.",
-   "date": "2026-11-07T19:36Z"
+   "date": "2026-11-08T16:12Z"
   },
   {
    "id": "4065654",
@@ -693,6 +717,16 @@
  ],
  "POR": [
   {
+   "id": "4066211",
+   "name": "Robert Williams III",
+   "pos": "C",
+   "status": "Day-To-Day",
+   "type": "Rest",
+   "return": "2026-11-10",
+   "comment": "Williams (rest) won't play in Saturday's game against the Spurs.",
+   "date": "2026-11-08T16:27Z"
+  },
+  {
    "id": "4279888",
    "name": "Ja Morant",
    "pos": "G",
@@ -701,16 +735,6 @@
    "return": "2026-12-01",
    "comment": "Head coach Micah Nori said Morant met with a doctor in Los Angeles, who gave him a positive outlook on his recovery from the hamstring injury. While Nori declined to update Morant's timetable, he added Morant \"may not be out for as long as we thought,\" Trail Blazers Insider Sean Highkin reports.",
    "date": "2026-11-08T02:18Z"
-  },
-  {
-   "id": "4066211",
-   "name": "Robert Williams III",
-   "pos": "C",
-   "status": "Out",
-   "type": "Rest",
-   "return": "2026-11-10",
-   "comment": "Williams (rest) won't play in Saturday's game against the Spurs.",
-   "date": "2026-11-07T21:12Z"
   },
   {
    "id": "4578893",
@@ -789,24 +813,24 @@
  ],
  "TOR": [
   {
-   "id": "4433134",
-   "name": "Scottie Barnes",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Groin",
-   "return": "2026-11-09",
-   "comment": "Barnes (adductor) is listed as out for Friday's game against Milwaukee, Michael Grange of Sportsnet.ca reports.",
-   "date": "2026-11-07T17:39Z"
-  },
-  {
    "id": "4395724",
    "name": "Immanuel Quickley",
    "pos": "G",
    "status": "Day-To-Day",
    "type": "Hamstring",
    "return": "2026-11-09",
-   "comment": "Quickley (hamstring) won't play Friday in Milwaukee, Michael Grange of Sportsnet.ca reports.",
-   "date": "2026-11-07T17:37Z"
+   "comment": "Quickley (hamstring) was a limited participant in Sunday's practice and will be listed as questionable for Monday's game against the Grizzlies, Michael Grange of Sportsnet.ca reports.",
+   "date": "2026-11-08T17:14Z"
+  },
+  {
+   "id": "4433134",
+   "name": "Scottie Barnes",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Groin",
+   "return": "2026-11-09",
+   "comment": "Barnes (adductor) was a limited participant in Sunday's practice and will be listed as questionable for Monday's game against the Grizzlies, Michael Grange of Sportsnet.ca reports.",
+   "date": "2026-11-08T17:11Z"
   },
   {
    "id": "6450",
@@ -830,6 +854,16 @@
   }
  ],
  "UTAH": [
+  {
+   "id": "4433627",
+   "name": "Keyonte George",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Illness",
+   "return": "2026-11-08",
+   "comment": "George (illness) has been downgraded to questionable for Sunday's game against Minnesota.",
+   "date": "2026-11-08T16:20Z"
+  },
   {
    "id": "4066336",
    "name": "Lauri Markkanen",
@@ -863,6 +897,16 @@
  ],
  "WSH": [
   {
+   "id": "6583",
+   "name": "Anthony Davis",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Ankle",
+   "return": "2026-11-09",
+   "comment": "Davis (ankle) won't play Saturday against the Thunder.",
+   "date": "2026-11-08T16:00Z"
+  },
+  {
    "id": "4278129",
    "name": "Deandre Ayton",
    "pos": "C",
@@ -871,16 +915,6 @@
    "return": "2026-11-09",
    "comment": "Ayton won't return to Saturday's game against the Thunder due to a lower leg injury.",
    "date": "2026-11-08T14:55Z"
-  },
-  {
-   "id": "6583",
-   "name": "Anthony Davis",
-   "pos": "F",
-   "status": "Out",
-   "type": "Ankle",
-   "return": "2026-11-09",
-   "comment": "Davis (ankle) won't play Saturday against the Thunder.",
-   "date": "2026-11-07T23:33Z"
   },
   {
    "id": "4432187",
@@ -923,5 +957,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-08T15:43:48.826044+00:00"
+ "_updated": "2026-11-08T18:51:18.048362+00:00"
 }
