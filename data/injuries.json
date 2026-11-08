@@ -152,41 +152,11 @@
    "id": "2595516",
    "name": "Norman Powell",
    "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Shoulder",
-   "return": "2026-11-08",
-   "comment": "Powell (shoulder) is listed as questionable for Sunday's game against the 76ers.",
-   "date": "2026-11-08T15:07Z"
-  },
-  {
-   "id": "5105555",
-   "name": "Tobe Awaka",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Knee",
-   "return": "2026-11-08",
-   "comment": "Awaka (knee) is questionable for Sundays' game against the 76ers.",
-   "date": "2026-11-07T21:36Z"
-  },
-  {
-   "id": "4397189",
-   "name": "Jalen Smith",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Finger",
-   "return": "2026-11-08",
-   "comment": "Smith (finger) is probable for Sunday's game against Philadelphia.",
-   "date": "2026-11-07T21:31Z"
-  },
-  {
-   "id": "4278067",
-   "name": "Nic Claxton",
-   "pos": "C",
    "status": "Out",
-   "type": "Hamstring",
-   "return": "2026-11-08",
-   "comment": "Claxton (hamstring) has been downgraded to questionable for Sunday's game against the 76ers.",
-   "date": "2026-11-07T21:25Z"
+   "type": "Shoulder",
+   "return": "2026-11-11",
+   "comment": "Powell (shoulder) has been ruled out for Sunday's game against the 76ers, Adam Aaronson of PhillyVoice.com reports.",
+   "date": "2026-11-08T18:55Z"
   },
   {
    "id": "4066650",
@@ -653,16 +623,6 @@
  ],
  "PHI": [
   {
-   "id": "3059318",
-   "name": "Joel Embiid",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Foot",
-   "return": "2026-11-08",
-   "comment": "Embiid (foot) is probable for Sunday's game against the Bulls.",
-   "date": "2026-11-07T23:12Z"
-  },
-  {
    "id": "5105637",
    "name": "Adem Bona",
    "pos": "C",
@@ -758,16 +718,6 @@
   }
  ],
  "SAC": [
-  {
-   "id": "4594327",
-   "name": "Keegan Murray",
-   "pos": "F",
-   "status": "Out",
-   "type": "Ankle",
-   "return": "2026-11-08",
-   "comment": "Murray (ankle) is questionable for Sunday's game against the Heat.",
-   "date": "2026-11-08T01:30Z"
-  },
   {
    "id": "4898371",
    "name": "Maxime Raynaud",
@@ -957,5 +907,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-08T18:51:18.048362+00:00"
+ "_updated": "2026-11-08T21:26:56.593515+00:00"
 }

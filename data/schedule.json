@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T18:51:17.829549+00:00",
+ "generated": "2026-11-08T21:26:56.500642+00:00",
  "days": [
   {
    "date": "2026-11-08",
@@ -9,11 +9,11 @@
      "start": "2026-11-08T20:30Z",
      "home": "CHI",
      "away": "PHI",
-     "state": "pre",
-     "detail": "11/8 - 3:30 PM EST",
+     "state": "in",
+     "detail": "2:56 - 2nd",
      "score": {
-      "home": "0",
-      "away": "0"
+      "home": "50",
+      "away": "59"
      }
     },
     {
