@@ -53,14 +53,14 @@
  ],
  "BKN": [
   {
-   "id": "4432194",
-   "name": "Day'Ron Sharpe",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Undisclosed",
-   "return": "2026-11-04",
-   "comment": "Sharpe registered 15 points (5-7 FG, 1-1 3Pt, 4-5 FT), 13 rebounds and four assists across 26 minutes in Sunday's 98-90 win over the Pacers.",
-   "date": "2026-11-05T02:29Z"
+   "id": "5101761",
+   "name": "Mikel Brown Jr.",
+   "pos": "G",
+   "status": "Out",
+   "type": "Rest",
+   "return": "2026-11-11",
+   "comment": "Brown, who finished with 18 points (5-13 FG, 3-8 3Pt, 5-7 FT), one rebound, three assists and one steal over 25 minutes in Saturday's 124-121 loss to Atlanta, won't play in Sunday's game against Dallas, Erik Slater of ClutchPoints.com reports.",
+   "date": "2026-11-08T04:04Z"
   },
   {
    "id": "5175643",
@@ -398,7 +398,7 @@
    "pos": "C",
    "status": "Out",
    "type": "Foot",
-   "return": "2026-11-08",
+   "return": "2026-11-10",
    "comment": "The Clippers recalled Niederhauser (foot) from the G League's San Diego Clippers on Sunday.",
    "date": "2026-11-02T16:12Z"
   },
@@ -777,16 +777,6 @@
  ],
  "SA": [
   {
-   "id": "5105337",
-   "name": "Maliq Brown",
-   "pos": "F",
-   "status": "Out",
-   "type": "Rest",
-   "return": "2026-11-11",
-   "comment": "Brown (back) scored eight points (3-3 FG, 2-2 3Pt) and added a rebound across 10 minutes off the bench in Saturday's 102-98 preseason loss to the Suns.",
-   "date": "2026-11-08T03:53Z"
-  },
-  {
    "id": "6440",
    "name": "Tobias Harris",
    "pos": "F",
@@ -943,5 +933,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-08T03:57:55.156724+00:00"
+ "_updated": "2026-11-08T07:07:02.018106+00:00"
 }
