@@ -1,16 +1,6 @@
 {
  "ATL": [
   {
-   "id": "4431680",
-   "name": "Onyeka Okongwu",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Face",
-   "return": "2026-11-07",
-   "comment": "Okongwu went back to the locker room after getting elbowed in the face during Saturday's game against the Nets, Lauren L. Williams of The Atlanta Journal-Constitution reports.",
-   "date": "2026-11-08T00:47Z"
-  },
-  {
    "id": "4585618",
    "name": "Keshon Gilbert",
    "pos": "G",
@@ -943,5 +933,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-08T00:56:58.588548+00:00"
+ "_updated": "2026-11-08T01:10:38.154187+00:00"
 }
