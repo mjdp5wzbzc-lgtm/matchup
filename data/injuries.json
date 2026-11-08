@@ -4,21 +4,21 @@
    "id": "4873201",
    "name": "Asa Newell",
    "pos": "F",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Toe",
-   "return": "2026-11-09",
-   "comment": "Newell (toe)  is out for Saturday's game against the Nets.",
-   "date": "2026-11-08T15:59Z"
+   "return": "2026-11-13",
+   "comment": "Newell (toe) has been ruled out for Monday's game against the Lakers.",
+   "date": "2026-11-08T22:15Z"
   },
   {
    "id": "4585618",
    "name": "Keshon Gilbert",
    "pos": "G",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Knee",
-   "return": "2026-11-09",
-   "comment": "Gilbert (knee) is out for Saturday's game against Brooklyn.",
-   "date": "2026-11-08T15:59Z"
+   "return": "2026-11-13",
+   "comment": "Gilbert (knee) has been ruled out for Monday's game against the Lakers.",
+   "date": "2026-11-08T22:13Z"
   },
   {
    "id": "3146557",
@@ -27,8 +27,8 @@
    "status": "Out",
    "type": "Hip",
    "return": "2026-11-09",
-   "comment": "Landale (hip) has been ruled out for Saturday's game against the Nets.",
-   "date": "2026-11-07T18:14Z"
+   "comment": "Landale (hip) is listed as questionable for Monday's game against the Lakers.",
+   "date": "2026-11-08T22:11Z"
   },
   {
    "id": "4712863",
@@ -97,34 +97,14 @@
  ],
  "CHA": [
   {
-   "id": "4433249",
-   "name": "Moussa Diabate",
+   "id": "4066218",
+   "name": "Grant Williams",
    "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Quadriceps",
-   "return": "2026-11-09",
-   "comment": "Diabate (quadriceps) has been ruled out for Friday's game against Boston, according to the Hornets' official injury report.",
-   "date": "2026-11-07T17:39Z"
-  },
-  {
-   "id": "4433287",
-   "name": "Brandon Miller",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Groin",
-   "return": "2026-11-09",
-   "comment": "Head coach Charles Lee said Miller (groin) will be re-evaluated over the weekend, and they expect to have more information by Monday, Steve Reed of The Associated Press reports.",
-   "date": "2026-11-07T04:27Z"
-  },
-  {
-   "id": "3032979",
-   "name": "Dennis Schroder",
-   "pos": "G",
    "status": "Out",
-   "type": "Thigh",
-   "return": "2026-11-09",
-   "comment": "Schroder (thigh) is out for Friday's game versus Boston.",
-   "date": "2026-11-06T18:09Z"
+   "type": "Hamstring",
+   "return": "2026-11-12",
+   "comment": "Williams (hamstring) is out for Monday's game against the Cavaliers.",
+   "date": "2026-11-08T22:35Z"
   },
   {
    "id": "5061575",
@@ -132,19 +112,39 @@
    "pos": "G",
    "status": "Out",
    "type": "Hamstring",
-   "return": "2026-11-09",
-   "comment": "Knueppel (hamstring) is out for Friday's game against the Celtics.",
-   "date": "2026-11-05T22:05Z"
+   "return": "2026-12-12",
+   "comment": "Knueppel (hamstring) was diagnosed with a left hamstring strain Sunday and will be re-evaluated in four weeks.",
+   "date": "2026-11-08T22:31Z"
   },
   {
-   "id": "4066218",
-   "name": "Grant Williams",
+   "id": "4433249",
+   "name": "Moussa Diabate",
    "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Quadriceps",
+   "return": "2026-11-09",
+   "comment": "Diabate (quadriceps) is questionable for Monday's game against the Cavaliers.",
+   "date": "2026-11-08T22:31Z"
+  },
+  {
+   "id": "3032979",
+   "name": "Dennis Schroder",
+   "pos": "G",
    "status": "Out",
    "type": "Hamstring",
-   "return": "2026-11-09",
-   "comment": "The Hornets recalled Williams (hamstring) from the G League's Greensboro Swarm on Wednesday.",
-   "date": "2026-11-04T23:50Z"
+   "return": "2026-11-25",
+   "comment": "Schroder has been diagnosed with a left hamstring strain and will be reevaluated in two weeks, Michael Scotto of HoopsHype.com reports.",
+   "date": "2026-11-08T22:26Z"
+  },
+  {
+   "id": "4433287",
+   "name": "Brandon Miller",
+   "pos": "F",
+   "status": "Out",
+   "type": "Groin",
+   "return": "2026-11-12",
+   "comment": "Miller (groin) is listed as out for Monday's game against Cleveland.",
+   "date": "2026-11-08T22:25Z"
   }
  ],
  "CHI": [
@@ -174,11 +174,11 @@
    "id": "4066757",
    "name": "Sam Merrill",
    "pos": "G",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Elbow",
-   "return": "2026-11-09",
-   "comment": "Merrill (elbow) is out for Saturday's game against the Knicks.",
-   "date": "2026-11-08T16:01Z"
+   "return": "2026-11-11",
+   "comment": "Merrill (elbow) is listed as out for Monday's game against the Hornets.",
+   "date": "2026-11-08T22:46Z"
   },
   {
    "id": "4066328",
@@ -187,8 +187,8 @@
    "status": "Day-To-Day",
    "type": "Knee",
    "return": "2026-11-09",
-   "comment": "Allen (knee) is out for Saturday's game against the Knicks",
-   "date": "2026-11-08T16:01Z"
+   "comment": "Allen (knee) is questionable for Monday's game against Charlotte.",
+   "date": "2026-11-08T22:15Z"
   },
   {
    "id": "4683747",
@@ -196,9 +196,9 @@
    "pos": "G",
    "status": "Out",
    "type": "Ankle",
-   "return": "2026-11-09",
-   "comment": "Tyson (ankle) is out for Saturday's game against the Knicks.",
-   "date": "2026-11-07T18:14Z"
+   "return": "2026-11-11",
+   "comment": "Tyson (ankle) is out for Monday's game against the Hornets.",
+   "date": "2026-11-08T22:04Z"
   }
  ],
  "DAL": [
@@ -234,6 +234,66 @@
   }
  ],
  "DEN": [
+  {
+   "id": "3138196",
+   "name": "Cameron Johnson",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Lower Body",
+   "return": "2026-11-09",
+   "comment": "Johnson (lower body) is questionable for Monday's game against Houston.",
+   "date": "2026-11-08T22:51Z"
+  },
+  {
+   "id": "3978",
+   "name": "DeMar DeRozan",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Back",
+   "return": "2026-11-09",
+   "comment": "DeRozan is questionable for Monday's game against the Rockets due to lower back spasms.",
+   "date": "2026-11-08T22:51Z"
+  },
+  {
+   "id": "4431767",
+   "name": "Christian Braun",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Calf",
+   "return": "2026-11-09",
+   "comment": "Braun (calf/illness) is listed as questionable for Monday's game against Houston.",
+   "date": "2026-11-08T22:46Z"
+  },
+  {
+   "id": "3936299",
+   "name": "Jamal Murray",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Lower Leg",
+   "return": "2026-11-09",
+   "comment": "Murray is questionable for Monday's game against the Rockets due to a left shin contusion.",
+   "date": "2026-11-08T22:43Z"
+  },
+  {
+   "id": "3064290",
+   "name": "Aaron Gordon",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Lower Body",
+   "return": "2026-11-09",
+   "comment": "Gordon (lower body injury management) is listed as questionable for Monday's game against the Rockets.",
+   "date": "2026-11-08T22:42Z"
+  },
+  {
+   "id": "3112335",
+   "name": "Nikola Jokic",
+   "pos": "C",
+   "status": "Day-To-Day",
+   "type": "Elbow",
+   "return": "2026-11-09",
+   "comment": "Jokic (elbow) is listed as questionable for Monday's game in Houston.",
+   "date": "2026-11-08T22:36Z"
+  },
   {
    "id": "4432181",
    "name": "Julian Strawther",
@@ -316,7 +376,7 @@
    "pos": "C",
    "status": "Out",
    "type": "Calf",
-   "return": "2026-11-09",
+   "return": "2026-11-11",
    "comment": "Head coach Ime Udoka said Wednesday that Adams (calf) is still without a timetable to return and will be evaluated on a \"weekly basis,\" Varun Shankar of the Houston Chronicle reports.",
    "date": "2026-11-05T00:21Z"
   }
@@ -719,6 +779,16 @@
  ],
  "SAC": [
   {
+   "id": "3155942",
+   "name": "Domantas Sabonis",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Knee",
+   "return": "2026-11-08",
+   "comment": "Sabonis has been downgraded to questionable for Sunday's game against Miami due to left knee soreness.",
+   "date": "2026-11-08T22:53Z"
+  },
+  {
    "id": "4898371",
    "name": "Maxime Raynaud",
    "pos": "C",
@@ -847,24 +917,24 @@
  ],
  "WSH": [
   {
+   "id": "4997537",
+   "name": "Tristan Vukcevic",
+   "pos": "F",
+   "status": "Out",
+   "type": "Hip",
+   "return": "2026-11-16",
+   "comment": "Vukcevic (hip) has been ruled out for Monday's game against Detroit.",
+   "date": "2026-11-08T22:17Z"
+  },
+  {
    "id": "6583",
    "name": "Anthony Davis",
    "pos": "F",
    "status": "Day-To-Day",
    "type": "Ankle",
    "return": "2026-11-09",
-   "comment": "Davis (ankle) won't play Saturday against the Thunder.",
-   "date": "2026-11-08T16:00Z"
-  },
-  {
-   "id": "4278129",
-   "name": "Deandre Ayton",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Leg",
-   "return": "2026-11-09",
-   "comment": "Ayton won't return to Saturday's game against the Thunder due to a lower leg injury.",
-   "date": "2026-11-08T14:55Z"
+   "comment": "Davis (ankle) is listed as questionable for Monday's game in Detroit.",
+   "date": "2026-11-08T22:08Z"
   },
   {
    "id": "4432187",
@@ -875,16 +945,6 @@
    "return": "2026-12-03",
    "comment": "The Wizards announced Monday that Beekman sustained a right acromioclavicular joint injury and will be re-evaluated in approximately three weeks.",
    "date": "2026-11-02T18:22Z"
-  },
-  {
-   "id": "4997537",
-   "name": "Tristan Vukcevic",
-   "pos": "F",
-   "status": "Out",
-   "type": "Hip",
-   "return": "2026-11-09",
-   "comment": "Vukcevic (hip) is listed as out for Monday's game against Orlando.",
-   "date": "2026-11-01T21:51Z"
   },
   {
    "id": "4432907",
@@ -907,5 +967,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-08T22:06:11.840895+00:00"
+ "_updated": "2026-11-08T23:02:14.549387+00:00"
 }
