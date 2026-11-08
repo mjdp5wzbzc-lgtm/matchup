@@ -366,9 +366,9 @@
    "pos": "C",
    "status": "Out",
    "type": "Ankle",
-   "return": "2026-11-09",
-   "comment": "Capela (ankle) is out for Saturday's game against the Suns.",
-   "date": "2026-11-06T20:32Z"
+   "return": "2026-11-11",
+   "comment": "Capela (ankle) is listed as out for Monday's game against Denver.",
+   "date": "2026-11-08T22:56Z"
   },
   {
    "id": "2991235",
@@ -382,6 +382,16 @@
   }
  ],
  "IND": [
+  {
+   "id": "2530530",
+   "name": "T.J. McConnell",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Hamstring",
+   "return": "2026-11-09",
+   "comment": "McConnell is questionable for Monday's game against the Mavericks due to a right hamstring strain.",
+   "date": "2026-11-08T23:24Z"
+  },
   {
    "id": "4396993",
    "name": "Tyrese Haliburton",
@@ -479,14 +489,14 @@
  ],
  "MEM": [
   {
-   "id": "5105462",
-   "name": "Richie Saunders",
+   "id": "4431785",
+   "name": "Scotty Pippen Jr.",
    "pos": "G",
    "status": "Out",
-   "type": "Knee",
-   "return": "2026-12-01",
-   "comment": "Saunders signed a two-way contract with the Grizzlies on Saturday, Shams Charania of ESPN reports.",
-   "date": "2026-11-07T17:24Z"
+   "type": "Back",
+   "return": "2026-11-11",
+   "comment": "Pippen (back) won't play in Monday's game versus the Raptors.",
+   "date": "2026-11-08T23:07Z"
   },
   {
    "id": "4432810",
@@ -495,18 +505,18 @@
    "status": "Out",
    "type": "Knee",
    "return": "2026-11-09",
-   "comment": "Stewart (knee) has been ruled out for Friday's game against the Thunder.",
-   "date": "2026-11-05T23:04Z"
+   "comment": "Stewart (knee) has been ruled out for Monday's game against Toronto.",
+   "date": "2026-11-08T23:01Z"
   },
   {
-   "id": "4431785",
-   "name": "Scotty Pippen Jr.",
+   "id": "5105462",
+   "name": "Richie Saunders",
    "pos": "G",
    "status": "Out",
-   "type": "Back",
-   "return": "2026-11-09",
-   "comment": "Pippen (back) has been ruled out for Friday's game against Oklahoma City.",
-   "date": "2026-11-05T23:03Z"
+   "type": "Knee",
+   "return": "2026-12-01",
+   "comment": "Saunders signed a two-way contract with the Grizzlies on Saturday, Shams Charania of ESPN reports.",
+   "date": "2026-11-07T17:24Z"
   }
  ],
  "MIL": [
@@ -875,24 +885,14 @@
  ],
  "UTAH": [
   {
-   "id": "4433627",
-   "name": "Keyonte George",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Illness",
-   "return": "2026-11-08",
-   "comment": "George (illness) has been downgraded to questionable for Sunday's game against Minnesota.",
-   "date": "2026-11-08T16:20Z"
-  },
-  {
    "id": "4066336",
    "name": "Lauri Markkanen",
    "pos": "F",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Wrist",
-   "return": "2026-11-08",
-   "comment": "Markkanen is questionable for Sunday's game against the Timberwolves due to a right wrist sprain.",
-   "date": "2026-11-07T23:14Z"
+   "return": "2026-11-10",
+   "comment": "Markkanen (wrist) is out for Sunday's game against the Timberwolves, Shreyas Laddha of The Salt Lake Tribune reports.",
+   "date": "2026-11-08T23:44Z"
   },
   {
    "id": "3102530",
@@ -967,5 +967,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-08T23:02:14.549387+00:00"
+ "_updated": "2026-11-08T23:59:44.986195+00:00"
 }
