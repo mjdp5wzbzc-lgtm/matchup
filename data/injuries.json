@@ -378,9 +378,19 @@
    "pos": "F",
    "status": "Out",
    "type": "Achilles",
-   "return": "2026-11-08",
-   "comment": "Ingram (Achilles) has progressed to full contact basketball activities, per NBA writer Justin Russo.",
-   "date": "2026-11-06T20:20Z"
+   "return": "2026-11-10",
+   "comment": "Ingram (Achilles) won't play in Sunday's game against New Orleans, Law Murray of The Athletic reports.",
+   "date": "2026-11-08T01:11Z"
+  },
+  {
+   "id": "4432170",
+   "name": "Isaiah Jackson",
+   "pos": "F",
+   "status": "Out",
+   "type": "Groin",
+   "return": "2026-11-10",
+   "comment": "Jackson (groin) won't suit up for Sunday's game against the Pelicans, Law Murray of The Athletic reports.",
+   "date": "2026-11-08T01:03Z"
   },
   {
    "id": "5108024",
@@ -671,24 +681,14 @@
  ],
  "PHX": [
   {
-   "id": "5105977",
-   "name": "Rasheer Fleming",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Ankle",
-   "return": "2026-11-07",
-   "comment": "Fleming (ankle) is questionable for Saturday's game against the Rockets.",
-   "date": "2026-11-07T00:20Z"
-  },
-  {
    "id": "4278402",
    "name": "Jordan Goodwin",
    "pos": "G",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Calf",
-   "return": "2026-11-07",
-   "comment": "Goodwin (calf) is doubtful for Saturday's game against the Rockets.",
-   "date": "2026-11-07T00:20Z"
+   "return": "2026-11-09",
+   "comment": "Goodwin (calf) is out for Saturday's game against the Rockets.",
+   "date": "2026-11-08T01:08Z"
   },
   {
    "id": "4701232",
@@ -745,14 +745,14 @@
  ],
  "SAC": [
   {
-   "id": "4065732",
-   "name": "De'Andre Hunter",
+   "id": "4594327",
+   "name": "Keegan Murray",
    "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Illness",
+   "status": "Out",
+   "type": "Ankle",
    "return": "2026-11-08",
-   "comment": "Hunter (illness) is listed as out for Friday's game against San Antonio.",
-   "date": "2026-11-07T15:05Z"
+   "comment": "Murray (ankle) is questionable for Sunday's game against the Heat.",
+   "date": "2026-11-08T01:30Z"
   },
   {
    "id": "4898371",
@@ -763,16 +763,6 @@
    "return": "2026-11-10",
    "comment": "Raynaud (knee) is progressing in his rehabilitation and will be re-evaluated in approximately two weeks, Brenden Nunes of KHTK Sactown Sports 1140 reports.",
    "date": "2026-10-26T22:07Z"
-  },
-  {
-   "id": "4594327",
-   "name": "Keegan Murray",
-   "pos": "F",
-   "status": "Out",
-   "type": "Ankle",
-   "return": "2026-11-10",
-   "comment": "Murray (ankle) will be re-evaluated in 10-to-14 days, NBA reporter Marc Stein reports.",
-   "date": "2026-10-26T22:01Z"
   },
   {
    "id": "3907387",
@@ -933,5 +923,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-08T01:10:38.154187+00:00"
+ "_updated": "2026-11-08T01:55:56.325557+00:00"
 }
