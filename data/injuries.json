@@ -763,6 +763,16 @@
  ],
  "TOR": [
   {
+   "id": "4432586",
+   "name": "Nate Bittle",
+   "pos": "C",
+   "status": "Out",
+   "type": "Foot",
+   "return": "2026-11-15",
+   "comment": "Bittle (foot) is listed as out for Monday's game against Memphis.",
+   "date": "2026-11-08T21:20Z"
+  },
+  {
    "id": "4395724",
    "name": "Immanuel Quickley",
    "pos": "G",
@@ -791,16 +801,6 @@
    "return": "2026-11-23",
    "comment": "Leonard has completed treatment to reduce swelling in his left knee and he will be re-evaluated in one week, Brett Siegel of ClutchPoints.com reports.",
    "date": "2026-11-04T00:14Z"
-  },
-  {
-   "id": "4432586",
-   "name": "Nate Bittle",
-   "pos": "C",
-   "status": "Out",
-   "type": "Foot",
-   "return": "2026-11-09",
-   "comment": "Bittle (foot) is out for Monday's game against the Clippers and remains without a timetable to return.",
-   "date": "2026-11-02T20:20Z"
   }
  ],
  "UTAH": [
@@ -907,5 +907,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-08T21:26:56.593515+00:00"
+ "_updated": "2026-11-08T21:43:09.354606+00:00"
 }
