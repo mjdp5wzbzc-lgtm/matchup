@@ -873,6 +873,16 @@
  ],
  "WSH": [
   {
+   "id": "4278129",
+   "name": "Deandre Ayton",
+   "pos": "C",
+   "status": "Out",
+   "type": "Leg",
+   "return": "2026-11-09",
+   "comment": "Ayton won't return to Saturday's game against the Thunder due to a lower leg injury.",
+   "date": "2026-11-08T02:47Z"
+  },
+  {
    "id": "6583",
    "name": "Anthony Davis",
    "pos": "F",
@@ -923,5 +933,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-08T02:43:23.268235+00:00"
+ "_updated": "2026-11-08T03:43:22.424141+00:00"
 }
