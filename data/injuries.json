@@ -777,6 +777,16 @@
  ],
  "SA": [
   {
+   "id": "5105337",
+   "name": "Maliq Brown",
+   "pos": "F",
+   "status": "Out",
+   "type": "Rest",
+   "return": "2026-11-11",
+   "comment": "Brown (back) scored eight points (3-3 FG, 2-2 3Pt) and added a rebound across 10 minutes off the bench in Saturday's 102-98 preseason loss to the Suns.",
+   "date": "2026-11-08T03:53Z"
+  },
+  {
    "id": "6440",
    "name": "Tobias Harris",
    "pos": "F",
@@ -933,5 +943,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-08T03:43:22.424141+00:00"
+ "_updated": "2026-11-08T03:57:55.156724+00:00"
 }
