@@ -1,6 +1,16 @@
 {
  "ATL": [
   {
+   "id": "4431680",
+   "name": "Onyeka Okongwu",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Face",
+   "return": "2026-11-07",
+   "comment": "Okongwu went back to the locker room after getting elbowed in the face during Saturday's game against the Nets, Lauren L. Williams of The Atlanta Journal-Constitution reports.",
+   "date": "2026-11-08T00:47Z"
+  },
+  {
    "id": "4585618",
    "name": "Keshon Gilbert",
    "pos": "G",
@@ -287,26 +297,6 @@
  ],
  "GS": [
   {
-   "id": "6589",
-   "name": "Draymond Green",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Elbow",
-   "return": "2026-11-07",
-   "comment": "Green (elbow) is listed as questionable ahead of Saturday's game against Orlando.",
-   "date": "2026-11-06T22:21Z"
-  },
-  {
-   "id": "3134903",
-   "name": "Gary Payton II",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": null,
-   "return": null,
-   "comment": "Payton is questionable to play Saturday against the Magic due to right calf tightness.",
-   "date": "2026-11-06T22:21Z"
-  },
-  {
    "id": "3102531",
    "name": "Kristaps Porzingis",
    "pos": "C",
@@ -315,16 +305,6 @@
    "return": "2027-01-02",
    "comment": "Porzingis announced on his social media that he's stepping away from basketball.",
    "date": "2026-11-06T21:26Z"
-  },
-  {
-   "id": "4997536",
-   "name": "Gui Santos",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Knee",
-   "return": "2026-11-07",
-   "comment": "Santos (knee) is questionable for Saturday's game versus Orlando, per Nick Friedell of The Athletic.",
-   "date": "2026-11-06T20:49Z"
   },
   {
    "id": "4432171",
@@ -963,5 +943,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-07T23:59:09.126040+00:00"
+ "_updated": "2026-11-08T00:56:58.588548+00:00"
 }

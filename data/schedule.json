@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T23:59:08.840538+00:00",
+ "generated": "2026-11-08T00:56:58.025322+00:00",
  "days": [
   {
    "date": "2026-11-07",
@@ -9,11 +9,11 @@
      "start": "2026-11-07T22:00Z",
      "home": "IND",
      "away": "DEN",
-     "state": "in",
-     "detail": "End of 3rd",
+     "state": "post",
+     "detail": "Final",
      "score": {
-      "home": "78",
-      "away": "90"
+      "home": "102",
+      "away": "114"
      }
     },
     {
@@ -21,11 +21,11 @@
      "start": "2026-11-08T00:30Z",
      "home": "ATL",
      "away": "BKN",
-     "state": "pre",
-     "detail": "11/7 - 7:30 PM EST",
+     "state": "in",
+     "detail": "5:20 - 1st",
      "score": {
-      "home": "0",
-      "away": "0"
+      "home": "12",
+      "away": "25"
      }
     },
     {
