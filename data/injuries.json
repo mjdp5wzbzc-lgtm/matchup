@@ -703,6 +703,16 @@
  ],
  "POR": [
   {
+   "id": "4279888",
+   "name": "Ja Morant",
+   "pos": "G",
+   "status": "Out",
+   "type": "Hamstring",
+   "return": "2026-12-01",
+   "comment": "Head coach Micah Nori said Morant met with a doctor in Los Angeles, who gave him a positive outlook on his recovery from the hamstring injury. While Nori declined to update Morant's timetable, he added Morant \"may not be out for as long as we thought,\" Trail Blazers Insider Sean Highkin reports.",
+   "date": "2026-11-08T02:18Z"
+  },
+  {
    "id": "4066211",
    "name": "Robert Williams III",
    "pos": "C",
@@ -721,16 +731,6 @@
    "return": "2027-01-02",
    "comment": "Head coach Micah Nori said that Krejci suffered a left leg fracture during Wednesday's 132-119 win over the Suns, Brett Siegel of ClutchPoints.com reports.",
    "date": "2026-11-05T05:17Z"
-  },
-  {
-   "id": "4279888",
-   "name": "Ja Morant",
-   "pos": "G",
-   "status": "Out",
-   "type": "Hamstring",
-   "return": "2026-12-01",
-   "comment": "Morant has been diagnosed with a Grade 2 left hamstring strain and is expected to miss four weeks, Portland announced Friday.",
-   "date": "2026-10-30T18:45Z"
   },
   {
    "id": "4914336",
@@ -923,5 +923,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-08T01:55:56.325557+00:00"
+ "_updated": "2026-11-08T02:43:23.268235+00:00"
 }
