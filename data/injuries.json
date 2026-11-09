@@ -197,8 +197,8 @@
    "status": "Day-To-Day",
    "type": "Leg",
    "return": "2026-11-09",
-   "comment": "Johnson notched 13 points (5-8 FG, 1-2 3Pt, 2-2 FT), 17 rebounds, two assists, a steal and a block across 24 minutes in Friday's 112-100 win over the Jazz.",
-   "date": "2026-11-09T18:48Z"
+   "comment": "Johnson (leg) is questionable for Monday's game against Indiana.",
+   "date": "2026-11-09T18:50Z"
   },
   {
    "id": "5279129",
@@ -237,20 +237,10 @@
    "name": "Cameron Johnson",
    "pos": "F",
    "status": "Day-To-Day",
-   "type": "Lower Body",
+   "type": "Ankle",
    "return": "2026-11-09",
-   "comment": "Johnson (lower body) is questionable for Monday's game against Houston.",
-   "date": "2026-11-08T22:51Z"
-  },
-  {
-   "id": "3978",
-   "name": "DeMar DeRozan",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Back",
-   "return": "2026-11-09",
-   "comment": "DeRozan is questionable for Monday's game against the Rockets due to lower back spasms.",
-   "date": "2026-11-08T22:51Z"
+   "comment": "Johnson (ankle) is probable for Monday against Houston.",
+   "date": "2026-11-09T19:23Z"
   },
   {
    "id": "4431767",
@@ -259,18 +249,8 @@
    "status": "Day-To-Day",
    "type": "Calf",
    "return": "2026-11-09",
-   "comment": "Braun (calf/illness) is listed as questionable for Monday's game against Houston.",
-   "date": "2026-11-08T22:46Z"
-  },
-  {
-   "id": "3936299",
-   "name": "Jamal Murray",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Lower Leg",
-   "return": "2026-11-09",
-   "comment": "Murray is questionable for Monday's game against the Rockets due to a left shin contusion.",
-   "date": "2026-11-08T22:43Z"
+   "comment": "Braun (left calf contusion/illness) is probable for Monday's matchup against the Rockets.",
+   "date": "2026-11-09T19:23Z"
   },
   {
    "id": "3064290",
@@ -279,8 +259,8 @@
    "status": "Day-To-Day",
    "type": "Lower Body",
    "return": "2026-11-09",
-   "comment": "Gordon (lower body injury management) is listed as questionable for Monday's game against the Rockets.",
-   "date": "2026-11-08T22:42Z"
+   "comment": "Gordon (left calf injury management) is probable for Monday's game against Houston.",
+   "date": "2026-11-09T19:21Z"
   },
   {
    "id": "3112335",
@@ -289,8 +269,28 @@
    "status": "Day-To-Day",
    "type": "Elbow",
    "return": "2026-11-09",
-   "comment": "Jokic (elbow) is listed as questionable for Monday's game in Houston.",
-   "date": "2026-11-08T22:36Z"
+   "comment": "Jokic (right elbow sprain) is probable for Monday's game against the Rockets.",
+   "date": "2026-11-09T19:21Z"
+  },
+  {
+   "id": "3978",
+   "name": "DeMar DeRozan",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Back",
+   "return": "2026-11-09",
+   "comment": "DeRozan (back) is probable for Monday against Houston.",
+   "date": "2026-11-09T19:20Z"
+  },
+  {
+   "id": "3936299",
+   "name": "Jamal Murray",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Lower Leg",
+   "return": "2026-11-09",
+   "comment": "Murray (leg) is probable for Monday against Houston.",
+   "date": "2026-11-09T19:18Z"
   },
   {
    "id": "4432181",
@@ -305,6 +305,16 @@
  ],
  "DET": [
   {
+   "id": "4395702",
+   "name": "Isaiah Joe",
+   "pos": "G",
+   "status": "Out",
+   "type": "Hip",
+   "return": "2026-11-17",
+   "comment": "Joe (hip) is out for Monday against the Wizards.",
+   "date": "2026-11-09T18:54Z"
+  },
+  {
    "id": "4433621",
    "name": "Jalen Duren",
    "pos": "C",
@@ -313,19 +323,19 @@
    "return": "2026-11-24",
    "comment": "Duren (hamstring) has begun on-court activity and will be re-evaluated in two weeks, Hunter Patterson of The Athletic reports.",
    "date": "2026-11-08T16:05Z"
-  },
-  {
-   "id": "4395702",
-   "name": "Isaiah Joe",
-   "pos": "G",
-   "status": "Out",
-   "type": "Hip",
-   "return": "2026-11-12",
-   "comment": "Joe (hip) has been ruled out for Sunday's game against the Lakers.",
-   "date": "2026-11-07T21:59Z"
   }
  ],
  "GS": [
+  {
+   "id": "3134903",
+   "name": "Gary Payton II",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Knee",
+   "return": "2026-11-09",
+   "comment": "Payton (left knee soreness) is listed as questionable for Monday's game against New Orleans.",
+   "date": "2026-11-09T19:24Z"
+  },
   {
    "id": "4897262",
    "name": "Will Richard",
@@ -592,6 +602,26 @@
   }
  ],
  "NO": [
+  {
+   "id": "4431675",
+   "name": "Trendon Watford",
+   "pos": "F",
+   "status": "Out",
+   "type": "Ankle",
+   "return": "2026-11-11",
+   "comment": "Watford (ankle) is out for Monday's game versus Utah.",
+   "date": "2026-11-09T20:50Z"
+  },
+  {
+   "id": "4397688",
+   "name": "Trey Murphy III",
+   "pos": "F",
+   "status": "Out",
+   "type": "Knee",
+   "return": "2026-11-11",
+   "comment": "Murphy (knees) has been ruled out for Monday's game against Golden State.",
+   "date": "2026-11-09T20:49Z"
+  },
   {
    "id": "5061589",
    "name": "Yves Missi",
@@ -985,6 +1015,16 @@
  ],
  "WSH": [
   {
+   "id": "5104155",
+   "name": "Bilal Coulibaly",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Hand",
+   "return": "2026-11-09",
+   "comment": "Coulibaly (hand) is listed as questionable for Monday's game against Detroit.",
+   "date": "2026-11-09T18:54Z"
+  },
+  {
    "id": "4997537",
    "name": "Tristan Vukcevic",
    "pos": "F",
@@ -1035,5 +1075,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-09T19:00:02.952777+00:00"
+ "_updated": "2026-11-09T21:41:09.755852+00:00"
 }
