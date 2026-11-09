@@ -317,6 +317,26 @@
  ],
  "GS": [
   {
+   "id": "4897262",
+   "name": "Will Richard",
+   "pos": "G",
+   "status": "Out",
+   "type": "Thumb",
+   "return": "2026-11-11",
+   "comment": "Richard chipped in 10 points (4-6 FG, 2-4 3Pt), two assists and one block across 16 minutes during Thursday's 120-100 victory over Miami.",
+   "date": "2026-11-09T01:53Z"
+  },
+  {
+   "id": "4997536",
+   "name": "Gui Santos",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Knee",
+   "return": "2026-11-09",
+   "comment": "Santos (knee) is listed as probable for Monday's game against New Orleans.",
+   "date": "2026-11-09T01:13Z"
+  },
+  {
    "id": "3102531",
    "name": "Kristaps Porzingis",
    "pos": "C",
@@ -471,8 +491,8 @@
    "status": "Day-To-Day",
    "type": "Undisclosed",
    "return": "2026-11-08",
-   "comment": "Grimes will start in Sunday's game against the Pistons.",
-   "date": "2026-11-09T01:09Z"
+   "comment": "Grimes went back to the locker room during Sunday's game against the Pistons, Dave McMenamin of ESPN.com reports.",
+   "date": "2026-11-09T01:07Z"
   },
   {
    "id": "3945274",
@@ -790,11 +810,11 @@
    "id": "3155942",
    "name": "Domantas Sabonis",
    "pos": "F",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Knee",
    "return": "2026-11-10",
-   "comment": "Sabonis has been downgraded to questionable for Sunday's game against Miami due to left knee soreness.",
-   "date": "2026-11-08T22:53Z"
+   "comment": "Sabonis (knee) is out for Sunday's game against the Heat.",
+   "date": "2026-11-09T01:03Z"
   },
   {
    "id": "4898371",
@@ -975,5 +995,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-09T01:14:14.796749+00:00"
+ "_updated": "2026-11-09T02:06:38.754034+00:00"
 }
