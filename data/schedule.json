@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T03:15:25.295850+00:00",
+ "generated": "2026-11-09T04:00:41.101824+00:00",
  "days": [
   {
    "date": "2026-11-08",
@@ -57,8 +57,8 @@
      "start": "2026-11-09T01:00Z",
      "home": "MIL",
      "away": "BOS",
-     "state": "in",
-     "detail": "33.0 - 4th",
+     "state": "post",
+     "detail": "Final",
      "score": {
       "home": "97",
       "away": "117"
@@ -70,10 +70,10 @@
      "home": "LAC",
      "away": "NO",
      "state": "in",
-     "detail": "47.0 - 2nd",
+     "detail": "35.3 - 3rd",
      "score": {
-      "home": "64",
-      "away": "56"
+      "home": "102",
+      "away": "95"
      }
     },
     {
@@ -82,10 +82,10 @@
      "home": "SAC",
      "away": "MIA",
      "state": "in",
-     "detail": "Halftime",
+     "detail": "End of 3rd",
      "score": {
-      "home": "59",
-      "away": "68"
+      "home": "81",
+      "away": "91"
      }
     }
    ]
