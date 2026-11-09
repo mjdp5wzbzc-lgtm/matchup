@@ -465,6 +465,16 @@
  ],
  "LAL": [
   {
+   "id": "4397014",
+   "name": "Quentin Grimes",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Undisclosed",
+   "return": "2026-11-08",
+   "comment": "Grimes will start in Sunday's game against the Pistons.",
+   "date": "2026-11-09T01:09Z"
+  },
+  {
    "id": "3945274",
    "name": "Luka Doncic",
    "pos": "G",
@@ -782,7 +792,7 @@
    "pos": "F",
    "status": "Day-To-Day",
    "type": "Knee",
-   "return": "2026-11-08",
+   "return": "2026-11-10",
    "comment": "Sabonis has been downgraded to questionable for Sunday's game against Miami due to left knee soreness.",
    "date": "2026-11-08T22:53Z"
   },
@@ -965,5 +975,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-09T00:59:47.603750+00:00"
+ "_updated": "2026-11-09T01:14:14.796749+00:00"
 }
