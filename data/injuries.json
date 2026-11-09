@@ -51,18 +51,6 @@
    "date": "2026-09-21T19:50Z"
   }
  ],
- "BOS": [
-  {
-   "id": "4351852",
-   "name": "Mitchell Robinson",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Illness",
-   "return": "2026-11-08",
-   "comment": "Robinson (illness) is questionable for Sunday's game versus Milwaukee, Bobby Krivitsky of Forbes.com reports.",
-   "date": "2026-11-08T18:21Z"
-  }
- ],
  "BKN": [
   {
    "id": "4702670",
@@ -524,11 +512,11 @@
    "id": "4277843",
    "name": "Gary Trent Jr.",
    "pos": "G",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Illness",
-   "return": "2026-11-08",
-   "comment": "Trent (illness) has been downgraded to questionable for Sunday's game against Boston.",
-   "date": "2026-11-08T18:23Z"
+   "return": "2026-11-10",
+   "comment": "Trent (illness) won't play in Sunday's game versus the Celtics.",
+   "date": "2026-11-08T23:58Z"
   }
  ],
  "MIN": [
@@ -731,8 +719,8 @@
    "status": "Out",
    "type": "Calf",
    "return": "2026-11-09",
-   "comment": "Goodwin (calf) is out for Saturday's game against the Rockets.",
-   "date": "2026-11-08T01:08Z"
+   "comment": "Goodwin (calf) is questionable for Monday's game against the Spurs.",
+   "date": "2026-11-09T00:23Z"
   },
   {
    "id": "4701232",
@@ -826,9 +814,19 @@
    "pos": "F",
    "status": "Out",
    "type": "Calf",
+   "return": "2026-11-11",
+   "comment": "Harris (calf) is listed as out for Monday's game against Phoenix.",
+   "date": "2026-11-09T00:27Z"
+  },
+  {
+   "id": "4395630",
+   "name": "Devin Vassell",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Groin",
    "return": "2026-11-09",
-   "comment": "Harris (calf) is listed as out for Saturday's game against Minnesota.",
-   "date": "2026-10-30T21:44Z"
+   "comment": "Vassell is questionable for Monday's game against the Suns due to left adductor tightness.",
+   "date": "2026-11-09T00:20Z"
   },
   {
    "id": "5101845",
@@ -967,5 +965,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-08T23:59:44.986195+00:00"
+ "_updated": "2026-11-09T00:59:47.603750+00:00"
 }
