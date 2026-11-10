@@ -174,11 +174,11 @@
    "id": "4873153",
    "name": "Morez Johnson Jr.",
    "pos": "F",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Leg",
    "return": "2026-11-12",
    "comment": "Johnson (leg) has been ruled out for Monday's game against the Pacers.",
-   "date": "2026-11-09T23:07Z"
+   "date": "2026-11-10T03:46Z"
   },
   {
    "id": "5279129",
@@ -505,8 +505,8 @@
    "name": "Gary Trent Jr.",
    "pos": "G",
    "status": "Day-To-Day",
-   "type": "Illness",
-   "return": "2026-11-10",
+   "type": null,
+   "return": null,
    "comment": "Trent (illness) won't play in Sunday's game versus the Celtics.",
    "date": "2026-11-09T15:57Z"
   }
@@ -997,5 +997,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-10T03:41:28.704537+00:00"
+ "_updated": "2026-11-10T03:57:01.930412+00:00"
 }
