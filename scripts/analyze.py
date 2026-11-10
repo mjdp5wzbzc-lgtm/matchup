@@ -12,6 +12,7 @@ import datetime as dt
 from collections import defaultdict
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from blowout import BlowoutModel, BLOWOUT
 from common import (RAW, GAMES_DIR, LINES_DIR, SITE_DATA, STATS, LOG_FIELDS, ET,
                     now_et, season_of, season_label, pos_bucket, stat_value,
                     load_json, save_json, norm_name)
@@ -30,6 +31,10 @@ SINGULAR = {"Heat", "Jazz", "Magic", "Thunder"}
 
 def aux(short):
     return f"au {short}" if short in SINGULAR else f"aux {short}"
+
+
+def des(short):
+    return f"du {short}" if short in SINGULAR else f"des {short}"
 
 
 def Les(short):
@@ -417,6 +422,52 @@ def main():
             absent[t].append({"id": pid, "name": inj["name"], "status": inj["status"],
                               "comment": inj.get("comment", "")})
 
+    # ------------------------------------------------------------ risque de blow-out par match
+    BM = BlowoutModel(games)
+    # coéquipiers importants (15+ min/match) absents lors de chaque match passé
+    present_at = {(x["id"], t): x["present"] for t, lst in team_games.items() for x in lst}
+
+    def missing_mates(row, me):
+        pres = present_at.get((row["event"], row["team"]), set())
+        out = [(v, pid) for pid, lo, hi, v in BM.core.get((row["team"], row["season"]), [])
+               if pid != me and lo <= row["date"] <= hi and pid not in pres]
+        out.sort(reverse=True)
+        return [info.get(pid, {}).get("name", "?") for v, pid in out]
+    blow = {}
+    for g in tonight:
+        h, a = g["home"], g["away"]
+        mv = {}
+        for t in (h, a):
+            out_ids = {m["id"] for m in absent.get(t, []) if m["id"]}
+            mv[t] = sum(BM.val.get((pid, t, cur), 0) for pid in out_ids
+                        if any(c[0] == pid for c in BM.core.get((t, cur), [])))
+        pr = BM.predict(h, a, cur, mv[h], mv[a])
+        lvl = BM.level(pr["p"])
+        fav = h if pr["margin"] >= 0 else a
+        reasons = []
+        gap = abs(pr["margin_full"])
+        if gap >= 6:
+            reasons.append(f"Gros écart de niveau : {teams_meta.get(fav, {}).get('short', fav)} "
+                           f"{'+' if pr['r_home' if fav == h else 'r_away'] >= 0 else ''}{pr['r_home' if fav == h else 'r_away']} pts d'écart moyen par match, "
+                           f"contre {pr['r_away' if fav == h else 'r_home']:+} pour l'adversaire.")
+        for t in (h, a):
+            cost = pr["miss_home" if t == h else "miss_away"]
+            if cost >= 1.5:
+                names = [m["name"] for m in absent.get(t, []) if m["id"] and BM.val.get((m["id"], t, cur), 0) > 1]
+                reasons.append(f"Absences {des(teams_meta.get(t, {}).get('short', t))} ({', '.join(names[:3]) or 'plusieurs joueurs'}) : "
+                               f"environ {cost:.1f} pts de moins.")
+        for t in (h, a):
+            if t in played_yday:
+                reasons.append(f"{Les(teams_meta.get(t, {}).get('short', t))} en back-to-back.")
+        k = min(4, int(pr["p"] / 0.1))
+        hist = BM.calib.get(k)
+        blow[g["id"]] = {**pr, "level": lvl, "fav": fav, "reasons": reasons,
+                         "base": round(BM.base_rate, 3),
+                         "hist": [hist[0], hist[1]] if hist else None}
+
+    # minutes de chaque joueur en blow-out (20+ pts) vs matchs serrés, sur 2 saisons
+    final_margin = {g["id"]: abs((g["home"]["score"] or 0) - (g["away"]["score"] or 0)) for g in games}
+
     players_out = []
     relief = defaultdict(list)   # équipe -> qui prend le relais
     n_files = 0
@@ -427,6 +478,7 @@ def main():
         proj_pace = mean([x for x in (op.get("pace"), mp.get("pace")) if x]) or lg_pace
         pace_diff = proj_pace - lg_pace
         mates_out = [m for m in absent.get(team, []) if m["id"]]
+        BO = blow.get(g["id"], {})
         for pid in pids:
             i = info[pid]
             rows = logs[pid]
@@ -453,6 +505,11 @@ def main():
                           and prof.get(r["opp"], {}).get("profile") == opp_profile]
             ww = with_without(pid, team, mates_out, logs, team_games, {cur, cur - 1}, info)
             name_key = norm_name(i["name"])
+            rec = [r for r in played if r["season"] >= cur - 1]
+            bo_rows = [r for r in rec if final_margin.get(r["event"], 0) >= BLOWOUT]
+            cl_rows = [r for r in rec if final_margin.get(r["event"], 0) < 10]
+            bo_min = mean(r["min"] for r in bo_rows) if len(bo_rows) >= 3 else None
+            cl_min = mean(r["min"] for r in cl_rows) if len(cl_rows) >= 3 else None
 
             s_out, factors, style_edge = {}, {}, {}
             for s in STAT_KEYS:
@@ -559,7 +616,18 @@ def main():
                         sty_level = 1
                     if sty_level:
                         sty_info = {"level": sty_level, "profile": opp_profile, "own": own, "grp": grp}
-                # 9. fatigue
+                # 9. risque de blow-out : les titulaires sortent tôt, le banc joue plus
+                if BO.get("level") and bo_min is not None and cl_min is not None and s not in ("blk", "stl"):
+                    d_min = bo_min - cl_min
+                    v_bo, v_cl = avg_stat(bo_rows, s), avg_stat(cl_rows, s)
+                    lab = "élevé" if BO["level"] == 2 else "modéré"
+                    if d_min <= -3 and v_bo is not None and v_cl is not None and v_cl - v_bo >= max(0.8, 0.1 * v_cl):
+                        add(-1, f"Risque de blow-out {lab} ({round(BO['p'] * 100)} %) : dans les matchs pliés, il joue {bo_min:.0f} min contre {cl_min:.0f} "
+                                f"dans les matchs serrés, et tourne à {v_bo:.1f} au lieu de {v_cl:.1f} ({len(bo_rows)} matchs).", "BLOW")
+                    elif d_min >= 3 and v_bo is not None and v_cl is not None and v_bo - v_cl >= max(0.8, 0.1 * v_cl):
+                        add(1, f"Risque de blow-out {lab} ({round(BO['p'] * 100)} %) : dans les matchs pliés, il joue {bo_min:.0f} min contre {cl_min:.0f} "
+                               f"et tourne à {v_bo:.1f} au lieu de {v_cl:.1f} ({len(bo_rows)} matchs).", "BLOW")
+                # 10. fatigue
                 if team in played_yday:
                     add(-1, "Deuxième match en deux soirs pour son équipe (back-to-back).", "B2B")
                 if opp in played_yday:
@@ -577,7 +645,7 @@ def main():
                 continue
             players_out.append({
                 "id": pid, "n": i["name"], "t": team, "o": opp, "h": home, "g": g["id"],
-                "pos": i["pos"], "b": bucket, "sty": style, "st": status,
+                "pos": i["pos"], "b": bucket, "sty": style, "st": status, "bo": BO.get("level", 0),
                 "min": r1(mpg), "gp": len(cur_rows), "s": s_out,
             })
 
@@ -623,12 +691,14 @@ def main():
                 "dvp": {b: dvp.get(opp, {}).get(b, {}) for b in "GFC"},
                 "factors": factors,
                 "style_edge": style_edge,
+                "blowout": {**BO, "min_bo": r1(bo_min), "min_close": r1(cl_min), "n_bo": len(bo_rows), "n_close": len(cl_rows)} if BO else None,
                 "withwo": ww,
                 "same_style_vs_opp": {s: v for s, v in sty_agg.items()},
                 "career": career, "shot": shot,
                 "lines": hist,
                 "cols": LOG_FIELDS,
                 "logs": [[r[f] for f in LOG_FIELDS] for r in played],
+                "abs": [missing_mates(r, pid) for r in played],
             }
             save_json(os.path.join(SITE_DATA, "p", f"{pid}.json"), detail)
             n_files += 1
@@ -653,7 +723,7 @@ def main():
         h, a = g["home"], g["away"]
         ph, pa = prof.get(h, {}).get("pace"), prof.get(a, {}).get("pace")
         games_out.append({**g, "pace": r1(mean([x for x in (ph, pa) if x]) if (ph or pa) else None),
-                          "b2b": [t for t in (h, a) if t in played_yday]})
+                          "b2b": [t for t in (h, a) if t in played_yday], "blow": blow.get(g["id"])})
     teams_out = {}
     for t, m in teams_meta.items():
         teams_out[t] = {"name": m.get("name"), "short": m.get("short"), "color": m.get("color"),
@@ -671,6 +741,8 @@ def main():
         "injuries": injuries_out, "injuries_updated": injuries.get("_updated"),
         "relief": relief, "league_pace": lg_pace,
         "has_book_lines": bool(today_lines),
+        "blowout_model": {"n": BM.n_fit, "base": round(BM.base_rate, 3), "sigma": round(BM.sigma, 1),
+                          "hca": round(BM.hca, 1), "threshold": BLOWOUT},
     }
     save_json(os.path.join(SITE_DATA, "today.json"), today)
     save_json(os.path.join(SITE_DATA, "dvp.json"), {

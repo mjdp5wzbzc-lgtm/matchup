@@ -346,12 +346,14 @@ def main():
         sync_odds()
     except Exception as e:
         print(f"Lignes : erreur {e}")
-    # Partie tennis (indépendante : une panne tennis ne bloque jamais la NBA)
-    try:
-        import tennis
-        tennis.main()
-    except Exception as e:
-        print(f"Tennis : erreur {e}")
+    # Nettoyage de l'ancienne partie tennis (supprimée)
+    import shutil
+    for old in ("tennis", "tennis_styles.json", "tennis_styles_sources.tsv"):
+        path = os.path.join(RAW, old)
+        if os.path.isdir(path):
+            shutil.rmtree(path, ignore_errors=True)
+        elif os.path.exists(path):
+            os.remove(path)
 
 
 if __name__ == "__main__":

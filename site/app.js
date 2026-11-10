@@ -4,11 +4,13 @@
 const $app = document.getElementById("app");
 const STATS = { pts:"Points", reb:"Rebonds", ast:"Passes", tpm:"3 points", pr:"Pts+Reb", pa:"Pts+Pas", ra:"Reb+Pas", pra:"Pts+Reb+Pas", stl:"Interceptions", blk:"Contres" };
 const PARTS = { pts:["pts"], reb:["reb"], ast:["ast"], tpm:["tpm"], pr:["pts","reb"], pa:["pts","ast"], ra:["reb","ast"], pra:["pts","reb","ast"], stl:["stl"], blk:["blk"] };
-const TAGS = { DEF:"Défense", PACE:"Rythme", FORM:"Forme", MIN:"Minutes", ABS:"Absences", H2H:"H2H", VEN:"Dom/Ext", STY:"Style", B2B:"Fatigue", B2BO:"Adv. fatigué" };
+const TAGS = { DEF:"Défense", PACE:"Rythme", FORM:"Forme", MIN:"Minutes", ABS:"Absences", H2H:"H2H", VEN:"Dom/Ext", STY:"Style", B2B:"Fatigue", B2BO:"Adv. fatigué", BLOW:"Blow-out" };
 const BUCKET = { G:"Meneurs / arrières", F:"Ailiers", C:"Pivots" };
 const BUCKET1 = { G:"Arrière", F:"Ailier", C:"Pivot" };
 const IDX = { avg:0, l5:1, l10:2, line:3, book:4, score:5, tags:6, hit:7, n:8, sty:9 };
 const styLv = (p, st) => (p.s[st] && p.s[st][9]) || 0;
+const BOLAB = ["", "Risque modéré", "Risque élevé"];
+const gameById = id => T.games.find(g => g.id === id);
 const STYLAB = ["", "🎯 Style favorable", "🎯 Style très favorable"];
 
 const store = {
@@ -47,11 +49,7 @@ async function getJSON(url){
 /* ------------------------------------------------------------------ routeur */
 async function route(){
   const h = location.hash || "#/";
-  document.querySelectorAll("[data-nav]").forEach(a => a.classList.toggle("on", (h.startsWith("#/dvp") ? "dvp" : h.startsWith("#/tennis") ? "tennis" : "list") === a.dataset.nav));
-  if (h.startsWith("#/tennis")) {
-    try { return await renderTennis(h); }
-    catch (e) { $app.innerHTML = `<div class="empty">Données tennis introuvables pour l'instant.<br><small>Elles arrivent au prochain passage du robot.</small></div>`; console.error(e); return; }
-  }
+  document.querySelectorAll("[data-nav]").forEach(a => a.classList.toggle("on", (h.startsWith("#/dvp") ? "dvp" : "list") === a.dataset.nav));
   try {
     if (!T) T = await getJSON("data/today.json");
     const meta = document.getElementById("meta");
@@ -87,7 +85,7 @@ function renderList(){
   ${statChips()}
   <div class="chips" id="gamechips">
     <button class="chip ${S.game === "all" ? "on" : ""}" data-game="all">Tous les matchs</button>
-    ${T.games.map(g => `<button class="chip game ${S.game === g.id ? "on" : ""}" data-game="${g.id}">${esc(g.away)} @ ${esc(g.home)}<small>${g.state === "pre" ? timeOf(g.start) : esc(g.detail || "")}${g.pace ? " · rythme " + f1(g.pace) : ""}</small></button>`).join("")}
+    ${T.games.map(g => { const b = g.blow || {}; return `<button class="chip game ${S.game === g.id ? "on" : ""} ${b.level ? "bo" + b.level : ""}" data-game="${g.id}">${b.level ? "⚠️ " : ""}${esc(g.away)} @ ${esc(g.home)}<small>${g.state === "pre" ? timeOf(g.start) : esc(g.detail || "")}${b.level ? ` · blow-out ${Math.round(b.p * 100)} %` : g.pace ? " · rythme " + f1(g.pace) : ""}</small></button>`; }).join("")}
   </div>
   <div class="tools">
     <input id="q" type="search" placeholder="Chercher un joueur ou une équipe…" value="${esc(S.q)}">
@@ -97,6 +95,7 @@ function renderList(){
     </select>
     <button class="chip ${S.styOnly ? "on" : ""}" id="styonly">🎯 Style favorable</button>
   </div>
+  <div id="bostrip"></div>
   <div id="stystrip"></div>
   <div class="list" id="list"></div>
   <section class="sec"><h2>Absences et relais</h2><div class="abs" id="abs"></div></section>`;
@@ -134,7 +133,25 @@ function drawStrip(){
     <div class="chips">${ps.slice(0, 15).map(p => { const s = p.s[S.stat], lv = styLv(p, S.stat); return `<a class="stycard lv${lv}" href="#/p/${p.id}"><small>${esc(p.t)} ${p.h ? "vs" : "@"} ${esc(p.o)}</small><b>${esc(p.n)}</b><span class="tag style">${esc(p.sty)}</span><span class="lvl">${lv === 2 ? "Très favorable" : "Favorable"}</span><span class="mini">Moy. ${f1(s[IDX.avg])} · ligne ${userLine(p.id, S.stat, s[IDX.line])}</span></a>`; }).join("")}</div></div>`;
 }
 
+function boCard(g, full){
+  const b = g.blow; if (!b) return "";
+  const fav = team(b.fav), dog = team(b.fav === g.home ? g.away : g.home);
+  const hist = b.hist && b.hist[1] ? ` Sur ${b.hist[1]} matchs passés avec un risque comparable, ${Math.round(100 * b.hist[0] / b.hist[1])} % ont fini à 20 pts d'écart ou plus.` : "";
+  return `<div class="bocard lv${b.level}">
+    <div class="bt">${b.level ? "⚠️ " + BOLAB[b.level] + " de blow-out" : "Risque de blow-out faible"} · ${esc(g.away)} @ ${esc(g.home)} <span>${Math.round(b.p * 100)} %</span></div>
+    <div>Écart projeté : <b>${esc(fav)} de ${f1(Math.abs(b.margin))} pts</b> face ${one(b.fav === g.home ? g.away : g.home) ? "au" : "aux"} ${esc(dog)}. En moyenne, ${Math.round(b.base * 100)} % des matchs NBA finissent à 20 pts d'écart ou plus.${full ? hist : ""}</div>
+    ${b.reasons.length ? `<ul>${b.reasons.map(r => `<li>${esc(r)}</li>`).join("")}</ul>` : ""}
+    ${b.level ? `<div class="note" style="margin:4px 0 0">Dans un match plié, les titulaires sortent souvent tôt : prudence sur leurs stats, le banc peut en profiter.</div>` : ""}
+  </div>`;
+}
+function drawBo(){
+  const el = document.getElementById("bostrip"); if (!el) return;
+  const gs = S.game === "all" ? T.games.filter(g => g.blow && g.blow.level) : T.games.filter(g => g.id === S.game && g.blow);
+  el.innerHTML = gs.map(g => boCard(g, S.game !== "all")).join("");
+}
+
 function drawRows(){
+  drawBo();
   drawStrip();
   const ps = rowsData();
   const el = document.getElementById("list");
@@ -151,7 +168,7 @@ function drawRows(){
       <div class="who">
         <div class="l1">${esc(p.t)} ${p.h ? "vs" : "@"} ${esc(team(p.o))} ${stBadge(p.st)}</div>
         <div class="name">${esc(p.n)}</div>
-        <div class="l3"><span class="tag style">${esc(p.sty)}</span>${lv ? `<span class="sbadge lv${lv}">${STYLAB[lv]}</span>` : ""}<span>${f1(p.min)} min</span>${hitTxt}</div>
+        <div class="l3"><span class="tag style">${esc(p.sty)}</span>${lv ? `<span class="sbadge lv${lv}">${STYLAB[lv]}</span>` : ""}${p.bo ? `<span class="bobadge lv${p.bo}">⚠️ Blow-out</span>` : ""}<span>${f1(p.min)} min</span>${hitTxt}</div>
         ${tags ? `<div class="ctx">${tags}</div>` : ""}
       </div>
       <div class="nums">
@@ -197,7 +214,7 @@ async function renderPlayer(id){
   if (!p) { $app.innerHTML = `<div class="empty">Ce joueur ne joue pas ce soir. <a href="#/" style="color:var(--acc2)">Retour à la liste</a></div>`; return; }
   $app.innerHTML = `<div class="loading">Chargement de la fiche…</div>`;
   let D = cache[id];
-  if (!D) { D = cache[id] = await getJSON(`data/p/${id}.json`); D.rows = D.logs.map(a => Object.fromEntries(D.cols.map((c, i) => [c, a[i]]))); D.rows.reverse(); }
+  if (!D) { D = cache[id] = await getJSON(`data/p/${id}.json`); D.rows = D.logs.map((a, k) => ({ ...Object.fromEntries(D.cols.map((c, i) => [c, a[i]])), abs: (D.abs && D.abs[k]) || [] })); D.rows.reverse(); }
   if (!p.s[S.stat]) S.stat = "pts";
   const draw = () => {
     const s = p.s[S.stat];
@@ -207,7 +224,7 @@ async function renderPlayer(id){
     <div class="ph">
       <div class="l1">${esc(team(D.team))} ${D.home ? "vs" : "@"} ${esc(team(D.opp))} · ${BUCKET1[D.bucket]} (${esc(D.pos)}) ${stBadge(D.status)}</div>
       <h1>${esc(D.name)}</h1>
-      <span class="tag style">${esc(D.style)}</span>${styLv(p, S.stat) ? ` <span class="sbadge lv${styLv(p, S.stat)}">${STYLAB[styLv(p, S.stat)]}</span>` : ""}
+      <span class="tag style">${esc(D.style)}</span>${D.blowout && D.blowout.level ? ` <span class="bobadge lv${D.blowout.level}">⚠️ Blow-out ${Math.round(D.blowout.p * 100)} %</span>` : ""}${styLv(p, S.stat) ? ` <span class="sbadge lv${styLv(p, S.stat)}">${STYLAB[styLv(p, S.stat)]}</span>` : ""}
       ${D.injury && D.injury.comment ? `<div class="note">${esc(D.injury.comment)}</div>` : ""}
       <div class="stats">
         <div><small>Moyenne</small><div class="big">${f1(s[IDX.avg])}</div></div>
@@ -245,12 +262,18 @@ function hits(D, rows, s, line){ let o = 0; for (const r of rows) { const [l] = 
 function box(title, o, n, sub){ const p = pct(o, n); return `<div class="box"><small>${title}</small><div class="big ${hitCls(p)}">${p == null ? "–" : p + "%"}</div><div class="s">${n ? `${o} / ${n}${sub ? " · " + sub : ""}` : "aucun match"}</div></div>`; }
 const seasonOf = r => r.season;
 
+function boBox(D){
+  const B = D.blowout; if (!B || !B.level) return "";
+  const g = gameById(p_g(D)); 
+  return `${g ? boCard(g, true) : ""}${B.min_bo != null && B.min_close != null ? `<div class="grid2" style="margin-bottom:12px"><div class="box"><small>Ses minutes · matchs serrés</small><div class="big">${f1(B.min_close)}</div><div class="s">écart final &lt; 10 pts · ${B.n_close} matchs</div></div><div class="box"><small>Ses minutes · blow-outs</small><div class="big ${B.min_bo < B.min_close - 2 ? "bad" : B.min_bo > B.min_close + 2 ? "good" : ""}">${f1(B.min_bo)}</div><div class="s">écart final ≥ 20 pts · ${B.n_bo} matchs</div></div></div>` : ""}`;
+}
+const p_g = D => (T.players.find(x => x.id === String(D.id)) || {}).g;
 function tFac(D, p, s, line){
   const F = (D.factors[s] || []);
   const last10 = D.rows.slice(0, 10), [o, n] = hits(D, last10, s, line);
   const sc = F.reduce((a, f) => a + f[0], 0);
   const plus = F.filter(f => f[0] > 0).length, minus = F.filter(f => f[0] < 0).length;
-  return `<div class="clair"><b>💡 EN CLAIR</b>${esc(D.name)} a dépassé ${line} ${STATS[s].toLowerCase()} ${o} fois sur ses ${n} derniers matchs. Ce soir : ${plus} facteur${plus > 1 ? "s" : ""} favorable${plus > 1 ? "s" : ""}, ${minus} défavorable${minus > 1 ? "s" : ""} (bilan ${sc > 0 ? "+" : ""}${sc}).</div>
+  return `${boBox(D)}<div class="clair"><b>💡 EN CLAIR</b>${esc(D.name)} a dépassé ${line} ${STATS[s].toLowerCase()} ${o} fois sur ses ${n} derniers matchs. Ce soir : ${plus} facteur${plus > 1 ? "s" : ""} favorable${plus > 1 ? "s" : ""}, ${minus} défavorable${minus > 1 ? "s" : ""} (bilan ${sc > 0 ? "+" : ""}${sc}).</div>
   <div class="card">${F.length ? F.map(f => `<div class="fac ${f[0] > 0 ? "p" : "m"}"><span class="ic">${f[0] > 0 ? "▲" : "▼"}</span><div>${esc(f[1])}</div></div>`).join("") : `<div class="note">Rien de marquant ce soir : contexte neutre par rapport à sa moyenne.</div>`}</div>
   <p class="note">Les facteurs comparent le contexte du soir à sa moyenne de saison. Ce n'est pas une prédiction.</p>`;
 }
@@ -266,7 +289,8 @@ function barChart(D, rows, s, line, valueFn = val, lineFn = null){
     const v = valueFn(r, s), l = lineFn ? lineFn(r) : line, over = v > l;
     const x = pad + i * bw + bw * 0.15, w = bw * 0.7;
     g += `<rect x="${x}" y="${y(v)}" width="${w}" height="${Math.max(1, H - 22 - y(v))}" rx="3" fill="${over ? "var(--up)" : "var(--dn)"}" opacity=".85"/>`;
-    g += `<text x="${x + w / 2}" y="${y(v) - 4}" text-anchor="middle" font-size="11" fill="var(--tx)">${Math.round(v * 10) / 10}</text>`;
+    const star = valueFn === val && r.abs && r.abs.length;
+    g += `<text x="${x + w / 2}" y="${y(v) - 4}" text-anchor="middle" font-size="11" fill="var(--tx)">${Math.round(v * 10) / 10}${star ? `<tspan fill="var(--acc)" font-weight="700" font-size="15">*</tspan>` : ""}</text>`;
     g += `<text x="${x + w / 2}" y="${H - 6}" text-anchor="middle" font-size="9" fill="var(--tx3)">${esc(r.opp)}</text>`;
   });
   const ly = y(line);
@@ -276,8 +300,19 @@ function barChart(D, rows, s, line, valueFn = val, lineFn = null){
 
 function gameTable(D, rows, s, line, extra = true){
   return `<div class="tw"><table><thead><tr><th>Date</th><th>Adv.</th><th>Min</th><th>${STATS[s]}</th><th>Ligne</th>${extra ? "<th>Tirs</th>" : ""}</tr></thead><tbody>
-  ${rows.map(r => { const v = val(r, s), [l, arch] = lineFor(D, r, s, line); return `<tr><td>${r.date.slice(5).split("-").reverse().join("/")}${r.season !== D.rows[0].season ? ` <small style="color:var(--tx3)">${r.date.slice(0, 4)}</small>` : ""}</td><td>${r.home ? "vs" : "@"} ${esc(r.opp)}</td><td>${Math.round(r.min)}</td><td class="${v > l ? "o" : "u"}"><span class="dot ${v > l ? "o" : "u"}"></span>${v}</td><td>${l}${arch ? ' <span class="arch">●</span>' : ""}</td>${extra ? `<td>${r.fgm}/${r.fga} · ${r.tpm}/${r.tpa}</td>` : ""}</tr>`; }).join("")}
+  ${rows.map(r => { const v = val(r, s), [l, arch] = lineFor(D, r, s, line); return `<tr><td>${r.date.slice(5).split("-").reverse().join("/")}${r.season !== D.rows[0].season ? ` <small style="color:var(--tx3)">${r.date.slice(0, 4)}</small>` : ""}</td><td>${r.home ? "vs" : "@"} ${esc(r.opp)}</td><td>${Math.round(r.min)}</td><td class="${v > l ? "o" : "u"}"><span class="dot ${v > l ? "o" : "u"}"></span>${v}${r.abs && r.abs.length ? `<span class="star" title="Sans ${esc(r.abs.join(", "))}">*</span>` : ""}</td><td>${l}${arch ? ' <span class="arch">●</span>' : ""}</td>${extra ? `<td>${r.fgm}/${r.fga} · ${r.tpm}/${r.tpa}</td>` : ""}</tr>`; }).join("")}
   </tbody></table></div>`;
+}
+
+function absLegend(D, rows, s){
+  const st = rows.filter(r => r.abs && r.abs.length);
+  if (!st.length) return `<p class="note">Aucun coéquipier important absent sur ces matchs.</p>`;
+  const cur = D.rows.filter(r => r.season === D.rows[0].season);
+  const wi = cur.filter(r => r.abs.length), wo = cur.filter(r => !r.abs.length);
+  const av = xs => xs.length ? xs.reduce((a, r) => a + val(r, s), 0) / xs.length : null;
+  return `<div class="abslg"><div class="lg"><span class="star">*</span> = au moins un coéquipier important (15+ min/match) absent ce soir-là</div>
+    ${wi.length && wo.length ? `<div class="grid2" style="margin:8px 0"><div class="box"><small>Effectif complet</small><div class="big">${f1(av(wo))}</div><div class="s">${wo.length} matchs cette saison</div></div><div class="box"><small>Avec absences <span class="star">*</span></small><div class="big">${f1(av(wi))}</div><div class="s">${wi.length} matchs cette saison</div></div></div>` : ""}
+    ${st.map(r => `<div class="absrow"><b>${r.date.slice(5).split("-").reverse().join("/")}${r.season !== D.rows[0].season ? "/" + r.date.slice(2, 4) : ""} ${r.home ? "vs" : "@"} ${esc(r.opp)}</b> · ${val(r, s)} ${STATS[s].toLowerCase()} · sans ${esc(r.abs.slice(0, 3).join(", "))}${r.abs.length > 3 ? ` +${r.abs.length - 3}` : ""}</div>`).join("")}</div>`;
 }
 
 function tForm(D, p, s, line){
@@ -285,7 +320,7 @@ function tForm(D, p, s, line){
   const cur = D.rows.filter(r => r.season === D.rows[0].season);
   const [a, b] = hits(D, r5, s, line), [c, d] = hits(D, r10, s, line), [e, f] = hits(D, cur, s, line);
   return `<div class="grid3">${box("5 derniers", a, b)}${box("10 derniers", c, d)}${box("Saison", e, f)}</div>
-  <h3>15 derniers matchs (ligne en pointillés)</h3><div class="card">${barChart(D, D.rows.slice(0, 15), s, line)}</div>
+  <h3>15 derniers matchs (ligne en pointillés)</h3><div class="card">${barChart(D, D.rows.slice(0, 15), s, line)}${absLegend(D, D.rows.slice(0, 15), s)}</div>
   <h3>Détail des matchs</h3><div class="card">${gameTable(D, r20, s, line)}</div>`;
 }
 
@@ -396,115 +431,6 @@ async function renderDvp(){
     document.querySelector(".dvp thead").onclick = e => { const th = e.target.closest("[data-s]"); if (th) { S.dvpStat = th.dataset.s; draw(); } };
   };
   draw();
-}
-
-/* ================================================================== TENNIS */
-let TN = null;
-const SURF = { hard:"Dur", clay:"Terre battue", grass:"Gazon" };
-const TS = { tour:"all", value:false, sort:"time", tab:"res" };
-const pctS = x => x == null ? "–" : Math.round(x * 100) + "%";
-const odd = x => x ? x.toFixed(2) : "–";
-const VAL = { Strong:"Strong", Moderate:"Moderate", Slight:"Slight" };
-
-async function renderTennis(h){
-  if (!TN) TN = await getJSON("data/tennis.json");
-  document.getElementById("meta").textContent = `Tennis mis à jour le ${new Date(TN.generated).toLocaleString("fr-FR")} · ${TN.n_hist} matchs en base`;
-  if (h.startsWith("#/tennis/m/")) return renderTennisMatch(h.slice(11));
-  const draw = () => {
-    let ms = TN.matches.filter(m => (TS.tour === "all" || m.tour === TS.tour) && (!TS.value || m.value));
-    if (TS.sort === "value") ms = ms.slice().sort((a, b) => ((b.value || {}).gap || 0) - ((a.value || {}).gap || 0));
-    const nV = TN.matches.filter(m => m.value).length;
-    $app.innerHTML = `<div class="hero"><div><h1>Tennis du jour</h1><div class="sub">ATP et WTA · probabilités Elo par surface, styles de jeu, face à face${TN.has_odds ? "" : " · pas de clé cotes : value signals désactivés"}</div></div>
-      <div class="kpis"><div class="kpi"><div class="big">${TN.matches.length}</div><small>Matchs</small></div><div class="kpi"><div class="big" style="color:var(--acc)">${nV}</div><small>Value</small></div></div></div>
-      <div class="chips" id="ttour">${[["all","Tous"],["atp","ATP"],["wta","WTA"]].map(([k, v]) => `<button class="chip ${TS.tour === k ? "on" : ""}" data-t="${k}">${v}</button>`).join("")}
-        <button class="chip ${TS.value ? "on" : ""}" id="tval">💎 Value seulement</button>
-        <button class="chip ${TS.sort === "value" ? "on" : ""}" id="tsort">Trier par value</button></div>
-      <div class="list">${ms.map(tCard).join("") || `<div class="empty">Aucun match.</div>`}</div>
-      <p class="note">Les value signals comparent la cote à une probabilité mélangeant notre modèle et le marché, par prudence. Analyse statistique, pas un pronostic.</p>`;
-    document.getElementById("ttour").onclick = e => { const b = e.target.closest("[data-t]"); if (b) { TS.tour = b.dataset.t; draw(); } };
-    document.getElementById("tval").onclick = () => { TS.value = !TS.value; draw(); };
-    document.getElementById("tsort").onclick = () => { TS.sort = TS.sort === "value" ? "time" : "value"; draw(); };
-  };
-  draw();
-}
-
-function pRow(P, p, o, isVal){
-  return `<div class="tp"><div class="tn"><b>${esc(P.name)}</b>${P.rank ? ` <small>#${P.rank}</small>` : ""}${P.style ? ` <span class="tag style">${esc(TN.styles[P.style])}</span>` : ""}</div>
-    <div class="tnum"><span class="big">${pctS(p)}</span>${o ? `<span class="todd ${isVal ? "v" : ""}">${odd(o)}</span>` : ""}</div></div>`;
-}
-function tCard(m){
-  const v = m.value;
-  const t = m.state === "pre" ? timeOf(m.date + "Z") : esc(m.detail || "");
-  return `<a class="row tcard ${v ? "styhot lv" + (v.level === "Strong" ? 2 : 1) : ""}" href="#/tennis/m/${m.id}">
-    <div class="tl1"><span class="st q">${m.tour.toUpperCase()}</span> ${esc(m.event)} · ${esc(m.round)} · ${SURF[m.surface]} · ${t}
-      ${v ? `<span class="sbadge lv${v.level === "Strong" ? 2 : 1}">💎 ${v.level} +${Math.round(v.gap * 100)}%</span>` : ""}</div>
-    ${pRow(m.A, m.p, m.odds[0], v && v.side === 0)}${pRow(m.B, 1 - m.p, m.odds[1], v && v.side === 1)}
-    <div class="pbar"><i style="width:${Math.round(m.p * 100)}%"></i></div>
-    ${m.h2h.length ? `<div class="note" style="margin-top:4px">H2H ${m.h2h.filter(x => x.w).length}-${m.h2h.filter(x => !x.w).length}</div>` : ""}
-  </a>`;
-}
-
-function renderTennisMatch(id){
-  const m = TN.matches.find(x => x.id === id);
-  if (!m) { $app.innerHTML = `<div class="empty">Match introuvable. <a href="#/tennis" style="color:var(--acc2)">Retour</a></div>`; return; }
-  const TABS = [["res","⭐ Résumé"],["sty","🎯 Styles"],["h2h","🆚 H2H"],["form","📈 Forme"],["fat","🔋 Fatigue"],["odds","💶 Cotes"]];
-  const draw = () => {
-    $app.innerHTML = `<a class="back" href="#/tennis">← Tennis du jour</a>
-    <div class="ph"><div class="l1">${m.tour.toUpperCase()} · ${esc(m.event)} · ${esc(m.round)} · ${SURF[m.surface]}</div>
-      <h1 style="font-size:26px">${esc(m.A.name)} <span style="color:var(--tx3)">vs</span> ${esc(m.B.name)}</h1>
-      <div class="stats"><div><small>${esc(m.A.name.split(" ").slice(-1)[0])}</small><div class="big">${pctS(m.p)}</div></div>
-      <div><small>${esc(m.B.name.split(" ").slice(-1)[0])}</small><div class="big">${pctS(1 - m.p)}</div></div>
-      ${m.value ? `<div><small>Value</small><div class="big" style="color:var(--acc2)">${m.value.level}</div></div>` : ""}</div>
-      <div class="pbar" style="margin-top:12px"><i style="width:${Math.round(m.p * 100)}%"></i></div></div>
-    <div class="tabs">${TABS.map(([k, v]) => `<button class="tab ${k === TS.tab ? "on" : ""}" data-tab="${k}">${v}</button>`).join("")}</div>
-    <div id="tab">${({ res:tRes, sty:tSt, h2h:tH, form:tF, fat:tFa, odds:tO }[TS.tab] || tRes)(m)}</div>`;
-    document.querySelector(".tabs").onclick = e => { const b = e.target.closest("[data-tab]"); if (b) { TS.tab = b.dataset.tab; draw(); } };
-  };
-  draw();
-}
-function who(m, sgn){ return sgn > 0 ? m.A.name : sgn < 0 ? m.B.name : null; }
-function tRes(m){
-  const fav = m.p >= 0.5 ? m.A : m.B, pf = Math.max(m.p, 1 - m.p);
-  return `<div class="clair"><b>💡 EN CLAIR</b>${esc(fav.name)} est favori${m.tour === "wta" ? "te" : ""} du modèle à ${pctS(pf)}${m.p_mkt ? `, le marché le donne à ${pctS(m.p >= 0.5 ? m.p_mkt : 1 - m.p_mkt)}` : ""}.${m.value ? ` Value « ${m.value.level} » sur ${esc((m.value.side ? m.B : m.A).name)} : cote ${odd(m.value.odds)} contre une cote juste estimée à ${odd(m.value.fair)} (écart +${Math.round(m.value.gap * 100)} %).` : ""}</div>
-  <div class="card">${m.fac.map(f => `<div class="fac ${f[0] ? (f[0] > 0 ? "p" : "m") : ""}"><span class="ic" style="${f[0] ? "" : "background:var(--card2);color:var(--tx3)"}">${f[0] ? "●" : "i"}</span><div>${f[0] ? `<small style="color:var(--tx3)">Avantage ${esc(who(m, f[0]))}</small><br>` : ""}${esc(f[1])}</div></div>`).join("")}</div>
-  <h3>D'où vient la probabilité</h3><div class="grid3">
-    <div class="box"><small>Elo global</small><div class="big">${pctS(m.p_all)}</div><div class="s">${m.A.elo} / ${m.B.elo}</div></div>
-    <div class="box"><small>Elo ${SURF[m.surface].toLowerCase()}</small><div class="big">${pctS(m.p_surf)}</div><div class="s">${m.A.selo} / ${m.B.selo}</div></div>
-    <div class="box"><small>Modèle final</small><div class="big">${pctS(m.p)}</div><div class="s">+ styles et fatigue</div></div></div>
-  <p class="note">Probabilités pour ${esc(m.A.name)}. Fiabilité : ${m.conf} matchs mini dans l'historique pour l'un des deux${m.conf < 15 ? " (faible)" : ""}.</p>`;
-}
-function tSt(m){
-  const a = m.arche;
-  const card = P => `<div class="box"><small>${esc(P.name)}</small><div class="big" style="font-size:20px">${P.style ? esc(TN.styles[P.style]) : "Style inconnu"}</div><div class="s">${esc(P.style_note || "Pas assez d'informations fiables sur ce joueur.")}${P.style_src ? ` · <a href="${esc(P.style_src)}" target="_blank" rel="noopener" style="color:var(--acc2)">source</a>` : ""}</div></div>`;
-  const rec = (P, O) => O.style ? `<div class="grid2">${box(`${esc(P.name)} vs « ${esc(TN.styles[O.style])} »`, P.vs_style[0], P.vs_style[1], "toutes surfaces")}${box(`Sur ${SURF[m.surface].toLowerCase()}`, P.vs_style_s[0], P.vs_style_s[1])}</div>` : "";
-  return `${a ? `<div class="stybox ${((a.surf[1] >= 30 ? a.surf : a.all)[0] / Math.max(1, (a.surf[1] >= 30 ? a.surf : a.all)[1])) >= .55 || ((a.surf[1] >= 30 ? a.surf : a.all)[0] / Math.max(1, (a.surf[1] >= 30 ? a.surf : a.all)[1])) <= .45 ? "lv2" : ""}"><div class="t">Insight d'archétype</div>
-     <div>Les « ${esc(TN.styles[m.A.style])} » contre les « ${esc(TN.styles[m.B.style])} » : <b>${a.surf[1] ? Math.round(100 * a.surf[0] / a.surf[1]) + " %" : "–"}</b> de victoires sur ${SURF[m.surface].toLowerCase()} (${a.surf[1]} matchs), ${a.all[1] ? Math.round(100 * a.all[0] / a.all[1]) : "–"} % toutes surfaces (${a.all[1]} matchs).</div></div>` : `<div class="clair"><b>💡 EN CLAIR</b>${!m.A.style || !m.B.style ? "Le style d'au moins un des deux joueurs n'est pas connu." : "Les deux joueurs ont le même style : pas d'avantage d'archétype."}</div>`}
-  <div class="grid2">${card(m.A)}${card(m.B)}</div>
-  ${rec(m.A, m.B) ? `<h3>Bilan face à ce style</h3>${rec(m.A, m.B)}${rec(m.B, m.A)}` : ""}`;
-}
-function tH(m){
-  if (!m.h2h.length) return `<div class="card note">Jamais affrontés dans notre historique (depuis 2024, circuit principal).</div>`;
-  const wa = m.h2h.filter(x => x.w).length;
-  return `<div class="grid2">${box(`Victoires ${esc(m.A.name)}`, wa, m.h2h.length)}${box(`Sur ${SURF[m.surface].toLowerCase()}`, m.h2h.filter(x => x.w && x.s === m.surface).length, m.h2h.filter(x => x.s === m.surface).length)}</div>
-  <div class="card" style="margin-top:8px"><div class="tw"><table><thead><tr><th>Date</th><th>Tournoi</th><th>Surface</th><th>Vainqueur</th><th>Score</th></tr></thead><tbody>
-  ${m.h2h.map(x => `<tr><td>${x.d.split("-").reverse().join("/")}</td><td>${esc(x.ev)} <small style="color:var(--tx3)">${esc(x.r)}</small></td><td>${SURF[x.s]}</td><td class="${x.w ? "o" : "u"}">${esc(x.w ? m.A.name : m.B.name)}</td><td>${esc(x.sc)}</td></tr>`).join("")}</tbody></table></div></div>`;
-}
-function tF(m){
-  const blk = P => `<h3>${esc(P.name)} · ${P.form.split("").map(c => `<span class="dot ${c === "V" ? "o" : "u"}"></span>`).join("")}</h3>
-  <div class="grid2">${box("12 derniers mois", P.yr[0], P.yr[1])}${box(`Sur ${SURF[m.surface].toLowerCase()}`, P.yr_s[0], P.yr_s[1])}</div>
-  <div class="card" style="margin-top:8px"><div class="tw"><table><thead><tr><th>Date</th><th>Adversaire</th><th>Surface</th><th>Résultat</th><th>Score</th></tr></thead><tbody>
-  ${P.last.map(x => `<tr><td>${x.d.slice(5).split("-").reverse().join("/")}</td><td>${esc(x.o)}</td><td>${SURF[x.s]}</td><td class="${x.w ? "o" : "u"}">${x.w ? "V" : "D"}${x.ret ? " (ab.)" : ""}</td><td>${esc(x.sc)}</td></tr>`).join("")}</tbody></table></div></div>`;
-  return blk(m.A) + blk(m.B);
-}
-function tFa(m){
-  const f = P => `<div class="box"><small>${esc(P.name)}</small><div class="big">${P.d7}</div><div class="s">matchs sur 7 jours · ${P.d7_sets} sets · ${P.d3} sur 3 jours</div></div>`;
-  return `<div class="clair"><b>💡 EN CLAIR</b>Plus un joueur a enchaîné les matchs et les sets récemment, plus le modèle le pénalise légèrement.</div><div class="grid2">${f(m.A)}${f(m.B)}</div>`;
-}
-function tO(m){
-  if (!m.odds[0]) return `<div class="card note">${TN.has_odds ? "Pas de cote trouvée pour ce match (souvent le cas hors ATP/WTA principal)." : "Ajoute ta clé The Odds API (secret ODDS_API_KEY) pour voir les cotes et les value signals."}</div>`;
-  const r = (P, o, p) => `<tr><td>${esc(P.name)}</td><td>${odd(o)}</td><td>${pctS(1 / o)}</td><td>${pctS(p)}</td><td>${odd(1 / p)}</td><td class="${p * o - 1 > 0 ? "o" : "u"}">${(p * o - 1 >= 0 ? "+" : "") + Math.round((p * o - 1) * 100)} %</td></tr>`;
-  return `<div class="card"><div class="tw"><table><thead><tr><th>Joueur</th><th>Meilleure cote</th><th>Proba implicite</th><th>Proba modèle</th><th>Cote juste</th><th>Écart</th></tr></thead><tbody>${r(m.A, m.odds[0], m.p)}${r(m.B, m.odds[1], 1 - m.p)}</tbody></table></div>
-  <p class="note">Seuils : Slight dès +8 %, Moderate dès +15 %, Strong dès +25 %, calculés sur une probabilité mélangeant modèle et marché pour limiter les faux signaux. Un écart positif n'est jamais une garantie.</p></div>`;
 }
 
 route();

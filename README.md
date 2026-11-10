@@ -107,17 +107,10 @@ cd site && python -m http.server 8000      # puis http://localhost:8000
 - Analyse statistique, **pas un pronostic**. 18+ · Jouer comporte des risques :
   Joueurs Info Service 09 74 75 13 13.
 
----
 
-## Tennis (onglet « Tennis »)
-
-Programme du jour ATP et WTA, avec pour chaque match :
-- **Probabilité de victoire** : Elo global + Elo par surface (dur, terre, gazon), ajustée par l'archétype et la fatigue.
-- **Styles de jeu** : 8 archétypes (gros serveur, serveur-cogneur, attaquant de fond de court, frappeur à plat,
-  contre-attaquant, terrien lifteur, joueur complet, créatif) attribués à 272 des 300 meilleurs joueurs et joueuses
-  (`data/tennis_styles.json`, sources dans `data/tennis_styles_sources.tsv`). Liste à rafraîchir tous les 2-3 mois.
-- **Insight d'archétype** : bilan d'un style contre l'autre, calculé sur tout l'historique.
-- **Face à face, forme, fatigue**, et **value signals** (Slight ≥ 8 %, Moderate ≥ 15 %, Strong ≥ 25 %) si la clé
-  The Odds API est configurée. Les cotes tennis sont relevées une fois par jour pour préserver le quota gratuit.
-
-Limites : pas de Challengers ni de vitesse des courts (données payantes) ; historique depuis janvier 2024.
+### Risque de blow-out
+Chaque match reçoit une probabilité de finir avec 20 points d'écart ou plus. Elle combine l'écart de niveau
+(écart moyen de points de chaque équipe sur la saison), l'avantage du terrain, les absences (production des joueurs
+OUT au-delà d'un remplaçant) et le back-to-back. Les poids sont recalés automatiquement sur l'historique à chaque
+mise à jour. Au-delà de ~30 % : « Risque modéré », au-delà de ~41 % : « Risque élevé ». Sur les fiches, un facteur
+« Blow-out » compare les minutes du joueur dans les matchs pliés et dans les matchs serrés.
