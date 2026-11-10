@@ -213,66 +213,6 @@
  ],
  "DEN": [
   {
-   "id": "3138196",
-   "name": "Cameron Johnson",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Ankle",
-   "return": "2026-11-09",
-   "comment": "Johnson (ankle) is probable for Monday against Houston.",
-   "date": "2026-11-09T19:23Z"
-  },
-  {
-   "id": "4431767",
-   "name": "Christian Braun",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Calf",
-   "return": "2026-11-09",
-   "comment": "Braun (left calf contusion/illness) is probable for Monday's matchup against the Rockets.",
-   "date": "2026-11-09T19:23Z"
-  },
-  {
-   "id": "3064290",
-   "name": "Aaron Gordon",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Lower Body",
-   "return": "2026-11-09",
-   "comment": "Gordon (left calf injury management) is probable for Monday's game against Houston.",
-   "date": "2026-11-09T19:21Z"
-  },
-  {
-   "id": "3112335",
-   "name": "Nikola Jokic",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Elbow",
-   "return": "2026-11-09",
-   "comment": "Jokic (right elbow sprain) is probable for Monday's game against the Rockets.",
-   "date": "2026-11-09T19:21Z"
-  },
-  {
-   "id": "3978",
-   "name": "DeMar DeRozan",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Back",
-   "return": "2026-11-09",
-   "comment": "DeRozan (back) is probable for Monday against Houston.",
-   "date": "2026-11-09T19:20Z"
-  },
-  {
-   "id": "3936299",
-   "name": "Jamal Murray",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Lower Leg",
-   "return": "2026-11-09",
-   "comment": "Murray (leg) is probable for Monday against Houston.",
-   "date": "2026-11-09T19:18Z"
-  },
-  {
    "id": "4432181",
    "name": "Julian Strawther",
    "pos": "G",
@@ -654,9 +594,9 @@
    "pos": "F",
    "status": "Out",
    "type": "Back",
-   "return": "2026-11-10",
-   "comment": "Williams (back) has been ruled out for Saturday's game against the Wizards, Brandon Rahbar of DailyThunder.com reports.",
-   "date": "2026-11-07T19:10Z"
+   "return": "2026-11-11",
+   "comment": "Williams (back) has been ruled out for Tuesday's game against the Trail Blazers.",
+   "date": "2026-11-10T00:53Z"
   },
   {
    "id": "5061603",
@@ -807,16 +747,6 @@
  ],
  "POR": [
   {
-   "id": "4066211",
-   "name": "Robert Williams III",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Rest",
-   "return": "2026-11-10",
-   "comment": "Williams (rest) won't play in Saturday's game against the Spurs.",
-   "date": "2026-11-08T16:27Z"
-  },
-  {
    "id": "4279888",
    "name": "Ja Morant",
    "pos": "G",
@@ -849,14 +779,24 @@
  ],
  "SAC": [
   {
+   "id": "4898371",
+   "name": "Maxime Raynaud",
+   "pos": "C",
+   "status": "Out",
+   "type": "Knee",
+   "return": "2026-11-15",
+   "comment": "Raynaud (knee) has been ruled out for Tuesday's game against Orlando.",
+   "date": "2026-11-10T00:37Z"
+  },
+  {
    "id": "4594327",
    "name": "Keegan Murray",
    "pos": "F",
    "status": "Day-To-Day",
    "type": "Wrist",
    "return": "2026-11-10",
-   "comment": "Murray contributed 10 points (3-10 FG, 0-3 3Pt, 4-4 FT), one rebound, two assists, one block and two steals in 23 minutes off the bench during Sunday's 114-108 loss to the Heat.",
-   "date": "2026-11-10T00:34Z"
+   "comment": "Murray is questionable for Tuesday's game against the Magic due to right wrist soreness.",
+   "date": "2026-11-10T00:36Z"
   },
   {
    "id": "3155942",
@@ -865,18 +805,8 @@
    "status": "Day-To-Day",
    "type": "Knee",
    "return": "2026-11-10",
-   "comment": "Sabonis (knee) is out for Sunday's game against the Heat.",
-   "date": "2026-11-09T16:00Z"
-  },
-  {
-   "id": "4898371",
-   "name": "Maxime Raynaud",
-   "pos": "C",
-   "status": "Out",
-   "type": "Knee",
-   "return": "2026-11-10",
-   "comment": "Raynaud (knee) is progressing in his rehabilitation and will be re-evaluated in approximately two weeks, Brenden Nunes of KHTK Sactown Sports 1140 reports.",
-   "date": "2026-10-26T22:07Z"
+   "comment": "Sabonis (knee) is questionable to play Tuesday's game against the Magic.",
+   "date": "2026-11-10T00:35Z"
   },
   {
    "id": "3907387",
@@ -1067,5 +997,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-10T00:41:18.239273+00:00"
+ "_updated": "2026-11-10T01:08:55.569909+00:00"
 }
