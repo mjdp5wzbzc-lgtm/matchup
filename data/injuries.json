@@ -250,11 +250,21 @@
    "id": "3134903",
    "name": "Gary Payton II",
    "pos": "G",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Knee",
    "return": "2026-11-11",
    "comment": "Payton (knee) has been ruled out for Monday's game against the Pelicans.",
-   "date": "2026-11-10T01:50Z"
+   "date": "2026-11-10T05:26Z"
+  },
+  {
+   "id": "4397040",
+   "name": "Brandon Williams",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Hamstring",
+   "return": "2026-11-11",
+   "comment": "Williams has been ruled out for the remainder of Monday's game against the Pelicans due to a left hamstring injury, Danny Emerman of SFStandard.com reports. He'll finish with four points (2-3 FG) in two minutes.",
+   "date": "2026-11-10T04:41Z"
   },
   {
    "id": "4897262",
@@ -299,6 +309,16 @@
  ],
  "HOU": [
   {
+   "id": "4432827",
+   "name": "Oscar Tshiebwe",
+   "pos": "C",
+   "status": "Day-To-Day",
+   "type": "Illness",
+   "return": "2026-11-11",
+   "comment": "Tshiebwe has been ruled out for Monday's game against the Nuggets due to an illness.",
+   "date": "2026-11-10T03:59Z"
+  },
+  {
    "id": "3102529",
    "name": "Clint Capela",
    "pos": "C",
@@ -317,16 +337,6 @@
    "return": "2026-11-15",
    "comment": "Head coach Ime Udoka said Monday that Adams could return as soon as Sunday's game at Washington, Lachard Binkley of SI.com reports.",
    "date": "2026-11-09T23:55Z"
-  },
-  {
-   "id": "4432827",
-   "name": "Oscar Tshiebwe",
-   "pos": "C",
-   "status": "Out",
-   "type": "Illness",
-   "return": "2026-11-11",
-   "comment": "Tshiebwe has been ruled out for Monday's game against the Nuggets due to an illness.",
-   "date": "2026-11-09T17:36Z"
   }
  ],
  "IND": [
@@ -499,16 +509,6 @@
    "return": "2026-11-10",
    "comment": "Herro (contusion) is listed as questionable for Tuesday's game against the Knicks.",
    "date": "2026-11-09T22:21Z"
-  },
-  {
-   "id": "4277843",
-   "name": "Gary Trent Jr.",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": null,
-   "return": null,
-   "comment": "Trent (illness) won't play in Sunday's game versus the Celtics.",
-   "date": "2026-11-09T15:57Z"
   }
  ],
  "MIN": [
@@ -535,34 +535,34 @@
  ],
  "NO": [
   {
-   "id": "4395628",
-   "name": "Zion Williamson",
-   "pos": "F",
-   "status": "Out",
-   "type": "Rest",
-   "return": "2026-11-11",
-   "comment": "Williamson (rest) is out for Monday's game against the Warriors.",
-   "date": "2026-11-09T21:49Z"
-  },
-  {
    "id": "4431675",
    "name": "Trendon Watford",
    "pos": "F",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Ankle",
    "return": "2026-11-11",
    "comment": "Watford (ankle) is out for Monday's game versus Utah.",
-   "date": "2026-11-09T20:50Z"
+   "date": "2026-11-10T05:28Z"
   },
   {
    "id": "4397688",
    "name": "Trey Murphy III",
    "pos": "F",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Knee",
    "return": "2026-11-11",
    "comment": "Murphy (knees) has been ruled out for Monday's game against Golden State.",
-   "date": "2026-11-09T20:49Z"
+   "date": "2026-11-10T05:28Z"
+  },
+  {
+   "id": "4395628",
+   "name": "Zion Williamson",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Rest",
+   "return": "2026-11-11",
+   "comment": "Williamson (rest) is out for Monday's game against the Warriors.",
+   "date": "2026-11-10T05:27Z"
   },
   {
    "id": "5061589",
@@ -824,11 +824,11 @@
    "id": "4395630",
    "name": "Devin Vassell",
    "pos": "G",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Groin",
    "return": "2026-11-11",
    "comment": "Vassell (groin) is out for Monday's game against the Suns, Tom Orsborn of the San Antonio Express-News reports.",
-   "date": "2026-11-09T18:41Z"
+   "date": "2026-11-10T04:32Z"
   },
   {
    "id": "6440",
@@ -997,5 +997,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-10T03:57:01.930412+00:00"
+ "_updated": "2026-11-10T07:16:07.314213+00:00"
 }
