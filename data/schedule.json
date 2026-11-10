@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T01:53:59.569773+00:00",
+ "generated": "2026-11-10T02:42:03.999804+00:00",
  "days": [
   {
    "date": "2026-11-09",
@@ -9,11 +9,11 @@
      "start": "2026-11-10T00:00Z",
      "home": "ATL",
      "away": "LAL",
-     "state": "in",
-     "detail": "11:50 - 4th",
+     "state": "post",
+     "detail": "Final",
      "score": {
-      "home": "90",
-      "away": "95"
+      "home": "114",
+      "away": "124"
      }
     },
     {
@@ -21,11 +21,11 @@
      "start": "2026-11-10T00:00Z",
      "home": "CHA",
      "away": "CLE",
-     "state": "in",
-     "detail": "11:03 - 4th",
+     "state": "post",
+     "detail": "Final",
      "score": {
-      "home": "107",
-      "away": "85"
+      "home": "124",
+      "away": "112"
      }
     },
     {
@@ -34,10 +34,10 @@
      "home": "DET",
      "away": "WSH",
      "state": "in",
-     "detail": "6:37 - 3rd",
+     "detail": "21.9 - 4th",
      "score": {
-      "home": "82",
-      "away": "71"
+      "home": "122",
+      "away": "109"
      }
     },
     {
@@ -46,10 +46,10 @@
      "home": "TOR",
      "away": "MEM",
      "state": "in",
-     "detail": "Halftime",
+     "detail": "5:52 - 4th",
      "score": {
-      "home": "53",
-      "away": "59"
+      "home": "97",
+      "away": "106"
      }
     },
     {
@@ -58,10 +58,10 @@
      "home": "DAL",
      "away": "IND",
      "state": "in",
-     "detail": "6:25 - 2nd",
+     "detail": "4:16 - 3rd",
      "score": {
-      "home": "43",
-      "away": "42"
+      "home": "82",
+      "away": "84"
      }
     },
     {
@@ -70,10 +70,10 @@
      "home": "HOU",
      "away": "DEN",
      "state": "in",
-     "detail": "5:06 - 1st",
+     "detail": "Halftime",
      "score": {
-      "home": "19",
-      "away": "16"
+      "home": "54",
+      "away": "40"
      }
     },
     {
@@ -81,11 +81,11 @@
      "start": "2026-11-10T02:00Z",
      "home": "PHX",
      "away": "SA",
-     "state": "pre",
-     "detail": "11/9 - 9:00 PM EST",
+     "state": "in",
+     "detail": "9:58 - 2nd",
      "score": {
-      "home": "0",
-      "away": "0"
+      "home": "27",
+      "away": "39"
      }
     },
     {

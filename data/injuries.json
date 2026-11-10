@@ -247,6 +247,16 @@
  ],
  "GS": [
   {
+   "id": "3134903",
+   "name": "Gary Payton II",
+   "pos": "G",
+   "status": "Out",
+   "type": "Knee",
+   "return": "2026-11-11",
+   "comment": "Payton (knee) has been ruled out for Monday's game against the Pelicans.",
+   "date": "2026-11-10T01:50Z"
+  },
+  {
    "id": "4897262",
    "name": "Will Richard",
    "pos": "G",
@@ -255,26 +265,6 @@
    "return": "2026-11-16",
    "comment": "Richard is deciding between getting surgery or playing with a splint, Luca Evans of the San Francisco Chronicle reports.",
    "date": "2026-11-10T01:26Z"
-  },
-  {
-   "id": "3134903",
-   "name": "Gary Payton II",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Knee",
-   "return": "2026-11-09",
-   "comment": "Payton (left knee soreness) is listed as questionable for Monday's game against New Orleans.",
-   "date": "2026-11-09T19:24Z"
-  },
-  {
-   "id": "4997536",
-   "name": "Gui Santos",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Knee",
-   "return": "2026-11-09",
-   "comment": "Santos (knee) is listed as probable for Monday's game against New Orleans.",
-   "date": "2026-11-09T01:13Z"
   },
   {
    "id": "3102531",
@@ -1007,5 +997,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-10T01:53:59.720047+00:00"
+ "_updated": "2026-11-10T02:42:04.221201+00:00"
 }
