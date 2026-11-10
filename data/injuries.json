@@ -501,6 +501,16 @@
  ],
  "MIL": [
   {
+   "id": "5105623",
+   "name": "Kel'el Ware",
+   "pos": "C",
+   "status": "Day-To-Day",
+   "type": "Ankle",
+   "return": "2026-11-10",
+   "comment": "Ware is questionable for Tuesday's game against the Knicks due to a left ankle sprain.",
+   "date": "2026-11-10T17:18Z"
+  },
+  {
    "id": "4395725",
    "name": "Tyler Herro",
    "pos": "G",
@@ -640,6 +650,16 @@
   }
  ],
  "ORL": [
+  {
+   "id": "4702382",
+   "name": "Tristan da Silva",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Calf",
+   "return": "2026-11-10",
+   "comment": "Da Silva is questionable for Tuesday's game against the Kings due to a left calf strain.",
+   "date": "2026-11-10T16:50Z"
+  },
   {
    "id": "4432165",
    "name": "Jalen Suggs",
@@ -853,6 +873,16 @@
  ],
  "TOR": [
   {
+   "id": "6450",
+   "name": "Kawhi Leonard",
+   "pos": "F",
+   "status": "Out",
+   "type": "Knee",
+   "return": "2026-11-23",
+   "comment": "Leonard (knee) is continuing the reconditioning process, and another update will be provided in one week, Blake Murphy of Sportsnet.ca reports.",
+   "date": "2026-11-10T17:33Z"
+  },
+  {
    "id": "4395724",
    "name": "Immanuel Quickley",
    "pos": "G",
@@ -891,19 +921,19 @@
    "return": "2026-11-15",
    "comment": "Bittle (foot) is listed as out for Monday's game against Memphis.",
    "date": "2026-11-08T21:20Z"
-  },
-  {
-   "id": "6450",
-   "name": "Kawhi Leonard",
-   "pos": "F",
-   "status": "Out",
-   "type": "Knee",
-   "return": "2026-11-23",
-   "comment": "Leonard has completed treatment to reduce swelling in his left knee and he will be re-evaluated in one week, Brett Siegel of ClutchPoints.com reports.",
-   "date": "2026-11-04T00:14Z"
   }
  ],
  "UTAH": [
+  {
+   "id": "4066336",
+   "name": "Lauri Markkanen",
+   "pos": "F",
+   "status": "Out",
+   "type": "Wrist",
+   "return": "2026-11-11",
+   "comment": "Markkanen is out for Tuesday's game versus the Heat with a right wrist sprain.",
+   "date": "2026-11-10T18:30Z"
+  },
   {
    "id": "4433627",
    "name": "Keyonte George",
@@ -912,16 +942,6 @@
    "type": "Ankle",
    "return": "2026-11-11",
    "comment": "George (ankle) has been ruled out for Tuesday's game against the Heat.",
-   "date": "2026-11-10T00:08Z"
-  },
-  {
-   "id": "4066336",
-   "name": "Lauri Markkanen",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Wrist",
-   "return": "2026-11-10",
-   "comment": "Markkanen (wrist) is questionable for Tuesday's game against Miami.",
    "date": "2026-11-10T00:08Z"
   },
   {
@@ -997,5 +1017,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-10T15:55:18.731960+00:00"
+ "_updated": "2026-11-10T18:43:45.474256+00:00"
 }
