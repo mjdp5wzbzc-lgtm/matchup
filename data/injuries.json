@@ -247,24 +247,14 @@
  ],
  "GS": [
   {
-   "id": "4397040",
-   "name": "Brandon Williams",
-   "pos": "G",
-   "status": "Out",
-   "type": "Hamstring",
-   "return": "2026-11-22",
-   "comment": "Williams has been ruled out for the remainder of Monday's game against the Pelicans due to a left hamstring injury, Danny Emerman of SFStandard.com reports. He'll finish with four points (2-3 FG) in two minutes.",
-   "date": "2026-11-10T21:23Z"
-  },
-  {
    "id": "3134903",
    "name": "Gary Payton II",
    "pos": "G",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Knee",
-   "return": "2026-11-11",
-   "comment": "Payton (knee) has been ruled out for Monday's game against the Pelicans.",
-   "date": "2026-11-10T05:26Z"
+   "return": "2026-11-13",
+   "comment": "Payton (knee) is out for Wednesday's game against Houston.",
+   "date": "2026-11-10T21:36Z"
   },
   {
    "id": "4897262",
@@ -272,9 +262,19 @@
    "pos": "G",
    "status": "Out",
    "type": "Thumb",
-   "return": "2026-11-16",
-   "comment": "Richard is deciding between getting surgery or playing with a splint, Luca Evans of the San Francisco Chronicle reports.",
-   "date": "2026-11-10T01:26Z"
+   "return": "2026-11-11",
+   "comment": "Richard (thumb) is questionable for Wednesday's game against Houston.",
+   "date": "2026-11-10T21:34Z"
+  },
+  {
+   "id": "4397040",
+   "name": "Brandon Williams",
+   "pos": "G",
+   "status": "Out",
+   "type": "Hamstring",
+   "return": "2026-11-22",
+   "comment": "Williams (hamstring) will miss at least one week, per Anthony Slater of ESPN.com.",
+   "date": "2026-11-10T21:24Z"
   },
   {
    "id": "3102531",
@@ -967,5 +967,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-10T21:32:22.475358+00:00"
+ "_updated": "2026-11-10T21:48:00.096543+00:00"
 }
