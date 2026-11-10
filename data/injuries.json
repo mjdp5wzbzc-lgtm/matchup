@@ -247,6 +247,16 @@
  ],
  "GS": [
   {
+   "id": "4897262",
+   "name": "Will Richard",
+   "pos": "G",
+   "status": "Out",
+   "type": "Thumb",
+   "return": "2026-11-16",
+   "comment": "Richard is deciding between getting surgery or playing with a splint, Luca Evans of the San Francisco Chronicle reports.",
+   "date": "2026-11-10T01:26Z"
+  },
+  {
    "id": "3134903",
    "name": "Gary Payton II",
    "pos": "G",
@@ -255,16 +265,6 @@
    "return": "2026-11-09",
    "comment": "Payton (left knee soreness) is listed as questionable for Monday's game against New Orleans.",
    "date": "2026-11-09T19:24Z"
-  },
-  {
-   "id": "4897262",
-   "name": "Will Richard",
-   "pos": "G",
-   "status": "Out",
-   "type": "Thumb",
-   "return": "2026-11-11",
-   "comment": "Richard is out for Monday's game against the Pelicans due to a left thumb UCL tear.",
-   "date": "2026-11-09T01:52Z"
   },
   {
    "id": "4997536",
@@ -446,6 +446,16 @@
   }
  ],
  "MEM": [
+  {
+   "id": "4593016",
+   "name": "Quinten Post",
+   "pos": "C",
+   "status": "Day-To-Day",
+   "type": "Head",
+   "return": "2026-11-09",
+   "comment": "Post is doubtful to return to Monday's game against Toronto due to a head injury.",
+   "date": "2026-11-10T01:17Z"
+  },
   {
    "id": "4431785",
    "name": "Scotty Pippen Jr.",
@@ -997,5 +1007,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-10T01:08:55.569909+00:00"
+ "_updated": "2026-11-10T01:53:59.720047+00:00"
 }
