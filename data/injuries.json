@@ -43,14 +43,24 @@
  ],
  "BKN": [
   {
-   "id": "5101761",
-   "name": "Mikel Brown Jr.",
+   "id": "5279130",
+   "name": "Nolan Traore",
    "pos": "G",
    "status": "Day-To-Day",
-   "type": "Rest",
+   "type": "Calf",
    "return": "2026-11-11",
-   "comment": "Brown, who finished with 18 points (5-13 FG, 3-8 3Pt, 5-7 FT), one rebound, three assists and one steal over 25 minutes in Saturday's 124-121 loss to Atlanta, won't play in Sunday's game against Dallas, Erik Slater of ClutchPoints.com reports.",
-   "date": "2026-11-09T15:46Z"
+   "comment": "Traore (calf) is listed as questionable for Wednesday's game against New Orleans.",
+   "date": "2026-11-10T22:56Z"
+  },
+  {
+   "id": "5175643",
+   "name": "Egor Demin",
+   "pos": "G",
+   "status": "Out",
+   "type": "Leg",
+   "return": "2026-11-11",
+   "comment": "Demin (leg) is probable for Wednesday's game against the Pelicans, Erik Slater of ClutchPoints.com reports.",
+   "date": "2026-11-10T22:51Z"
   },
   {
    "id": "4702670",
@@ -61,16 +71,6 @@
    "return": "2026-11-10",
    "comment": "Nelson signed a two-way contract with the Nets on Friday, Michael Scotto of HoopsHype.com reports.",
    "date": "2026-11-08T16:21Z"
-  },
-  {
-   "id": "5175643",
-   "name": "Egor Demin",
-   "pos": "G",
-   "status": "Out",
-   "type": "Leg",
-   "return": "2026-11-11",
-   "comment": "The Nets exercised Demin's third-year team option for the 2027-28 season, Sharif Phillips-Keaton of USA Today reports Thursday.",
-   "date": "2026-10-29T17:09Z"
   }
  ],
  "CHA": [
@@ -164,7 +164,7 @@
    "pos": "G",
    "status": "Out",
    "type": "Elbow",
-   "return": "2026-11-13",
+   "return": "2026-11-16",
    "comment": "Merrill (elbow) is listed as out for Wednesday's game against the Knicks.",
    "date": "2026-11-10T22:12Z"
   },
@@ -435,24 +435,14 @@
  ],
  "LAL": [
   {
-   "id": "4066457",
-   "name": "Austin Reaves",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Illness",
-   "return": "2026-11-11",
-   "comment": "Reaves (illness) has been ruled out for Monday's game against Atlanta, Benjamin Royer of The Orange County Register reports.",
-   "date": "2026-11-10T02:53Z"
-  },
-  {
    "id": "4397014",
    "name": "Quentin Grimes",
    "pos": "G",
    "status": "Day-To-Day",
    "type": "Finger",
    "return": "2026-11-11",
-   "comment": "Grimes (finger) is out for Monday's game against Atlanta, per Dave McMenamin of ESPN.com.",
-   "date": "2026-11-10T02:53Z"
+   "comment": "Grimes (finger) is listed as questionable for Wednesday's game in Milwaukee.",
+   "date": "2026-11-10T23:07Z"
   }
  ],
  "MEM": [
@@ -463,18 +453,8 @@
    "status": "Day-To-Day",
    "type": "Knee",
    "return": "2026-11-11",
-   "comment": "Stewart (knee) has been ruled out for Monday's game against Toronto.",
-   "date": "2026-11-10T03:01Z"
-  },
-  {
-   "id": "4593016",
-   "name": "Quinten Post",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Head",
-   "return": "2026-11-11",
-   "comment": "Post (head) didn't return to Monday's 118-102 win over the Raptors. He ended the night with one rebound in two minutes.",
-   "date": "2026-11-10T02:58Z"
+   "comment": "Stewart (knee) is listed as questionable for Wednesday's game versus the Nuggets.",
+   "date": "2026-11-10T23:13Z"
   },
   {
    "id": "4431785",
@@ -482,9 +462,19 @@
    "pos": "G",
    "status": "Out",
    "type": "Back",
-   "return": "2026-11-11",
-   "comment": "Pippen (back) won't play in Monday's game versus the Raptors.",
-   "date": "2026-11-08T23:07Z"
+   "return": "2026-11-21",
+   "comment": "Pippen (back) remains out for Wednesday's game against Denver, Michael Wallace of the Grizzlies' official site reports.",
+   "date": "2026-11-10T23:09Z"
+  },
+  {
+   "id": "4593016",
+   "name": "Quinten Post",
+   "pos": "C",
+   "status": "Out",
+   "type": "Head",
+   "return": "2026-11-13",
+   "comment": "Post (concussion) has been ruled out for Wednesday's game against the Nuggets.",
+   "date": "2026-11-10T23:09Z"
   },
   {
    "id": "5105462",
@@ -515,8 +505,8 @@
    "name": "Kel'el Ware",
    "pos": "C",
    "status": "Day-To-Day",
-   "type": "Ankle",
-   "return": "2026-11-10",
+   "type": null,
+   "return": null,
    "comment": "Ware is questionable for Tuesday's game against the Knicks due to a left ankle sprain.",
    "date": "2026-11-10T17:18Z"
   },
@@ -526,7 +516,7 @@
    "pos": "G",
    "status": "Day-To-Day",
    "type": "Knee",
-   "return": "2026-11-10",
+   "return": "2026-11-11",
    "comment": "Herro (contusion) is listed as questionable for Tuesday's game against the Knicks.",
    "date": "2026-11-09T22:21Z"
   }
@@ -590,11 +580,11 @@
    "id": "3062679",
    "name": "Josh Hart",
    "pos": "G",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Illness",
-   "return": "2026-11-10",
-   "comment": "Hart is doubtful for Tuesday's game against the Bucks due to an illness.",
-   "date": "2026-11-10T19:20Z"
+   "return": "2026-11-11",
+   "comment": "Hart (illness) won't play Tuesday against the Bucks, Kristian Winfield of the New York Daily News reports.",
+   "date": "2026-11-10T22:58Z"
   }
  ],
  "OKC": [
@@ -817,8 +807,8 @@
    "status": "Day-To-Day",
    "type": "Groin",
    "return": "2026-11-11",
-   "comment": "Vassell (groin) is out for Monday's game against the Suns, Tom Orsborn of the San Antonio Express-News reports.",
-   "date": "2026-11-10T04:32Z"
+   "comment": "Vassell (groin) is listed as questionable for Wednesday's game versus the Bulls, NBA reporter Matthew Tynan reports.",
+   "date": "2026-11-10T22:48Z"
   },
   {
    "id": "6440",
@@ -826,9 +816,9 @@
    "pos": "F",
    "status": "Out",
    "type": "Calf",
-   "return": "2026-11-11",
-   "comment": "Harris (calf) is listed as out for Monday's game against Phoenix.",
-   "date": "2026-11-09T00:27Z"
+   "return": "2026-11-19",
+   "comment": "Harris (calf) is out for Wednesday's game against Chicago, Jared Weiss of The Athletic reports.",
+   "date": "2026-11-10T22:46Z"
   },
   {
    "id": "5101845",
@@ -987,5 +977,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-10T22:32:11.854538+00:00"
+ "_updated": "2026-11-10T23:27:17.174219+00:00"
 }
