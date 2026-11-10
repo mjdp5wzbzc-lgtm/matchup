@@ -75,14 +75,24 @@
  ],
  "CHA": [
   {
+   "id": "4433287",
+   "name": "Brandon Miller",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Groin",
+   "return": "2026-11-12",
+   "comment": "Miller (groin) is listed as out for Monday's game against Cleveland.",
+   "date": "2026-11-10T02:51Z"
+  },
+  {
    "id": "4433249",
    "name": "Moussa Diabate",
    "pos": "F",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Quadriceps",
    "return": "2026-11-12",
    "comment": "Diabate (quadriceps) has been downgraded to out for Monday's game against Cleveland.",
-   "date": "2026-11-09T22:16Z"
+   "date": "2026-11-10T02:51Z"
   },
   {
    "id": "4066218",
@@ -113,16 +123,6 @@
    "return": "2026-11-25",
    "comment": "Schroder has been diagnosed with a left hamstring strain and will be reevaluated in two weeks, Michael Scotto of HoopsHype.com reports.",
    "date": "2026-11-08T22:26Z"
-  },
-  {
-   "id": "4433287",
-   "name": "Brandon Miller",
-   "pos": "F",
-   "status": "Out",
-   "type": "Groin",
-   "return": "2026-11-12",
-   "comment": "Miller (groin) is listed as out for Monday's game against Cleveland.",
-   "date": "2026-11-08T22:25Z"
   }
  ],
  "CHI": [
@@ -152,11 +152,11 @@
    "id": "4066757",
    "name": "Sam Merrill",
    "pos": "G",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Elbow",
    "return": "2026-11-11",
    "comment": "Merrill (elbow) is listed as out for Monday's game against the Hornets.",
-   "date": "2026-11-08T22:46Z"
+   "date": "2026-11-10T02:49Z"
   },
   {
    "id": "4683747",
@@ -418,33 +418,43 @@
    "id": "4066457",
    "name": "Austin Reaves",
    "pos": "G",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Illness",
    "return": "2026-11-11",
    "comment": "Reaves (illness) has been ruled out for Monday's game against Atlanta, Benjamin Royer of The Orange County Register reports.",
-   "date": "2026-11-09T22:33Z"
+   "date": "2026-11-10T02:53Z"
   },
   {
    "id": "4397014",
    "name": "Quentin Grimes",
    "pos": "G",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Finger",
    "return": "2026-11-11",
    "comment": "Grimes (finger) is out for Monday's game against Atlanta, per Dave McMenamin of ESPN.com.",
-   "date": "2026-11-09T18:13Z"
+   "date": "2026-11-10T02:53Z"
   }
  ],
  "MEM": [
+  {
+   "id": "4432810",
+   "name": "Isaiah Stewart",
+   "pos": "C",
+   "status": "Day-To-Day",
+   "type": "Knee",
+   "return": "2026-11-11",
+   "comment": "Stewart (knee) has been ruled out for Monday's game against Toronto.",
+   "date": "2026-11-10T03:01Z"
+  },
   {
    "id": "4593016",
    "name": "Quinten Post",
    "pos": "C",
    "status": "Day-To-Day",
    "type": "Head",
-   "return": "2026-11-09",
-   "comment": "Post is doubtful to return to Monday's game against Toronto due to a head injury.",
-   "date": "2026-11-10T01:17Z"
+   "return": "2026-11-11",
+   "comment": "Post (head) didn't return to Monday's 118-102 win over the Raptors. He ended the night with one rebound in two minutes.",
+   "date": "2026-11-10T02:58Z"
   },
   {
    "id": "4431785",
@@ -455,16 +465,6 @@
    "return": "2026-11-11",
    "comment": "Pippen (back) won't play in Monday's game versus the Raptors.",
    "date": "2026-11-08T23:07Z"
-  },
-  {
-   "id": "4432810",
-   "name": "Isaiah Stewart",
-   "pos": "C",
-   "status": "Out",
-   "type": "Knee",
-   "return": "2026-11-11",
-   "comment": "Stewart (knee) has been ruled out for Monday's game against Toronto.",
-   "date": "2026-11-08T23:01Z"
   },
   {
    "id": "5105462",
@@ -856,31 +856,31 @@
    "id": "4395724",
    "name": "Immanuel Quickley",
    "pos": "G",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Hamstring",
    "return": "2026-11-11",
    "comment": "Quickley (hamstring) has been ruled out for Monday's game against Memphis, Esfandiar Baraheni of The Athletic reports.",
-   "date": "2026-11-09T22:54Z"
+   "date": "2026-11-10T03:02Z"
   },
   {
    "id": "5093267",
    "name": "Collin Murray-Boyles",
    "pos": "F",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Illness",
    "return": "2026-11-11",
    "comment": "Murray-Boyles (illness) is out for Monday's game against the Grizzlies, Esfandiar Baraheni of The Athletic reports.",
-   "date": "2026-11-09T22:52Z"
+   "date": "2026-11-10T03:01Z"
   },
   {
    "id": "4433134",
    "name": "Scottie Barnes",
    "pos": "F",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Groin",
    "return": "2026-11-11",
    "comment": "Barnes (groin) is out for Monday's game against the Grizzlies, Esfandiar Baraheni of The Athletic reports.",
-   "date": "2026-11-09T22:50Z"
+   "date": "2026-11-10T03:01Z"
   },
   {
    "id": "4432586",
@@ -950,11 +950,11 @@
    "id": "5104155",
    "name": "Bilal Coulibaly",
    "pos": "G",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Hand",
    "return": "2026-11-11",
    "comment": "Coulibaly (hand) is out for Monday's game against the Pistons.",
-   "date": "2026-11-09T23:03Z"
+   "date": "2026-11-10T02:53Z"
   },
   {
    "id": "4997537",
@@ -997,5 +997,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-10T02:42:04.221201+00:00"
+ "_updated": "2026-11-10T03:41:28.704537+00:00"
 }

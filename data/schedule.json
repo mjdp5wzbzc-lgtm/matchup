@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T02:42:03.999804+00:00",
+ "generated": "2026-11-10T03:41:28.525495+00:00",
  "days": [
   {
    "date": "2026-11-09",
@@ -33,11 +33,11 @@
      "start": "2026-11-10T00:00Z",
      "home": "DET",
      "away": "WSH",
-     "state": "in",
-     "detail": "21.9 - 4th",
+     "state": "post",
+     "detail": "Final",
      "score": {
       "home": "122",
-      "away": "109"
+      "away": "111"
      }
     },
     {
@@ -45,11 +45,11 @@
      "start": "2026-11-10T00:30Z",
      "home": "TOR",
      "away": "MEM",
-     "state": "in",
-     "detail": "5:52 - 4th",
+     "state": "post",
+     "detail": "Final",
      "score": {
-      "home": "97",
-      "away": "106"
+      "home": "102",
+      "away": "118"
      }
     },
     {
@@ -58,10 +58,10 @@
      "home": "DAL",
      "away": "IND",
      "state": "in",
-     "detail": "4:16 - 3rd",
+     "detail": "End of 4th",
      "score": {
-      "home": "82",
-      "away": "84"
+      "home": "125",
+      "away": "122"
      }
     },
     {
@@ -70,10 +70,10 @@
      "home": "HOU",
      "away": "DEN",
      "state": "in",
-     "detail": "Halftime",
+     "detail": "4:14 - 4th",
      "score": {
-      "home": "54",
-      "away": "40"
+      "home": "98",
+      "away": "90"
      }
     },
     {
@@ -82,10 +82,10 @@
      "home": "PHX",
      "away": "SA",
      "state": "in",
-     "detail": "9:58 - 2nd",
+     "detail": "5:54 - 3rd",
      "score": {
-      "home": "27",
-      "away": "39"
+      "home": "59",
+      "away": "78"
      }
     },
     {
@@ -93,11 +93,11 @@
      "start": "2026-11-10T03:00Z",
      "home": "GS",
      "away": "NO",
-     "state": "pre",
-     "detail": "11/9 - 10:00 PM EST",
+     "state": "in",
+     "detail": "10:23 - 2nd",
      "score": {
-      "home": "0",
-      "away": "0"
+      "home": "42",
+      "away": "22"
      }
     }
    ]
