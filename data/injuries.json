@@ -247,6 +247,16 @@
  ],
  "GS": [
   {
+   "id": "4397040",
+   "name": "Brandon Williams",
+   "pos": "G",
+   "status": "Out",
+   "type": "Hamstring",
+   "return": "2026-11-22",
+   "comment": "Williams has been ruled out for the remainder of Monday's game against the Pelicans due to a left hamstring injury, Danny Emerman of SFStandard.com reports. He'll finish with four points (2-3 FG) in two minutes.",
+   "date": "2026-11-10T21:23Z"
+  },
+  {
    "id": "3134903",
    "name": "Gary Payton II",
    "pos": "G",
@@ -255,16 +265,6 @@
    "return": "2026-11-11",
    "comment": "Payton (knee) has been ruled out for Monday's game against the Pelicans.",
    "date": "2026-11-10T05:26Z"
-  },
-  {
-   "id": "4397040",
-   "name": "Brandon Williams",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Hamstring",
-   "return": "2026-11-11",
-   "comment": "Williams has been ruled out for the remainder of Monday's game against the Pelicans due to a left hamstring injury, Danny Emerman of SFStandard.com reports. He'll finish with four points (2-3 FG) in two minutes.",
-   "date": "2026-11-10T04:41Z"
   },
   {
    "id": "4897262",
@@ -308,16 +308,6 @@
   }
  ],
  "HOU": [
-  {
-   "id": "4432827",
-   "name": "Oscar Tshiebwe",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Illness",
-   "return": "2026-11-11",
-   "comment": "Tshiebwe has been ruled out for Monday's game against the Nuggets due to an illness.",
-   "date": "2026-11-10T03:59Z"
-  },
   {
    "id": "3102529",
    "name": "Clint Capela",
@@ -548,11 +538,11 @@
    "id": "4431675",
    "name": "Trendon Watford",
    "pos": "F",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Ankle",
-   "return": "2026-11-11",
-   "comment": "Watford (ankle) is out for Monday's game versus Utah.",
-   "date": "2026-11-10T05:28Z"
+   "return": "2026-11-13",
+   "comment": "Watford (ankle) is out for Wednesday's game against the Nets.",
+   "date": "2026-11-10T19:26Z"
   },
   {
    "id": "4397688",
@@ -561,18 +551,8 @@
    "status": "Day-To-Day",
    "type": "Knee",
    "return": "2026-11-11",
-   "comment": "Murphy (knees) has been ruled out for Monday's game against Golden State.",
-   "date": "2026-11-10T05:28Z"
-  },
-  {
-   "id": "4395628",
-   "name": "Zion Williamson",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Rest",
-   "return": "2026-11-11",
-   "comment": "Williamson (rest) is out for Monday's game against the Warriors.",
-   "date": "2026-11-10T05:27Z"
+   "comment": "Murphy (knee) is probable for Wednesday's game against the Nets.",
+   "date": "2026-11-10T19:22Z"
   },
   {
    "id": "5061589",
@@ -591,10 +571,10 @@
    "name": "Josh Hart",
    "pos": "G",
    "status": "Day-To-Day",
-   "type": "Ankle",
+   "type": "Illness",
    "return": "2026-11-10",
-   "comment": "Hart is questionable for Tuesday's game against the Bucks due to right ankle soreness.",
-   "date": "2026-11-09T22:04Z"
+   "comment": "Hart is doubtful for Tuesday's game against the Bucks due to an illness.",
+   "date": "2026-11-10T19:20Z"
   }
  ],
  "OKC": [
@@ -745,16 +725,6 @@
  ],
  "PHX": [
   {
-   "id": "4278402",
-   "name": "Jordan Goodwin",
-   "pos": "G",
-   "status": "Out",
-   "type": "Calf",
-   "return": "2026-11-10",
-   "comment": "Goodwin (calf) has been ruled out for Monday's game against the Spurs, Kellan Olson of ArizonaSports.com reports.",
-   "date": "2026-11-10T00:21Z"
-  },
-  {
    "id": "4701232",
    "name": "Mark Williams",
    "pos": "C",
@@ -807,26 +777,6 @@
    "return": "2026-11-15",
    "comment": "Raynaud (knee) has been ruled out for Tuesday's game against Orlando.",
    "date": "2026-11-10T00:37Z"
-  },
-  {
-   "id": "4594327",
-   "name": "Keegan Murray",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Wrist",
-   "return": "2026-11-10",
-   "comment": "Murray is questionable for Tuesday's game against the Magic due to right wrist soreness.",
-   "date": "2026-11-10T00:36Z"
-  },
-  {
-   "id": "3155942",
-   "name": "Domantas Sabonis",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Knee",
-   "return": "2026-11-10",
-   "comment": "Sabonis (knee) is questionable to play Tuesday's game against the Magic.",
-   "date": "2026-11-10T00:35Z"
   },
   {
    "id": "3907387",
@@ -1017,5 +967,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-10T18:59:27.073833+00:00"
+ "_updated": "2026-11-10T21:32:22.475358+00:00"
 }
