@@ -235,6 +235,16 @@
  ],
  "DET": [
   {
+   "id": "5037878",
+   "name": "Ugonna Onyenso",
+   "pos": "C",
+   "status": "Day-To-Day",
+   "type": "Foot",
+   "return": "2026-11-13",
+   "comment": "Onyenso agreed to a two-way contract with the Pistons on Thursday.",
+   "date": "2026-11-11T15:16Z"
+  },
+  {
    "id": "4395702",
    "name": "Isaiah Joe",
    "pos": "G",
@@ -386,11 +396,11 @@
    "id": "4845363",
    "name": "Cam Christie",
    "pos": "G",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Ankle",
    "return": "2026-11-13",
    "comment": "Christie (ankle) is listed as out for Tuesday's game against Phoenix.",
-   "date": "2026-11-11T01:39Z"
+   "date": "2026-11-11T14:59Z"
   },
   {
    "id": "5108024",
@@ -492,11 +502,11 @@
    "id": "4395725",
    "name": "Tyler Herro",
    "pos": "G",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Knee",
    "return": "2026-11-11",
    "comment": "Herro (knee) is listed as out for Tuesday's game against New York.",
-   "date": "2026-11-10T23:24Z"
+   "date": "2026-11-11T14:58Z"
   }
  ],
  "MIN": [
@@ -622,11 +632,11 @@
    "id": "4702382",
    "name": "Tristan da Silva",
    "pos": "F",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Calf",
    "return": "2026-11-11",
    "comment": "Da Silva (calf) has been ruled out for Tuesday's game against the Kings, Jason Beede of the Orlando Sentinel reports.",
-   "date": "2026-11-11T01:34Z"
+   "date": "2026-11-11T15:00Z"
   },
   {
    "id": "4432165",
@@ -760,11 +770,11 @@
    "id": "4431679",
    "name": "Precious Achiuwa",
    "pos": "F",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Lower Leg",
    "return": "2026-11-13",
    "comment": "Achiuwa left Tuesday's 107-100 loss to the Magic with a left lower leg contusion and did not return, Matt George of ABC 10 Sacramento reports.",
-   "date": "2026-11-11T06:04Z"
+   "date": "2026-11-11T14:44Z"
   },
   {
    "id": "4898371",
@@ -883,24 +893,24 @@
  ],
  "UTAH": [
   {
-   "id": "4066336",
-   "name": "Lauri Markkanen",
-   "pos": "F",
-   "status": "Out",
-   "type": "Wrist",
-   "return": "2026-11-11",
-   "comment": "Markkanen is out for Tuesday's game versus the Heat with a right wrist sprain.",
-   "date": "2026-11-10T18:30Z"
-  },
-  {
    "id": "4433627",
    "name": "Keyonte George",
    "pos": "G",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Ankle",
    "return": "2026-11-11",
    "comment": "George (ankle) has been ruled out for Tuesday's game against the Heat.",
-   "date": "2026-11-10T00:08Z"
+   "date": "2026-11-11T15:00Z"
+  },
+  {
+   "id": "4066336",
+   "name": "Lauri Markkanen",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Wrist",
+   "return": "2026-11-11",
+   "comment": "Markkanen is out for Tuesday's game versus the Heat with a right wrist sprain.",
+   "date": "2026-11-11T14:45Z"
   },
   {
    "id": "3102530",
@@ -965,5 +975,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-11T13:16:44.487011+00:00"
+ "_updated": "2026-11-11T15:57:44.731085+00:00"
 }
