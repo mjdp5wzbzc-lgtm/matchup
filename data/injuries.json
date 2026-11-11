@@ -383,6 +383,16 @@
  ],
  "LAC": [
   {
+   "id": "4845363",
+   "name": "Cam Christie",
+   "pos": "G",
+   "status": "Out",
+   "type": "Ankle",
+   "return": "2026-11-13",
+   "comment": "Christie (ankle) is listed as out for Tuesday's game against Phoenix.",
+   "date": "2026-11-11T01:39Z"
+  },
+  {
    "id": "5108024",
    "name": "Yanic Konan Niederhauser",
    "pos": "C",
@@ -401,16 +411,6 @@
    "return": "2026-11-13",
    "comment": "Ingram (Achilles) has been ruled out for Tuesday's game at Phoenix, Ohm Youngmisuk of ESPN.com reports.",
    "date": "2026-11-10T00:00Z"
-  },
-  {
-   "id": "4845363",
-   "name": "Cam Christie",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Ankle",
-   "return": "2026-11-10",
-   "comment": "Christie is questionable for Tuesday's game against the Suns due to a right ankle sprain, Ohm Youngmisuk of ESPN.com reports.",
-   "date": "2026-11-09T23:59Z"
   },
   {
    "id": "6580",
@@ -622,11 +622,11 @@
    "id": "4702382",
    "name": "Tristan da Silva",
    "pos": "F",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Calf",
-   "return": "2026-11-10",
-   "comment": "Da Silva is questionable for Tuesday's game against the Kings due to a left calf strain.",
-   "date": "2026-11-10T16:50Z"
+   "return": "2026-11-11",
+   "comment": "Da Silva (calf) has been ruled out for Tuesday's game against the Kings, Jason Beede of the Orlando Sentinel reports.",
+   "date": "2026-11-11T01:34Z"
   },
   {
    "id": "4432165",
@@ -955,5 +955,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-11T01:34:19.158629+00:00"
+ "_updated": "2026-11-11T02:41:46.984337+00:00"
 }
