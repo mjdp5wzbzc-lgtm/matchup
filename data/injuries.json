@@ -501,24 +501,14 @@
  ],
  "MIL": [
   {
-   "id": "5105623",
-   "name": "Kel'el Ware",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": null,
-   "return": null,
-   "comment": "Ware is questionable for Tuesday's game against the Knicks due to a left ankle sprain.",
-   "date": "2026-11-10T17:18Z"
-  },
-  {
    "id": "4395725",
    "name": "Tyler Herro",
    "pos": "G",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Knee",
    "return": "2026-11-11",
-   "comment": "Herro (contusion) is listed as questionable for Tuesday's game against the Knicks.",
-   "date": "2026-11-09T22:21Z"
+   "comment": "Herro (knee) is listed as out for Tuesday's game against New York.",
+   "date": "2026-11-10T23:24Z"
   }
  ],
  "MIN": [
@@ -977,5 +967,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-10T23:27:17.174219+00:00"
+ "_updated": "2026-11-11T00:02:21.380644+00:00"
 }
