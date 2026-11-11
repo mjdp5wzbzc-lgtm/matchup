@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T01:11:12.574678+00:00",
+ "generated": "2026-11-11T01:34:18.922419+00:00",
  "days": [
   {
    "date": "2026-11-10",
@@ -10,10 +10,10 @@
      "home": "NY",
      "away": "MIL",
      "state": "in",
-     "detail": "9:01 - 2nd",
+     "detail": "Halftime",
      "score": {
-      "home": "31",
-      "away": "23"
+      "home": "58",
+      "away": "34"
      }
     },
     {
@@ -21,11 +21,11 @@
      "start": "2026-11-11T01:00Z",
      "home": "PHI",
      "away": "BOS",
-     "state": "pre",
-     "detail": "11/10 - 8:00 PM EST",
+     "state": "in",
+     "detail": "2:41 - 1st",
      "score": {
-      "home": "0",
-      "away": "0"
+      "home": "20",
+      "away": "26"
      }
     },
     {

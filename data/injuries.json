@@ -487,18 +487,6 @@
    "date": "2026-11-07T17:24Z"
   }
  ],
- "MIA": [
-  {
-   "id": "3032977",
-   "name": "Giannis Antetokounmpo",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Wrist",
-   "return": "2026-11-10",
-   "comment": "Antetokounmpo (wrist) is questionable for Tuesday's game against the Jazz.",
-   "date": "2026-11-11T00:24Z"
-  }
- ],
  "MIL": [
   {
    "id": "4395725",
@@ -967,5 +955,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-11T01:11:12.941522+00:00"
+ "_updated": "2026-11-11T01:34:19.158629+00:00"
 }
