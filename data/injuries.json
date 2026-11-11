@@ -55,6 +55,16 @@
  ],
  "BKN": [
   {
+   "id": "5279130",
+   "name": "Nolan Traore",
+   "pos": "G",
+   "status": "Out",
+   "type": "Calf",
+   "return": "2026-11-14",
+   "comment": "Traore (calf) has been ruled out for Wednesday's game against the Pelicans, Ian Begley of SportsNet New York reports.",
+   "date": "2026-11-11T21:57Z"
+  },
+  {
    "id": "5101761",
    "name": "Mikel Brown Jr.",
    "pos": "G",
@@ -63,16 +73,6 @@
    "return": "2026-11-14",
    "comment": "Brown has been ruled out for Wednesday's game against the Pelicans due to an illness, Sharif Phillips-Keaton of USA Today reports.",
    "date": "2026-11-11T16:40Z"
-  },
-  {
-   "id": "5279130",
-   "name": "Nolan Traore",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Calf",
-   "return": "2026-11-11",
-   "comment": "Traore (calf) is listed as questionable for Wednesday's game against New Orleans.",
-   "date": "2026-11-10T22:56Z"
   }
  ],
  "CHA": [
@@ -129,6 +129,16 @@
  ],
  "CHI": [
   {
+   "id": "5105555",
+   "name": "Tobe Awaka",
+   "pos": "F",
+   "status": "Out",
+   "type": "Back",
+   "return": "2026-11-13",
+   "comment": "Awaka (back) has been ruled out for Wednesday's game against the Spurs.",
+   "date": "2026-11-11T19:18Z"
+  },
+  {
    "id": "5095151",
    "name": "Caleb Wilson",
    "pos": "F",
@@ -147,16 +157,6 @@
    "return": "2026-11-11",
    "comment": "Powell (shoulder) is listed as questionable for Wednesday's game versus the Spurs.",
    "date": "2026-11-10T22:21Z"
-  },
-  {
-   "id": "5105555",
-   "name": "Tobe Awaka",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Back",
-   "return": "2026-11-11",
-   "comment": "Awaka (back) is questionable for Wednesday's game against the Spurs.",
-   "date": "2026-11-10T22:19Z"
   },
   {
    "id": "4066650",
@@ -193,24 +193,14 @@
  ],
  "DAL": [
   {
-   "id": "4873153",
-   "name": "Morez Johnson Jr.",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Leg",
-   "return": "2026-11-12",
-   "comment": "Johnson (leg) has been ruled out for Monday's game against the Pacers.",
-   "date": "2026-11-10T03:46Z"
-  },
-  {
-   "id": "5279129",
-   "name": "Sergio de Larrea",
-   "pos": "F",
+   "id": "4683688",
+   "name": "Dereck Lively II",
+   "pos": "C",
    "status": "Out",
-   "type": "Knee",
-   "return": "2026-11-12",
-   "comment": "De Larrea (knee) is out for Friday's game against Utah.",
-   "date": "2026-11-05T22:24Z"
+   "type": "Foot",
+   "return": "2026-11-18",
+   "comment": "Lively (foot) is listed as out for Thursday's game in Minnesota.",
+   "date": "2026-11-11T22:13Z"
   },
   {
    "id": "5148538",
@@ -218,19 +208,29 @@
    "pos": "F",
    "status": "Out",
    "type": "Heel",
-   "return": "2026-11-12",
-   "comment": "Biberovic (heel) is listed as out for Monday's game against Sacramento.",
-   "date": "2026-11-01T23:19Z"
+   "return": "2026-11-18",
+   "comment": "Biberovic (heel) is out for Thursday's game against Minnesota.",
+   "date": "2026-11-11T22:12Z"
   },
   {
-   "id": "4683688",
-   "name": "Dereck Lively II",
-   "pos": "C",
+   "id": "5279129",
+   "name": "Sergio de Larrea",
+   "pos": "F",
    "status": "Out",
-   "type": "Foot",
+   "type": "Knee",
+   "return": "2026-11-18",
+   "comment": "De Larrea (knee) has been ruled out for Thursday's game at Minnesota.",
+   "date": "2026-11-11T22:10Z"
+  },
+  {
+   "id": "4873153",
+   "name": "Morez Johnson Jr.",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Lower Leg",
    "return": "2026-11-12",
-   "comment": "Lively (foot) is listed as out for Monday's game against the Kings.",
-   "date": "2026-11-01T22:57Z"
+   "comment": "Johnson (shin) is listed as probable for Thursday's game against Minnesota.",
+   "date": "2026-11-11T22:08Z"
   }
  ],
  "DEN": [
@@ -285,8 +285,8 @@
    "status": "Day-To-Day",
    "type": "Thumb",
    "return": "2026-11-11",
-   "comment": "Richard (thumb) is questionable for Wednesday's game against Houston.",
-   "date": "2026-11-11T17:03Z"
+   "comment": "Richard (thumb) has been upgraded to probable for Wednesday's game at Houston.",
+   "date": "2026-11-11T19:09Z"
   },
   {
    "id": "3134903",
@@ -363,24 +363,14 @@
  ],
  "IND": [
   {
-   "id": "2530530",
-   "name": "T.J. McConnell",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Hamstring",
-   "return": "2026-11-11",
-   "comment": "McConnell is questionable for Wednesday's game against the Wizards due to a strained right hamstring.",
-   "date": "2026-11-10T22:05Z"
-  },
-  {
    "id": "4396993",
    "name": "Tyrese Haliburton",
    "pos": "G",
    "status": "Out",
    "type": "Hamstring",
-   "return": "2026-11-13",
-   "comment": "Haliburton (hamstring) is progressing well but does not have a timetable to return, Dustin Dopirak of The Indianapolis Star reports.",
-   "date": "2026-11-07T20:46Z"
+   "return": "2026-11-22",
+   "comment": "Head coach Rick Carlisle said Wednesday that Haliburton (hamstring) will miss at least 10 more days, Alex Golden of SI.com reports.",
+   "date": "2026-11-11T22:29Z"
   },
   {
    "id": "5157066",
@@ -460,11 +450,11 @@
    "id": "4397014",
    "name": "Quentin Grimes",
    "pos": "G",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Finger",
-   "return": "2026-11-11",
-   "comment": "Grimes (finger) is listed as questionable for Wednesday's game in Milwaukee.",
-   "date": "2026-11-10T23:07Z"
+   "return": "2026-11-15",
+   "comment": "Grimes (finger) has been ruled out for Wednesday's game against the Bucks.",
+   "date": "2026-11-11T19:06Z"
   }
  ],
  "MEM": [
@@ -517,8 +507,18 @@
    "status": "Day-To-Day",
    "type": "Knee",
    "return": "2026-11-11",
-   "comment": "Herro (knee) is listed as out for Tuesday's game against New York.",
-   "date": "2026-11-11T14:58Z"
+   "comment": "Herro (knee) is listed as questionable for Wednesday's game against the Lakers.",
+   "date": "2026-11-11T19:05Z"
+  },
+  {
+   "id": "3133628",
+   "name": "Myles Turner",
+   "pos": "C",
+   "status": "Out",
+   "type": "Rest",
+   "return": "2026-11-13",
+   "comment": "Turner has been ruled out for Wednesday's game against the Lakers due to rest.",
+   "date": "2026-11-11T19:03Z"
   }
  ],
  "MIN": [
@@ -585,28 +585,6 @@
    "date": "2026-11-05T20:47Z"
   }
  ],
- "NY": [
-  {
-   "id": "3136195",
-   "name": "Karl-Anthony Towns",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Calf",
-   "return": "2026-11-11",
-   "comment": "Towns (calf) is listed as questionable for Wednesday's game against Cleveland.",
-   "date": "2026-11-11T18:06Z"
-  },
-  {
-   "id": "3062679",
-   "name": "Josh Hart",
-   "pos": "G",
-   "status": "Out",
-   "type": "Illness",
-   "return": "2026-11-11",
-   "comment": "Hart (illness) is probable for Wednesday's game against the Cavaliers.",
-   "date": "2026-11-11T18:06Z"
-  }
- ],
  "OKC": [
   {
    "id": "4432823",
@@ -614,9 +592,19 @@
    "pos": "F",
    "status": "Out",
    "type": "Back",
-   "return": "2026-11-11",
-   "comment": "Williams (back) has been ruled out for Tuesday's game against the Trail Blazers.",
-   "date": "2026-11-10T00:53Z"
+   "return": "2026-11-15",
+   "comment": "Williams (back) has been ruled out for Wednesday's game against Portland and remains out indefinitely.",
+   "date": "2026-11-11T21:19Z"
+  },
+  {
+   "id": "4900671",
+   "name": "Ajay Mitchell",
+   "pos": "G",
+   "status": "Out",
+   "type": "Ankle",
+   "return": "2026-11-13",
+   "comment": "Mitchell has been ruled out for Wednesday's game against the Trail Blazers due to a left ankle sprain.",
+   "date": "2026-11-11T21:18Z"
   },
   {
    "id": "5061603",
@@ -661,14 +649,24 @@
  ],
  "ORL": [
   {
+   "id": "4278572",
+   "name": "Jamal Cain",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Shoulder",
+   "return": "2026-11-11",
+   "comment": "Cain is questionable for Wednesday's game against the Jazz due to a left shoulder contusion.",
+   "date": "2026-11-11T19:50Z"
+  },
+  {
    "id": "4702382",
    "name": "Tristan da Silva",
    "pos": "F",
    "status": "Day-To-Day",
    "type": "Calf",
    "return": "2026-11-11",
-   "comment": "Da Silva (calf) has been ruled out for Tuesday's game against the Kings, Jason Beede of the Orlando Sentinel reports.",
-   "date": "2026-11-11T15:00Z"
+   "comment": "Da Silva (calf) is listed as questionable for Wednesday's game at Utah.",
+   "date": "2026-11-11T19:50Z"
   },
   {
    "id": "4432165",
@@ -728,9 +726,29 @@
    "pos": "C",
    "status": "Out",
    "type": "Back",
+   "return": "2026-11-18",
+   "comment": "Bona (back) is out for Thursday's game against the Raptors, Kyle Neubeck of AllPHLY.com reports.",
+   "date": "2026-11-11T22:10Z"
+  },
+  {
+   "id": "3059318",
+   "name": "Joel Embiid",
+   "pos": "C",
+   "status": "Day-To-Day",
+   "type": "Foot",
    "return": "2026-11-12",
-   "comment": "Bona (back) is out for Tuesday's game against the Celtics.",
-   "date": "2026-11-09T22:03Z"
+   "comment": "Embiid (foot) is listed as questionable for Thursday's game against Toronto, Adam Aaronson of PhillyVoice.com reports.",
+   "date": "2026-11-11T22:06Z"
+  },
+  {
+   "id": "1966",
+   "name": "LeBron James",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Back",
+   "return": "2026-11-12",
+   "comment": "James (back) is questionable for Thursday's game against the Raptors, Kyle Neubeck of AllPHLY.com reports.",
+   "date": "2026-11-11T22:06Z"
   },
   {
    "id": "4870562",
@@ -767,6 +785,26 @@
  ],
  "POR": [
   {
+   "id": "4706557",
+   "name": "Chris Youngblood",
+   "pos": "G",
+   "status": "Out",
+   "type": "Foot",
+   "return": "2026-11-13",
+   "comment": "Youngblood has been ruled out for Wednesday's game against the Thunder.",
+   "date": "2026-11-11T21:05Z"
+  },
+  {
+   "id": "4578893",
+   "name": "Vit Krejci",
+   "pos": "G",
+   "status": "Out",
+   "type": "Ankle",
+   "return": "2027-01-12",
+   "comment": "Krejci underwent surgery on his fractured left ankle Wednesday and will be re-evaluated in eight weeks, Brett Siegel of ClutchPoints.com reports.",
+   "date": "2026-11-11T19:56Z"
+  },
+  {
    "id": "4279888",
    "name": "Ja Morant",
    "pos": "G",
@@ -775,16 +813,6 @@
    "return": "2026-12-01",
    "comment": "Head coach Micah Nori said Morant met with a doctor in Los Angeles, who gave him a positive outlook on his recovery from the hamstring injury. While Nori declined to update Morant's timetable, he added Morant \"may not be out for as long as we thought,\" Trail Blazers Insider Sean Highkin reports.",
    "date": "2026-11-08T02:18Z"
-  },
-  {
-   "id": "4578893",
-   "name": "Vit Krejci",
-   "pos": "G",
-   "status": "Out",
-   "type": "Ankle",
-   "return": "2027-01-02",
-   "comment": "Head coach Micah Nori said that Krejci suffered a left leg fracture during Wednesday's 132-119 win over the Suns, Brett Siegel of ClutchPoints.com reports.",
-   "date": "2026-11-05T05:17Z"
   },
   {
    "id": "4914336",
@@ -863,6 +891,16 @@
  ],
  "TOR": [
   {
+   "id": "6450",
+   "name": "Kawhi Leonard",
+   "pos": "F",
+   "status": "Out",
+   "type": "Knee",
+   "return": "2026-11-23",
+   "comment": "Head coach Darko Rajakovic said Wednesday that Leonard (knee) is doing individual on-court work and is progressing well, Michael Grange of Sportsnet.ca reports.",
+   "date": "2026-11-11T22:33Z"
+  },
+  {
    "id": "4431684",
    "name": "Trayce Jackson-Davis",
    "pos": "F",
@@ -873,26 +911,6 @@
    "date": "2026-11-11T17:37Z"
   },
   {
-   "id": "5093267",
-   "name": "Collin Murray-Boyles",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Illness",
-   "return": "2026-11-11",
-   "comment": "Murray-Boyles (illness) is questionable for Wednesday's game against the Celtics.",
-   "date": "2026-11-10T21:51Z"
-  },
-  {
-   "id": "4395724",
-   "name": "Immanuel Quickley",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Hamstring",
-   "return": "2026-11-11",
-   "comment": "Quickley (hamstring) is questionable for Wednesday's game against Boston.",
-   "date": "2026-11-10T21:49Z"
-  },
-  {
    "id": "4433134",
    "name": "Scottie Barnes",
    "pos": "F",
@@ -901,16 +919,6 @@
    "return": "2026-11-12",
    "comment": "Barnes (groin) is out for Wednesday's game against Boston.",
    "date": "2026-11-10T21:48Z"
-  },
-  {
-   "id": "6450",
-   "name": "Kawhi Leonard",
-   "pos": "F",
-   "status": "Out",
-   "type": "Knee",
-   "return": "2026-11-23",
-   "comment": "Leonard (knee) is continuing the reconditioning process, and another update will be provided in one week, Blake Murphy of Sportsnet.ca reports.",
-   "date": "2026-11-10T17:33Z"
   },
   {
    "id": "4432586",
@@ -925,6 +933,16 @@
  ],
  "UTAH": [
   {
+   "id": "4433627",
+   "name": "Keyonte George",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Ankle",
+   "return": "2026-11-11",
+   "comment": "George (ankle) is questionable for Wednesday's game against Orlando.",
+   "date": "2026-11-11T20:04Z"
+  },
+  {
    "id": "4066336",
    "name": "Lauri Markkanen",
    "pos": "F",
@@ -933,16 +951,6 @@
    "return": "2027-01-04",
    "comment": "Markkanen has been diagnosed with a non-displaced fracture in his right hand and will be sidelined for at least one month, Shams Charania of ESPN reports.",
    "date": "2026-11-11T18:22Z"
-  },
-  {
-   "id": "4433627",
-   "name": "Keyonte George",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Ankle",
-   "return": "2026-11-11",
-   "comment": "George (ankle) has been ruled out for Tuesday's game against the Heat.",
-   "date": "2026-11-11T15:00Z"
   },
   {
    "id": "3102530",
@@ -1007,5 +1015,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-11T19:03:44.835372+00:00"
+ "_updated": "2026-11-11T23:18:36.401767+00:00"
 }
