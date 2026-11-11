@@ -41,7 +41,29 @@
    "date": "2026-09-21T19:50Z"
   }
  ],
+ "BOS": [
+  {
+   "id": "4251",
+   "name": "Paul George",
+   "pos": "F",
+   "status": "Out",
+   "type": "Illness",
+   "return": "2026-11-15",
+   "comment": "George (illness) has been ruled out for Wednesday's game against Toronto, Taylor Snow of the Celtics' official site reports.",
+   "date": "2026-11-11T17:55Z"
+  }
+ ],
  "BKN": [
+  {
+   "id": "5101761",
+   "name": "Mikel Brown Jr.",
+   "pos": "G",
+   "status": "Out",
+   "type": "Illness",
+   "return": "2026-11-14",
+   "comment": "Brown has been ruled out for Wednesday's game against the Pelicans due to an illness, Sharif Phillips-Keaton of USA Today reports.",
+   "date": "2026-11-11T16:40Z"
+  },
   {
    "id": "5279130",
    "name": "Nolan Traore",
@@ -51,26 +73,6 @@
    "return": "2026-11-11",
    "comment": "Traore (calf) is listed as questionable for Wednesday's game against New Orleans.",
    "date": "2026-11-10T22:56Z"
-  },
-  {
-   "id": "5175643",
-   "name": "Egor Demin",
-   "pos": "G",
-   "status": "Out",
-   "type": "Leg",
-   "return": "2026-11-11",
-   "comment": "Demin (leg) is probable for Wednesday's game against the Pelicans, Erik Slater of ClutchPoints.com reports.",
-   "date": "2026-11-10T22:51Z"
-  },
-  {
-   "id": "4702670",
-   "name": "Grant Nelson",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Knee",
-   "return": "2026-11-10",
-   "comment": "Nelson signed a two-way contract with the Nets on Friday, Michael Scotto of HoopsHype.com reports.",
-   "date": "2026-11-08T16:21Z"
   }
  ],
  "CHA": [
@@ -126,6 +128,16 @@
   }
  ],
  "CHI": [
+  {
+   "id": "5095151",
+   "name": "Caleb Wilson",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Hip",
+   "return": "2026-11-11",
+   "comment": "Wilson has been downgraded to questionable for Wednesday's game against the Spurs due to right hip soreness.",
+   "date": "2026-11-11T18:21Z"
+  },
   {
    "id": "2595516",
    "name": "Norman Powell",
@@ -267,6 +279,16 @@
  ],
  "GS": [
   {
+   "id": "4897262",
+   "name": "Will Richard",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Thumb",
+   "return": "2026-11-11",
+   "comment": "Richard (thumb) is questionable for Wednesday's game against Houston.",
+   "date": "2026-11-11T17:03Z"
+  },
+  {
    "id": "3134903",
    "name": "Gary Payton II",
    "pos": "G",
@@ -275,16 +297,6 @@
    "return": "2026-11-13",
    "comment": "Payton (knee) is out for Wednesday's game against Houston.",
    "date": "2026-11-10T21:36Z"
-  },
-  {
-   "id": "4897262",
-   "name": "Will Richard",
-   "pos": "G",
-   "status": "Out",
-   "type": "Thumb",
-   "return": "2026-11-11",
-   "comment": "Richard (thumb) is questionable for Wednesday's game against Houston.",
-   "date": "2026-11-10T21:34Z"
   },
   {
    "id": "4397040",
@@ -533,14 +545,14 @@
  ],
  "NO": [
   {
-   "id": "4431675",
-   "name": "Trendon Watford",
-   "pos": "F",
+   "id": "4683634",
+   "name": "Bennedict Mathurin",
+   "pos": "G",
    "status": "Out",
-   "type": "Ankle",
+   "type": "Thumb",
    "return": "2026-11-13",
-   "comment": "Watford (ankle) is out for Wednesday's game against the Nets.",
-   "date": "2026-11-10T19:26Z"
+   "comment": "Mathurin has been ruled out for Wednesday's game against the Nets due to a right thumb sprain.",
+   "date": "2026-11-11T16:55Z"
   },
   {
    "id": "4397688",
@@ -549,8 +561,18 @@
    "status": "Day-To-Day",
    "type": "Knee",
    "return": "2026-11-11",
-   "comment": "Murphy (knee) is probable for Wednesday's game against the Nets.",
-   "date": "2026-11-10T19:22Z"
+   "comment": "Murphy (knee) is doubtful for Wednesday's game against the Nets.",
+   "date": "2026-11-11T16:53Z"
+  },
+  {
+   "id": "4431675",
+   "name": "Trendon Watford",
+   "pos": "F",
+   "status": "Out",
+   "type": "Ankle",
+   "return": "2026-11-13",
+   "comment": "Watford (ankle) is out for Wednesday's game against the Nets.",
+   "date": "2026-11-10T19:26Z"
   },
   {
    "id": "5061589",
@@ -565,14 +587,24 @@
  ],
  "NY": [
   {
+   "id": "3136195",
+   "name": "Karl-Anthony Towns",
+   "pos": "C",
+   "status": "Day-To-Day",
+   "type": "Calf",
+   "return": "2026-11-11",
+   "comment": "Towns (calf) is listed as questionable for Wednesday's game against Cleveland.",
+   "date": "2026-11-11T18:06Z"
+  },
+  {
    "id": "3062679",
    "name": "Josh Hart",
    "pos": "G",
    "status": "Out",
    "type": "Illness",
    "return": "2026-11-11",
-   "comment": "Hart (illness) won't play Tuesday against the Bucks, Kristian Winfield of the New York Daily News reports.",
-   "date": "2026-11-10T22:58Z"
+   "comment": "Hart (illness) is probable for Wednesday's game against the Cavaliers.",
+   "date": "2026-11-11T18:06Z"
   }
  ],
  "OKC": [
@@ -834,11 +866,11 @@
    "id": "4431684",
    "name": "Trayce Jackson-Davis",
    "pos": "F",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Illness",
-   "return": "2026-11-11",
-   "comment": "Jackson-Davis is questionable for Wednesday's game against Boston with an illness.",
-   "date": "2026-11-10T21:54Z"
+   "return": "2026-11-12",
+   "comment": "Jackson-Davis (illness) has been ruled out for Wednesday's game against the Celtics, Blake Murphy of Sportsnet.ca reports.",
+   "date": "2026-11-11T17:37Z"
   },
   {
    "id": "5093267",
@@ -893,6 +925,16 @@
  ],
  "UTAH": [
   {
+   "id": "4066336",
+   "name": "Lauri Markkanen",
+   "pos": "F",
+   "status": "Out",
+   "type": "Hand",
+   "return": "2027-01-04",
+   "comment": "Markkanen has been diagnosed with a non-displaced fracture in his right hand and will be sidelined for at least one month, Shams Charania of ESPN reports.",
+   "date": "2026-11-11T18:22Z"
+  },
+  {
    "id": "4433627",
    "name": "Keyonte George",
    "pos": "G",
@@ -901,16 +943,6 @@
    "return": "2026-11-11",
    "comment": "George (ankle) has been ruled out for Tuesday's game against the Heat.",
    "date": "2026-11-11T15:00Z"
-  },
-  {
-   "id": "4066336",
-   "name": "Lauri Markkanen",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Wrist",
-   "return": "2026-11-11",
-   "comment": "Markkanen is out for Tuesday's game versus the Heat with a right wrist sprain.",
-   "date": "2026-11-11T14:45Z"
   },
   {
    "id": "3102530",
@@ -975,5 +1007,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-11T15:57:44.731085+00:00"
+ "_updated": "2026-11-11T19:03:44.835372+00:00"
 }
