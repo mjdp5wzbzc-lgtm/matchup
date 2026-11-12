@@ -46,11 +46,11 @@
    "id": "4251",
    "name": "Paul George",
    "pos": "F",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Illness",
    "return": "2026-11-15",
    "comment": "George (illness) has been ruled out for Wednesday's game against Toronto, Taylor Snow of the Celtics' official site reports.",
-   "date": "2026-11-11T17:55Z"
+   "date": "2026-11-12T03:01Z"
   }
  ],
  "BKN": [
@@ -128,6 +128,16 @@
   }
  ],
  "CHI": [
+  {
+   "id": "5095151",
+   "name": "Caleb Wilson",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Hand",
+   "return": "2026-11-13",
+   "comment": "Wilson won't return to Wednesday's game against the Spurs due to a right hand injury. He'll finish with 15 points (5-7 FG, 2-2 3Pt, 3-3 FT), five rebounds and one steal in 15 minutes.",
+   "date": "2026-11-12T02:53Z"
+  },
   {
    "id": "4848625",
    "name": "Dailyn Swain",
@@ -258,6 +268,16 @@
   }
  ],
  "GS": [
+  {
+   "id": "3975",
+   "name": "Stephen Curry",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Abdomen",
+   "return": "2026-11-13",
+   "comment": "Curry won't return to Wednesday's game against the Rockets due to right abdominal soreness, Anthony Slater of ESPN.com reports. He'll finish with three points (1-3 FG, 1-2 3Pt) across six minutes.",
+   "date": "2026-11-12T03:19Z"
+  },
   {
    "id": "3134903",
    "name": "Gary Payton II",
@@ -427,6 +447,26 @@
  ],
  "LAL": [
   {
+   "id": "4066457",
+   "name": "Austin Reaves",
+   "pos": "G",
+   "status": "Out",
+   "type": "Heel",
+   "return": "2026-11-15",
+   "comment": "Reaves will not return to Wednesday's game against the Bucks due to a left heel injury, Benjamin Royer of The Orange County Register reports.",
+   "date": "2026-11-12T03:14Z"
+  },
+  {
+   "id": "4277811",
+   "name": "Collin Sexton",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Head",
+   "return": "2026-11-11",
+   "comment": "Sexton went back to the locker room during Wednesday's game against the Bucks after bumping heads with Ryan Rollins, Thuc Nhi Nguyen of the Los Angeles Times reports.",
+   "date": "2026-11-12T03:11Z"
+  },
+  {
    "id": "4397014",
    "name": "Quentin Grimes",
    "pos": "G",
@@ -470,6 +510,16 @@
   }
  ],
  "MIL": [
+  {
+   "id": "4591725",
+   "name": "Ryan Rollins",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Head",
+   "return": "2026-11-11",
+   "comment": "Rollins exited to the locker room in the fourth quarter of Wednesday's game against the Lakers due to an apparent head injury, per the broadcast.",
+   "date": "2026-11-12T03:11Z"
+  },
   {
    "id": "3133628",
    "name": "Myles Turner",
@@ -851,6 +901,16 @@
  ],
  "TOR": [
   {
+   "id": "4431684",
+   "name": "Trayce Jackson-Davis",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Illness",
+   "return": "2026-11-12",
+   "comment": "Jackson-Davis (illness) has been ruled out for Wednesday's game against the Celtics, Blake Murphy of Sportsnet.ca reports.",
+   "date": "2026-11-12T03:01Z"
+  },
+  {
    "id": "6450",
    "name": "Kawhi Leonard",
    "pos": "F",
@@ -859,16 +919,6 @@
    "return": "2026-11-23",
    "comment": "Head coach Darko Rajakovic said Wednesday that Leonard (knee) is doing individual on-court work and is progressing well, Michael Grange of Sportsnet.ca reports.",
    "date": "2026-11-11T22:33Z"
-  },
-  {
-   "id": "4431684",
-   "name": "Trayce Jackson-Davis",
-   "pos": "F",
-   "status": "Out",
-   "type": "Illness",
-   "return": "2026-11-12",
-   "comment": "Jackson-Davis (illness) has been ruled out for Wednesday's game against the Celtics, Blake Murphy of Sportsnet.ca reports.",
-   "date": "2026-11-11T17:37Z"
   },
   {
    "id": "4433134",
@@ -965,5 +1015,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-12T02:42:35.830507+00:00"
+ "_updated": "2026-11-12T03:44:12.132560+00:00"
 }
