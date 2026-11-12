@@ -151,6 +151,16 @@
  ],
  "CLE": [
   {
+   "id": "4432158",
+   "name": "Evan Mobley",
+   "pos": "C",
+   "status": "Out",
+   "type": "Toe",
+   "return": "2026-11-14",
+   "comment": "Mobley (toe) is out for Friday's game against the Heat.",
+   "date": "2026-11-12T22:08Z"
+  },
+  {
    "id": "4066757",
    "name": "Sam Merrill",
    "pos": "G",
@@ -249,6 +259,16 @@
  ],
  "GS": [
   {
+   "id": "4397886",
+   "name": "Charles Bassey",
+   "pos": "C",
+   "status": "Day-To-Day",
+   "type": "Toe",
+   "return": "2026-11-13",
+   "comment": "Bassey is probable for Friday's game against the Spurs due to left toe soreness.",
+   "date": "2026-11-12T22:18Z"
+  },
+  {
    "id": "3975",
    "name": "Stephen Curry",
    "pos": "G",
@@ -257,16 +277,6 @@
    "return": "2026-12-12",
    "comment": "Curry has been diagnosed with an oblique abdominal tear and will be re-evaluated in two weeks, Shams Charania of ESPN reports.",
    "date": "2026-11-12T17:03Z"
-  },
-  {
-   "id": "3134903",
-   "name": "Gary Payton II",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Knee",
-   "return": "2026-11-13",
-   "comment": "Payton (knee) is out for Wednesday's game against Houston.",
-   "date": "2026-11-12T15:03Z"
   },
   {
    "id": "4397040",
@@ -531,28 +541,6 @@
    "date": "2026-11-12T21:20Z"
   }
  ],
- "MIL": [
-  {
-   "id": "3133628",
-   "name": "Myles Turner",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Rest",
-   "return": "2026-11-13",
-   "comment": "Turner has been ruled out for Wednesday's game against the Lakers due to rest.",
-   "date": "2026-11-12T15:01Z"
-  },
-  {
-   "id": "4591725",
-   "name": "Ryan Rollins",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Head",
-   "return": "2026-11-13",
-   "comment": "Rollins (head) exited to the locker room in the fourth quarter of Wednesday's 123-112 loss to the Lakers and did not return, finishing with eight points (3-10 FG, 2-6 3Pt), seven rebounds, four assists and one steal across 24 minutes.",
-   "date": "2026-11-12T03:40Z"
-  }
- ],
  "MIN": [
   {
    "id": "4594268",
@@ -697,8 +685,8 @@
    "status": "Day-To-Day",
    "type": "Calf",
    "return": "2026-11-13",
-   "comment": "Da Silva (calf) is listed as out for Wednesday's game versus the Jazz.",
-   "date": "2026-11-12T15:03Z"
+   "comment": "Da Silva (calf) is questionable for Friday's game against Milwaukee.",
+   "date": "2026-11-12T22:07Z"
   },
   {
    "id": "4278572",
@@ -707,8 +695,8 @@
    "status": "Day-To-Day",
    "type": "Shoulder",
    "return": "2026-11-13",
-   "comment": "Cain (shoulder) is out for Wednesday's game in Utah.",
-   "date": "2026-11-12T15:03Z"
+   "comment": "Cain (shoulder) is questionable for Friday's game against the Bucks.",
+   "date": "2026-11-12T22:04Z"
   },
   {
    "id": "4432165",
@@ -716,9 +704,9 @@
    "pos": "G",
    "status": "Out",
    "type": "Knee",
-   "return": "2026-11-16",
-   "comment": "Suggs (knee) has been ruled out for Tuesday's game against the Kings.",
-   "date": "2026-11-09T23:11Z"
+   "return": "2026-11-13",
+   "comment": "Suggs (knee) is questionable for Friday's game against Milwaukee.",
+   "date": "2026-11-12T22:03Z"
   },
   {
    "id": "4065654",
@@ -1057,5 +1045,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-12T21:53:39.789005+00:00"
+ "_updated": "2026-11-12T22:38:02.855157+00:00"
 }
