@@ -77,14 +77,14 @@
  ],
  "CHA": [
   {
-   "id": "4433287",
-   "name": "Brandon Miller",
+   "id": "4066218",
+   "name": "Grant Williams",
    "pos": "F",
    "status": "Out",
-   "type": "Groin",
-   "return": "2026-11-15",
-   "comment": "Miller (groin) is listed as out for Thursday's game against Phoenix.",
-   "date": "2026-11-12T00:06Z"
+   "type": "Hamstring",
+   "return": "2026-11-12",
+   "comment": "Williams (hamstring) is listed as probable for Thursday's game against the Suns.",
+   "date": "2026-11-12T00:12Z"
   },
   {
    "id": "4433249",
@@ -93,18 +93,18 @@
    "status": "Day-To-Day",
    "type": "Quadriceps",
    "return": "2026-11-12",
-   "comment": "Diabate (quadriceps) has been downgraded to out for Monday's game against Cleveland.",
-   "date": "2026-11-10T02:51Z"
+   "comment": "Diabate (quadriceps) is listed as probable for Thursday's game against the Suns.",
+   "date": "2026-11-12T00:10Z"
   },
   {
-   "id": "4066218",
-   "name": "Grant Williams",
+   "id": "4433287",
+   "name": "Brandon Miller",
    "pos": "F",
    "status": "Out",
-   "type": "Hamstring",
-   "return": "2026-11-12",
-   "comment": "Williams (hamstring) is out for Monday's game against the Cavaliers.",
-   "date": "2026-11-08T22:35Z"
+   "type": "Groin",
+   "return": "2026-11-15",
+   "comment": "Miller (groin) is listed as out for Thursday's game against Phoenix.",
+   "date": "2026-11-12T00:06Z"
   },
   {
    "id": "5061575",
@@ -132,11 +132,11 @@
    "id": "4848625",
    "name": "Dailyn Swain",
    "pos": "G",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Back",
-   "return": "2026-11-11",
-   "comment": "Swain (back) has been downgraded to questionable for Wednesday's game against the Spurs.",
-   "date": "2026-11-11T23:28Z"
+   "return": "2026-11-13",
+   "comment": "Swain (back) is out for Wednesday's game against the Spurs.",
+   "date": "2026-11-12T00:21Z"
   },
   {
    "id": "2595516",
@@ -157,26 +157,6 @@
    "return": "2026-11-13",
    "comment": "Awaka (back) has been ruled out for Wednesday's game against the Spurs.",
    "date": "2026-11-11T19:18Z"
-  },
-  {
-   "id": "5095151",
-   "name": "Caleb Wilson",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Hip",
-   "return": "2026-11-11",
-   "comment": "Wilson has been downgraded to questionable for Wednesday's game against the Spurs due to right hip soreness.",
-   "date": "2026-11-11T18:21Z"
-  },
-  {
-   "id": "4066650",
-   "name": "Zach Collins",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Illness",
-   "return": "2026-11-11",
-   "comment": "Collins (illness) is questionable for Wednesday's game against the Spurs.",
-   "date": "2026-11-10T22:19Z"
   }
  ],
  "CLE": [
@@ -278,16 +258,6 @@
   }
  ],
  "GS": [
-  {
-   "id": "4897262",
-   "name": "Will Richard",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Thumb",
-   "return": "2026-11-11",
-   "comment": "Richard (thumb) has been upgraded to probable for Wednesday's game at Houston.",
-   "date": "2026-11-11T19:09Z"
-  },
   {
    "id": "3134903",
    "name": "Gary Payton II",
@@ -459,16 +429,6 @@
  ],
  "MEM": [
   {
-   "id": "4432810",
-   "name": "Isaiah Stewart",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Knee",
-   "return": "2026-11-11",
-   "comment": "Stewart (knee) is listed as questionable for Wednesday's game versus the Nuggets.",
-   "date": "2026-11-10T23:13Z"
-  },
-  {
    "id": "4431785",
    "name": "Scotty Pippen Jr.",
    "pos": "G",
@@ -500,16 +460,6 @@
   }
  ],
  "MIL": [
-  {
-   "id": "4395725",
-   "name": "Tyler Herro",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Knee",
-   "return": "2026-11-11",
-   "comment": "Herro (knee) is listed as questionable for Wednesday's game against the Lakers.",
-   "date": "2026-11-11T19:05Z"
-  },
   {
    "id": "3133628",
    "name": "Myles Turner",
@@ -937,8 +887,8 @@
    "name": "Keyonte George",
    "pos": "G",
    "status": "Day-To-Day",
-   "type": "Ankle",
-   "return": "2026-11-11",
+   "type": null,
+   "return": null,
    "comment": "George (ankle) is questionable for Wednesday's game against Orlando.",
    "date": "2026-11-11T20:04Z"
   },
@@ -1015,5 +965,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-12T00:13:25.177399+00:00"
+ "_updated": "2026-11-12T01:20:15.522201+00:00"
 }
