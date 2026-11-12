@@ -109,6 +109,16 @@
  ],
  "CHI": [
   {
+   "id": "5095151",
+   "name": "Caleb Wilson",
+   "pos": "F",
+   "status": "Out",
+   "type": "Hand",
+   "return": "2026-12-13",
+   "comment": "Wilson won't return to Wednesday's game against the Spurs due to a right hand injury. He'll finish with 15 points (5-7 FG, 2-2 3Pt, 3-3 FT), five rebounds and one steal in 15 minutes.",
+   "date": "2026-11-12T21:34Z"
+  },
+  {
    "id": "4848625",
    "name": "Dailyn Swain",
    "pos": "G",
@@ -137,16 +147,6 @@
    "return": "2026-11-13",
    "comment": "Awaka (back) has been ruled out for Wednesday's game against the Spurs.",
    "date": "2026-11-12T15:00Z"
-  },
-  {
-   "id": "5095151",
-   "name": "Caleb Wilson",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Hand",
-   "return": "2026-11-13",
-   "comment": "Wilson won't return to Wednesday's game against the Spurs due to a right hand injury. He'll finish with 15 points (5-7 FG, 2-2 3Pt, 3-3 FT), five rebounds and one steal in 15 minutes.",
-   "date": "2026-11-12T02:53Z"
   }
  ],
  "CLE": [
@@ -254,7 +254,7 @@
    "pos": "G",
    "status": "Out",
    "type": "Abdomen",
-   "return": "2026-12-01",
+   "return": "2026-12-12",
    "comment": "Curry has been diagnosed with an oblique abdominal tear and will be re-evaluated in two weeks, Shams Charania of ESPN reports.",
    "date": "2026-11-12T17:03Z"
   },
@@ -375,6 +375,16 @@
  ],
  "LAC": [
   {
+   "id": "3913176",
+   "name": "Brandon Ingram",
+   "pos": "F",
+   "status": "Out",
+   "type": "Achilles",
+   "return": "2026-11-19",
+   "comment": "Ingram (Achilles) won't play in Friday's game against the Thunder, per Law Murray of The Athletic.",
+   "date": "2026-11-12T21:05Z"
+  },
+  {
    "id": "4845363",
    "name": "Cam Christie",
    "pos": "G",
@@ -393,16 +403,6 @@
    "return": "2026-11-17",
    "comment": "Niederhauser (foot) is out for Tuesday's game against Phoenix, Ohm Youngmisuk of ESPN.com reports.",
    "date": "2026-11-10T00:05Z"
-  },
-  {
-   "id": "3913176",
-   "name": "Brandon Ingram",
-   "pos": "F",
-   "status": "Out",
-   "type": "Achilles",
-   "return": "2026-11-13",
-   "comment": "Ingram (Achilles) has been ruled out for Tuesday's game at Phoenix, Ohm Youngmisuk of ESPN.com reports.",
-   "date": "2026-11-10T00:00Z"
   },
   {
    "id": "6580",
@@ -501,24 +501,34 @@
  ],
  "MIA": [
   {
-   "id": "4601025",
-   "name": "Pelle Larsson",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Illness",
-   "return": "2026-11-13",
-   "comment": "Larsson sat out Thursday's practice due to an illness, per Ira Winderman of the South Florida Sun Sentinel.",
-   "date": "2026-11-12T18:35Z"
-  },
-  {
    "id": "6475",
    "name": "Klay Thompson",
    "pos": "G",
    "status": "Day-To-Day",
    "type": "Ankle",
    "return": "2026-11-13",
-   "comment": "Thompson (ankle) didn't practice Thursday, per Ira Winderman of the South Florida Sun Sentinel.",
-   "date": "2026-11-12T18:32Z"
+   "comment": "Thompson (ankle) is listed as questionable for Friday's game against the Cavaliers.",
+   "date": "2026-11-12T21:23Z"
+  },
+  {
+   "id": "3032977",
+   "name": "Giannis Antetokounmpo",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Wrist",
+   "return": "2026-11-13",
+   "comment": "Antetokounmpo (wrist) is probable for Friday's game against Cleveland.",
+   "date": "2026-11-12T21:22Z"
+  },
+  {
+   "id": "4601025",
+   "name": "Pelle Larsson",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Illness",
+   "return": "2026-11-13",
+   "comment": "Larsson (illness) is listed as questionable for Friday's game against Cleveland.",
+   "date": "2026-11-12T21:20Z"
   }
  ],
  "MIL": [
@@ -567,24 +577,44 @@
  ],
  "NO": [
   {
+   "id": "4576086",
+   "name": "Bryce McGowens",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Elbow",
+   "return": "2026-11-13",
+   "comment": "McGowens (elbow) is listed as doubtful for Friday's game against the Grizzlies.",
+   "date": "2026-11-12T20:56Z"
+  },
+  {
+   "id": "4431675",
+   "name": "Trendon Watford",
+   "pos": "F",
+   "status": "Out",
+   "type": "Ankle",
+   "return": "2026-11-14",
+   "comment": "Watford (ankle) is listed as out for Friday's game against the Grizzlies.",
+   "date": "2026-11-12T20:53Z"
+  },
+  {
    "id": "4683634",
    "name": "Bennedict Mathurin",
    "pos": "G",
    "status": "Day-To-Day",
    "type": "Thumb",
    "return": "2026-11-13",
-   "comment": "Mathurin has been ruled out for Wednesday's game against the Nets due to a right thumb sprain.",
-   "date": "2026-11-12T15:03Z"
+   "comment": "Mathurin (thumb) is listed as doubtful for Friday's game against Memphis.",
+   "date": "2026-11-12T20:53Z"
   },
   {
-   "id": "4431675",
-   "name": "Trendon Watford",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Ankle",
+   "id": "5061589",
+   "name": "Yves Missi",
+   "pos": "C",
+   "status": "Out",
+   "type": "Knee",
    "return": "2026-11-13",
-   "comment": "Watford (ankle) is out for Wednesday's game against the Nets.",
-   "date": "2026-11-12T15:02Z"
+   "comment": "Missi (knee) is listed as doubtful for Friday's game against the Grizzlies.",
+   "date": "2026-11-12T20:50Z"
   },
   {
    "id": "4397688",
@@ -593,18 +623,8 @@
    "status": "Day-To-Day",
    "type": "Knee",
    "return": "2026-11-13",
-   "comment": "Murphy (knee) is listed as out for Wednesday's game against the Nets.",
-   "date": "2026-11-12T15:02Z"
-  },
-  {
-   "id": "5061589",
-   "name": "Yves Missi",
-   "pos": "C",
-   "status": "Out",
-   "type": "Knee",
-   "return": "2026-11-16",
-   "comment": "Missi (knee) is out for Friday's game against Minnesota.",
-   "date": "2026-11-05T20:47Z"
+   "comment": "Murphy (knee) is listed as doubtful for Friday's game against the Grizzlies.",
+   "date": "2026-11-12T20:48Z"
   }
  ],
  "OKC": [
@@ -1037,5 +1057,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-12T19:01:53.103780+00:00"
+ "_updated": "2026-11-12T21:38:36.832863+00:00"
 }
