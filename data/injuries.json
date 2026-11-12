@@ -602,21 +602,21 @@
    "id": "4278572",
    "name": "Jamal Cain",
    "pos": "F",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Shoulder",
-   "return": "2026-11-11",
-   "comment": "Cain is questionable for Wednesday's game against the Jazz due to a left shoulder contusion.",
-   "date": "2026-11-11T19:50Z"
+   "return": "2026-11-13",
+   "comment": "Cain (shoulder) is out for Wednesday's game in Utah.",
+   "date": "2026-11-12T01:28Z"
   },
   {
    "id": "4702382",
    "name": "Tristan da Silva",
    "pos": "F",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Calf",
-   "return": "2026-11-11",
+   "return": "2026-11-13",
    "comment": "Da Silva (calf) is listed as questionable for Wednesday's game at Utah.",
-   "date": "2026-11-11T19:50Z"
+   "date": "2026-11-12T01:28Z"
   },
   {
    "id": "4432165",
@@ -883,16 +883,6 @@
  ],
  "UTAH": [
   {
-   "id": "4433627",
-   "name": "Keyonte George",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": null,
-   "return": null,
-   "comment": "George (ankle) is questionable for Wednesday's game against Orlando.",
-   "date": "2026-11-11T20:04Z"
-  },
-  {
    "id": "4066336",
    "name": "Lauri Markkanen",
    "pos": "F",
@@ -965,5 +955,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-12T01:20:15.522201+00:00"
+ "_updated": "2026-11-12T01:45:41.050950+00:00"
 }
