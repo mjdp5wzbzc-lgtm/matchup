@@ -447,6 +447,16 @@
  ],
  "LAL": [
   {
+   "id": "3945274",
+   "name": "Luka Doncic",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Ankle",
+   "return": "2026-11-15",
+   "comment": "Doncic finished Wednesday's 123-112 win over the Bucks with 32 points (10-25 FG, 5-12 3Pt, 7-10 FT), five rebounds, five assists and three steals across 32 minutes. He exited to the locker room late in the fourth quarter due to an apparent right ankle injury and did not return, Thuc Nhi Nguyen of the Los Angeles Times reports.",
+   "date": "2026-11-12T03:34Z"
+  },
+  {
    "id": "4066457",
    "name": "Austin Reaves",
    "pos": "G",
@@ -462,7 +472,7 @@
    "pos": "G",
    "status": "Day-To-Day",
    "type": "Head",
-   "return": "2026-11-11",
+   "return": "2026-11-15",
    "comment": "Sexton went back to the locker room during Wednesday's game against the Bucks after bumping heads with Ryan Rollins, Thuc Nhi Nguyen of the Los Angeles Times reports.",
    "date": "2026-11-12T03:11Z"
   },
@@ -516,9 +526,9 @@
    "pos": "G",
    "status": "Day-To-Day",
    "type": "Head",
-   "return": "2026-11-11",
-   "comment": "Rollins exited to the locker room in the fourth quarter of Wednesday's game against the Lakers due to an apparent head injury, per the broadcast.",
-   "date": "2026-11-12T03:11Z"
+   "return": "2026-11-13",
+   "comment": "Rollins (head) exited to the locker room in the fourth quarter of Wednesday's 123-112 loss to the Lakers and did not return, finishing with eight points (3-10 FG, 2-6 3Pt), seven rebounds, four assists and one steal across 24 minutes.",
+   "date": "2026-11-12T03:40Z"
   },
   {
    "id": "3133628",
@@ -1015,5 +1025,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-12T03:44:12.132560+00:00"
+ "_updated": "2026-11-12T03:59:49.367519+00:00"
 }

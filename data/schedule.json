@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T03:44:11.837093+00:00",
+ "generated": "2026-11-12T03:59:49.050889+00:00",
  "days": [
   {
    "date": "2026-11-11",
@@ -94,10 +94,10 @@
      "home": "UTAH",
      "away": "ORL",
      "state": "in",
-     "detail": "4:19 - 3rd",
+     "detail": "End of 3rd",
      "score": {
-      "home": "78",
-      "away": "82"
+      "home": "85",
+      "away": "85"
      }
     },
     {
@@ -106,9 +106,9 @@
      "home": "HOU",
      "away": "GS",
      "state": "in",
-     "detail": "Halftime",
+     "detail": "11:02 - 3rd",
      "score": {
-      "home": "56",
+      "home": "58",
       "away": "51"
      }
     },
@@ -118,10 +118,10 @@
      "home": "POR",
      "away": "OKC",
      "state": "in",
-     "detail": "8:25 - 2nd",
+     "detail": "3:28 - 2nd",
      "score": {
-      "home": "36",
-      "away": "39"
+      "home": "44",
+      "away": "45"
      }
     }
    ]
