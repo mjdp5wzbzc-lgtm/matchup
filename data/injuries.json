@@ -1,24 +1,34 @@
 {
  "ATL": [
   {
-   "id": "4873201",
-   "name": "Asa Newell",
-   "pos": "F",
-   "status": "Out",
-   "type": "Toe",
-   "return": "2026-11-13",
-   "comment": "Newell (toe) has been ruled out for Monday's game against the Lakers.",
-   "date": "2026-11-08T22:15Z"
-  },
-  {
    "id": "4585618",
    "name": "Keshon Gilbert",
    "pos": "G",
    "status": "Out",
    "type": "Knee",
+   "return": "2026-11-20",
+   "comment": "Gilbert (knee) has been ruled out for Friday's game against the Bulls.",
+   "date": "2026-11-12T23:10Z"
+  },
+  {
+   "id": "4873201",
+   "name": "Asa Newell",
+   "pos": "F",
+   "status": "Out",
+   "type": "Toe",
+   "return": "2026-11-20",
+   "comment": "Newell (toe) has been ruled out for Friday's game against Chicago.",
+   "date": "2026-11-12T23:08Z"
+  },
+  {
+   "id": "5149077",
+   "name": "Kingston Flemings",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Back",
    "return": "2026-11-13",
-   "comment": "Gilbert (knee) has been ruled out for Monday's game against the Lakers.",
-   "date": "2026-11-08T22:13Z"
+   "comment": "Flemings (back) is questionable for Friday's game against the Bulls.",
+   "date": "2026-11-12T23:04Z"
   },
   {
    "id": "4712863",
@@ -207,8 +217,8 @@
    "name": "Morez Johnson Jr.",
    "pos": "F",
    "status": "Day-To-Day",
-   "type": "Lower Leg",
-   "return": "2026-11-12",
+   "type": null,
+   "return": null,
    "comment": "Johnson (shin) is listed as probable for Thursday's game against Minnesota.",
    "date": "2026-11-11T22:08Z"
   }
@@ -321,6 +331,16 @@
  ],
  "HOU": [
   {
+   "id": "2990992",
+   "name": "Marcus Smart",
+   "pos": "G",
+   "status": "Suspension",
+   "type": "Suspension",
+   "return": "2026-11-18",
+   "comment": "Smart has been suspended three games for throwing a punch during Wednesday's matchup against Golden State, Shams Charania of ESPN reports.",
+   "date": "2026-11-12T22:45Z"
+  },
+  {
    "id": "3102529",
    "name": "Clint Capela",
    "pos": "C",
@@ -343,14 +363,24 @@
  ],
  "IND": [
   {
+   "id": "2530530",
+   "name": "T.J. McConnell",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Hamstring",
+   "return": "2026-11-13",
+   "comment": "McConnell is probable for Friday's game against the Knicks due to a right hamstring strain.",
+   "date": "2026-11-12T23:08Z"
+  },
+  {
    "id": "4396909",
    "name": "Aaron Nesmith",
    "pos": "G",
    "status": "Day-To-Day",
    "type": "Knee",
    "return": "2026-11-13",
-   "comment": "Nesmith will not return to Wednesday's game against the Wizards due to right knee soreness. He'll finish with two points (1-6 FG, 0-4 3Pt), one rebound and one assist across 22 minutes.",
-   "date": "2026-11-12T01:59Z"
+   "comment": "Nesmith (knee) is questionable for Friday's game against the Knicks.",
+   "date": "2026-11-12T23:02Z"
   },
   {
    "id": "4396993",
@@ -482,11 +512,21 @@
    "id": "4593016",
    "name": "Quinten Post",
    "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Head",
-   "return": "2026-11-13",
+   "status": "Out",
+   "type": "Concussion",
+   "return": "2026-11-14",
    "comment": "Post (concussion) has been ruled out for Wednesday's game against the Nuggets.",
-   "date": "2026-11-12T15:00Z"
+   "date": "2026-11-12T23:16Z"
+  },
+  {
+   "id": "4600663",
+   "name": "Zach Edey",
+   "pos": "C",
+   "status": "Out",
+   "type": "Ankle",
+   "return": "2026-11-14",
+   "comment": "Edey recorded eight points (2-3 FG, 4-4 FT), nine rebounds, one assist and one block over 23 minutes during Monday's 118-102 victory over the Raptors.",
+   "date": "2026-11-12T23:14Z"
   },
   {
    "id": "4431785",
@@ -895,8 +935,18 @@
    "status": "Day-To-Day",
    "type": "Groin",
    "return": "2026-11-13",
-   "comment": "Vassell (adductor) won't play in Wednesday's game against the Bulls, Jeff Garcia of KENS 5 San Antonio reports.",
-   "date": "2026-11-12T14:59Z"
+   "comment": "Vassell is questionable for Friday's game against the Warriors due to left adductor tightness.",
+   "date": "2026-11-12T23:07Z"
+  },
+  {
+   "id": "4066259",
+   "name": "De'Aaron Fox",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Hip",
+   "return": "2026-11-13",
+   "comment": "Fox is questionable for Friday's game against the Warriors due to left hip soreness.",
+   "date": "2026-11-12T23:05Z"
   },
   {
    "id": "6440",
@@ -1045,5 +1095,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-12T22:38:02.855157+00:00"
+ "_updated": "2026-11-12T23:34:19.677576+00:00"
 }
