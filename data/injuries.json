@@ -109,14 +109,14 @@
  ],
  "CHI": [
   {
-   "id": "5095151",
-   "name": "Caleb Wilson",
+   "id": "5105555",
+   "name": "Tobe Awaka",
    "pos": "F",
    "status": "Out",
-   "type": "Hand",
-   "return": "2026-12-13",
-   "comment": "Wilson won't return to Wednesday's game against the Spurs due to a right hand injury. He'll finish with 15 points (5-7 FG, 2-2 3Pt, 3-3 FT), five rebounds and one steal in 15 minutes.",
-   "date": "2026-11-12T21:34Z"
+   "type": "Back",
+   "return": "2026-11-14",
+   "comment": "Awaka (back) has been ruled out for Friday's game against the Hawks.",
+   "date": "2026-11-12T21:40Z"
   },
   {
    "id": "4848625",
@@ -125,8 +125,8 @@
    "status": "Day-To-Day",
    "type": "Back",
    "return": "2026-11-13",
-   "comment": "Swain (back) is out for Wednesday's game against the Spurs.",
-   "date": "2026-11-12T15:00Z"
+   "comment": "Swain (back) is listed as questionable for Friday's game against Atlanta.",
+   "date": "2026-11-12T21:38Z"
   },
   {
    "id": "2595516",
@@ -135,18 +135,18 @@
    "status": "Day-To-Day",
    "type": "Shoulder",
    "return": "2026-11-13",
-   "comment": "Powell (shoulder) won't play in Wednesday's game against the Spurs,Joel Lorenzi of The Athletic reports.",
-   "date": "2026-11-12T15:00Z"
+   "comment": "Powell (shoulder) is questionable for Friday's game against the Hawks.",
+   "date": "2026-11-12T21:38Z"
   },
   {
-   "id": "5105555",
-   "name": "Tobe Awaka",
+   "id": "5095151",
+   "name": "Caleb Wilson",
    "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Back",
-   "return": "2026-11-13",
-   "comment": "Awaka (back) has been ruled out for Wednesday's game against the Spurs.",
-   "date": "2026-11-12T15:00Z"
+   "status": "Out",
+   "type": "Hand",
+   "return": "2026-12-13",
+   "comment": "Wilson (hand) is expected to miss four to six weeks, Shams Charania of ESPN reports.",
+   "date": "2026-11-12T21:35Z"
   }
  ],
  "CLE": [
@@ -1057,5 +1057,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-12T21:38:36.832863+00:00"
+ "_updated": "2026-11-12T21:53:39.789005+00:00"
 }
