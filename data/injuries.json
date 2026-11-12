@@ -80,11 +80,11 @@
    "id": "4433287",
    "name": "Brandon Miller",
    "pos": "F",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Groin",
-   "return": "2026-11-12",
-   "comment": "Miller (groin) is listed as out for Monday's game against Cleveland.",
-   "date": "2026-11-10T02:51Z"
+   "return": "2026-11-15",
+   "comment": "Miller (groin) is listed as out for Thursday's game against Phoenix.",
+   "date": "2026-11-12T00:06Z"
   },
   {
    "id": "4433249",
@@ -129,6 +129,26 @@
  ],
  "CHI": [
   {
+   "id": "4848625",
+   "name": "Dailyn Swain",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Back",
+   "return": "2026-11-11",
+   "comment": "Swain (back) has been downgraded to questionable for Wednesday's game against the Spurs.",
+   "date": "2026-11-11T23:28Z"
+  },
+  {
+   "id": "2595516",
+   "name": "Norman Powell",
+   "pos": "G",
+   "status": "Out",
+   "type": "Shoulder",
+   "return": "2026-11-13",
+   "comment": "Powell (shoulder) won't play in Wednesday's game against the Spurs,Joel Lorenzi of The Athletic reports.",
+   "date": "2026-11-11T23:27Z"
+  },
+  {
    "id": "5105555",
    "name": "Tobe Awaka",
    "pos": "F",
@@ -147,16 +167,6 @@
    "return": "2026-11-11",
    "comment": "Wilson has been downgraded to questionable for Wednesday's game against the Spurs due to right hip soreness.",
    "date": "2026-11-11T18:21Z"
-  },
-  {
-   "id": "2595516",
-   "name": "Norman Powell",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Shoulder",
-   "return": "2026-11-11",
-   "comment": "Powell (shoulder) is listed as questionable for Wednesday's game versus the Spurs.",
-   "date": "2026-11-10T22:21Z"
   },
   {
    "id": "4066650",
@@ -179,16 +189,6 @@
    "return": "2026-11-16",
    "comment": "Merrill (elbow) is listed as out for Wednesday's game against the Knicks.",
    "date": "2026-11-10T22:12Z"
-  },
-  {
-   "id": "4683747",
-   "name": "Jaylon Tyson",
-   "pos": "G",
-   "status": "Out",
-   "type": "Ankle",
-   "return": "2026-11-11",
-   "comment": "Tyson (ankle) is questionable to face the Knicks on Wednesday.",
-   "date": "2026-11-10T22:07Z"
   }
  ],
  "DAL": [
@@ -545,6 +545,16 @@
  ],
  "NO": [
   {
+   "id": "4397688",
+   "name": "Trey Murphy III",
+   "pos": "F",
+   "status": "Out",
+   "type": "Knee",
+   "return": "2026-11-13",
+   "comment": "Murphy (knee) is listed as out for Wednesday's game against the Nets.",
+   "date": "2026-11-11T23:50Z"
+  },
+  {
    "id": "4683634",
    "name": "Bennedict Mathurin",
    "pos": "G",
@@ -553,16 +563,6 @@
    "return": "2026-11-13",
    "comment": "Mathurin has been ruled out for Wednesday's game against the Nets due to a right thumb sprain.",
    "date": "2026-11-11T16:55Z"
-  },
-  {
-   "id": "4397688",
-   "name": "Trey Murphy III",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Knee",
-   "return": "2026-11-11",
-   "comment": "Murphy (knee) is doubtful for Wednesday's game against the Nets.",
-   "date": "2026-11-11T16:53Z"
   },
   {
    "id": "4431675",
@@ -862,11 +862,11 @@
    "id": "4395630",
    "name": "Devin Vassell",
    "pos": "G",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Groin",
-   "return": "2026-11-11",
-   "comment": "Vassell (groin) is listed as questionable for Wednesday's game versus the Bulls, NBA reporter Matthew Tynan reports.",
-   "date": "2026-11-10T22:48Z"
+   "return": "2026-11-13",
+   "comment": "Vassell (adductor) won't play in Wednesday's game against the Bulls, Jeff Garcia of KENS 5 San Antonio reports.",
+   "date": "2026-11-11T23:26Z"
   },
   {
    "id": "6440",
@@ -1015,5 +1015,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-11T23:18:36.401767+00:00"
+ "_updated": "2026-11-12T00:13:25.177399+00:00"
 }
