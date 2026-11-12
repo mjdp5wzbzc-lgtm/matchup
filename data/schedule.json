@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T01:45:40.570431+00:00",
+ "generated": "2026-11-12T02:42:35.408017+00:00",
  "days": [
   {
    "date": "2026-11-11",
@@ -9,11 +9,11 @@
      "start": "2026-11-12T00:00Z",
      "home": "IND",
      "away": "WSH",
-     "state": "in",
-     "detail": "24.6 - 3rd",
+     "state": "post",
+     "detail": "Final",
      "score": {
-      "home": "77",
-      "away": "77"
+      "home": "114",
+      "away": "101"
      }
     },
     {
@@ -21,11 +21,11 @@
      "start": "2026-11-12T00:00Z",
      "home": "NY",
      "away": "CLE",
-     "state": "in",
-     "detail": "4:34 - 3rd",
+     "state": "post",
+     "detail": "Final",
      "score": {
-      "home": "71",
-      "away": "72"
+      "home": "107",
+      "away": "115"
      }
     },
     {
@@ -33,11 +33,11 @@
      "start": "2026-11-12T00:00Z",
      "home": "TOR",
      "away": "BOS",
-     "state": "in",
-     "detail": "8:47 - 3rd",
+     "state": "post",
+     "detail": "Final",
      "score": {
-      "home": "63",
-      "away": "61"
+      "home": "93",
+      "away": "98"
      }
     },
     {
@@ -46,10 +46,10 @@
      "home": "CHI",
      "away": "SA",
      "state": "in",
-     "detail": "7:54 - 2nd",
+     "detail": "2:09 - 3rd",
      "score": {
-      "home": "54",
-      "away": "40"
+      "home": "84",
+      "away": "88"
      }
     },
     {
@@ -58,10 +58,10 @@
      "home": "MEM",
      "away": "DEN",
      "state": "in",
-     "detail": "7:52 - 2nd",
+     "detail": "4:45 - 3rd",
      "score": {
-      "home": "31",
-      "away": "42"
+      "home": "75",
+      "away": "77"
      }
     },
     {
@@ -70,10 +70,10 @@
      "home": "MIL",
      "away": "LAL",
      "state": "in",
-     "detail": "8:17 - 2nd",
+     "detail": "1:40 - 3rd",
      "score": {
-      "home": "31",
-      "away": "37"
+      "home": "70",
+      "away": "85"
      }
     },
     {
@@ -82,10 +82,10 @@
      "home": "NO",
      "away": "BKN",
      "state": "in",
-     "detail": "10:02 - 2nd",
+     "detail": "6:34 - 3rd",
      "score": {
-      "home": "33",
-      "away": "42"
+      "home": "74",
+      "away": "97"
      }
     },
     {
@@ -93,11 +93,11 @@
      "start": "2026-11-12T02:00Z",
      "home": "UTAH",
      "away": "ORL",
-     "state": "pre",
-     "detail": "11/11 - 9:00 PM EST",
+     "state": "in",
+     "detail": "11:27 - 2nd",
      "score": {
-      "home": "0",
-      "away": "0"
+      "home": "34",
+      "away": "29"
      }
     },
     {

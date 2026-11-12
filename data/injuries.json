@@ -333,6 +333,16 @@
  ],
  "IND": [
   {
+   "id": "4396909",
+   "name": "Aaron Nesmith",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Knee",
+   "return": "2026-11-13",
+   "comment": "Nesmith will not return to Wednesday's game against the Wizards due to right knee soreness. He'll finish with two points (1-6 FG, 0-4 3Pt), one rebound and one assist across 22 minutes.",
+   "date": "2026-11-12T01:59Z"
+  },
+  {
    "id": "4396993",
    "name": "Tyrese Haliburton",
    "pos": "G",
@@ -599,6 +609,16 @@
  ],
  "ORL": [
   {
+   "id": "4702382",
+   "name": "Tristan da Silva",
+   "pos": "F",
+   "status": "Out",
+   "type": "Calf",
+   "return": "2026-11-13",
+   "comment": "Da Silva (calf) is listed as out for Wednesday's game versus the Jazz.",
+   "date": "2026-11-12T01:33Z"
+  },
+  {
    "id": "4278572",
    "name": "Jamal Cain",
    "pos": "F",
@@ -606,16 +626,6 @@
    "type": "Shoulder",
    "return": "2026-11-13",
    "comment": "Cain (shoulder) is out for Wednesday's game in Utah.",
-   "date": "2026-11-12T01:28Z"
-  },
-  {
-   "id": "4702382",
-   "name": "Tristan da Silva",
-   "pos": "F",
-   "status": "Out",
-   "type": "Calf",
-   "return": "2026-11-13",
-   "comment": "Da Silva (calf) is listed as questionable for Wednesday's game at Utah.",
    "date": "2026-11-12T01:28Z"
   },
   {
@@ -955,5 +965,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-12T01:45:41.050950+00:00"
+ "_updated": "2026-11-12T02:42:35.830507+00:00"
 }
