@@ -275,8 +275,8 @@
    "status": "Day-To-Day",
    "type": "Abdomen",
    "return": "2026-11-13",
-   "comment": "Curry won't return to Wednesday's game against the Rockets due to right abdominal soreness, Anthony Slater of ESPN.com reports. He'll finish with three points (1-3 FG, 1-2 3Pt) across six minutes.",
-   "date": "2026-11-12T03:19Z"
+   "comment": "Steve Kerr told reporters Wednesday that Curry said he tweaked something in his abdominal area and \"had never done it before.\" Kerr added that the concern level is high, but they will await the MRI results, Kelly Iko of Yahoo Sports reports.",
+   "date": "2026-11-12T05:39Z"
   },
   {
    "id": "3134903",
@@ -447,6 +447,26 @@
  ],
  "LAL": [
   {
+   "id": "4277811",
+   "name": "Collin Sexton",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Head",
+   "return": "2026-11-15",
+   "comment": "Sexton did not return to Wednesday's 123-112 win over the Bucks and required stitches to close a cut on his forehead, Thuc Nhi Nguyen of the Los Angeles Times reports.",
+   "date": "2026-11-12T04:40Z"
+  },
+  {
+   "id": "4066457",
+   "name": "Austin Reaves",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Heel",
+   "return": "2026-11-15",
+   "comment": "Head coach JJ Redick said that X-rays on Reaves' left heel came back negative, but they won't have another update until he undergoes further imaging back in Los Angeles on Thursday, Dave McMenamin of ESPN.com reports.",
+   "date": "2026-11-12T04:11Z"
+  },
+  {
    "id": "3945274",
    "name": "Luka Doncic",
    "pos": "G",
@@ -455,26 +475,6 @@
    "return": "2026-11-15",
    "comment": "Doncic finished Wednesday's 123-112 win over the Bucks with 32 points (10-25 FG, 5-12 3Pt, 7-10 FT), five rebounds, five assists and three steals across 32 minutes. He exited to the locker room late in the fourth quarter due to an apparent right ankle injury and did not return, Thuc Nhi Nguyen of the Los Angeles Times reports.",
    "date": "2026-11-12T03:34Z"
-  },
-  {
-   "id": "4066457",
-   "name": "Austin Reaves",
-   "pos": "G",
-   "status": "Out",
-   "type": "Heel",
-   "return": "2026-11-15",
-   "comment": "Reaves will not return to Wednesday's game against the Bucks due to a left heel injury, Benjamin Royer of The Orange County Register reports.",
-   "date": "2026-11-12T03:14Z"
-  },
-  {
-   "id": "4277811",
-   "name": "Collin Sexton",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Head",
-   "return": "2026-11-15",
-   "comment": "Sexton went back to the locker room during Wednesday's game against the Bucks after bumping heads with Ryan Rollins, Thuc Nhi Nguyen of the Los Angeles Times reports.",
-   "date": "2026-11-12T03:11Z"
   },
   {
    "id": "4397014",
@@ -1025,5 +1025,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-12T03:59:49.367519+00:00"
+ "_updated": "2026-11-12T07:28:06.299871+00:00"
 }
