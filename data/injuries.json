@@ -139,16 +139,6 @@
    "date": "2026-11-12T21:38Z"
   },
   {
-   "id": "2595516",
-   "name": "Norman Powell",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Shoulder",
-   "return": "2026-11-13",
-   "comment": "Powell (shoulder) is questionable for Friday's game against the Hawks.",
-   "date": "2026-11-12T21:38Z"
-  },
-  {
    "id": "5095151",
    "name": "Caleb Wilson",
    "pos": "F",
@@ -373,26 +363,6 @@
  ],
  "IND": [
   {
-   "id": "2530530",
-   "name": "T.J. McConnell",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Hamstring",
-   "return": "2026-11-13",
-   "comment": "McConnell is probable for Friday's game against the Knicks due to a right hamstring strain.",
-   "date": "2026-11-12T23:08Z"
-  },
-  {
-   "id": "4396909",
-   "name": "Aaron Nesmith",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Knee",
-   "return": "2026-11-13",
-   "comment": "Nesmith (knee) is questionable for Friday's game against the Knicks.",
-   "date": "2026-11-12T23:02Z"
-  },
-  {
    "id": "4396993",
    "name": "Tyrese Haliburton",
    "pos": "G",
@@ -554,21 +524,21 @@
    "id": "6475",
    "name": "Klay Thompson",
    "pos": "G",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Ankle",
-   "return": "2026-11-13",
-   "comment": "Thompson (ankle) is listed as probable for Friday's game against the Cavaliers.",
-   "date": "2026-11-13T18:22Z"
+   "return": "2026-11-14",
+   "comment": "Thompson (ankle) is out for Friday's game against the Cavaliers.",
+   "date": "2026-11-13T23:21Z"
   },
   {
    "id": "4601025",
    "name": "Pelle Larsson",
    "pos": "G",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Illness",
-   "return": "2026-11-13",
-   "comment": "Larsson (illness) is listed as doubtful for Friday's game against Cleveland.",
-   "date": "2026-11-13T18:20Z"
+   "return": "2026-11-14",
+   "comment": "Larsson (illness) is out for Friday's game against Cleveland.",
+   "date": "2026-11-13T23:04Z"
   }
  ],
  "MIN": [
@@ -1085,5 +1055,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-13T22:37:09.709411+00:00"
+ "_updated": "2026-11-13T23:33:14.316614+00:00"
 }
