@@ -65,24 +65,24 @@
  ],
  "BKN": [
   {
-   "id": "5279130",
-   "name": "Nolan Traore",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Calf",
-   "return": "2026-11-14",
-   "comment": "Traore (calf) has been ruled out for Wednesday's game against the Pelicans, Ian Begley of SportsNet New York reports.",
-   "date": "2026-11-12T15:02Z"
-  },
-  {
    "id": "5101761",
    "name": "Mikel Brown Jr.",
    "pos": "G",
    "status": "Day-To-Day",
    "type": "Illness",
    "return": "2026-11-14",
-   "comment": "Brown has been ruled out for Wednesday's game against the Pelicans due to an illness, Sharif Phillips-Keaton of USA Today reports.",
-   "date": "2026-11-12T15:02Z"
+   "comment": "Brown (illness) is listed as questionable for Saturday's game against Memphis.",
+   "date": "2026-11-13T22:08Z"
+  },
+  {
+   "id": "5279130",
+   "name": "Nolan Traore",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Calf",
+   "return": "2026-11-14",
+   "comment": "Traore (calf) is listed as probable for Saturday's game against Memphis.",
+   "date": "2026-11-13T22:07Z"
   }
  ],
  "CHA": [
@@ -183,6 +183,26 @@
  ],
  "DAL": [
   {
+   "id": "4432582",
+   "name": "Max Christie",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Ankle",
+   "return": "2026-11-14",
+   "comment": "Christie is questionable for Saturday's game against the Cavaliers due to a sprained left ankle.",
+   "date": "2026-11-13T22:06Z"
+  },
+  {
+   "id": "4873153",
+   "name": "Morez Johnson Jr.",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Lower Leg",
+   "return": "2026-11-14",
+   "comment": "Johnson (left shin contusion) is listed as probable for Saturday against Cleveland.",
+   "date": "2026-11-13T22:05Z"
+  },
+  {
    "id": "4683688",
    "name": "Dereck Lively II",
    "pos": "C",
@@ -232,7 +252,7 @@
    "pos": "C",
    "status": "Day-To-Day",
    "type": "Foot",
-   "return": "2026-11-13",
+   "return": "2026-11-14",
    "comment": "Onyenso agreed to a two-way contract with the Pistons on Thursday.",
    "date": "2026-11-11T15:16Z"
   },
@@ -699,36 +719,6 @@
  ],
  "ORL": [
   {
-   "id": "4278572",
-   "name": "Jamal Cain",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Shoulder",
-   "return": "2026-11-13",
-   "comment": "Cain (shoulder) participated in Friday morning's shootaround and remains questionable for Friday's game against the Bucks, Jason Beede of the Orlando Sentinel reports.",
-   "date": "2026-11-13T17:12Z"
-  },
-  {
-   "id": "4702382",
-   "name": "Tristan da Silva",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Calf",
-   "return": "2026-11-13",
-   "comment": "Da Silva (calf) participated in Friday's morning shootaround and remains questionable for Friday's game against Milwaukee, Jason Beede of the Orlando Sentinel reports.",
-   "date": "2026-11-13T17:09Z"
-  },
-  {
-   "id": "4432165",
-   "name": "Jalen Suggs",
-   "pos": "G",
-   "status": "Out",
-   "type": "Knee",
-   "return": "2026-11-13",
-   "comment": "Suggs (knee) participated in Friday's morning shootaround and remains questionable for Friday's game against the Bucks, Jason Beede of the Orlando Sentinel reports.",
-   "date": "2026-11-13T17:08Z"
-  },
-  {
    "id": "4065654",
    "name": "Jonathan Isaac",
    "pos": "F",
@@ -1095,5 +1085,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-13T21:53:08.797517+00:00"
+ "_updated": "2026-11-13T22:37:09.709411+00:00"
 }
