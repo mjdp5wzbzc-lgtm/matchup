@@ -1,6 +1,16 @@
 {
  "ATL": [
   {
+   "id": "4712863",
+   "name": "Mouhamed Gueye",
+   "pos": "F",
+   "status": "Out",
+   "type": "Foot",
+   "return": "2026-12-12",
+   "comment": "Gueye (foot) is ready to begin on-court activities and will be re-evaluated in four weeks, Brad Rowland of the Locked On Podcast Network reports.",
+   "date": "2026-11-13T00:06Z"
+  },
+  {
    "id": "4585618",
    "name": "Keshon Gilbert",
    "pos": "G",
@@ -29,16 +39,6 @@
    "return": "2026-11-13",
    "comment": "Flemings (back) is questionable for Friday's game against the Bulls.",
    "date": "2026-11-12T23:04Z"
-  },
-  {
-   "id": "4712863",
-   "name": "Mouhamed Gueye",
-   "pos": "F",
-   "status": "Out",
-   "type": "Foot",
-   "return": "2026-11-20",
-   "comment": "Gueye underwent surgery Tuesday to repair a fractured left foot that he suffered during a workout last week, Brad Rowland of the Locked On Podcast Network reports.",
-   "date": "2026-10-19T19:38Z"
   },
   {
    "id": "5105571",
@@ -211,16 +211,6 @@
    "return": "2026-11-18",
    "comment": "De Larrea (knee) has been ruled out for Thursday's game at Minnesota.",
    "date": "2026-11-11T22:10Z"
-  },
-  {
-   "id": "4873153",
-   "name": "Morez Johnson Jr.",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": null,
-   "return": null,
-   "comment": "Johnson (shin) is listed as probable for Thursday's game against Minnesota.",
-   "date": "2026-11-11T22:08Z"
   }
  ],
  "DEN": [
@@ -515,8 +505,8 @@
    "status": "Out",
    "type": "Concussion",
    "return": "2026-11-14",
-   "comment": "Post (concussion) has been ruled out for Wednesday's game against the Nuggets.",
-   "date": "2026-11-12T23:16Z"
+   "comment": "Post (concussion) has been ruled out for Friday's game against New Orleans.",
+   "date": "2026-11-12T23:17Z"
   },
   {
    "id": "4600663",
@@ -525,8 +515,8 @@
    "status": "Out",
    "type": "Ankle",
    "return": "2026-11-14",
-   "comment": "Edey recorded eight points (2-3 FG, 4-4 FT), nine rebounds, one assist and one block over 23 minutes during Monday's 118-102 victory over the Raptors.",
-   "date": "2026-11-12T23:14Z"
+   "comment": "Edey won't play in Friday's game against the Pelicans due to left ankle injury management.",
+   "date": "2026-11-12T23:16Z"
   },
   {
    "id": "4431785",
@@ -821,16 +811,6 @@
    "date": "2026-11-12T16:36Z"
   },
   {
-   "id": "3059318",
-   "name": "Joel Embiid",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Foot",
-   "return": "2026-11-12",
-   "comment": "Embiid (foot) remains questionable for Thursday's game against the Raptors, but he participated in the team's morning shootaround, Ky Carlin of USA Today reports.",
-   "date": "2026-11-12T16:34Z"
-  },
-  {
    "id": "4871141",
    "name": "Ariel Hukporti",
    "pos": "C",
@@ -901,10 +881,10 @@
    "name": "Precious Achiuwa",
    "pos": "F",
    "status": "Day-To-Day",
-   "type": "Lower Leg",
+   "type": "Ankle",
    "return": "2026-11-13",
-   "comment": "Achiuwa left Tuesday's 107-100 loss to the Magic with a left lower leg contusion and did not return, Matt George of ABC 10 Sacramento reports.",
-   "date": "2026-11-11T14:44Z"
+   "comment": "Achiuwa (ankle) is questionable to play Friday's game against the Trail Blazers.",
+   "date": "2026-11-13T00:22Z"
   },
   {
    "id": "4898371",
@@ -1095,5 +1075,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-12T23:34:19.677576+00:00"
+ "_updated": "2026-11-13T00:48:36.501375+00:00"
 }
