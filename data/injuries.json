@@ -941,6 +941,16 @@
  ],
  "TOR": [
   {
+   "id": "4411057",
+   "name": "Kevin McCullar Jr.",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Illness",
+   "return": "2026-11-14",
+   "comment": "McCullar signed a two-way contract with the Raptors on Thursday, Michael Scotto of HoopsHype.com reports.",
+   "date": "2026-11-13T15:37Z"
+  },
+  {
    "id": "4431684",
    "name": "Trayce Jackson-Davis",
    "pos": "F",
@@ -1075,5 +1085,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-13T13:16:02.203116+00:00"
+ "_updated": "2026-11-13T15:55:34.969479+00:00"
 }
