@@ -774,11 +774,11 @@
    "id": "1966",
    "name": "LeBron James",
    "pos": "F",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Back",
    "return": "2026-11-15",
    "comment": "James (back) is out for Thursday's game against Toronto.",
-   "date": "2026-11-12T18:07Z"
+   "date": "2026-11-13T03:28Z"
   },
   {
    "id": "4870562",
@@ -944,11 +944,11 @@
    "id": "4431684",
    "name": "Trayce Jackson-Davis",
    "pos": "F",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Illness",
    "return": "2026-11-15",
    "comment": "Jackson-Davis is out for Thursday's game against the 76ers due to an illness.",
-   "date": "2026-11-12T18:09Z"
+   "date": "2026-11-13T03:27Z"
   },
   {
    "id": "4433134",
@@ -1025,6 +1025,16 @@
  ],
  "WSH": [
   {
+   "id": "4845374",
+   "name": "Bub Carrington",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Chest",
+   "return": "2026-11-15",
+   "comment": "Carrington (chest) has been ruled out for the remainder of Thursday's game against the Pistons.",
+   "date": "2026-11-13T03:26Z"
+  },
+  {
    "id": "4997537",
    "name": "Tristan Vukcevic",
    "pos": "F",
@@ -1065,5 +1075,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-13T02:43:37.247717+00:00"
+ "_updated": "2026-11-13T03:44:04.606977+00:00"
 }
