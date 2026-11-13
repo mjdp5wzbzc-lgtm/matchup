@@ -90,11 +90,11 @@
    "id": "4433287",
    "name": "Brandon Miller",
    "pos": "F",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Groin",
    "return": "2026-11-15",
    "comment": "Miller (groin) is listed as out for Thursday's game against Phoenix.",
-   "date": "2026-11-12T00:06Z"
+   "date": "2026-11-13T04:46Z"
   },
   {
    "id": "5061575",
@@ -1075,5 +1075,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-13T03:59:34.316664+00:00"
+ "_updated": "2026-11-13T07:24:13.002440+00:00"
 }
