@@ -537,18 +537,8 @@
    "status": "Day-To-Day",
    "type": "Ankle",
    "return": "2026-11-13",
-   "comment": "Thompson (ankle) is listed as questionable for Friday's game against the Cavaliers.",
-   "date": "2026-11-12T21:23Z"
-  },
-  {
-   "id": "3032977",
-   "name": "Giannis Antetokounmpo",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Wrist",
-   "return": "2026-11-13",
-   "comment": "Antetokounmpo (wrist) is probable for Friday's game against Cleveland.",
-   "date": "2026-11-12T21:22Z"
+   "comment": "Thompson (ankle) is listed as probable for Friday's game against the Cavaliers.",
+   "date": "2026-11-13T18:22Z"
   },
   {
    "id": "4601025",
@@ -557,8 +547,8 @@
    "status": "Day-To-Day",
    "type": "Illness",
    "return": "2026-11-13",
-   "comment": "Larsson (illness) is listed as questionable for Friday's game against Cleveland.",
-   "date": "2026-11-12T21:20Z"
+   "comment": "Larsson (illness) is listed as doubtful for Friday's game against Cleveland.",
+   "date": "2026-11-13T18:20Z"
   }
  ],
  "MIN": [
@@ -588,11 +578,51 @@
    "id": "4576086",
    "name": "Bryce McGowens",
    "pos": "G",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Elbow",
+   "return": "2026-11-14",
+   "comment": "McGowens (elbow) is listed as out for Friday's game against the Grizzlies.",
+   "date": "2026-11-13T18:12Z"
+  },
+  {
+   "id": "5061589",
+   "name": "Yves Missi",
+   "pos": "C",
+   "status": "Out",
+   "type": "Knee",
+   "return": "2026-11-14",
+   "comment": "Missi (knee) is out for Friday's game against the Grizzlies.",
+   "date": "2026-11-13T18:11Z"
+  },
+  {
+   "id": "4683634",
+   "name": "Bennedict Mathurin",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Thumb",
    "return": "2026-11-13",
-   "comment": "McGowens (elbow) is listed as doubtful for Friday's game against the Grizzlies.",
-   "date": "2026-11-12T20:56Z"
+   "comment": "Mathurin (thumb) is listed as questionable for Friday's game against Memphis.",
+   "date": "2026-11-13T18:10Z"
+  },
+  {
+   "id": "3907497",
+   "name": "Dejounte Murray",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Ankle",
+   "return": "2026-11-13",
+   "comment": "Murray (ankle) is doubtful for Friday's game against Memphis.",
+   "date": "2026-11-13T18:09Z"
+  },
+  {
+   "id": "4397688",
+   "name": "Trey Murphy III",
+   "pos": "F",
+   "status": "Out",
+   "type": "Knee",
+   "return": "2026-11-14",
+   "comment": "Murphy (knee) is out for Friday's game against Memphis.",
+   "date": "2026-11-13T18:07Z"
   },
   {
    "id": "4431675",
@@ -603,36 +633,6 @@
    "return": "2026-11-14",
    "comment": "Watford (ankle) is listed as out for Friday's game against the Grizzlies.",
    "date": "2026-11-12T20:53Z"
-  },
-  {
-   "id": "4683634",
-   "name": "Bennedict Mathurin",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Thumb",
-   "return": "2026-11-13",
-   "comment": "Mathurin (thumb) is listed as doubtful for Friday's game against Memphis.",
-   "date": "2026-11-12T20:53Z"
-  },
-  {
-   "id": "5061589",
-   "name": "Yves Missi",
-   "pos": "C",
-   "status": "Out",
-   "type": "Knee",
-   "return": "2026-11-13",
-   "comment": "Missi (knee) is listed as doubtful for Friday's game against the Grizzlies.",
-   "date": "2026-11-12T20:50Z"
-  },
-  {
-   "id": "4397688",
-   "name": "Trey Murphy III",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Knee",
-   "return": "2026-11-13",
-   "comment": "Murphy (knee) is listed as doubtful for Friday's game against the Grizzlies.",
-   "date": "2026-11-12T20:48Z"
   }
  ],
  "OKC": [
@@ -699,24 +699,24 @@
  ],
  "ORL": [
   {
-   "id": "4702382",
-   "name": "Tristan da Silva",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Calf",
-   "return": "2026-11-13",
-   "comment": "Da Silva (calf) is questionable for Friday's game against Milwaukee.",
-   "date": "2026-11-12T22:07Z"
-  },
-  {
    "id": "4278572",
    "name": "Jamal Cain",
    "pos": "F",
    "status": "Day-To-Day",
    "type": "Shoulder",
    "return": "2026-11-13",
-   "comment": "Cain (shoulder) is questionable for Friday's game against the Bucks.",
-   "date": "2026-11-12T22:04Z"
+   "comment": "Cain (shoulder) participated in Friday morning's shootaround and remains questionable for Friday's game against the Bucks, Jason Beede of the Orlando Sentinel reports.",
+   "date": "2026-11-13T17:12Z"
+  },
+  {
+   "id": "4702382",
+   "name": "Tristan da Silva",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Calf",
+   "return": "2026-11-13",
+   "comment": "Da Silva (calf) participated in Friday's morning shootaround and remains questionable for Friday's game against Milwaukee, Jason Beede of the Orlando Sentinel reports.",
+   "date": "2026-11-13T17:09Z"
   },
   {
    "id": "4432165",
@@ -725,8 +725,8 @@
    "status": "Out",
    "type": "Knee",
    "return": "2026-11-13",
-   "comment": "Suggs (knee) is questionable for Friday's game against Milwaukee.",
-   "date": "2026-11-12T22:03Z"
+   "comment": "Suggs (knee) participated in Friday's morning shootaround and remains questionable for Friday's game against the Bucks, Jason Beede of the Orlando Sentinel reports.",
+   "date": "2026-11-13T17:08Z"
   },
   {
    "id": "4065654",
@@ -812,6 +812,16 @@
   }
  ],
  "PHX": [
+  {
+   "id": "4431695",
+   "name": "Drew Timme",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Hand",
+   "return": "2026-11-15",
+   "comment": "The Suns claimed Timme off waivers Monday, per Michael Scotto of HoopsHype.com.",
+   "date": "2026-11-13T16:22Z"
+  },
   {
    "id": "4701232",
    "name": "Mark Williams",
@@ -1085,5 +1095,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-13T15:55:34.969479+00:00"
+ "_updated": "2026-11-13T18:59:37.019664+00:00"
 }
