@@ -828,11 +828,11 @@
    "id": "4706557",
    "name": "Chris Youngblood",
    "pos": "G",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Foot",
-   "return": "2026-11-13",
-   "comment": "Youngblood has been ruled out for Wednesday's game against the Thunder.",
-   "date": "2026-11-12T15:04Z"
+   "return": "2026-11-16",
+   "comment": "Youngblood (foot) is out for Friday's game against Sacramento.",
+   "date": "2026-11-13T01:06Z"
   },
   {
    "id": "4578893",
@@ -1065,5 +1065,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-13T01:17:16.481040+00:00"
+ "_updated": "2026-11-13T01:58:02.601776+00:00"
 }
