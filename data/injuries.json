@@ -453,8 +453,28 @@
    "status": "Day-To-Day",
    "type": "Finger",
    "return": "2026-11-15",
-   "comment": "Grimes (finger) has been ruled out for Wednesday's game against the Bucks.",
-   "date": "2026-11-12T15:01Z"
+   "comment": "Grimes (finger) said he expects to return to action Sunday against the Suns, according to Ricardo Sandoval of Lakers on SI.",
+   "date": "2026-11-13T21:26Z"
+  },
+  {
+   "id": "4066457",
+   "name": "Austin Reaves",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Heel",
+   "return": "2026-11-15",
+   "comment": "Reaves (heel) won't undergo imaging and is considered day-to-day ahead of Sunday's game against the Suns, Jovan Buha of The Athletic reports.",
+   "date": "2026-11-13T20:40Z"
+  },
+  {
+   "id": "3945274",
+   "name": "Luka Doncic",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Ankle",
+   "return": "2026-11-15",
+   "comment": "Head coach JJ Redick said Friday that Doncic (ankle) is \"fine,\" per Law Murray of The Athletic.",
+   "date": "2026-11-13T20:40Z"
   },
   {
    "id": "4277811",
@@ -465,26 +485,6 @@
    "return": "2026-11-15",
    "comment": "Sexton did not return to Wednesday's 123-112 win over the Bucks and required stitches to close a cut on his forehead, Thuc Nhi Nguyen of the Los Angeles Times reports.",
    "date": "2026-11-12T04:40Z"
-  },
-  {
-   "id": "4066457",
-   "name": "Austin Reaves",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Heel",
-   "return": "2026-11-15",
-   "comment": "Head coach JJ Redick said that X-rays on Reaves' left heel came back negative, but they won't have another update until he undergoes further imaging back in Los Angeles on Thursday, Dave McMenamin of ESPN.com reports.",
-   "date": "2026-11-12T04:11Z"
-  },
-  {
-   "id": "3945274",
-   "name": "Luka Doncic",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Ankle",
-   "return": "2026-11-15",
-   "comment": "Doncic finished Wednesday's 123-112 win over the Bucks with 32 points (10-25 FG, 5-12 3Pt, 7-10 FT), five rebounds, five assists and three steals across 32 minutes. He exited to the locker room late in the fourth quarter due to an apparent right ankle injury and did not return, Thuc Nhi Nguyen of the Los Angeles Times reports.",
-   "date": "2026-11-12T03:34Z"
   }
  ],
  "MEM": [
@@ -575,6 +575,16 @@
  ],
  "NO": [
   {
+   "id": "3907497",
+   "name": "Dejounte Murray",
+   "pos": "G",
+   "status": "Out",
+   "type": "Ankle",
+   "return": "2026-11-20",
+   "comment": "Murray (ankle) is out for Friday's game against Memphis.",
+   "date": "2026-11-13T20:19Z"
+  },
+  {
    "id": "4576086",
    "name": "Bryce McGowens",
    "pos": "G",
@@ -603,16 +613,6 @@
    "return": "2026-11-13",
    "comment": "Mathurin (thumb) is listed as questionable for Friday's game against Memphis.",
    "date": "2026-11-13T18:10Z"
-  },
-  {
-   "id": "3907497",
-   "name": "Dejounte Murray",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Ankle",
-   "return": "2026-11-13",
-   "comment": "Murray (ankle) is doubtful for Friday's game against Memphis.",
-   "date": "2026-11-13T18:09Z"
   },
   {
    "id": "4397688",
@@ -880,11 +880,11 @@
    "id": "4431679",
    "name": "Precious Achiuwa",
    "pos": "F",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Ankle",
-   "return": "2026-11-13",
-   "comment": "Achiuwa (ankle) is questionable to play Friday's game against the Trail Blazers.",
-   "date": "2026-11-13T00:22Z"
+   "return": "2026-11-15",
+   "comment": "Achiuwa (ankle) is out for Friday's game against the Trail Blazers.",
+   "date": "2026-11-13T21:20Z"
   },
   {
    "id": "4898371",
@@ -1095,5 +1095,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-13T18:59:37.019664+00:00"
+ "_updated": "2026-11-13T21:39:37.950211+00:00"
 }
