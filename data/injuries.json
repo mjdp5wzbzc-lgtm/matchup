@@ -423,14 +423,24 @@
  ],
  "IND": [
   {
+   "id": "2530530",
+   "name": "T.J. McConnell",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Hamstring",
+   "return": "2026-11-15",
+   "comment": "McConnell (hamstring) is listed as probable for Sunday's game against the 76ers.",
+   "date": "2026-11-14T21:23Z"
+  },
+  {
    "id": "4396909",
    "name": "Aaron Nesmith",
    "pos": "G",
    "status": "Day-To-Day",
    "type": "Hand",
    "return": "2026-11-15",
-   "comment": "Nesmith exited to the locker room in the final seconds of Friday's 106-104 win over the Knicks due to an apparent hand/wrist injury, Tony East of Forbes.com reports. He posted 18 points (7-10 FG, 2-3 3Pt, 2-2 FT), seven rebounds and one assist in 33 minutes.",
-   "date": "2026-11-14T03:02Z"
+   "comment": "Nesmith (hand) is listed as questionable for Sunday's game against Philadelphia.",
+   "date": "2026-11-14T21:21Z"
   },
   {
    "id": "4396993",
@@ -917,6 +927,16 @@
  ],
  "SAC": [
   {
+   "id": "4594327",
+   "name": "Keegan Murray",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Illness",
+   "return": "2026-11-15",
+   "comment": "Murray ended Friday's 120-107 loss to the Trail Blazers with 16 points (7-14 FG, 2-6 3Pt), seven rebounds, four assists and two steals across 40 minutes.",
+   "date": "2026-11-14T21:35Z"
+  },
+  {
    "id": "4431679",
    "name": "Precious Achiuwa",
    "pos": "F",
@@ -1075,6 +1095,16 @@
  ],
  "WSH": [
   {
+   "id": "5160992",
+   "name": "Alex Sarr",
+   "pos": "C",
+   "status": "Day-To-Day",
+   "type": "Illness",
+   "return": "2026-11-15",
+   "comment": "Sarr (illness) is listed as questionable for Sunday's game against Houston.",
+   "date": "2026-11-14T21:24Z"
+  },
+  {
    "id": "5238230",
    "name": "Tre Johnson",
    "pos": "G",
@@ -1135,5 +1165,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-14T21:28:00.145726+00:00"
+ "_updated": "2026-11-14T21:43:59.020747+00:00"
 }
