@@ -269,16 +269,6 @@
  ],
  "GS": [
   {
-   "id": "4397886",
-   "name": "Charles Bassey",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": null,
-   "return": null,
-   "comment": "Bassey is probable for Friday's game against the Spurs due to left toe soreness.",
-   "date": "2026-11-12T22:18Z"
-  },
-  {
    "id": "3975",
    "name": "Stephen Curry",
    "pos": "G",
@@ -632,7 +622,7 @@
    "pos": "G",
    "status": "Day-To-Day",
    "type": "Ankle",
-   "return": "2026-11-13",
+   "return": "2026-11-15",
    "comment": "Mitchell (ankle) is questionable for Friday's game against the Clippers.",
    "date": "2026-11-13T01:03Z"
   },
@@ -1025,5 +1015,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-14T01:53:34.148569+00:00"
+ "_updated": "2026-11-14T02:41:06.815381+00:00"
 }

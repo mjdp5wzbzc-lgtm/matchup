@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T01:53:33.984675+00:00",
+ "generated": "2026-11-14T02:41:06.687173+00:00",
  "days": [
   {
    "date": "2026-11-13",
@@ -10,10 +10,10 @@
      "home": "IND",
      "away": "NY",
      "state": "in",
-     "detail": "3:11 - 3rd",
+     "detail": "2.9 - 4th",
      "score": {
-      "home": "83",
-      "away": "69"
+      "home": "106",
+      "away": "104"
      }
     },
     {
@@ -21,11 +21,11 @@
      "start": "2026-11-14T00:00Z",
      "home": "ORL",
      "away": "MIL",
-     "state": "in",
-     "detail": "11:23 - 4th",
+     "state": "post",
+     "detail": "Final",
      "score": {
-      "home": "84",
-      "away": "72"
+      "home": "107",
+      "away": "99"
      }
     },
     {
@@ -34,10 +34,10 @@
      "home": "MIA",
      "away": "CLE",
      "state": "in",
-     "detail": "6:53 - 2nd",
+     "detail": "5:22 - 3rd",
      "score": {
-      "home": "43",
-      "away": "39"
+      "home": "78",
+      "away": "71"
      }
     },
     {
@@ -46,10 +46,10 @@
      "home": "CHI",
      "away": "ATL",
      "state": "in",
-     "detail": "4:59 - 2nd",
+     "detail": "3:24 - 3rd",
      "score": {
-      "home": "48",
-      "away": "39"
+      "home": "75",
+      "away": "72"
      }
     },
     {
@@ -58,10 +58,10 @@
      "home": "NO",
      "away": "MEM",
      "state": "in",
-     "detail": "6:16 - 2nd",
+     "detail": "6:16 - 3rd",
      "score": {
-      "home": "41",
-      "away": "48"
+      "home": "74",
+      "away": "80"
      }
     },
     {
@@ -70,10 +70,10 @@
      "home": "HOU",
      "away": "UTAH",
      "state": "in",
-     "detail": "6:23 - 1st",
+     "detail": "1:59 - 2nd",
      "score": {
-      "home": "15",
-      "away": "15"
+      "home": "55",
+      "away": "46"
      }
     },
     {
