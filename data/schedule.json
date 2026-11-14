@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T00:42:16.556054+00:00",
+ "generated": "2026-11-14T01:08:12.277513+00:00",
  "days": [
   {
    "date": "2026-11-13",
@@ -10,10 +10,10 @@
      "home": "IND",
      "away": "NY",
      "state": "in",
-     "detail": "11:43 - 2nd",
+     "detail": "3:34 - 2nd",
      "score": {
-      "home": "26",
-      "away": "27"
+      "home": "48",
+      "away": "38"
      }
     },
     {
@@ -22,10 +22,10 @@
      "home": "ORL",
      "away": "MIL",
      "state": "in",
-     "detail": "9:58 - 2nd",
+     "detail": "12:00 - 2nd",
      "score": {
-      "home": "31",
-      "away": "18"
+      "home": "52",
+      "away": "36"
      }
     },
     {
