@@ -119,6 +119,26 @@
  ],
  "CHI": [
   {
+   "id": "4848625",
+   "name": "Dailyn Swain",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Back",
+   "return": "2026-11-14",
+   "comment": "Swain (back) is out for Friday's game against the Hawks.",
+   "date": "2026-11-14T15:00Z"
+  },
+  {
+   "id": "5105555",
+   "name": "Tobe Awaka",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Back",
+   "return": "2026-11-14",
+   "comment": "Awaka (back) has been ruled out for Friday's game against the Hawks.",
+   "date": "2026-11-14T15:00Z"
+  },
+  {
    "id": "4397189",
    "name": "Jalen Smith",
    "pos": "F",
@@ -127,26 +147,6 @@
    "return": "2026-11-14",
    "comment": "Smith (hand) exited Friday's 125-117 win over the Hawks in overtime and did not return, finishing with 15 points (6-15 FG, 1-6 3Pt, 2-2 FT), 12 rebounds, three assists and three steals across 32 minutes.",
    "date": "2026-11-14T03:50Z"
-  },
-  {
-   "id": "4848625",
-   "name": "Dailyn Swain",
-   "pos": "G",
-   "status": "Out",
-   "type": "Back",
-   "return": "2026-11-14",
-   "comment": "Swain (back) is out for Friday's game against the Hawks.",
-   "date": "2026-11-14T00:17Z"
-  },
-  {
-   "id": "5105555",
-   "name": "Tobe Awaka",
-   "pos": "F",
-   "status": "Out",
-   "type": "Back",
-   "return": "2026-11-14",
-   "comment": "Awaka (back) has been ruled out for Friday's game against the Hawks.",
-   "date": "2026-11-12T21:40Z"
   },
   {
    "id": "5095151",
@@ -164,11 +164,11 @@
    "id": "4432158",
    "name": "Evan Mobley",
    "pos": "C",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Toe",
    "return": "2026-11-14",
    "comment": "Mobley (toe) is out for Friday's game against the Heat.",
-   "date": "2026-11-12T22:08Z"
+   "date": "2026-11-14T15:01Z"
   },
   {
    "id": "4066757",
@@ -502,21 +502,21 @@
    "id": "4593016",
    "name": "Quinten Post",
    "pos": "C",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Concussion",
    "return": "2026-11-14",
    "comment": "Post (concussion) has been ruled out for Friday's game against New Orleans.",
-   "date": "2026-11-12T23:17Z"
+   "date": "2026-11-14T15:02Z"
   },
   {
    "id": "4600663",
    "name": "Zach Edey",
    "pos": "C",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Ankle",
    "return": "2026-11-14",
    "comment": "Edey won't play in Friday's game against the Pelicans due to left ankle injury management.",
-   "date": "2026-11-12T23:16Z"
+   "date": "2026-11-14T15:02Z"
   },
   {
    "id": "4431785",
@@ -541,24 +541,24 @@
  ],
  "MIA": [
   {
-   "id": "6475",
-   "name": "Klay Thompson",
-   "pos": "G",
-   "status": "Out",
-   "type": "Ankle",
-   "return": "2026-11-14",
-   "comment": "Thompson (ankle) is out for Friday's game against the Cavaliers.",
-   "date": "2026-11-13T23:21Z"
-  },
-  {
    "id": "4601025",
    "name": "Pelle Larsson",
    "pos": "G",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Illness",
    "return": "2026-11-14",
    "comment": "Larsson (illness) is out for Friday's game against Cleveland.",
-   "date": "2026-11-13T23:04Z"
+   "date": "2026-11-14T15:02Z"
+  },
+  {
+   "id": "6475",
+   "name": "Klay Thompson",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Ankle",
+   "return": "2026-11-14",
+   "comment": "Thompson (ankle) is out for Friday's game against the Cavaliers.",
+   "date": "2026-11-14T15:01Z"
   }
  ],
  "MIN": [
@@ -585,6 +585,16 @@
  ],
  "NO": [
   {
+   "id": "4576086",
+   "name": "Bryce McGowens",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Elbow",
+   "return": "2026-11-14",
+   "comment": "McGowens (elbow) is listed as out for Friday's game against the Grizzlies.",
+   "date": "2026-11-14T14:59Z"
+  },
+  {
    "id": "3907497",
    "name": "Dejounte Murray",
    "pos": "G",
@@ -593,16 +603,6 @@
    "return": "2026-11-20",
    "comment": "Murray (ankle) is out for Friday's game against Memphis.",
    "date": "2026-11-13T20:19Z"
-  },
-  {
-   "id": "4576086",
-   "name": "Bryce McGowens",
-   "pos": "G",
-   "status": "Out",
-   "type": "Elbow",
-   "return": "2026-11-14",
-   "comment": "McGowens (elbow) is listed as out for Friday's game against the Grizzlies.",
-   "date": "2026-11-13T18:12Z"
   },
   {
    "id": "5061589",
@@ -640,11 +640,11 @@
    "id": "4900671",
    "name": "Ajay Mitchell",
    "pos": "G",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Ankle",
    "return": "2026-11-15",
    "comment": "Mitchell (ankle) has been ruled out for Friday's game against the Clippers.",
-   "date": "2026-11-14T02:34Z"
+   "date": "2026-11-14T15:07Z"
   },
   {
    "id": "5061603",
@@ -808,11 +808,11 @@
    "id": "4706557",
    "name": "Chris Youngblood",
    "pos": "G",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Foot",
    "return": "2026-11-16",
    "comment": "Youngblood (foot) is out for Friday's game against Sacramento.",
-   "date": "2026-11-13T01:06Z"
+   "date": "2026-11-14T15:05Z"
   },
   {
    "id": "4578893",
@@ -850,11 +850,11 @@
    "id": "4431679",
    "name": "Precious Achiuwa",
    "pos": "F",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Ankle",
    "return": "2026-11-15",
    "comment": "Achiuwa (ankle) is out for Friday's game against the Trail Blazers.",
-   "date": "2026-11-13T21:20Z"
+   "date": "2026-11-14T15:05Z"
   },
   {
    "id": "4898371",
@@ -1055,5 +1055,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-14T12:57:47.724753+00:00"
+ "_updated": "2026-11-14T15:46:44.754977+00:00"
 }
