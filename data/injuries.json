@@ -273,8 +273,8 @@
    "name": "Charles Bassey",
    "pos": "C",
    "status": "Day-To-Day",
-   "type": "Toe",
-   "return": "2026-11-13",
+   "type": null,
+   "return": null,
    "comment": "Bassey is probable for Friday's game against the Spurs due to left toe soreness.",
    "date": "2026-11-12T22:18Z"
   },
@@ -859,26 +859,6 @@
  ],
  "SA": [
   {
-   "id": "4395630",
-   "name": "Devin Vassell",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Groin",
-   "return": "2026-11-13",
-   "comment": "Vassell is questionable for Friday's game against the Warriors due to left adductor tightness.",
-   "date": "2026-11-12T23:07Z"
-  },
-  {
-   "id": "4066259",
-   "name": "De'Aaron Fox",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Hip",
-   "return": "2026-11-13",
-   "comment": "Fox is questionable for Friday's game against the Warriors due to left hip soreness.",
-   "date": "2026-11-12T23:05Z"
-  },
-  {
    "id": "6440",
    "name": "Tobias Harris",
    "pos": "F",
@@ -1045,5 +1025,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-14T01:08:12.662129+00:00"
+ "_updated": "2026-11-14T01:53:34.148569+00:00"
 }
