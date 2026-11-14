@@ -31,16 +31,6 @@
    "date": "2026-11-12T23:08Z"
   },
   {
-   "id": "5149077",
-   "name": "Kingston Flemings",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Back",
-   "return": "2026-11-13",
-   "comment": "Flemings (back) is questionable for Friday's game against the Bulls.",
-   "date": "2026-11-12T23:04Z"
-  },
-  {
    "id": "5105571",
    "name": "Henri Veesaar",
    "pos": "C",
@@ -119,6 +109,16 @@
  ],
  "CHI": [
   {
+   "id": "4848625",
+   "name": "Dailyn Swain",
+   "pos": "G",
+   "status": "Out",
+   "type": "Back",
+   "return": "2026-11-14",
+   "comment": "Swain (back) is out for Friday's game against the Hawks.",
+   "date": "2026-11-14T00:17Z"
+  },
+  {
    "id": "5105555",
    "name": "Tobe Awaka",
    "pos": "F",
@@ -127,16 +127,6 @@
    "return": "2026-11-14",
    "comment": "Awaka (back) has been ruled out for Friday's game against the Hawks.",
    "date": "2026-11-12T21:40Z"
-  },
-  {
-   "id": "4848625",
-   "name": "Dailyn Swain",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Back",
-   "return": "2026-11-13",
-   "comment": "Swain (back) is listed as questionable for Friday's game against Atlanta.",
-   "date": "2026-11-12T21:38Z"
   },
   {
    "id": "5095151",
@@ -169,6 +159,16 @@
    "return": "2026-11-16",
    "comment": "Merrill (elbow) is listed as out for Wednesday's game against the Knicks.",
    "date": "2026-11-10T22:12Z"
+  },
+  {
+   "id": "5106268",
+   "name": "Nae'Qwan Tomlin",
+   "pos": "F",
+   "status": "Out",
+   "type": "Back",
+   "return": "2026-11-16",
+   "comment": "Tomlin is set to miss several weeks with a lower back stress reaction, Chris Fedor of The Cleveland Plain Dealer reports.",
+   "date": "2026-10-20T15:11Z"
   }
  ],
  "DAL": [
@@ -593,16 +593,6 @@
    "return": "2026-11-14",
    "comment": "Missi (knee) is out for Friday's game against the Grizzlies.",
    "date": "2026-11-13T18:11Z"
-  },
-  {
-   "id": "4683634",
-   "name": "Bennedict Mathurin",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Thumb",
-   "return": "2026-11-13",
-   "comment": "Mathurin (thumb) is listed as questionable for Friday's game against Memphis.",
-   "date": "2026-11-13T18:10Z"
   },
   {
    "id": "4397688",
@@ -1055,5 +1045,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-13T23:33:14.316614+00:00"
+ "_updated": "2026-11-14T00:42:17.194145+00:00"
 }

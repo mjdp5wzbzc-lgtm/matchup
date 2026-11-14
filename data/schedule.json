@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T23:33:14.137560+00:00",
+ "generated": "2026-11-14T00:42:16.556054+00:00",
  "days": [
   {
    "date": "2026-11-13",
@@ -9,11 +9,11 @@
      "start": "2026-11-14T00:00Z",
      "home": "IND",
      "away": "NY",
-     "state": "pre",
-     "detail": "11/13 - 7:00 PM EST",
+     "state": "in",
+     "detail": "11:43 - 2nd",
      "score": {
-      "home": "0",
-      "away": "0"
+      "home": "26",
+      "away": "27"
      }
     },
     {
@@ -21,11 +21,11 @@
      "start": "2026-11-14T00:00Z",
      "home": "ORL",
      "away": "MIL",
-     "state": "pre",
-     "detail": "11/13 - 7:00 PM EST",
+     "state": "in",
+     "detail": "9:58 - 2nd",
      "score": {
-      "home": "0",
-      "away": "0"
+      "home": "31",
+      "away": "18"
      }
     },
     {
