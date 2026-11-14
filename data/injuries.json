@@ -177,8 +177,8 @@
    "status": "Day-To-Day",
    "type": "Hamstring",
    "return": "2026-11-14",
-   "comment": "Watson supplied seven points (2-12 FG, 2-5 3Pt, 1-2 FT), five rebounds, four assists and four blocks over 30 minutes in Wednesday's 115-107 win over the Knicks.",
-   "date": "2026-11-14T18:32Z"
+   "comment": "Watson (hamstring) is listed as questionable for Saturday's game against the Mavericks.",
+   "date": "2026-11-14T18:38Z"
   },
   {
    "id": "4432158",
@@ -187,8 +187,8 @@
    "status": "Out",
    "type": "Toe",
    "return": "2026-11-16",
-   "comment": "Mobley (toe) is out for Friday's game against the Heat.",
-   "date": "2026-11-14T18:32Z"
+   "comment": "Mobley (toe) has been ruled out for Saturday's meeting with Dallas.",
+   "date": "2026-11-14T18:33Z"
   },
   {
    "id": "4066328",
@@ -507,14 +507,14 @@
  ],
  "LAL": [
   {
-   "id": "4397014",
-   "name": "Quentin Grimes",
+   "id": "4277811",
+   "name": "Collin Sexton",
    "pos": "G",
    "status": "Day-To-Day",
-   "type": "Finger",
+   "type": "Head",
    "return": "2026-11-15",
-   "comment": "Grimes (finger) said he expects to return to action Sunday against the Suns, according to Ricardo Sandoval of Lakers on SI.",
-   "date": "2026-11-13T21:26Z"
+   "comment": "Sexton (head) was a full participant in Saturday's practice, Dave McMenamin of ESPN.com reports.",
+   "date": "2026-11-14T20:25Z"
   },
   {
    "id": "4066457",
@@ -523,28 +523,18 @@
    "status": "Day-To-Day",
    "type": "Heel",
    "return": "2026-11-15",
-   "comment": "Reaves (heel) won't undergo imaging and is considered day-to-day ahead of Sunday's game against the Suns, Jovan Buha of The Athletic reports.",
-   "date": "2026-11-13T20:40Z"
+   "comment": "Reaves (heel) didn't participate in Saturday's practice, Dave McMenamin of ESPN.com reports.",
+   "date": "2026-11-14T20:15Z"
   },
   {
-   "id": "3945274",
-   "name": "Luka Doncic",
+   "id": "4397014",
+   "name": "Quentin Grimes",
    "pos": "G",
    "status": "Day-To-Day",
-   "type": "Ankle",
+   "type": "Finger",
    "return": "2026-11-15",
-   "comment": "Head coach JJ Redick said Friday that Doncic (ankle) is \"fine,\" per Law Murray of The Athletic.",
-   "date": "2026-11-13T20:40Z"
-  },
-  {
-   "id": "4277811",
-   "name": "Collin Sexton",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Head",
-   "return": "2026-11-15",
-   "comment": "Sexton did not return to Wednesday's 123-112 win over the Bucks and required stitches to close a cut on his forehead, Thuc Nhi Nguyen of the Los Angeles Times reports.",
-   "date": "2026-11-12T04:40Z"
+   "comment": "Grimes (finger) said he expects to return to action Sunday against the Suns, according to Ricardo Sandoval of Lakers on SI.",
+   "date": "2026-11-13T21:26Z"
   }
  ],
  "MEM": [
@@ -552,11 +542,21 @@
    "id": "4593016",
    "name": "Quinten Post",
    "pos": "C",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Concussion",
+   "return": "2026-11-16",
+   "comment": "Post (concussion) has been ruled out for Saturday's game against the Nets.",
+   "date": "2026-11-14T19:47Z"
+  },
+  {
+   "id": "2991070",
+   "name": "Jerami Grant",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Head",
    "return": "2026-11-14",
-   "comment": "Post (concussion) has been ruled out for Friday's game against New Orleans.",
-   "date": "2026-11-14T15:02Z"
+   "comment": "Grant (head) is questionable for Saturday's game against the Nets.",
+   "date": "2026-11-14T19:46Z"
   },
   {
    "id": "4600663",
@@ -565,8 +565,18 @@
    "status": "Day-To-Day",
    "type": "Ankle",
    "return": "2026-11-14",
-   "comment": "Edey won't play in Friday's game against the Pelicans due to left ankle injury management.",
-   "date": "2026-11-14T15:02Z"
+   "comment": "Edey (ankle) is listed as questionable for Saturday's game against Brooklyn.",
+   "date": "2026-11-14T19:45Z"
+  },
+  {
+   "id": "4065733",
+   "name": "Ty Jerome",
+   "pos": "G",
+   "status": "Out",
+   "type": "Hip",
+   "return": "2026-11-16",
+   "comment": "Jerome (hip) has been ruled out for Saturday's game against the Nets.",
+   "date": "2026-11-14T19:44Z"
   },
   {
    "id": "4431785",
@@ -1065,14 +1075,24 @@
  ],
  "WSH": [
   {
+   "id": "5238230",
+   "name": "Tre Johnson",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Back",
+   "return": "2026-11-15",
+   "comment": "Johnson is listed as questionable for Sunday's game against the Rockets due to lower-back soreness.",
+   "date": "2026-11-14T21:09Z"
+  },
+  {
    "id": "4845374",
    "name": "Bub Carrington",
    "pos": "G",
    "status": "Day-To-Day",
    "type": "Chest",
    "return": "2026-11-15",
-   "comment": "Carrington (chest) has been ruled out for the remainder of Thursday's game against the Pistons.",
-   "date": "2026-11-13T03:26Z"
+   "comment": "Carrington (chest) is listed as questionable for Sunday's game against Houston.",
+   "date": "2026-11-14T21:05Z"
   },
   {
    "id": "4997537",
@@ -1115,5 +1135,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-14T18:50:54.553562+00:00"
+ "_updated": "2026-11-14T21:28:00.145726+00:00"
 }
