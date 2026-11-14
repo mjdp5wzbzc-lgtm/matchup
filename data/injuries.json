@@ -51,18 +51,6 @@
    "date": "2026-09-21T19:50Z"
   }
  ],
- "BOS": [
-  {
-   "id": "4251",
-   "name": "Paul George",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Illness",
-   "return": "2026-11-15",
-   "comment": "George (illness) has been ruled out for Wednesday's game against Toronto, Taylor Snow of the Celtics' official site reports.",
-   "date": "2026-11-12T03:01Z"
-  }
- ],
  "BKN": [
   {
    "id": "5101761",
@@ -171,6 +159,16 @@
  ],
  "CLE": [
   {
+   "id": "4066328",
+   "name": "Jarrett Allen",
+   "pos": "C",
+   "status": "Out",
+   "type": "Knee",
+   "return": "2026-11-16",
+   "comment": "Allen (knee) has been ruled out for Saturday's game against the Mavericks.",
+   "date": "2026-11-14T22:52Z"
+  },
+  {
    "id": "4576087",
    "name": "Peyton Watson",
    "pos": "G",
@@ -189,16 +187,6 @@
    "return": "2026-11-16",
    "comment": "Mobley (toe) has been ruled out for Saturday's meeting with Dallas.",
    "date": "2026-11-14T18:33Z"
-  },
-  {
-   "id": "4066328",
-   "name": "Jarrett Allen",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Knee",
-   "return": "2026-11-14",
-   "comment": "Allen (knee) is listed as questionable for Saturday's game against Dallas.",
-   "date": "2026-11-14T18:31Z"
   },
   {
    "id": "3908809",
@@ -248,7 +236,7 @@
    "pos": "G",
    "status": "Day-To-Day",
    "type": "Ankle",
-   "return": "2026-11-14",
+   "return": "2026-11-15",
    "comment": "Christie (ankle) has been downgraded to doubtful for Saturday's game against the Cavaliers",
    "date": "2026-11-14T18:23Z"
   },
@@ -651,6 +639,18 @@
    "date": "2026-11-14T18:07Z"
   }
  ],
+ "MIL": [
+  {
+   "id": "4997526",
+   "name": "Ousmane Dieng",
+   "pos": "F",
+   "status": "Out",
+   "type": "Finger",
+   "return": "2026-11-18",
+   "comment": "Dieng (finger) has been ruled out for Sunday's game against the Hawks.",
+   "date": "2026-11-14T22:40Z"
+  }
+ ],
  "MIN": [
   {
    "id": "4594268",
@@ -674,16 +674,6 @@
   }
  ],
  "NO": [
-  {
-   "id": "5061589",
-   "name": "Yves Missi",
-   "pos": "C",
-   "status": "Out",
-   "type": "Knee",
-   "return": "2026-11-14",
-   "comment": "Missi (knee) has been upgraded to probable for Saturday's game versus the Nuggets.",
-   "date": "2026-11-14T18:01Z"
-  },
   {
    "id": "4431675",
    "name": "Trendon Watford",
@@ -837,18 +827,8 @@
    "status": "Out",
    "type": "Foot",
    "return": "2026-11-16",
-   "comment": "Embiid closed with 20 points (7-17 FG, 0-3 3Pt, 6-7 FT), four rebounds, three assists, one block and one steal in 28 minutes during Thursday's 123-112 win over Toronto.",
+   "comment": "Embiid (right foot injury management) has been ruled out for Sunday's game against the Pacers.",
    "date": "2026-11-14T22:05Z"
-  },
-  {
-   "id": "1966",
-   "name": "LeBron James",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Back",
-   "return": "2026-11-15",
-   "comment": "James (back) is out for Thursday's game against Toronto.",
-   "date": "2026-11-13T03:28Z"
   },
   {
    "id": "4870562",
@@ -1175,5 +1155,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-14T22:08:48.599425+00:00"
+ "_updated": "2026-11-14T23:02:23.260953+00:00"
 }
