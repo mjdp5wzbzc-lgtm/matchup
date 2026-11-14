@@ -4,11 +4,11 @@
    "id": "5149077",
    "name": "Kingston Flemings",
    "pos": "G",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Back",
-   "return": "2026-11-15",
-   "comment": "Flemings (back tightness) will not return to Friday's game against the Bulls.",
-   "date": "2026-11-14T03:20Z"
+   "return": "2026-11-18",
+   "comment": "Flemings (back) has been ruled out for Sunday's game against the Bucks.",
+   "date": "2026-11-14T23:08Z"
   },
   {
    "id": "4712863",
@@ -53,24 +53,14 @@
  ],
  "BKN": [
   {
-   "id": "5101761",
-   "name": "Mikel Brown Jr.",
-   "pos": "G",
+   "id": "4278104",
+   "name": "Michael Porter Jr.",
+   "pos": "F",
    "status": "Day-To-Day",
-   "type": "Illness",
+   "type": "Personal",
    "return": "2026-11-14",
-   "comment": "Brown (illness) has been upgraded to probable for Saturday's game at Memphis.",
-   "date": "2026-11-14T17:19Z"
-  },
-  {
-   "id": "5279130",
-   "name": "Nolan Traore",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Calf",
-   "return": "2026-11-14",
-   "comment": "Traore (calf) is listed as probable for Saturday's game against Memphis.",
-   "date": "2026-11-13T22:07Z"
+   "comment": "Porter (personal) is listed as questionable for Saturday's game against Memphis, Erik Slater of ClutchPoints.com reports.",
+   "date": "2026-11-14T23:19Z"
   }
  ],
  "CHA": [
@@ -107,6 +97,26 @@
  ],
  "CHI": [
   {
+   "id": "4397189",
+   "name": "Jalen Smith",
+   "pos": "F",
+   "status": "Out",
+   "type": "Finger",
+   "return": "2026-11-16",
+   "comment": "Smith (finger) has been ruled out for Saturday's game against Minnesota, K.C. Johnson of Chicago Sports Network reports.",
+   "date": "2026-11-14T23:40Z"
+  },
+  {
+   "id": "4278067",
+   "name": "Nic Claxton",
+   "pos": "C",
+   "status": "Out",
+   "type": "Hamstring",
+   "return": "2026-11-16",
+   "comment": "Claxton (hamstring) is out for Saturday's game against the Timberwolves, K.C. Johnson of Chicago Sports Network reports.",
+   "date": "2026-11-14T23:39Z"
+  },
+  {
    "id": "5105555",
    "name": "Tobe Awaka",
    "pos": "F",
@@ -115,36 +125,6 @@
    "return": "2026-11-16",
    "comment": "Awaka has been ruled out for Saturday's game against the Timberwolves.",
    "date": "2026-11-14T18:10Z"
-  },
-  {
-   "id": "4278067",
-   "name": "Nic Claxton",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Hamstring",
-   "return": "2026-11-14",
-   "comment": "Claxton (hamstring) is listed as questionable for Saturday's game against the Timberwolves.",
-   "date": "2026-11-14T18:08Z"
-  },
-  {
-   "id": "4397189",
-   "name": "Jalen Smith",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Finger",
-   "return": "2026-11-14",
-   "comment": "Smith (finger) is listed as questionable for Saturday's game at Minnesota.",
-   "date": "2026-11-14T18:00Z"
-  },
-  {
-   "id": "2595516",
-   "name": "Norman Powell",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Back",
-   "return": "2026-11-14",
-   "comment": "Powell (back) is listed as questionable for Saturday's game against Minnesota.",
-   "date": "2026-11-14T17:57Z"
   },
   {
    "id": "5095151",
@@ -159,6 +139,36 @@
  ],
  "CLE": [
   {
+   "id": "4576087",
+   "name": "Peyton Watson",
+   "pos": "G",
+   "status": "Out",
+   "type": "Hamstring",
+   "return": "2026-11-16",
+   "comment": "Watson (hamstring) has been ruled out for Saturday's game against the Mavericks.",
+   "date": "2026-11-14T22:59Z"
+  },
+  {
+   "id": "3992",
+   "name": "James Harden",
+   "pos": "G",
+   "status": "Out",
+   "type": "Calf",
+   "return": "2026-11-16",
+   "comment": "Harden (calf) has been ruled out for Saturday's game against Dallas.",
+   "date": "2026-11-14T22:57Z"
+  },
+  {
+   "id": "3908809",
+   "name": "Donovan Mitchell",
+   "pos": "G",
+   "status": "Out",
+   "type": "Knee",
+   "return": "2026-11-16",
+   "comment": "Mitchell (knee) has been ruled out for Saturday's game against the Mavericks.",
+   "date": "2026-11-14T22:56Z"
+  },
+  {
    "id": "4066328",
    "name": "Jarrett Allen",
    "pos": "C",
@@ -169,16 +179,6 @@
    "date": "2026-11-14T22:52Z"
   },
   {
-   "id": "4576087",
-   "name": "Peyton Watson",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Hamstring",
-   "return": "2026-11-14",
-   "comment": "Watson (hamstring) is listed as questionable for Saturday's game against the Mavericks.",
-   "date": "2026-11-14T18:38Z"
-  },
-  {
    "id": "4432158",
    "name": "Evan Mobley",
    "pos": "C",
@@ -187,26 +187,6 @@
    "return": "2026-11-16",
    "comment": "Mobley (toe) has been ruled out for Saturday's meeting with Dallas.",
    "date": "2026-11-14T18:33Z"
-  },
-  {
-   "id": "3908809",
-   "name": "Donovan Mitchell",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Knee",
-   "return": "2026-11-14",
-   "comment": "Mitchell (knee) is listed as questionable for Saturday's game against the Mavericks.",
-   "date": "2026-11-14T18:31Z"
-  },
-  {
-   "id": "3992",
-   "name": "James Harden",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Calf",
-   "return": "2026-11-14",
-   "comment": "Harden (left lower leg/calf tightness) is listed as questionable for Saturday's game against the Mavericks.",
-   "date": "2026-11-14T18:28Z"
   },
   {
    "id": "4066757",
@@ -234,21 +214,11 @@
    "id": "4432582",
    "name": "Max Christie",
    "pos": "G",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Ankle",
    "return": "2026-11-15",
-   "comment": "Christie (ankle) has been downgraded to doubtful for Saturday's game against the Cavaliers",
-   "date": "2026-11-14T18:23Z"
-  },
-  {
-   "id": "4873153",
-   "name": "Morez Johnson Jr.",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Lower Leg",
-   "return": "2026-11-14",
-   "comment": "Johnson (left shin contusion) is listed as probable for Saturday against Cleveland.",
-   "date": "2026-11-13T22:05Z"
+   "comment": "Christie (ankle) has been ruled out for Saturday's game against Cleveland.",
+   "date": "2026-11-14T23:02Z"
   },
   {
    "id": "4683688",
@@ -612,31 +582,11 @@
    "id": "4601025",
    "name": "Pelle Larsson",
    "pos": "G",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Illness",
-   "return": "2026-11-14",
-   "comment": "Larsson (illness) is listed as doubtful for Saturday's game against Detroit.",
-   "date": "2026-11-14T18:12Z"
-  },
-  {
-   "id": "6475",
-   "name": "Klay Thompson",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Ankle",
-   "return": "2026-11-14",
-   "comment": "Thompson (ankle) is listed as probable for Saturday's game against the Pistons.",
-   "date": "2026-11-14T18:10Z"
-  },
-  {
-   "id": "3032977",
-   "name": "Giannis Antetokounmpo",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Wrist",
-   "return": "2026-11-14",
-   "comment": "Antetokounmpo (wrist) is listed as probable for Saturday's game against Detroit.",
-   "date": "2026-11-14T18:07Z"
+   "return": "2026-11-16",
+   "comment": "Larsson (illness) has been ruled out for Saturday's game against the Pistons.",
+   "date": "2026-11-14T23:26Z"
   }
  ],
  "MIL": [
@@ -674,6 +624,16 @@
   }
  ],
  "NO": [
+  {
+   "id": "4683634",
+   "name": "Bennedict Mathurin",
+   "pos": "G",
+   "status": "Out",
+   "type": "Foot",
+   "return": "2026-11-16",
+   "comment": "Mathurin is out for Saturday's game against the Nuggets due to left plantar fasciitis.",
+   "date": "2026-11-14T23:06Z"
+  },
   {
    "id": "4431675",
    "name": "Trendon Watford",
@@ -1155,5 +1115,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-14T23:02:23.260953+00:00"
+ "_updated": "2026-11-14T23:59:28.457713+00:00"
 }
