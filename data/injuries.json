@@ -56,11 +56,11 @@
    "id": "4278104",
    "name": "Michael Porter Jr.",
    "pos": "F",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Personal",
-   "return": "2026-11-14",
-   "comment": "Porter (personal) is listed as questionable for Saturday's game against Memphis, Erik Slater of ClutchPoints.com reports.",
-   "date": "2026-11-14T23:19Z"
+   "return": "2026-11-16",
+   "comment": "Porter (personal) is out for Saturday's game against the Grizzlies, Brian Lewis of the New York Post reports.",
+   "date": "2026-11-15T00:15Z"
   }
  ],
  "CHA": [
@@ -485,37 +485,57 @@
  ],
  "LAL": [
   {
+   "id": "5060631",
+   "name": "Adou Thiero",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Ankle",
+   "return": "2026-11-15",
+   "comment": "Thiero (ankle) is questionable for Sunday's game against the Suns.",
+   "date": "2026-11-15T00:40Z"
+  },
+  {
    "id": "4277811",
    "name": "Collin Sexton",
    "pos": "G",
    "status": "Day-To-Day",
    "type": "Head",
    "return": "2026-11-15",
-   "comment": "Sexton (head) was a full participant in Saturday's practice, Dave McMenamin of ESPN.com reports.",
-   "date": "2026-11-14T20:25Z"
+   "comment": "Sexton (head) is questionable for Sunday's game against the Suns, Daniel Starkand of LakersNation.com reports.",
+   "date": "2026-11-15T00:27Z"
   },
   {
    "id": "4066457",
    "name": "Austin Reaves",
    "pos": "G",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Heel",
-   "return": "2026-11-15",
-   "comment": "Reaves (heel) didn't participate in Saturday's practice, Dave McMenamin of ESPN.com reports.",
-   "date": "2026-11-14T20:15Z"
-  },
-  {
-   "id": "4397014",
-   "name": "Quentin Grimes",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Finger",
-   "return": "2026-11-15",
-   "comment": "Grimes (finger) said he expects to return to action Sunday against the Suns, according to Ricardo Sandoval of Lakers on SI.",
-   "date": "2026-11-13T21:26Z"
+   "return": "2026-11-17",
+   "comment": "Reaves (heel) has been ruled out for Sunday's game against the Suns, Daniel Starkand of LakersNation.com reports.",
+   "date": "2026-11-15T00:17Z"
   }
  ],
  "MEM": [
+  {
+   "id": "4600663",
+   "name": "Zach Edey",
+   "pos": "C",
+   "status": "Out",
+   "type": "Ankle",
+   "return": "2026-11-16",
+   "comment": "Edey (ankle) is listed as out for Saturday's game against the Nets.",
+   "date": "2026-11-15T00:43Z"
+  },
+  {
+   "id": "2991070",
+   "name": "Jerami Grant",
+   "pos": "F",
+   "status": "Out",
+   "type": "Head",
+   "return": "2026-11-16",
+   "comment": "Grant (head) is out for Saturday's game against the Nets.",
+   "date": "2026-11-15T00:35Z"
+  },
   {
    "id": "4593016",
    "name": "Quinten Post",
@@ -525,26 +545,6 @@
    "return": "2026-11-16",
    "comment": "Post (concussion) has been ruled out for Saturday's game against the Nets.",
    "date": "2026-11-14T19:47Z"
-  },
-  {
-   "id": "2991070",
-   "name": "Jerami Grant",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Head",
-   "return": "2026-11-14",
-   "comment": "Grant (head) is questionable for Saturday's game against the Nets.",
-   "date": "2026-11-14T19:46Z"
-  },
-  {
-   "id": "4600663",
-   "name": "Zach Edey",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Ankle",
-   "return": "2026-11-14",
-   "comment": "Edey (ankle) is listed as questionable for Saturday's game against Brooklyn.",
-   "date": "2026-11-14T19:45Z"
   },
   {
    "id": "4065733",
@@ -996,11 +996,11 @@
    "id": "4397077",
    "name": "Jaxson Hayes",
    "pos": "C",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Knee",
-   "return": "2026-11-15",
-   "comment": "Hayes won't return to Friday's game against the Rockets due to a left knee issue.",
-   "date": "2026-11-14T02:58Z"
+   "return": "2026-11-17",
+   "comment": "Hayes (knee) has been ruled out for Sunday's game against the Spurs.",
+   "date": "2026-11-15T00:07Z"
   },
   {
    "id": "4433268",
@@ -1115,5 +1115,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-14T23:59:28.457713+00:00"
+ "_updated": "2026-11-15T00:58:51.177270+00:00"
 }
