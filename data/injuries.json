@@ -97,6 +97,16 @@
  ],
  "CHI": [
   {
+   "id": "5105555",
+   "name": "Tobe Awaka",
+   "pos": "F",
+   "status": "Out",
+   "type": "Back",
+   "return": "2026-11-18",
+   "comment": "Awaka has been ruled out for Saturday's game against the Timberwolves.",
+   "date": "2026-11-15T21:27Z"
+  },
+  {
    "id": "4397189",
    "name": "Jalen Smith",
    "pos": "F",
@@ -104,26 +114,6 @@
    "type": "Finger",
    "return": "2026-11-16",
    "comment": "Smith (finger) has been ruled out for Saturday's game against Minnesota, K.C. Johnson of Chicago Sports Network reports.",
-   "date": "2026-11-15T15:30Z"
-  },
-  {
-   "id": "4278067",
-   "name": "Nic Claxton",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Hamstring",
-   "return": "2026-11-16",
-   "comment": "Claxton (hamstring) is out for Saturday's game against the Timberwolves, K.C. Johnson of Chicago Sports Network reports.",
-   "date": "2026-11-15T15:30Z"
-  },
-  {
-   "id": "5105555",
-   "name": "Tobe Awaka",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Back",
-   "return": "2026-11-16",
-   "comment": "Awaka has been ruled out for Saturday's game against the Timberwolves.",
    "date": "2026-11-15T15:30Z"
   },
   {
@@ -211,14 +201,24 @@
  ],
  "DAL": [
   {
+   "id": "4432582",
+   "name": "Max Christie",
+   "pos": "G",
+   "status": "Out",
+   "type": "Ankle",
+   "return": "2026-11-18",
+   "comment": "Christie (ankle) has been ruled out for Sunday's game against the Celtics.",
+   "date": "2026-11-15T21:24Z"
+  },
+  {
    "id": "6442",
    "name": "Kyrie Irving",
    "pos": "G",
    "status": "Out",
    "type": "Knee",
    "return": "2026-11-18",
-   "comment": "Irving (knee) is questionable to play in Sunday's game against the Celtics.",
-   "date": "2026-11-15T21:17Z"
+   "comment": "Irving (knee) has been ruled out for Sunday's game against the Celtics.",
+   "date": "2026-11-15T21:20Z"
   },
   {
    "id": "4593125",
@@ -229,16 +229,6 @@
    "return": "2026-11-15",
    "comment": "Aldama (ankle) is listed as questionable for Sunday's game in Boston.",
    "date": "2026-11-15T18:19Z"
-  },
-  {
-   "id": "4432582",
-   "name": "Max Christie",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Ankle",
-   "return": "2026-11-18",
-   "comment": "Christie (ankle) is doubtful to play Sunday's game against the Celtics.",
-   "date": "2026-11-15T18:18Z"
   },
   {
    "id": "4278049",
@@ -1125,5 +1115,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-15T21:28:42.766632+00:00"
+ "_updated": "2026-11-15T21:45:55.672645+00:00"
 }
