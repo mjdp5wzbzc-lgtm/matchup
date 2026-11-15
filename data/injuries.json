@@ -381,6 +381,16 @@
  ],
  "IND": [
   {
+   "id": "4395712",
+   "name": "Andrew Nembhard",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Hip",
+   "return": "2026-11-15",
+   "comment": "Nembhard is questionable for Sunday's game against the 76ers due to left hip soreness.",
+   "date": "2026-11-15T01:14Z"
+  },
+  {
    "id": "2530530",
    "name": "T.J. McConnell",
    "pos": "G",
@@ -667,14 +677,24 @@
  ],
  "OKC": [
   {
+   "id": "4432823",
+   "name": "Jaylin Williams",
+   "pos": "F",
+   "status": "Out",
+   "type": "Back",
+   "return": "2026-11-18",
+   "comment": "Williams (back) has been ruled out for Sunday's game against the Kings.",
+   "date": "2026-11-15T01:14Z"
+  },
+  {
    "id": "4900671",
    "name": "Ajay Mitchell",
    "pos": "G",
    "status": "Day-To-Day",
    "type": "Ankle",
    "return": "2026-11-15",
-   "comment": "Mitchell (ankle) has been ruled out for Friday's game against the Clippers.",
-   "date": "2026-11-14T15:07Z"
+   "comment": "Mitchell (ankle) is questionable to suit up for Sunday's game against the Kings.",
+   "date": "2026-11-15T01:10Z"
   },
   {
    "id": "5061603",
@@ -685,16 +705,6 @@
    "return": "2026-11-20",
    "comment": "Sorber (knee) has been ruled out for Friday's game against the Clippers.",
    "date": "2026-11-13T01:07Z"
-  },
-  {
-   "id": "4432823",
-   "name": "Jaylin Williams",
-   "pos": "F",
-   "status": "Out",
-   "type": "Back",
-   "return": "2026-11-15",
-   "comment": "Williams (back) has been ruled out for Wednesday's game against Portland and remains out indefinitely.",
-   "date": "2026-11-11T21:19Z"
   },
   {
    "id": "4683692",
@@ -1105,5 +1115,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-15T01:13:28.250154+00:00"
+ "_updated": "2026-11-15T02:00:22.766716+00:00"
 }
