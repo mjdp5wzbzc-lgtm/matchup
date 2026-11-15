@@ -211,6 +211,16 @@
  ],
  "DAL": [
   {
+   "id": "6442",
+   "name": "Kyrie Irving",
+   "pos": "G",
+   "status": "Out",
+   "type": "Knee",
+   "return": "2026-11-18",
+   "comment": "Irving (knee) is questionable to play in Sunday's game against the Celtics.",
+   "date": "2026-11-15T21:17Z"
+  },
+  {
    "id": "4593125",
    "name": "Santi Aldama",
    "pos": "F",
@@ -226,19 +236,9 @@
    "pos": "G",
    "status": "Day-To-Day",
    "type": "Ankle",
-   "return": "2026-11-15",
+   "return": "2026-11-18",
    "comment": "Christie (ankle) is doubtful to play Sunday's game against the Celtics.",
    "date": "2026-11-15T18:18Z"
-  },
-  {
-   "id": "6442",
-   "name": "Kyrie Irving",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Knee",
-   "return": "2026-11-15",
-   "comment": "Irving (knee) is questionable to play in Sunday's game against the Celtics.",
-   "date": "2026-11-15T18:14Z"
   },
   {
    "id": "4278049",
@@ -424,11 +424,11 @@
    "id": "4395712",
    "name": "Andrew Nembhard",
    "pos": "G",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Hip",
    "return": "2026-11-18",
    "comment": "Nembhard (hip) has been ruled out for Sunday's game against the 76ers, Tony East of Forbes.com reports.",
-   "date": "2026-11-15T16:44Z"
+   "date": "2026-11-15T20:57Z"
   },
   {
    "id": "4396993",
@@ -504,26 +504,6 @@
   }
  ],
  "LAL": [
-  {
-   "id": "5060631",
-   "name": "Adou Thiero",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Ankle",
-   "return": "2026-11-15",
-   "comment": "Thiero (ankle) is questionable for Sunday's game against the Suns.",
-   "date": "2026-11-15T00:40Z"
-  },
-  {
-   "id": "4277811",
-   "name": "Collin Sexton",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Head",
-   "return": "2026-11-15",
-   "comment": "Sexton (head) is questionable for Sunday's game against the Suns, Daniel Starkand of LakersNation.com reports.",
-   "date": "2026-11-15T00:27Z"
-  },
   {
    "id": "4066457",
    "name": "Austin Reaves",
@@ -621,6 +601,16 @@
  ],
  "MIL": [
   {
+   "id": "4997526",
+   "name": "Ousmane Dieng",
+   "pos": "F",
+   "status": "Out",
+   "type": "Finger",
+   "return": "2026-11-18",
+   "comment": "Dieng (finger) is listed as out for Sunday's game versus the Hawks.",
+   "date": "2026-11-15T20:13Z"
+  },
+  {
    "id": "4591725",
    "name": "Ryan Rollins",
    "pos": "G",
@@ -629,16 +619,6 @@
    "return": "2026-11-15",
    "comment": "Rollins (illness) is questionable to play in Sunday's game against the Hawks.",
    "date": "2026-11-15T17:23Z"
-  },
-  {
-   "id": "4997526",
-   "name": "Ousmane Dieng",
-   "pos": "F",
-   "status": "Out",
-   "type": "Finger",
-   "return": "2026-11-18",
-   "comment": "Dieng (finger) has been ruled out for Sunday's game against the Hawks.",
-   "date": "2026-11-14T22:40Z"
   }
  ],
  "MIN": [
@@ -834,11 +814,11 @@
    "id": "3059318",
    "name": "Joel Embiid",
    "pos": "C",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Foot",
    "return": "2026-11-16",
    "comment": "Embiid (right foot injury management) has been ruled out for Sunday's game against the Pacers.",
-   "date": "2026-11-14T22:05Z"
+   "date": "2026-11-15T20:58Z"
   },
   {
    "id": "4870562",
@@ -947,16 +927,6 @@
    "date": "2026-11-15T01:00Z"
   },
   {
-   "id": "4594327",
-   "name": "Keegan Murray",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Illness",
-   "return": "2026-11-15",
-   "comment": "Murray (illness) is questionable for Sunday's game against the Thunder.",
-   "date": "2026-11-15T01:00Z"
-  },
-  {
    "id": "4431679",
    "name": "Precious Achiuwa",
    "pos": "F",
@@ -982,11 +952,11 @@
    "id": "4066259",
    "name": "De'Aaron Fox",
    "pos": "G",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Hip",
-   "return": "2026-11-15",
-   "comment": "Fox (hip) is listed as questionable for Sunday's game against Utah.",
-   "date": "2026-11-15T18:27Z"
+   "return": "2026-11-17",
+   "comment": "Fox (hip) has been ruled out for Sunday's game against the Jazz.",
+   "date": "2026-11-15T20:33Z"
   },
   {
    "id": "6440",
@@ -1105,16 +1075,6 @@
  ],
  "WSH": [
   {
-   "id": "5160992",
-   "name": "Alex Sarr",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Illness",
-   "return": "2026-11-15",
-   "comment": "Sarr (illness) is listed as questionable for Sunday's game against Houston.",
-   "date": "2026-11-14T21:24Z"
-  },
-  {
    "id": "5238230",
    "name": "Tre Johnson",
    "pos": "G",
@@ -1123,16 +1083,6 @@
    "return": "2026-11-15",
    "comment": "Johnson is listed as questionable for Sunday's game against the Rockets due to lower-back soreness.",
    "date": "2026-11-14T21:09Z"
-  },
-  {
-   "id": "4845374",
-   "name": "Bub Carrington",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Chest",
-   "return": "2026-11-15",
-   "comment": "Carrington (chest) is listed as questionable for Sunday's game against Houston.",
-   "date": "2026-11-14T21:05Z"
   },
   {
    "id": "4997537",
@@ -1175,5 +1125,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-15T18:52:14.670063+00:00"
+ "_updated": "2026-11-15T21:28:42.766632+00:00"
 }

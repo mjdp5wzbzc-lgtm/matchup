@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T18:52:14.479143+00:00",
+ "generated": "2026-11-15T21:28:42.639081+00:00",
  "days": [
   {
    "date": "2026-11-15",
@@ -9,11 +9,11 @@
      "start": "2026-11-15T18:00Z",
      "home": "PHI",
      "away": "IND",
-     "state": "in",
-     "detail": "6:21 - 2nd",
+     "state": "post",
+     "detail": "Final",
      "score": {
-      "home": "40",
-      "away": "47"
+      "home": "131",
+      "away": "124"
      }
     },
     {
@@ -21,11 +21,11 @@
      "start": "2026-11-15T21:00Z",
      "home": "PHX",
      "away": "LAL",
-     "state": "pre",
-     "detail": "11/15 - 4:00 PM EST",
+     "state": "in",
+     "detail": "4:50 - 1st",
      "score": {
-      "home": "0",
-      "away": "0"
+      "home": "10",
+      "away": "23"
      }
     },
     {
