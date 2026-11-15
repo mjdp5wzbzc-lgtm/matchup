@@ -1,6 +1,16 @@
 {
  "ATL": [
   {
+   "id": "3146557",
+   "name": "Jock Landale",
+   "pos": "C",
+   "status": "Day-To-Day",
+   "type": "Hip",
+   "return": "2026-11-15",
+   "comment": "Landale (hip) is listed as questionable for Sunday's game against Milwakee.",
+   "date": "2026-11-15T17:55Z"
+  },
+  {
    "id": "5149077",
    "name": "Kingston Flemings",
    "pos": "G",
@@ -201,14 +211,14 @@
  ],
  "DAL": [
   {
-   "id": "4278049",
-   "name": "Daniel Gafford",
+   "id": "4593125",
+   "name": "Santi Aldama",
    "pos": "F",
    "status": "Day-To-Day",
-   "type": "Face",
+   "type": "Ankle",
    "return": "2026-11-15",
-   "comment": "Gafford (face) won't return to Saturday's game against the Cavaliers, Grant Afseth of DallasHoopsJournal.com reports.",
-   "date": "2026-11-15T15:22Z"
+   "comment": "Aldama (ankle) is listed as questionable for Sunday's game in Boston.",
+   "date": "2026-11-15T18:19Z"
   },
   {
    "id": "4432582",
@@ -217,8 +227,28 @@
    "status": "Day-To-Day",
    "type": "Ankle",
    "return": "2026-11-15",
-   "comment": "Christie (ankle) has been ruled out for Saturday's game against Cleveland.",
-   "date": "2026-11-15T15:22Z"
+   "comment": "Christie (ankle) is doubtful to play Sunday's game against the Celtics.",
+   "date": "2026-11-15T18:18Z"
+  },
+  {
+   "id": "6442",
+   "name": "Kyrie Irving",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Knee",
+   "return": "2026-11-15",
+   "comment": "Irving (knee) is questionable to play in Sunday's game against the Celtics.",
+   "date": "2026-11-15T18:14Z"
+  },
+  {
+   "id": "4278049",
+   "name": "Daniel Gafford",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Shoulder",
+   "return": "2026-11-15",
+   "comment": "Gafford (shoulder) is probable to play in Sunday's game against the Celtics.",
+   "date": "2026-11-15T18:09Z"
   },
   {
    "id": "4683688",
@@ -270,9 +300,9 @@
    "pos": "F",
    "status": "Day-To-Day",
    "type": "Thigh",
-   "return": "2026-11-14",
-   "comment": "Robinson (thigh) is questionable to return to Saturday's game against Miami.",
-   "date": "2026-11-15T02:40Z"
+   "return": "2026-11-17",
+   "comment": "Robinson (thigh) did not return to Saturday's 137-117 win over the Pistons. He finished with 10 points (3-8 FG, 2-6 3Pt, 2-2 FT), one rebound and one assist across 17 minutes.",
+   "date": "2026-11-15T15:58Z"
   },
   {
    "id": "5037878",
@@ -369,16 +399,6 @@
    "date": "2026-11-14T21:54Z"
   },
   {
-   "id": "2991235",
-   "name": "Steven Adams",
-   "pos": "C",
-   "status": "Out",
-   "type": "Calf",
-   "return": "2026-11-15",
-   "comment": "Adams (calf) has been upgraded to probable for Sunday's game against the Wizards.",
-   "date": "2026-11-14T21:52Z"
-  },
-  {
    "id": "2991230",
    "name": "Fred VanVleet",
    "pos": "G",
@@ -404,31 +424,11 @@
    "id": "4395712",
    "name": "Andrew Nembhard",
    "pos": "G",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Hip",
-   "return": "2026-11-15",
-   "comment": "Nembhard is questionable for Sunday's game against the 76ers due to left hip soreness.",
-   "date": "2026-11-15T01:14Z"
-  },
-  {
-   "id": "2530530",
-   "name": "T.J. McConnell",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Hamstring",
-   "return": "2026-11-15",
-   "comment": "McConnell (hamstring) is listed as probable for Sunday's game against the 76ers.",
-   "date": "2026-11-14T21:23Z"
-  },
-  {
-   "id": "4396909",
-   "name": "Aaron Nesmith",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Hand",
-   "return": "2026-11-15",
-   "comment": "Nesmith (hand) is listed as questionable for Sunday's game against Philadelphia.",
-   "date": "2026-11-14T21:21Z"
+   "return": "2026-11-18",
+   "comment": "Nembhard (hip) has been ruled out for Sunday's game against the 76ers, Tony East of Forbes.com reports.",
+   "date": "2026-11-15T16:44Z"
   },
   {
    "id": "4396993",
@@ -621,6 +621,16 @@
  ],
  "MIL": [
   {
+   "id": "4591725",
+   "name": "Ryan Rollins",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Illness",
+   "return": "2026-11-15",
+   "comment": "Rollins (illness) is questionable to play in Sunday's game against the Hawks.",
+   "date": "2026-11-15T17:23Z"
+  },
+  {
    "id": "4997526",
    "name": "Ousmane Dieng",
    "pos": "F",
@@ -779,6 +789,16 @@
  ],
  "ORL": [
   {
+   "id": "4065654",
+   "name": "Jonathan Isaac",
+   "pos": "F",
+   "status": "Out",
+   "type": "Knee",
+   "return": "2026-11-18",
+   "comment": "Isaac (knee) has been ruled out for Monday's game against the Celtics.",
+   "date": "2026-11-15T18:22Z"
+  },
+  {
    "id": "5214637",
    "name": "Noah Penda",
    "pos": "F",
@@ -787,16 +807,6 @@
    "return": "2026-11-22",
    "comment": "Penda (hamstring) is making progress but remains without a timetable to return to game action, Jason Beede of the Orlando Sentinel reports.",
    "date": "2026-11-14T17:33Z"
-  },
-  {
-   "id": "4065654",
-   "name": "Jonathan Isaac",
-   "pos": "F",
-   "status": "Out",
-   "type": "Knee",
-   "return": "2026-11-16",
-   "comment": "Isaac (knee) is out for Tuesday's game against Sacramento.",
-   "date": "2026-11-09T23:10Z"
   },
   {
    "id": "4432573",
@@ -968,6 +978,16 @@
   }
  ],
  "SA": [
+  {
+   "id": "4066259",
+   "name": "De'Aaron Fox",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Hip",
+   "return": "2026-11-15",
+   "comment": "Fox (hip) is listed as questionable for Sunday's game against Utah.",
+   "date": "2026-11-15T18:27Z"
+  },
   {
    "id": "6440",
    "name": "Tobias Harris",
@@ -1155,5 +1175,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-15T15:47:06.479010+00:00"
+ "_updated": "2026-11-15T18:52:14.670063+00:00"
 }
