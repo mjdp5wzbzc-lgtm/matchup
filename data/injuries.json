@@ -65,16 +65,6 @@
  ],
  "CHA": [
   {
-   "id": "4433287",
-   "name": "Brandon Miller",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Groin",
-   "return": "2026-11-15",
-   "comment": "Miller (groin) is listed as out for Thursday's game against Phoenix.",
-   "date": "2026-11-13T04:46Z"
-  },
-  {
    "id": "5061575",
    "name": "Kon Knueppel",
    "pos": "G",
@@ -887,14 +877,24 @@
  ],
  "SAC": [
   {
+   "id": "4898371",
+   "name": "Maxime Raynaud",
+   "pos": "C",
+   "status": "Out",
+   "type": "Knee",
+   "return": "2026-11-18",
+   "comment": "Raynaud (knee) has been ruled out for Sunday's game against the Thunder.",
+   "date": "2026-11-15T01:00Z"
+  },
+  {
    "id": "4594327",
    "name": "Keegan Murray",
    "pos": "F",
    "status": "Day-To-Day",
    "type": "Illness",
    "return": "2026-11-15",
-   "comment": "Murray (illness) didn't participate in Saturday's practice, Brenden Nunes of KHTK Sactown Sports 1140 reports.",
-   "date": "2026-11-14T21:36Z"
+   "comment": "Murray (illness) is questionable for Sunday's game against the Thunder.",
+   "date": "2026-11-15T01:00Z"
   },
   {
    "id": "4431679",
@@ -903,18 +903,8 @@
    "status": "Day-To-Day",
    "type": "Ankle",
    "return": "2026-11-15",
-   "comment": "Achiuwa (ankle) is out for Friday's game against the Trail Blazers.",
-   "date": "2026-11-14T15:05Z"
-  },
-  {
-   "id": "4898371",
-   "name": "Maxime Raynaud",
-   "pos": "C",
-   "status": "Out",
-   "type": "Knee",
-   "return": "2026-11-15",
-   "comment": "Raynaud (knee) has been ruled out for Tuesday's game against Orlando.",
-   "date": "2026-11-10T00:37Z"
+   "comment": "Achiuwa (ankle) is questionable for Sunday's game against the Thunder.",
+   "date": "2026-11-15T00:57Z"
   },
   {
    "id": "3907387",
@@ -1115,5 +1105,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-15T00:58:51.177270+00:00"
+ "_updated": "2026-11-15T01:13:28.250154+00:00"
 }
