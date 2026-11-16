@@ -4,11 +4,11 @@
    "id": "3146557",
    "name": "Jock Landale",
    "pos": "C",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Hip",
-   "return": "2026-11-15",
-   "comment": "Landale (hip) is listed as questionable for Sunday's game against Milwakee.",
-   "date": "2026-11-15T17:55Z"
+   "return": "2026-11-18",
+   "comment": "Landale (hip) is out for Sunday's game against Bucks, Brad Rowland of the Locked On Podcast Network reports.",
+   "date": "2026-11-15T23:22Z"
   },
   {
    "id": "5149077",
@@ -285,6 +285,16 @@
  ],
  "GS": [
   {
+   "id": "4997536",
+   "name": "Gui Santos",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Ankle",
+   "return": "2026-11-16",
+   "comment": "Santos is questionable for Monday's game against New Orleans due to right ankle inflammation.",
+   "date": "2026-11-15T23:03Z"
+  },
+  {
    "id": "3975",
    "name": "Stephen Curry",
    "pos": "G",
@@ -554,19 +564,19 @@
    "pos": "F",
    "status": "Out",
    "type": "Finger",
-   "return": "2026-11-18",
-   "comment": "Dieng (finger) is listed as out for Sunday's game versus the Hawks.",
-   "date": "2026-11-15T20:13Z"
+   "return": "2026-12-14",
+   "comment": "Dieng will undergo a procedure to repair a fractured left finger Monday, Justin Garcia of the Milwaukee Bucks Radio Network reports.",
+   "date": "2026-11-15T23:46Z"
   },
   {
    "id": "4591725",
    "name": "Ryan Rollins",
    "pos": "G",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Illness",
-   "return": "2026-11-15",
-   "comment": "Rollins (illness) is questionable to play in Sunday's game against the Hawks.",
-   "date": "2026-11-15T17:23Z"
+   "return": "2026-11-18",
+   "comment": "Rollins (illness) is out for Sunday's game against the Hawks.",
+   "date": "2026-11-15T23:19Z"
   }
  ],
  "MIN": [
@@ -603,24 +613,14 @@
  ],
  "NO": [
   {
-   "id": "4431675",
-   "name": "Trendon Watford",
-   "pos": "F",
-   "status": "Out",
-   "type": "Ankle",
-   "return": "2026-11-18",
-   "comment": "Watford (ankle) has been ruled out for Monday's game against Golden State.",
-   "date": "2026-11-15T22:52Z"
-  },
-  {
    "id": "4576086",
    "name": "Bryce McGowens",
    "pos": "G",
    "status": "Out",
    "type": "Elbow",
    "return": "2026-11-18",
-   "comment": "McGowens (elbow) has been ruled out for Saturday's game against the Nuggets.",
-   "date": "2026-11-15T22:07Z"
+   "comment": "McGowens (elbow) has been ruled out for Monday's game against the Warriors.",
+   "date": "2026-11-15T23:10Z"
   },
   {
    "id": "4683634",
@@ -629,8 +629,8 @@
    "status": "Out",
    "type": "Foot",
    "return": "2026-11-18",
-   "comment": "Mathurin is out for Saturday's game against the Nuggets due to left plantar fasciitis.",
-   "date": "2026-11-15T22:06Z"
+   "comment": "Mathurin (foot) has been ruled out for Monday's game against the Warriors.",
+   "date": "2026-11-15T23:06Z"
   },
   {
    "id": "4397688",
@@ -639,8 +639,18 @@
    "status": "Out",
    "type": "Knee",
    "return": "2026-11-18",
-   "comment": "Murphy (knees) has been ruled out for Saturday's game against the Nuggets.",
-   "date": "2026-11-14T17:53Z"
+   "comment": "Murphy (knees) has been ruled out for Monday's game against Golden State.",
+   "date": "2026-11-15T22:57Z"
+  },
+  {
+   "id": "4431675",
+   "name": "Trendon Watford",
+   "pos": "F",
+   "status": "Out",
+   "type": "Ankle",
+   "return": "2026-11-18",
+   "comment": "Watford (ankle) has been ruled out for Monday's game against Golden State.",
+   "date": "2026-11-15T22:52Z"
   },
   {
    "id": "3907497",
@@ -826,11 +836,11 @@
    "id": "4706557",
    "name": "Chris Youngblood",
    "pos": "G",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Foot",
-   "return": "2026-11-16",
-   "comment": "Youngblood (foot) is out for Friday's game against Sacramento.",
-   "date": "2026-11-14T15:05Z"
+   "return": "2026-11-17",
+   "comment": "Youngblood (foot) is out for Monday's game against the Timberwolves.",
+   "date": "2026-11-15T23:02Z"
   },
   {
    "id": "4578893",
@@ -1063,5 +1073,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-15T23:03:01.208558+00:00"
+ "_updated": "2026-11-16T00:09:17.505189+00:00"
 }
