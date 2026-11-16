@@ -833,6 +833,16 @@
  ],
  "PHX": [
   {
+   "id": "4888725",
+   "name": "Ryan Dunn",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Thumb",
+   "return": "2026-11-16",
+   "comment": "Dunn (thumb) is listed as questionable for Monday's game against Denver.",
+   "date": "2026-11-16T20:18Z"
+  },
+  {
    "id": "4701232",
    "name": "Mark Williams",
    "pos": "C",
@@ -939,6 +949,16 @@
  ],
  "SA": [
   {
+   "id": "6440",
+   "name": "Tobias Harris",
+   "pos": "F",
+   "status": "Out",
+   "type": "Calf",
+   "return": "2026-12-03",
+   "comment": "Harris (calf) is likely to be sidelined until early December, per Jeff Garcia of KENS 5 San Antonio.",
+   "date": "2026-11-16T19:26Z"
+  },
+  {
    "id": "4066259",
    "name": "De'Aaron Fox",
    "pos": "G",
@@ -947,16 +967,6 @@
    "return": "2026-11-17",
    "comment": "Fox (hip) has been ruled out for Sunday's game against the Jazz.",
    "date": "2026-11-16T14:44Z"
-  },
-  {
-   "id": "6440",
-   "name": "Tobias Harris",
-   "pos": "F",
-   "status": "Out",
-   "type": "Calf",
-   "return": "2026-11-19",
-   "comment": "Harris (calf) is out for Wednesday's game against Chicago, Jared Weiss of The Athletic reports.",
-   "date": "2026-11-10T22:46Z"
   },
   {
    "id": "5101845",
@@ -1105,5 +1115,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-16T19:01:54.584498+00:00"
+ "_updated": "2026-11-16T21:40:21.970237+00:00"
 }
