@@ -337,6 +337,16 @@
  ],
  "HOU": [
   {
+   "id": "5105553",
+   "name": "Julian Phillips",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Wrist",
+   "return": "2026-11-16",
+   "comment": "Phillips (illness) is available for Wednesday's game against Dallas.",
+   "date": "2026-11-16T15:28Z"
+  },
+  {
    "id": "2991230",
    "name": "Fred VanVleet",
    "pos": "G",
@@ -1073,5 +1083,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-16T15:12:47.353296+00:00"
+ "_updated": "2026-11-16T16:46:28.655722+00:00"
 }
