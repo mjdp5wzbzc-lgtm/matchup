@@ -109,6 +109,16 @@
  ],
  "CLE": [
   {
+   "id": "4683747",
+   "name": "Jaylon Tyson",
+   "pos": "G",
+   "status": "Out",
+   "type": "Ankle",
+   "return": "2026-11-18",
+   "comment": "Tyson (ankle) has been ruled out for Monday's game against Chicago.",
+   "date": "2026-11-16T22:39Z"
+  },
+  {
    "id": "4432158",
    "name": "Evan Mobley",
    "pos": "C",
@@ -117,26 +127,6 @@
    "return": "2026-11-29",
    "comment": "Mobley will receive treatment and participate in rehab after the team confirmed a diagnosis of a right great toe sprain, and he'll be re-evaluated in the next 7-to-10 days.",
    "date": "2026-11-16T22:06Z"
-  },
-  {
-   "id": "4683747",
-   "name": "Jaylon Tyson",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Ankle",
-   "return": "2026-11-18",
-   "comment": "Tyson (ankle) has been downgraded to doubtful for Monday's game against the Bulls.",
-   "date": "2026-11-16T17:35Z"
-  },
-  {
-   "id": "4576087",
-   "name": "Peyton Watson",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Abdomen",
-   "return": "2026-11-16",
-   "comment": "Watson (abdominal soreness) is questionable to play in Monday's game against the Bulls.",
-   "date": "2026-11-15T22:04Z"
   },
   {
    "id": "4066757",
@@ -235,14 +225,24 @@
  ],
  "DET": [
   {
-   "id": "3157465",
-   "name": "Duncan Robinson",
+   "id": "2990962",
+   "name": "Taurean Prince",
    "pos": "F",
    "status": "Out",
-   "type": "Quadriceps",
+   "type": "Knee",
    "return": "2026-11-18",
-   "comment": "Robinson (quadriceps) has been ruled out for Tuesday's game against the Spurs.",
-   "date": "2026-11-16T22:37Z"
+   "comment": "Prince (knee) has been ruled out for Tuesday's game against the Spurs.",
+   "date": "2026-11-16T22:58Z"
+  },
+  {
+   "id": "4683771",
+   "name": "Ronald Holland II",
+   "pos": "F",
+   "status": "Out",
+   "type": "Knee",
+   "return": "2026-11-18",
+   "comment": "Holland is out for Tuesday's game against San Antonio due to a left knee contusion.",
+   "date": "2026-11-16T22:53Z"
   },
   {
    "id": "4395702",
@@ -251,8 +251,18 @@
    "status": "Out",
    "type": "Hip",
    "return": "2026-11-17",
-   "comment": "Joe (hip) is out for Monday against the Wizards.",
-   "date": "2026-11-09T18:54Z"
+   "comment": "Joe (hip) is doubtful to play in Tuesday's game against the Spurs.",
+   "date": "2026-11-16T22:40Z"
+  },
+  {
+   "id": "3157465",
+   "name": "Duncan Robinson",
+   "pos": "F",
+   "status": "Out",
+   "type": "Quadriceps",
+   "return": "2026-11-18",
+   "comment": "Robinson (quadriceps) has been ruled out for Tuesday's game against the Spurs.",
+   "date": "2026-11-16T22:37Z"
   },
   {
    "id": "4433621",
@@ -517,26 +527,6 @@
    "date": "2026-11-15T22:13Z"
   },
   {
-   "id": "4593016",
-   "name": "Quinten Post",
-   "pos": "C",
-   "status": "Out",
-   "type": "Concussion",
-   "return": "2026-11-16",
-   "comment": "Post (concussion) is questionable for Monday's game against the Wizards.",
-   "date": "2026-11-15T22:12Z"
-  },
-  {
-   "id": "4600663",
-   "name": "Zach Edey",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Ankle",
-   "return": "2026-11-16",
-   "comment": "Edey (ankle) is questionable for Monday's game against Washington.",
-   "date": "2026-11-15T22:11Z"
-  },
-  {
    "id": "5105462",
    "name": "Richie Saunders",
    "pos": "G",
@@ -552,21 +542,21 @@
    "id": "4997528",
    "name": "Nikola Jovic",
    "pos": "F",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Illness",
-   "return": "2026-11-16",
-   "comment": "Jovic (illness) has been downgraded to questionable for Monday's game against Houston.",
-   "date": "2026-11-16T17:41Z"
+   "return": "2026-11-18",
+   "comment": "Jovic (illness) is out for Monday's game against Houston.",
+   "date": "2026-11-16T22:50Z"
   },
   {
    "id": "4601025",
    "name": "Pelle Larsson",
    "pos": "G",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Illness",
-   "return": "2026-11-16",
-   "comment": "Larsson (illness) has been downgraded to doubtful for Monday's game against Houston.",
-   "date": "2026-11-16T17:39Z"
+   "return": "2026-11-18",
+   "comment": "Larsson won't play in Monday's game against the Rockets due to an illness, Ira Winderman of the South Florida Sun Sentinel reports.",
+   "date": "2026-11-16T22:49Z"
   }
  ],
  "MIL": [
@@ -1003,16 +993,6 @@
    "date": "2026-11-16T14:44Z"
   },
   {
-   "id": "4433268",
-   "name": "Trey Alexander",
-   "pos": "G",
-   "status": "Out",
-   "type": "Ankle",
-   "return": "2026-11-16",
-   "comment": "Alexander won't play Wednesday against the Grizzlies due to a left knee bone bruise.",
-   "date": "2026-11-12T15:42Z"
-  },
-  {
    "id": "4066336",
    "name": "Lauri Markkanen",
    "pos": "F",
@@ -1085,5 +1065,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-16T22:39:38.456079+00:00"
+ "_updated": "2026-11-16T23:35:31.309232+00:00"
 }
