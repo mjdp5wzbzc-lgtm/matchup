@@ -675,16 +675,6 @@
    "date": "2026-11-15T01:14Z"
   },
   {
-   "id": "4900671",
-   "name": "Ajay Mitchell",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Ankle",
-   "return": "2026-11-15",
-   "comment": "Mitchell (ankle) is questionable to suit up for Sunday's game against the Kings.",
-   "date": "2026-11-15T01:10Z"
-  },
-  {
    "id": "5061603",
    "name": "Thomas Sorber",
    "pos": "C",
@@ -875,6 +865,36 @@
  ],
  "SAC": [
   {
+   "id": "4065732",
+   "name": "De'Andre Hunter",
+   "pos": "F",
+   "status": "Out",
+   "type": "Hip",
+   "return": "2026-11-18",
+   "comment": "Hunter (hip) is out for Sunday's game against the Thunder.",
+   "date": "2026-11-16T01:18Z"
+  },
+  {
+   "id": "3064440",
+   "name": "Zach LaVine",
+   "pos": "G",
+   "status": "Out",
+   "type": "Illness",
+   "return": "2026-11-18",
+   "comment": "LaVine is out for Sunday's game against Oklahoma City due to illness, Brandon Rahbar of DailyThunder.com reports.",
+   "date": "2026-11-16T01:06Z"
+  },
+  {
+   "id": "4431679",
+   "name": "Precious Achiuwa",
+   "pos": "F",
+   "status": "Out",
+   "type": "Ankle",
+   "return": "2026-11-18",
+   "comment": "Achiuwa (ankle) has been ruled out for Sunday's game against the Thunder, Brenden Nunes of KHTK Sactown Sports 1140 reports.",
+   "date": "2026-11-16T00:24Z"
+  },
+  {
    "id": "4898371",
    "name": "Maxime Raynaud",
    "pos": "C",
@@ -883,16 +903,6 @@
    "return": "2026-11-18",
    "comment": "Raynaud (knee) has been ruled out for Sunday's game against the Thunder.",
    "date": "2026-11-15T01:00Z"
-  },
-  {
-   "id": "4431679",
-   "name": "Precious Achiuwa",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Ankle",
-   "return": "2026-11-15",
-   "comment": "Achiuwa (ankle) is questionable for Sunday's game against the Thunder.",
-   "date": "2026-11-15T00:57Z"
   },
   {
    "id": "3907387",
@@ -1073,5 +1083,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-16T00:09:17.505189+00:00"
+ "_updated": "2026-11-16T01:31:25.398674+00:00"
 }
