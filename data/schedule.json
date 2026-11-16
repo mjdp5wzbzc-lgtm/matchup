@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T02:47:00.743811+00:00",
+ "generated": "2026-11-16T03:57:38.007544+00:00",
  "days": [
   {
    "date": "2026-11-15",
@@ -93,11 +93,11 @@
      "start": "2026-11-16T01:00Z",
      "home": "MIL",
      "away": "ATL",
-     "state": "in",
-     "detail": "32.7 - 3rd",
+     "state": "post",
+     "detail": "Final",
      "score": {
-      "home": "80",
-      "away": "87"
+      "home": "106",
+      "away": "113"
      }
     },
     {
@@ -106,10 +106,10 @@
      "home": "SAC",
      "away": "OKC",
      "state": "in",
-     "detail": "7:34 - 2nd",
+     "detail": "9:20 - 4th",
      "score": {
-      "home": "39",
-      "away": "40"
+      "home": "82",
+      "away": "103"
      }
     }
    ]
