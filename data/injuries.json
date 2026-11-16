@@ -56,11 +56,11 @@
    "id": "4397424",
    "name": "Neemias Queta",
    "pos": "C",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Rest",
-   "return": "2026-11-16",
-   "comment": "Queta (rest) is questionable for Monday's game against the Magic.",
-   "date": "2026-11-16T18:12Z"
+   "return": "2026-11-18",
+   "comment": "Queta (rest) won't play in Monday's game against the Magic, Taylor Snow of the Celtics' official site reports.",
+   "date": "2026-11-16T22:10Z"
   }
  ],
  "CHA": [
@@ -97,16 +97,6 @@
    "date": "2026-11-15T21:30Z"
   },
   {
-   "id": "4397189",
-   "name": "Jalen Smith",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Finger",
-   "return": "2026-11-16",
-   "comment": "Smith (finger) is listed as questionable for Monday's game against Cleveland.",
-   "date": "2026-11-15T21:29Z"
-  },
-  {
    "id": "5095151",
    "name": "Caleb Wilson",
    "pos": "F",
@@ -119,12 +109,22 @@
  ],
  "CLE": [
   {
+   "id": "4432158",
+   "name": "Evan Mobley",
+   "pos": "C",
+   "status": "Out",
+   "type": "Toe",
+   "return": "2026-11-29",
+   "comment": "Mobley will receive treatment and participate in rehab after the team confirmed a diagnosis of a right great toe sprain, and he'll be re-evaluated in the next 7-to-10 days.",
+   "date": "2026-11-16T22:06Z"
+  },
+  {
    "id": "4683747",
    "name": "Jaylon Tyson",
    "pos": "G",
    "status": "Day-To-Day",
    "type": "Ankle",
-   "return": "2026-11-16",
+   "return": "2026-11-18",
    "comment": "Tyson (ankle) has been downgraded to doubtful for Monday's game against the Bulls.",
    "date": "2026-11-16T17:35Z"
   },
@@ -137,16 +137,6 @@
    "return": "2026-11-16",
    "comment": "Watson (abdominal soreness) is questionable to play in Monday's game against the Bulls.",
    "date": "2026-11-15T22:04Z"
-  },
-  {
-   "id": "4432158",
-   "name": "Evan Mobley",
-   "pos": "C",
-   "status": "Out",
-   "type": "Toe",
-   "return": "2026-11-18",
-   "comment": "Mobley (toe) has been ruled out for Monday's game against Chicago.",
-   "date": "2026-11-15T21:58Z"
   },
   {
    "id": "4066757",
@@ -248,11 +238,11 @@
    "id": "3157465",
    "name": "Duncan Robinson",
    "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Thigh",
-   "return": "2026-11-17",
-   "comment": "Robinson (thigh) did not return to Saturday's 137-117 win over the Pistons. He finished with 10 points (3-8 FG, 2-6 3Pt, 2-2 FT), one rebound and one assist across 17 minutes.",
-   "date": "2026-11-15T15:58Z"
+   "status": "Out",
+   "type": "Quadriceps",
+   "return": "2026-11-18",
+   "comment": "Robinson (quadriceps) has been ruled out for Tuesday's game against the Spurs.",
+   "date": "2026-11-16T22:37Z"
   },
   {
    "id": "4395702",
@@ -959,16 +949,6 @@
    "date": "2026-11-16T19:26Z"
   },
   {
-   "id": "4066259",
-   "name": "De'Aaron Fox",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Hip",
-   "return": "2026-11-17",
-   "comment": "Fox (hip) has been ruled out for Sunday's game against the Jazz.",
-   "date": "2026-11-16T14:44Z"
-  },
-  {
    "id": "5101845",
    "name": "Jayden Quaintance",
    "pos": "F",
@@ -1065,16 +1045,6 @@
  ],
  "WSH": [
   {
-   "id": "5238230",
-   "name": "Tre Johnson",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Back",
-   "return": "2026-11-16",
-   "comment": "Johnson (back) is listed as questionable for Monday's game against Memphis.",
-   "date": "2026-11-16T18:18Z"
-  },
-  {
    "id": "4997537",
    "name": "Tristan Vukcevic",
    "pos": "F",
@@ -1115,5 +1085,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-16T21:55:28.778203+00:00"
+ "_updated": "2026-11-16T22:39:38.456079+00:00"
 }
