@@ -428,7 +428,7 @@
    "pos": "C",
    "status": "Out",
    "type": "Foot",
-   "return": "2026-11-19",
+   "return": "2026-11-23",
    "comment": "Niederhauser (foot) has been ruled out for Tuesday's game against the Jazz.",
    "date": "2026-11-17T01:07Z"
   },
@@ -471,8 +471,8 @@
    "status": "Out",
    "type": "Heel",
    "return": "2026-11-18",
-   "comment": "Reaves (heel) has been ruled out for Sunday's game against the Suns, Daniel Starkand of LakersNation.com reports.",
-   "date": "2026-11-17T01:06Z"
+   "comment": "Reaves (heel) is out for Tuesday's game against the Hornets, Dave McMenamin of ESPN.com reports.",
+   "date": "2026-11-17T01:11Z"
   },
   {
    "id": "4433136",
@@ -481,8 +481,8 @@
    "status": "Out",
    "type": "Lower Leg",
    "return": "2026-11-18",
-   "comment": "Kessler registered 14 points (4-5 FG, 6-6 FT), 12 rebounds, three assists, two blocks and one steal over 32 minutes during Sunday's 131-123 victory over the Suns.",
-   "date": "2026-11-17T01:05Z"
+   "comment": "Walker (leg) has been ruled out for Tuesday's game against the Hornets.",
+   "date": "2026-11-17T01:10Z"
   }
  ],
  "MEM": [
@@ -1045,5 +1045,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-17T01:18:29.400667+00:00"
+ "_updated": "2026-11-17T02:02:27.027775+00:00"
 }
