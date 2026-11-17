@@ -277,16 +277,6 @@
  ],
  "GS": [
   {
-   "id": "4997536",
-   "name": "Gui Santos",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Ankle",
-   "return": "2026-11-16",
-   "comment": "Santos is questionable for Monday's game against New Orleans due to right ankle inflammation.",
-   "date": "2026-11-15T23:03Z"
-  },
-  {
    "id": "3975",
    "name": "Stephen Curry",
    "pos": "G",
@@ -342,11 +332,11 @@
    "id": "4684740",
    "name": "Amen Thompson",
    "pos": "G",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Knee",
-   "return": "2026-11-16",
-   "comment": "Thompson (knee) is listed as questionable for Monday's game against the Heat.",
-   "date": "2026-11-16T18:13Z"
+   "return": "2026-11-18",
+   "comment": "Thompson (knee) is out for Monday's game against the Heat.",
+   "date": "2026-11-16T23:48Z"
   },
   {
    "id": "3102529",
@@ -761,14 +751,14 @@
  ],
  "PHI": [
   {
-   "id": "3059318",
-   "name": "Joel Embiid",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Foot",
-   "return": "2026-11-16",
-   "comment": "Embiid (foot) is questionable for Monday's game against the Nets.",
-   "date": "2026-11-16T18:09Z"
+   "id": "4870562",
+   "name": "Dominick Barlow",
+   "pos": "F",
+   "status": "Out",
+   "type": "Back",
+   "return": "2026-11-18",
+   "comment": "Barlow (back) will be re-evaluated later in the week and is thought to be nearing his 2026-27 season debut, Tony Jones of The Athletic reports.",
+   "date": "2026-11-16T23:45Z"
   },
   {
    "id": "1966",
@@ -779,16 +769,6 @@
    "return": "2026-11-18",
    "comment": "James (back) has been ruled out for Monday's game against the Nets.",
    "date": "2026-11-16T18:07Z"
-  },
-  {
-   "id": "4870562",
-   "name": "Dominick Barlow",
-   "pos": "F",
-   "status": "Out",
-   "type": "Back",
-   "return": "2026-11-18",
-   "comment": "Barlow (back) participated in Thursday's shootaround but doesn't have a timeline to return to game action, Ky Carlin of USA Today reports.",
-   "date": "2026-11-12T16:37Z"
   },
   {
    "id": "5105637",
@@ -1065,5 +1045,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-16T23:35:31.309232+00:00"
+ "_updated": "2026-11-17T00:46:43.289624+00:00"
 }
