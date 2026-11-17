@@ -49,13 +49,14 @@ async function getJSON(url){
 /* ------------------------------------------------------------------ routeur */
 async function route(){
   const h = location.hash || "#/";
-  document.querySelectorAll("[data-nav]").forEach(a => a.classList.toggle("on", (h.startsWith("#/dvp") ? "dvp" : "list") === a.dataset.nav));
+  document.querySelectorAll("[data-nav]").forEach(a => a.classList.toggle("on", (h.startsWith("#/dvp") ? "dvp" : h.startsWith("#/conseils") ? "tips" : "list") === a.dataset.nav));
   try {
     if (!T) T = await getJSON("data/today.json");
     const meta = document.getElementById("meta");
     meta.textContent = `Mis à jour le ${new Date(T.generated).toLocaleString("fr-FR")} · ${T.n_games_db} matchs en base · saison ${T.season}`;
     if (h.startsWith("#/p/")) return renderPlayer(h.slice(4));
     if (h.startsWith("#/dvp")) return renderDvp();
+    if (h.startsWith("#/conseils")) return renderTips();
     renderList();
   } catch (e) {
     $app.innerHTML = `<div class="empty">Données introuvables pour l'instant.<br><small>Lance la mise à jour (onglet Actions de GitHub) puis recharge la page.</small></div>`;
@@ -431,6 +432,63 @@ async function renderDvp(){
     document.querySelector(".dvp thead").onclick = e => { const th = e.target.closest("[data-s]"); if (th) { S.dvpStat = th.dataset.s; draw(); } };
   };
   draw();
+}
+
+/* ------------------------------------------------------------------ conseils du jour */
+function ncdf(x){ const t = 1 / (1 + 0.2316419 * Math.abs(x)); const d = 0.3989423 * Math.exp(-x * x / 2);
+  const p = d * t * (0.3193815 + t * (-0.3565638 + t * (1.781478 + t * (-1.821256 + t * 1.330274)))); return x > 0 ? 1 - p : p; }
+const SIDE = { over:"Plus de", under:"Moins de" };
+const fr = x => String(x).replace(".", ",");
+function tipProb(t, line){ const po = 1 - ncdf((line - t.proj) / Math.max(0.3, t.sd)); return t.side === "over" ? po : 1 - po; }
+function verdict(p){ return p >= 0.58 ? ["good", "Bon"] : p >= 0.53 ? ["meh", "Correct"] : ["bad", "À éviter"]; }
+
+function renderTips(){
+  const M = T.model || {}, top = M.top || {};
+  const picks = T.picks || [];
+  const pct = (a, b) => b ? Math.round(100 * a / b) : 0;
+  $app.innerHTML = `<div class="hero"><div><h1>Conseils du jour</h1><div class="sub">Classés par l'effet du contexte du soir (défense, absences, rythme, blow-out…), pas par le nombre de facteurs verts.</div></div></div>
+  <div class="card mdl">
+    <div class="mt">Fiabilité mesurée du moteur</div>
+    <div class="grid3" style="margin:8px 0">
+      <div class="box"><small>Top 10 du soir</small><div class="big good">${pct(top.hit, top.n)} %</div><div class="s">${top.hit}/${top.n} sur ${top.days} soirées test</div></div>
+      <div class="box"><small>Top 3 du soir</small><div class="big good">${pct((top.top3 || [])[0], (top.top3 || [])[1])} %</div><div class="s">${(top.top3 || [])[0]}/${(top.top3 || [])[1]}</div></div>
+      <div class="box"><small>Contexte neutre</small><div class="big">${M.by_shift ? pct(M.by_shift["< 0,1"].hit, M.by_shift["< 0,1"].n) : "–"} %</div><div class="s">point de comparaison</div></div></div>
+    <details><summary>Comment lire ces chiffres</summary>
+      <p>Le moteur a appris le poids de chaque paramètre sur les matchs jusqu'au ${esc((M.cut || "").split("-").reverse().join("/"))}, puis il a été testé sur les matchs suivants, qu'il n'avait jamais vus. Plus le contexte du soir pousse fort, plus le conseil passe souvent :</p>
+      <div class="shiftbars">${Object.entries(M.by_shift || {}).map(([k, v]) => `<div><span>${k} écart-type</span><i style="width:${Math.max(4, (pct(v.hit, v.n) - 45) * 4)}%"></i><b>${pct(v.hit, v.n)} %</b></div>`).join("")}</div>
+      <p><b>Limite importante :</b> ces taux sont mesurés contre le niveau habituel du joueur, pas contre les vraies lignes des bookmakers. Celles-ci intègrent déjà une partie du contexte (blessures annoncées, défense), donc le taux réel sera plus bas. À une cote de 1,90, il faut gagner 53 % des paris pour être rentable.</p></details>
+  </div>
+  ${picks.length ? picks.map((t, k) => tipCard(t, k)).join("") : `<div class="empty">Aucun conseil assez marqué ce soir : le contexte est neutre pour tout le monde. Ne rien jouer est aussi une décision.</div>`}
+  <p class="note">Tape la ligne de ton bookmaker dans chaque carte : la probabilité se recalcule. Analyse statistique, pas une certitude. 18+ · Joueurs Info Service 09 74 75 13 13.</p>`;
+  document.querySelectorAll(".tipline").forEach(inp => inp.oninput = () => {
+    const t = picks[+inp.dataset.k], v = parseFloat(String(inp.value).replace(",", "."));
+    const out = document.getElementById("tp" + inp.dataset.k);
+    if (isNaN(v)) { out.innerHTML = ""; return; }
+    const p = tipProb(t, v), [c, l] = verdict(p);
+    out.innerHTML = `<span class="${c}">${Math.round(p * 100)} % · ${l}</span>`;
+  });
+}
+
+function tipCard(t, k){
+  const g = gameById(t.gid) || {};
+  const lab = STATS[t.s];
+  const ctx = t.proj - t.usual;
+  const pOk = tipProb(t, t.ok);
+  return `<div class="tip ${t.side}">
+    <div class="tiph"><span class="rank">${k + 1}</span><div style="min-width:0;flex:1">
+      <div class="l1">${esc(t.t)} ${t.h ? "vs" : "@"} ${esc(team(t.o))} · ${g.start ? timeOf(g.start) : ""}${t.bo ? ` <span class="bobadge lv${t.bo}">⚠️ Blow-out</span>` : ""}</div>
+      <a class="name" href="#/p/${t.pid}">${esc(t.n)}</a></div>
+      <div class="sidebox"><small>${SIDE[t.side]}</small><b>${fr(t.ok)}</b><small>${esc(lab)}</small></div></div>
+    <div class="tipnums">
+      <div><small>Projection</small><b>${fr(t.proj)}</b></div>
+      <div><small>Niveau habituel</small><b>${fr(t.usual)}</b></div>
+      <div><small>Contexte du soir</small><b class="${ctx >= 0 ? "good" : "bad"}">${ctx >= 0 ? "+" : ""}${fr(Math.round(ctx * 10) / 10)}</b></div>
+      <div><small>${t.side === "over" ? "Passé" : "Resté sous"} ${fr(t.ok)}</small><b>${t.hit10[0]}/${t.hit10[1]}</b></div></div>
+    <div class="parts">${t.parts.map(([n, v]) => `<span class="pt ${v >= 0 ? "p" : "m"}">${esc(n)} ${v >= 0 ? "+" : ""}${fr(Math.round(v * 10) / 10)}</span>`).join("")}</div>
+    ${t.why.length ? `<ul class="why">${t.why.slice(0, 2).map(w => `<li>${esc(w)}</li>`).join("")}</ul>` : ""}
+    <div class="tipfoot"><span>Jouable si ta ligne est ${t.side === "over" ? "≤" : "≥"} <b>${fr(t.ok)}</b> (${Math.round(pOk * 100)} % estimé)</span>
+      <label>Ta ligne <input class="tipline" data-k="${k}" inputmode="decimal" placeholder="${fr(t.ok)}"></label><span id="tp${k}"></span></div>
+  </div>`;
 }
 
 route();

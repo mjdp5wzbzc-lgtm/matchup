@@ -192,3 +192,37 @@ td.o{color:var(--up);font-weight:700}td.u{color:var(--dn)}
 .abslg .lg{color:var(--tx2);font-size:12px}
 .absrow{padding:5px 0;border-top:1px solid var(--line);color:var(--tx2)}
 .absrow b{color:var(--tx);font-weight:600}
+
+/* conseils */
+.mdl .mt{font:700 16px/1 "Barlow Condensed",sans-serif;text-transform:uppercase;letter-spacing:.03em;color:var(--acc2)}
+.mdl details{font-size:13px;color:var(--tx2)}
+.mdl summary{cursor:pointer;color:var(--tx);font-weight:600}
+.shiftbars div{display:grid;grid-template-columns:110px 1fr 44px;gap:8px;align-items:center;margin:4px 0;font-size:12px}
+.shiftbars i{display:block;height:10px;border-radius:5px;background:linear-gradient(90deg,var(--acc),var(--acc2))}
+.shiftbars b{text-align:right;color:var(--tx)}
+.tip{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:14px;margin-top:10px}
+.tip.over{border-left:4px solid var(--up)}.tip.under{border-left:4px solid var(--dn)}
+.tiph{display:flex;align-items:center;gap:10px}
+.tiph .rank{flex:none;width:28px;height:28px;border-radius:8px;background:var(--card2);display:grid;place-items:center;font:700 16px "Barlow Condensed",sans-serif}
+.tiph .l1{font-size:11px;color:var(--tx3);text-transform:uppercase;letter-spacing:.05em;font-weight:600}
+.tiph .name{display:block;font-weight:700;font-size:17px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sidebox{flex:none;text-align:center;padding:6px 10px;border-radius:10px;background:var(--card2);min-width:84px}
+.tip.over .sidebox{background:var(--upbg)}.tip.under .sidebox{background:var(--dnbg)}
+.sidebox small{display:block;font-size:10px;text-transform:uppercase;letter-spacing:.05em;color:var(--tx2)}
+.sidebox b{display:block;font:700 26px/1 "Barlow Condensed",sans-serif}
+.tip.over .sidebox b{color:var(--up)}.tip.under .sidebox b{color:var(--dn)}
+.tipnums{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin:12px 0 8px}
+.tipnums div{background:var(--card2);border-radius:10px;padding:6px 8px}
+.tipnums small{display:block;font-size:10px;color:var(--tx3);text-transform:uppercase;letter-spacing:.04em;line-height:1.2}
+.tipnums b{font:700 20px/1.2 "Barlow Condensed",sans-serif}
+@media (max-width:560px){.tipnums{grid-template-columns:1fr 1fr}}
+.parts{display:flex;flex-wrap:wrap;gap:4px}
+.pt{font-size:11px;padding:2px 7px;border-radius:6px;font-weight:600}
+.pt.p{background:var(--upbg);color:var(--up)}.pt.m{background:var(--dnbg);color:var(--dn)}
+.why{margin:8px 0 0;padding-left:18px;font-size:13px;color:var(--tx2)}
+.tipfoot{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;margin-top:10px;padding-top:10px;border-top:1px solid var(--line);font-size:13px;color:var(--tx2)}
+.tipfoot label{display:flex;align-items:center;gap:6px}
+.tipfoot input{width:70px;background:var(--bg2);border:1px solid var(--line);color:var(--tx);border-radius:8px;padding:5px 8px;font:inherit}
+.tipfoot span b{color:var(--tx)}
+.top nav a{white-space:nowrap}
+@media (max-width:420px){.top{padding:10px 12px}.brand{font-size:14px}.top nav a{padding:6px 8px;font-size:13px}}

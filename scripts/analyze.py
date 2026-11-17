@@ -13,6 +13,8 @@ from collections import defaultdict
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from blowout import BlowoutModel, BLOWOUT
+from projection import (Projector, backtest, market_line, p_over, confidence, eligible, select,
+                        PICK_STATS)
 from common import (RAW, GAMES_DIR, LINES_DIR, SITE_DATA, STATS, LOG_FIELDS, ET,
                     now_et, season_of, season_label, pos_bucket, stat_value,
                     load_json, save_json, norm_name)
@@ -62,9 +64,15 @@ def load_games():
     for path in glob.glob(os.path.join(GAMES_DIR, "*", "*.json")):
         g = load_json(path)
         if g and g.get("date") and g.get("players"):
+            teams = load_games.teams
+            if teams and (g["home"]["abbr"] not in teams or g["away"]["abbr"] not in teams):
+                continue  # All-Star Game et matchs d'exhibition
             games.append(g)
     games.sort(key=lambda g: (g["date"], g["id"]))
     return games
+
+
+load_games.teams = set((load_json(os.path.join(RAW, "teams.json"), {}) or {}).keys())
 
 
 def load_lines():
@@ -468,6 +476,12 @@ def main():
     # minutes de chaque joueur en blow-out (20+ pts) vs matchs serrés, sur 2 saisons
     final_margin = {g["id"]: abs((g["home"]["score"] or 0) - (g["away"]["score"] or 0)) for g in games}
 
+    # ------------------------------------------------------------ moteur de projection (appris sur l'historique)
+    PJ = Projector(games)
+    BT = backtest(PJ)
+    pick_cands = []
+    Z55 = 0.1257  # quantile : probabilité 55 %
+
     players_out = []
     relief = defaultdict(list)   # équipe -> qui prend le relais
     n_files = 0
@@ -512,6 +526,18 @@ def main():
             cl_min = mean(r["min"] for r in cl_rows) if len(cl_rows) >= 3 else None
 
             s_out, factors, style_edge = {}, {}, {}
+            # projections du moteur pour ce soir
+            out_ids = {m["id"] for m in absent.get(team, []) if m["id"]}
+            pb_g = PJ._pb(PJ.state, g["home"], g["away"], cur)
+            proj = {}
+            for s in STAT_KEYS:
+                f = PJ.state.features(pid, cur, team, opp, bool(home), date, s, bucket,
+                                      absent_ids=out_ids, b2b=team in played_yday, pb=pb_g)
+                if not f:
+                    continue
+                pv, sd = PJ.project(s, f[0])
+                parts = PJ.contributions(s, f[0], f[1])
+                proj[s] = {"p": pv, "sd": sd, "meta": f[1], "parts": parts, "x": f[0]}
             for s in STAT_KEYS:
                 A = avg_stat(base_rows, s)
                 if A is None:
@@ -633,6 +659,40 @@ def main():
                 if opp in played_yday:
                     add(1, f"{Les(teams_meta.get(opp, {}).get('short', opp))} jouaient déjà hier soir (back-to-back).", "B2BO")
 
+                PR = proj.get(s)
+                if PR:
+                    full, usual, shift, sd_ = PJ.context(s, PR["x"], PR["meta"])
+                    PR.update({"usual": usual, "shift": shift})
+                    if book is not None:   # vraie ligne bookmaker : on juge la probabilité contre elle
+                        po = p_over(book, full, sd_)
+                        side = "over" if po >= 0.5 else "under"
+                        conf = confidence(max(po, 1 - po), PR["meta"]["n"])
+                        rank = (conf - 0.5) * 4
+                        ref = book
+                    else:                  # sans cote : on suit le contexte du soir
+                        side = "over" if shift > 0 else "under"
+                        rank = abs(shift) * min(1.0, PR["meta"]["n"] / 20)
+                        ref = math.floor(usual) + 0.5
+                    PR.update({"side": side})
+                    if (rank >= 0.15 and eligible(s, ref, PR["meta"]) and not (status and status.lower() in
+                            ("out", "doubtful", "questionable", "suspension", "suspended"))):
+                        if side == "over":
+                            ok = math.floor(full - Z55 * sd_ - 0.5) + 0.5
+                        else:
+                            ok = math.ceil(full + Z55 * sd_ - 0.5) + 0.5
+                        main = sorted(((k, v) for k, v in PR["parts"].items()
+                                       if k not in ("Base (saison)", "Forme récente") and abs(v) >= 0.1),
+                                      key=lambda kv: -abs(kv[1]))
+                        agree = [f_[1] for f_ in F if (f_[0] > 0) == (side == "over")][:3]
+                        pick_cands.append({
+                            "pid": pid, "gid": g["id"], "conf": rank, "n": i["name"], "t": team, "o": opp, "h": home,
+                            "s": s, "side": side, "book": book, "proj": r1(full), "usual": r1(usual),
+                            "sd": round(sd_, 2), "shift": round(shift, 2), "ok": ok, "sty": style,
+                            "prob_ok": 0.55, "parts": [[k, round(v, 2)] for k, v in main[:5]],
+                            "form": round(PR["parts"]["Forme récente"], 2),
+                            "hit10": [sum(1 for r in l10 if (stat_value(r, s) > ok) == (side == "over")), len(l10)],
+                            "avg": r1(A), "why": agree, "bo": BO.get("level", 0), "st": status,
+                        })
                 score = sum(f[0] for f in F)
                 hit10 = sum(1 for r in l10 if stat_value(r, s) > line) if line is not None else None
                 s_out[s] = [r1(A), r1(a5), r1(a10), line, 1 if book is not None else 0, score,
@@ -691,6 +751,9 @@ def main():
                 "dvp": {b: dvp.get(opp, {}).get(b, {}) for b in "GFC"},
                 "factors": factors,
                 "style_edge": style_edge,
+                "proj": {k: {"p": r1(v["p"]), "sd": round(v["sd"], 2), "usual": r1(v.get("usual")),
+                             "shift": round(v.get("shift", 0), 2),
+                             "parts": [[a_, round(b_, 2)] for a_, b_ in v["parts"].items()]} for k, v in proj.items()},
                 "blowout": {**BO, "min_bo": r1(bo_min), "min_close": r1(cl_min), "n_bo": len(bo_rows), "n_close": len(cl_rows)} if BO else None,
                 "withwo": ww,
                 "same_style_vs_opp": {s: v for s, v in sty_agg.items()},
@@ -741,6 +804,8 @@ def main():
         "injuries": injuries_out, "injuries_updated": injuries.get("_updated"),
         "relief": relief, "league_pace": lg_pace,
         "has_book_lines": bool(today_lines),
+        "picks": select(pick_cands, k=10, per_game=3),
+        "model": BT,
         "blowout_model": {"n": BM.n_fit, "base": round(BM.base_rate, 3), "sigma": round(BM.sigma, 1),
                           "hca": round(BM.hca, 1), "threshold": BLOWOUT},
     }
