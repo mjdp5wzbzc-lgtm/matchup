@@ -404,7 +404,7 @@
    "pos": "F",
    "status": "Day-To-Day",
    "type": "Wrist",
-   "return": "2026-11-16",
+   "return": "2026-11-17",
    "comment": "Phillips (illness) is available for Wednesday's game against Dallas.",
    "date": "2026-11-16T15:28Z"
   }
@@ -811,6 +811,16 @@
  ],
  "PHI": [
   {
+   "id": "3917376",
+   "name": "Jaylen Brown",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Hamstring",
+   "return": "2026-11-18",
+   "comment": "Brown (hamstring/head) will undergo further evaluation Tuesday and could receive an MRI, Kris Rhim of ESPN reports.",
+   "date": "2026-11-17T04:56Z"
+  },
+  {
    "id": "1966",
    "name": "LeBron James",
    "pos": "F",
@@ -996,7 +1006,7 @@
    "pos": "G",
    "status": "Day-To-Day",
    "type": "Illness",
-   "return": "2026-11-16",
+   "return": "2026-11-20",
    "comment": "McCullar signed a two-way contract with the Raptors on Thursday, Michael Scotto of HoopsHype.com reports.",
    "date": "2026-11-13T15:37Z"
   },
@@ -1095,5 +1105,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-17T04:24:33.873574+00:00"
+ "_updated": "2026-11-17T07:27:26.273378+00:00"
 }
