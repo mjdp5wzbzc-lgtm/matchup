@@ -91,7 +91,7 @@
    "name": "Jalen Smith",
    "pos": "F",
    "status": "Day-To-Day",
-   "type": "Undisclosed",
+   "type": "Head",
    "return": "2026-11-18",
    "comment": "Smith (undisclosed) exited in the fourth quarter of Monday's 126-115 loss to the Cavaliers and did not return.",
    "date": "2026-11-17T02:58Z"
@@ -665,6 +665,16 @@
  ],
  "NO": [
   {
+   "id": "4683634",
+   "name": "Bennedict Mathurin",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Foot",
+   "return": "2026-11-18",
+   "comment": "Mathurin (foot) has been ruled out for Monday's game against the Warriors.",
+   "date": "2026-11-17T03:48Z"
+  },
+  {
    "id": "4576086",
    "name": "Bryce McGowens",
    "pos": "G",
@@ -673,16 +683,6 @@
    "return": "2026-11-18",
    "comment": "McGowens (elbow) has been ruled out for Monday's game against the Warriors.",
    "date": "2026-11-15T23:10Z"
-  },
-  {
-   "id": "4683634",
-   "name": "Bennedict Mathurin",
-   "pos": "G",
-   "status": "Out",
-   "type": "Foot",
-   "return": "2026-11-18",
-   "comment": "Mathurin (foot) has been ruled out for Monday's game against the Warriors.",
-   "date": "2026-11-15T23:06Z"
   },
   {
    "id": "4397688",
@@ -1095,5 +1095,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-17T03:59:44.627338+00:00"
+ "_updated": "2026-11-17T04:24:33.873574+00:00"
 }
