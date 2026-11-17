@@ -1,6 +1,26 @@
 {
  "ATL": [
   {
+   "id": "4873201",
+   "name": "Asa Newell",
+   "pos": "F",
+   "status": "Out",
+   "type": "Toe",
+   "return": "2027-03-17",
+   "comment": "Newell underwent surgery Tuesday for a plantar plate tear in his left great toe, and he will be re-evaluated in approximately four months, Brad Rowland of the Locked On Podcast Network reports.",
+   "date": "2026-11-17T21:16Z"
+  },
+  {
+   "id": "2490149",
+   "name": "CJ McCollum",
+   "pos": "G",
+   "status": "Out",
+   "type": "Calf",
+   "return": "2026-12-19",
+   "comment": "McCollum (calf) will miss at least four weeks, per Brad Rowland of the Locked On Podcast Network.",
+   "date": "2026-11-17T21:08Z"
+  },
+  {
    "id": "5149077",
    "name": "Kingston Flemings",
    "pos": "G",
@@ -29,16 +49,6 @@
    "return": "2026-12-12",
    "comment": "Gueye (foot) is ready to begin on-court activities and will be re-evaluated in four weeks, Brad Rowland of the Locked On Podcast Network reports.",
    "date": "2026-11-13T00:06Z"
-  },
-  {
-   "id": "4873201",
-   "name": "Asa Newell",
-   "pos": "F",
-   "status": "Out",
-   "type": "Toe",
-   "return": "2026-11-20",
-   "comment": "Newell (toe) has been ruled out for Friday's game against Chicago.",
-   "date": "2026-11-12T23:08Z"
   },
   {
    "id": "5105571",
@@ -87,24 +97,14 @@
  ],
  "CHI": [
   {
-   "id": "4397189",
-   "name": "Jalen Smith",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Head",
-   "return": "2026-11-18",
-   "comment": "Smith (undisclosed) exited in the fourth quarter of Monday's 126-115 loss to the Cavaliers and did not return.",
-   "date": "2026-11-17T02:58Z"
-  },
-  {
    "id": "4431687",
    "name": "Patrick Williams",
    "pos": "F",
    "status": "Day-To-Day",
    "type": "Finger",
    "return": "2026-11-18",
-   "comment": "Williams (finger) has been ruled out for the remainder of Monday's game against Cleveland.",
-   "date": "2026-11-17T02:12Z"
+   "comment": "Williams (finger) is listed as probable for Wednesday's game against Brooklyn.",
+   "date": "2026-11-17T21:04Z"
   },
   {
    "id": "5105555",
@@ -112,9 +112,9 @@
    "pos": "F",
    "status": "Out",
    "type": "Back",
-   "return": "2026-11-18",
-   "comment": "Awaka (back) has been ruled out for Monday's game against the Cavaliers.",
-   "date": "2026-11-15T21:30Z"
+   "return": "2026-11-25",
+   "comment": "Awaka (back) has been ruled out for Wednesday's game against the Nets.",
+   "date": "2026-11-17T20:53Z"
   },
   {
    "id": "5095151",
@@ -359,44 +359,24 @@
  ],
  "HOU": [
   {
+   "id": "3102529",
+   "name": "Clint Capela",
+   "pos": "C",
+   "status": "Out",
+   "type": "Ankle",
+   "return": "2026-11-20",
+   "comment": "Capela (ankle) has been ruled out for Wednesday's game against Indiana.",
+   "date": "2026-11-17T20:58Z"
+  },
+  {
    "id": "4684740",
    "name": "Amen Thompson",
    "pos": "G",
    "status": "Day-To-Day",
    "type": "Knee",
    "return": "2026-11-18",
-   "comment": "Thompson (knee) is out for Monday's game against the Heat.",
-   "date": "2026-11-17T03:39Z"
-  },
-  {
-   "id": "2990992",
-   "name": "Marcus Smart",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": null,
-   "return": null,
-   "comment": "Smart has been suspended three games for throwing a punch during Wednesday's matchup against Golden State, Shams Charania of ESPN reports.",
-   "date": "2026-11-17T03:39Z"
-  },
-  {
-   "id": "2991235",
-   "name": "Steven Adams",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Calf",
-   "return": "2026-11-18",
-   "comment": "Adams (calf) is out for Monday's game against the Heat.",
-   "date": "2026-11-17T03:38Z"
-  },
-  {
-   "id": "3102529",
-   "name": "Clint Capela",
-   "pos": "C",
-   "status": "Out",
-   "type": "Ankle",
-   "return": "2026-11-18",
-   "comment": "Capela (ankle) is out for Monday's game against the Heat.",
-   "date": "2026-11-16T18:09Z"
+   "comment": "Thompson (knee) is questionable for Wednesday's game against the Pacers.",
+   "date": "2026-11-17T20:49Z"
   },
   {
    "id": "5105553",
@@ -593,8 +573,8 @@
    "name": "Pelle Larsson",
    "pos": "G",
    "status": "Out",
-   "type": "Illness",
-   "return": "2026-11-18",
+   "type": null,
+   "return": null,
    "comment": "Larsson won't play in Monday's game against the Rockets due to an illness, Ira Winderman of the South Florida Sun Sentinel reports.",
    "date": "2026-11-16T22:49Z"
   }
@@ -678,11 +658,11 @@
    "id": "4683634",
    "name": "Bennedict Mathurin",
    "pos": "G",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Foot",
-   "return": "2026-11-18",
-   "comment": "Mathurin (foot) has been ruled out for Monday's game against the Warriors.",
-   "date": "2026-11-17T03:48Z"
+   "return": "2026-11-20",
+   "comment": "Mathurin (foot) has been ruled out for Wednesday's game against Detroit.",
+   "date": "2026-11-17T20:59Z"
   },
   {
    "id": "4576086",
@@ -690,19 +670,9 @@
    "pos": "G",
    "status": "Out",
    "type": "Elbow",
-   "return": "2026-11-18",
-   "comment": "McGowens (elbow) has been ruled out for Monday's game against the Warriors.",
-   "date": "2026-11-15T23:10Z"
-  },
-  {
-   "id": "4397688",
-   "name": "Trey Murphy III",
-   "pos": "F",
-   "status": "Out",
-   "type": "Knee",
-   "return": "2026-11-18",
-   "comment": "Murphy (knees) has been ruled out for Monday's game against Golden State.",
-   "date": "2026-11-15T22:57Z"
+   "return": "2026-11-20",
+   "comment": "McGowens (elbow) has been ruled out for Wednesday's game against Detroit.",
+   "date": "2026-11-17T20:57Z"
   },
   {
    "id": "4431675",
@@ -710,9 +680,19 @@
    "pos": "F",
    "status": "Out",
    "type": "Ankle",
-   "return": "2026-11-18",
-   "comment": "Watford (ankle) has been ruled out for Monday's game against Golden State.",
-   "date": "2026-11-15T22:52Z"
+   "return": "2026-11-20",
+   "comment": "Watford (ankle) has been ruled out for Wednesday's game against Detroit.",
+   "date": "2026-11-17T20:55Z"
+  },
+  {
+   "id": "4397688",
+   "name": "Trey Murphy III",
+   "pos": "F",
+   "status": "Out",
+   "type": "Knee",
+   "return": "2026-11-20",
+   "comment": "Murphy (knee) has been ruled out for Wednesday's game against Detroit.",
+   "date": "2026-11-17T20:51Z"
   },
   {
    "id": "3907497",
@@ -779,6 +759,16 @@
  ],
  "ORL": [
   {
+   "id": "5107251",
+   "name": "Izaiyah Nelson",
+   "pos": "F",
+   "status": "Out",
+   "type": "Ankle",
+   "return": "2026-11-28",
+   "comment": "Nelson (ankle) has been ruled out for Wednesday's game against the 76ers.",
+   "date": "2026-11-17T21:22Z"
+  },
+  {
    "id": "4065654",
    "name": "Jonathan Isaac",
    "pos": "F",
@@ -807,16 +797,6 @@
    "return": "2026-11-22",
    "comment": "Banchero is expected to be sidelined for the next four-to-six weeks due to a right high-ankle sprain, Shams Charania of ESPN reports.",
    "date": "2026-10-24T16:47Z"
-  },
-  {
-   "id": "5107251",
-   "name": "Izaiyah Nelson",
-   "pos": "F",
-   "status": "Out",
-   "type": "Ankle",
-   "return": "2026-11-18",
-   "comment": "Team president Jeff Weltman said Monday that Nelson (ankle) remains about a month away from returning to the court after offseason surgery, per Philip Rossman-Reich of OrlandoMagicDaily.com.",
-   "date": "2026-09-28T21:33Z"
   }
  ],
  "PHI": [
@@ -1145,5 +1125,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-17T20:58:27.502296+00:00"
+ "_updated": "2026-11-17T21:43:32.207936+00:00"
 }
