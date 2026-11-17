@@ -373,8 +373,8 @@
    "name": "Marcus Smart",
    "pos": "G",
    "status": "Day-To-Day",
-   "type": "Suspension",
-   "return": "2026-11-18",
+   "type": null,
+   "return": null,
    "comment": "Smart has been suspended three games for throwing a punch during Wednesday's matchup against Golden State, Shams Charania of ESPN reports.",
    "date": "2026-11-17T03:39Z"
   },
@@ -629,8 +629,8 @@
    "status": "Out",
    "type": "Quadriceps",
    "return": "2026-11-19",
-   "comment": "Pullin is in the starting lineup for Friday's preseason matchup with the Bulls.",
-   "date": "2026-11-17T19:04Z"
+   "comment": "Pullin (quadriceps) has been ruled out for Tuesday's game against Portland.",
+   "date": "2026-11-17T19:05Z"
   },
   {
    "id": "4433247",
@@ -639,8 +639,8 @@
    "status": "Out",
    "type": "Shoulder",
    "return": "2026-11-19",
-   "comment": "Kuminga (shoulder) exited in the fourth quarter of Monday's 106-98 win over Portland and did not return. He closed with 13 points (5-12 FG, 1-2 3Pt, 2-2 FT), nine rebounds and one assist across 29 minutes.",
-   "date": "2026-11-17T19:01Z"
+   "comment": "Kuminga (shoulder) is out for Tuesday's game against Portland.",
+   "date": "2026-11-17T19:03Z"
   },
   {
    "id": "4432247",
@@ -885,14 +885,24 @@
  ],
  "POR": [
   {
+   "id": "4683021",
+   "name": "Deni Avdija",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Foot",
+   "return": "2026-11-17",
+   "comment": "Avdija (foot) is questionable for Tuesday's game against the Timberwolves.",
+   "date": "2026-11-17T19:20Z"
+  },
+  {
    "id": "4706557",
    "name": "Chris Youngblood",
    "pos": "G",
    "status": "Out",
-   "type": "Foot",
-   "return": "2026-11-17",
-   "comment": "Youngblood (foot) is out for Monday's game against the Timberwolves.",
-   "date": "2026-11-15T23:02Z"
+   "type": "Heel",
+   "return": "2026-11-19",
+   "comment": "Youngblood (heel) has been ruled out for Tuesday's game at Minnesota.",
+   "date": "2026-11-17T19:19Z"
   },
   {
    "id": "4578893",
@@ -1135,5 +1145,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-17T19:09:01.820758+00:00"
+ "_updated": "2026-11-17T20:58:27.502296+00:00"
 }
