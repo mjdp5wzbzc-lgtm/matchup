@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T04:01:48.684569+00:00",
+ "generated": "2026-11-18T04:27:44.450395+00:00",
  "days": [
   {
    "date": "2026-11-17",
@@ -46,10 +46,10 @@
      "home": "LAC",
      "away": "UTAH",
      "state": "in",
-     "detail": "1:36 - 1st",
+     "detail": "4:32 - 2nd",
      "score": {
-      "home": "27",
-      "away": "30"
+      "home": "46",
+      "away": "50"
      }
     },
     {
@@ -57,11 +57,11 @@
      "start": "2026-11-18T04:00Z",
      "home": "LAL",
      "away": "CHA",
-     "state": "pre",
-     "detail": "11/17 - 11:00 PM EST",
+     "state": "in",
+     "detail": "4:59 - 1st",
      "score": {
-      "home": "0",
-      "away": "0"
+      "home": "20",
+      "away": "20"
      }
     }
    ]
