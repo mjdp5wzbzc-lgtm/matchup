@@ -214,7 +214,7 @@
    "pos": "F",
    "status": "Out",
    "type": "Heel",
-   "return": "2026-11-30",
+   "return": "2026-11-27",
    "comment": "Biberovic (heel) is out for Wednesday's game against the Warriors.",
    "date": "2026-11-17T22:42Z"
   },
@@ -715,6 +715,16 @@
  ],
  "OKC": [
   {
+   "id": "5061603",
+   "name": "Thomas Sorber",
+   "pos": "C",
+   "status": "Out",
+   "type": "Knee",
+   "return": "2027-01-31",
+   "comment": "Sorber underwent an arthroscopic knee procedure Tuesday to address inflammation at the patellofemoral joint in his right knee, and he's expected to return to on-court activities in 6-8 weeks, Steve McGehee of News 9 Oklahoma City reports.",
+   "date": "2026-11-18T00:01Z"
+  },
+  {
    "id": "4432823",
    "name": "Jaylin Williams",
    "pos": "F",
@@ -723,16 +733,6 @@
    "return": "2026-11-18",
    "comment": "Williams (back) is listed as questionable for Wednesday's game against the Hawks, Clemente Almanza of USA Today reports.",
    "date": "2026-11-17T23:08Z"
-  },
-  {
-   "id": "5061603",
-   "name": "Thomas Sorber",
-   "pos": "C",
-   "status": "Out",
-   "type": "Knee",
-   "return": "2026-11-20",
-   "comment": "Sorber (knee) has been ruled out for Friday's game against the Clippers.",
-   "date": "2026-11-13T01:07Z"
   },
   {
    "id": "4683692",
@@ -866,11 +866,11 @@
    "id": "4683021",
    "name": "Deni Avdija",
    "pos": "F",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Foot",
-   "return": "2026-11-17",
-   "comment": "Avdija (foot) is questionable for Tuesday's game against the Timberwolves.",
-   "date": "2026-11-17T19:20Z"
+   "return": "2026-11-19",
+   "comment": "Avdija (foot) won't play Tuesday versus Minnesota.",
+   "date": "2026-11-18T00:28Z"
   },
   {
    "id": "4706557",
@@ -915,24 +915,14 @@
  ],
  "SAC": [
   {
-   "id": "3064440",
-   "name": "Zach LaVine",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Illness",
-   "return": "2026-11-18",
-   "comment": "LaVine is out for Sunday's game against Oklahoma City due to illness, Brandon Rahbar of DailyThunder.com reports.",
-   "date": "2026-11-16T14:48Z"
-  },
-  {
    "id": "4065732",
    "name": "De'Andre Hunter",
    "pos": "F",
    "status": "Day-To-Day",
    "type": "Hip",
    "return": "2026-11-18",
-   "comment": "Hunter (hip) is out for Sunday's game against the Thunder.",
-   "date": "2026-11-16T14:48Z"
+   "comment": "Hunter (hip) is questionable for Wednesday's game against the Suns, James Ham of ESPN 1320 Sacramento reports.",
+   "date": "2026-11-18T00:33Z"
   },
   {
    "id": "4431679",
@@ -941,8 +931,8 @@
    "status": "Day-To-Day",
    "type": "Ankle",
    "return": "2026-11-18",
-   "comment": "Achiuwa (ankle) has been ruled out for Sunday's game against the Thunder, Brenden Nunes of KHTK Sactown Sports 1140 reports.",
-   "date": "2026-11-16T14:48Z"
+   "comment": "Achiuwa (ankle) is questionable for Wednesday's game against the Suns, James Ham of ESPN 1320 Sacramento reports.",
+   "date": "2026-11-18T00:29Z"
   },
   {
    "id": "4898371",
@@ -1113,5 +1103,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-17T23:42:09.661660+00:00"
+ "_updated": "2026-11-18T00:54:32.547515+00:00"
 }
