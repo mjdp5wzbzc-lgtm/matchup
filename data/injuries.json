@@ -66,11 +66,11 @@
    "id": "3135045",
    "name": "Grayson Allen",
    "pos": "G",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Concussion",
    "return": "2026-11-20",
    "comment": "Allen (concussion-like symptoms) has been ruled out for Tuesday's game against the Lakers.",
-   "date": "2026-11-18T02:19Z"
+   "date": "2026-11-18T15:07Z"
   },
   {
    "id": "5061575",
@@ -263,6 +263,26 @@
  ],
  "DET": [
   {
+   "id": "2990962",
+   "name": "Taurean Prince",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Knee",
+   "return": "2026-11-18",
+   "comment": "Prince (knee) has been ruled out for Tuesday's game against the Spurs.",
+   "date": "2026-11-18T15:05Z"
+  },
+  {
+   "id": "4683771",
+   "name": "Ronald Holland II",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Knee",
+   "return": "2026-11-18",
+   "comment": "Holland is out for Tuesday's game against San Antonio due to a left knee contusion.",
+   "date": "2026-11-18T15:05Z"
+  },
+  {
    "id": "4395702",
    "name": "Isaiah Joe",
    "pos": "G",
@@ -281,26 +301,6 @@
    "return": "2026-11-27",
    "comment": "Robinson will be re-evaluated in one week due to a left quadriceps strain, Coty M. Davis of The Detroit News reports.",
    "date": "2026-11-17T16:25Z"
-  },
-  {
-   "id": "2990962",
-   "name": "Taurean Prince",
-   "pos": "F",
-   "status": "Out",
-   "type": "Knee",
-   "return": "2026-11-18",
-   "comment": "Prince (knee) has been ruled out for Tuesday's game against the Spurs.",
-   "date": "2026-11-16T22:58Z"
-  },
-  {
-   "id": "4683771",
-   "name": "Ronald Holland II",
-   "pos": "F",
-   "status": "Out",
-   "type": "Knee",
-   "return": "2026-11-18",
-   "comment": "Holland is out for Tuesday's game against San Antonio due to a left knee contusion.",
-   "date": "2026-11-16T22:53Z"
   },
   {
    "id": "4433621",
@@ -405,16 +405,6 @@
    "return": "2026-11-18",
    "comment": "Thompson (knee) is questionable for Wednesday's game against the Pacers.",
    "date": "2026-11-17T20:49Z"
-  },
-  {
-   "id": "5105553",
-   "name": "Julian Phillips",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Wrist",
-   "return": "2026-11-17",
-   "comment": "Phillips (illness) is available for Wednesday's game against Dallas.",
-   "date": "2026-11-16T15:28Z"
   }
  ],
  "IND": [
@@ -513,24 +503,24 @@
  ],
  "LAL": [
   {
-   "id": "4433136",
-   "name": "Walker Kessler",
-   "pos": "C",
-   "status": "Out",
-   "type": "Lower Leg",
-   "return": "2026-11-18",
-   "comment": "Head coach JJ Redick said he expects Walker (leg) to be available for Wednesday's game against the Jazz, Thuc Nhi Nguyen of the Los Angeles Times reports.",
-   "date": "2026-11-18T02:57Z"
-  },
-  {
    "id": "4066457",
    "name": "Austin Reaves",
    "pos": "G",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Heel",
    "return": "2026-11-18",
    "comment": "Reaves (heel) is out for Tuesday's game against the Hornets, Dave McMenamin of ESPN.com reports.",
-   "date": "2026-11-17T01:11Z"
+   "date": "2026-11-18T15:02Z"
+  },
+  {
+   "id": "4433136",
+   "name": "Walker Kessler",
+   "pos": "C",
+   "status": "Day-To-Day",
+   "type": "Lower Leg",
+   "return": "2026-11-18",
+   "comment": "Head coach JJ Redick said he expects Walker (leg) to be available for Wednesday's game against the Jazz, Thuc Nhi Nguyen of the Los Angeles Times reports.",
+   "date": "2026-11-18T15:02Z"
   }
  ],
  "MEM": [
@@ -634,21 +624,21 @@
    "id": "4592979",
    "name": "Zyon Pullin",
    "pos": "G",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Quadriceps",
    "return": "2026-11-19",
    "comment": "Pullin (quadriceps) has been ruled out for Tuesday's game against Portland.",
-   "date": "2026-11-17T19:05Z"
+   "date": "2026-11-18T15:04Z"
   },
   {
    "id": "4433247",
    "name": "Jonathan Kuminga",
    "pos": "F",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Shoulder",
    "return": "2026-11-19",
    "comment": "Kuminga (shoulder) is out for Tuesday's game against Portland.",
-   "date": "2026-11-17T19:03Z"
+   "date": "2026-11-18T15:04Z"
   },
   {
    "id": "4432247",
@@ -886,11 +876,11 @@
    "id": "4683021",
    "name": "Deni Avdija",
    "pos": "F",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Foot",
    "return": "2026-11-19",
    "comment": "Avdija (foot) won't play Tuesday versus Minnesota.",
-   "date": "2026-11-18T00:28Z"
+   "date": "2026-11-18T15:04Z"
   },
   {
    "id": "4706557",
@@ -1044,11 +1034,11 @@
    "id": "4397077",
    "name": "Jaxson Hayes",
    "pos": "C",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Knee",
    "return": "2026-11-18",
    "comment": "Hayes (knee) has been ruled out for Tuesday's game against the Clippers.",
-   "date": "2026-11-17T01:08Z"
+   "date": "2026-11-18T14:59Z"
   },
   {
    "id": "4066336",
@@ -1133,5 +1123,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-18T13:22:01.724216+00:00"
+ "_updated": "2026-11-18T16:09:12.637688+00:00"
 }
