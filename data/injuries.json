@@ -127,6 +127,26 @@
  ],
  "CLE": [
   {
+   "id": "4576087",
+   "name": "Peyton Watson",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Back",
+   "return": "2026-11-18",
+   "comment": "Watson (back) is doubtful for Wednesday's game versus Memphis.",
+   "date": "2026-11-18T18:24Z"
+  },
+  {
+   "id": "4683747",
+   "name": "Jaylon Tyson",
+   "pos": "G",
+   "status": "Out",
+   "type": "Ankle",
+   "return": "2026-11-20",
+   "comment": "Tyson (ankle) has been ruled out for Wednesday's game against Memphis.",
+   "date": "2026-11-18T18:21Z"
+  },
+  {
    "id": "5106268",
    "name": "Nae'Qwan Tomlin",
    "pos": "F",
@@ -137,16 +157,6 @@
    "date": "2026-11-17T22:18Z"
   },
   {
-   "id": "4683747",
-   "name": "Jaylon Tyson",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Ankle",
-   "return": "2026-11-18",
-   "comment": "Tyson (ankle) is listed as doubtful for Wednesday's game against the Grizzlies.",
-   "date": "2026-11-17T22:15Z"
-  },
-  {
    "id": "4066757",
    "name": "Sam Merrill",
    "pos": "G",
@@ -155,16 +165,6 @@
    "return": "2026-11-18",
    "comment": "Merrill (elbow) is questionable to face the Grizzlies on Wednesday.",
    "date": "2026-11-17T22:15Z"
-  },
-  {
-   "id": "4576087",
-   "name": "Peyton Watson",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Back",
-   "return": "2026-11-18",
-   "comment": "Watson (back) is listed as questionable for Wednesday's game against Memphis.",
-   "date": "2026-11-17T22:13Z"
   },
   {
    "id": "4432158",
@@ -315,6 +315,16 @@
  ],
  "GS": [
   {
+   "id": "4397040",
+   "name": "Brandon Williams",
+   "pos": "G",
+   "status": "Out",
+   "type": "Hamstring",
+   "return": "2026-11-22",
+   "comment": "Williams (hamstring) has progressed to on-court activities and will be re-evaluated Saturday.",
+   "date": "2026-11-18T17:12Z"
+  },
+  {
    "id": "6589",
    "name": "Draymond Green",
    "pos": "F",
@@ -343,16 +353,6 @@
    "return": "2026-12-12",
    "comment": "Curry has been diagnosed with an oblique abdominal tear and will be re-evaluated in two weeks, Shams Charania of ESPN reports.",
    "date": "2026-11-12T17:03Z"
-  },
-  {
-   "id": "4397040",
-   "name": "Brandon Williams",
-   "pos": "G",
-   "status": "Out",
-   "type": "Hamstring",
-   "return": "2026-11-22",
-   "comment": "Williams (hamstring) will miss at least one week, per Anthony Slater of ESPN.com.",
-   "date": "2026-11-10T21:24Z"
   },
   {
    "id": "3102531",
@@ -580,34 +580,24 @@
    "id": "4431772",
    "name": "Myron Gardner",
    "pos": "F",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Hamstring",
-   "return": "2026-11-18",
-   "comment": "Gardner (hamstring) is questionable for Wednesday's game against the Bucks, per Ira Winderman of the South Florida Sun Sentinel.",
-   "date": "2026-11-17T21:35Z"
-  },
-  {
-   "id": "4997528",
-   "name": "Nikola Jovic",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Illness",
-   "return": "2026-11-18",
-   "comment": "Jovic (illness) is listed as probable for Wednesday's game against Milwaukee, Ira Winderman of the South Florida Sun Sentinel reports.",
-   "date": "2026-11-17T21:34Z"
-  },
-  {
-   "id": "4066261",
-   "name": "Bam Adebayo",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Hip",
-   "return": "2026-11-18",
-   "comment": "Adebayo (hip) is probable for Wednesday's game against the Bucks, per Ira Winderman of the South Florida Sun Sentinel.",
-   "date": "2026-11-17T21:32Z"
+   "return": "2026-11-22",
+   "comment": "Gardner (hamstring) is out for Wednesday's game against the Bucks.",
+   "date": "2026-11-18T18:09Z"
   }
  ],
  "MIL": [
+  {
+   "id": "4591725",
+   "name": "Ryan Rollins",
+   "pos": "G",
+   "status": "Out",
+   "type": "Illness",
+   "return": "2026-11-19",
+   "comment": "Rollins (illness) has been ruled out for Wednesday's game at Miami.",
+   "date": "2026-11-18T18:10Z"
+  },
   {
    "id": "4997526",
    "name": "Ousmane Dieng",
@@ -783,8 +773,8 @@
    "status": "Out",
    "type": "Ankle",
    "return": "2026-11-28",
-   "comment": "Nelson (ankle) has been ruled out for Wednesday's game against the 76ers.",
-   "date": "2026-11-17T21:22Z"
+   "comment": "Head coach Sean Sweeney said Wednesday that Nelson (ankle) has been doing \"some on-court stuff,\" though Sweeney added that the work has been \"minimal,\" Jason Beede of the Orlando Sentinel reports.",
+   "date": "2026-11-18T17:25Z"
   },
   {
    "id": "4065654",
@@ -818,6 +808,16 @@
   }
  ],
  "PHI": [
+  {
+   "id": "3912848",
+   "name": "Dean Wade",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Hamstring",
+   "return": "2026-11-18",
+   "comment": "Wade (hamstring) has been downgraded to questionable for Wednesday's game against the Magic.",
+   "date": "2026-11-18T18:06Z"
+  },
   {
    "id": "4870562",
    "name": "Dominick Barlow",
@@ -999,6 +999,26 @@
  ],
  "TOR": [
   {
+   "id": "4395625",
+   "name": "RJ Barrett",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Hamstring",
+   "return": "2026-11-18",
+   "comment": "Barrett is questionable for Wednesday's game against the Wizards due to hamstring tightness, Esfandiar Baraheni of The Athletic reports.",
+   "date": "2026-11-18T17:49Z"
+  },
+  {
+   "id": "4433134",
+   "name": "Scottie Barnes",
+   "pos": "F",
+   "status": "Out",
+   "type": "Groin",
+   "return": "2026-11-20",
+   "comment": "Barnes (injury management) has been ruled out for Wednesday's game against Washington, Esfandiar Baraheni of The Athletic reports.",
+   "date": "2026-11-18T17:46Z"
+  },
+  {
    "id": "6450",
    "name": "Kawhi Leonard",
    "pos": "F",
@@ -1123,5 +1143,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-18T16:09:12.637688+00:00"
+ "_updated": "2026-11-18T19:03:21.435642+00:00"
 }
