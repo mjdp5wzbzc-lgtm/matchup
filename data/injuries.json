@@ -263,24 +263,14 @@
  ],
  "DET": [
   {
-   "id": "2990962",
-   "name": "Taurean Prince",
-   "pos": "F",
+   "id": "4432166",
+   "name": "Cade Cunningham",
+   "pos": "G",
    "status": "Day-To-Day",
    "type": "Knee",
    "return": "2026-11-18",
-   "comment": "Prince (knee) has been ruled out for Tuesday's game against the Spurs.",
-   "date": "2026-11-18T15:05Z"
-  },
-  {
-   "id": "4683771",
-   "name": "Ronald Holland II",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Knee",
-   "return": "2026-11-18",
-   "comment": "Holland is out for Tuesday's game against San Antonio due to a left knee contusion.",
-   "date": "2026-11-18T15:05Z"
+   "comment": "Cunningham is questionable for Wednesday's game against the Pelicans due to right knee soreness",
+   "date": "2026-11-18T19:09Z"
   },
   {
    "id": "4395702",
@@ -289,8 +279,28 @@
    "status": "Out",
    "type": "Hip",
    "return": "2026-11-18",
-   "comment": "Joe (hip) is out for Tuesday's game against the Spurs.",
-   "date": "2026-11-17T18:33Z"
+   "comment": "Joe (hip) is listed as questionable for Wednesday's game against the Pelicans.",
+   "date": "2026-11-18T19:08Z"
+  },
+  {
+   "id": "2990962",
+   "name": "Taurean Prince",
+   "pos": "F",
+   "status": "Out",
+   "type": "Knee",
+   "return": "2026-11-20",
+   "comment": "Prince (knee) is out for Wednesday's game against the Pelicans.",
+   "date": "2026-11-18T19:05Z"
+  },
+  {
+   "id": "4683771",
+   "name": "Ronald Holland II",
+   "pos": "F",
+   "status": "Out",
+   "type": "Knee",
+   "return": "2026-11-20",
+   "comment": "Holland (knee) is out for Wednesday's game against the Pelicans.",
+   "date": "2026-11-18T19:04Z"
   },
   {
    "id": "3157465",
@@ -506,21 +516,11 @@
    "id": "4066457",
    "name": "Austin Reaves",
    "pos": "G",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Heel",
-   "return": "2026-11-18",
-   "comment": "Reaves (heel) is out for Tuesday's game against the Hornets, Dave McMenamin of ESPN.com reports.",
-   "date": "2026-11-18T15:02Z"
-  },
-  {
-   "id": "4433136",
-   "name": "Walker Kessler",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Lower Leg",
-   "return": "2026-11-18",
-   "comment": "Head coach JJ Redick said he expects Walker (leg) to be available for Wednesday's game against the Jazz, Thuc Nhi Nguyen of the Los Angeles Times reports.",
-   "date": "2026-11-18T15:02Z"
+   "return": "2026-11-20",
+   "comment": "Reaves (heel) is out for Wednesday's game against the Jazz.",
+   "date": "2026-11-18T21:03Z"
   }
  ],
  "MEM": [
@@ -935,26 +935,6 @@
    "date": "2026-11-18T05:54Z"
   },
   {
-   "id": "4065732",
-   "name": "De'Andre Hunter",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Hip",
-   "return": "2026-11-18",
-   "comment": "Hunter (hip) is questionable for Wednesday's game against the Suns, James Ham of ESPN 1320 Sacramento reports.",
-   "date": "2026-11-18T00:33Z"
-  },
-  {
-   "id": "4431679",
-   "name": "Precious Achiuwa",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Ankle",
-   "return": "2026-11-18",
-   "comment": "Achiuwa (ankle) is questionable for Wednesday's game against the Suns, James Ham of ESPN 1320 Sacramento reports.",
-   "date": "2026-11-18T00:29Z"
-  },
-  {
    "id": "3907387",
    "name": "Ben Simmons",
    "pos": "G",
@@ -1037,16 +1017,6 @@
    "return": "2026-11-23",
    "comment": "Bittle (foot) has been ruled out for Sunday's game against the Knicks, Zulfi Sheikh of Sportsnet.ca reports.",
    "date": "2026-11-14T21:59Z"
-  },
-  {
-   "id": "4411057",
-   "name": "Kevin McCullar Jr.",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Illness",
-   "return": "2026-11-20",
-   "comment": "McCullar signed a two-way contract with the Raptors on Thursday, Michael Scotto of HoopsHype.com reports.",
-   "date": "2026-11-13T15:37Z"
   }
  ],
  "UTAH": [
@@ -1057,8 +1027,8 @@
    "status": "Day-To-Day",
    "type": "Knee",
    "return": "2026-11-18",
-   "comment": "Hayes (knee) has been ruled out for Tuesday's game against the Clippers.",
-   "date": "2026-11-18T14:59Z"
+   "comment": "Hayes (knee) is questionable for Wednesday's game against the Lakers.",
+   "date": "2026-11-18T21:05Z"
   },
   {
    "id": "4066336",
@@ -1143,5 +1113,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-18T19:03:21.435642+00:00"
+ "_updated": "2026-11-18T21:44:40.092044+00:00"
 }
