@@ -315,6 +315,16 @@
  ],
  "GS": [
   {
+   "id": "6589",
+   "name": "Draymond Green",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Elbow",
+   "return": "2026-11-18",
+   "comment": "Green is questionable for Wednesday's game in Dallas due to inflammation in his right elbow.",
+   "date": "2026-11-18T05:49Z"
+  },
+  {
    "id": "3213",
    "name": "Al Horford",
    "pos": "C",
@@ -925,6 +935,16 @@
  ],
  "SAC": [
   {
+   "id": "4898371",
+   "name": "Maxime Raynaud",
+   "pos": "C",
+   "status": "Out",
+   "type": "Knee",
+   "return": "2026-11-25",
+   "comment": "Raynaud (knee) will remain on the inactive list for Wednesday's game against the Suns.",
+   "date": "2026-11-18T05:54Z"
+  },
+  {
    "id": "4065732",
    "name": "De'Andre Hunter",
    "pos": "F",
@@ -945,16 +965,6 @@
    "date": "2026-11-18T00:29Z"
   },
   {
-   "id": "4898371",
-   "name": "Maxime Raynaud",
-   "pos": "C",
-   "status": "Out",
-   "type": "Knee",
-   "return": "2026-11-18",
-   "comment": "Raynaud (knee) has been ruled out for Sunday's game against the Thunder.",
-   "date": "2026-11-15T01:00Z"
-  },
-  {
    "id": "3907387",
    "name": "Ben Simmons",
    "pos": "G",
@@ -970,11 +980,11 @@
    "id": "5037871",
    "name": "Dylan Harper",
    "pos": "G",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Undisclosed",
    "return": "2026-11-19",
    "comment": "Harper left Tuesday's game against the Spurs due to an undisclosed injury after an awkward fall, Chris Mannix reports.",
-   "date": "2026-11-18T03:49Z"
+   "date": "2026-11-18T05:07Z"
   },
   {
    "id": "6440",
@@ -1123,5 +1133,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-18T04:27:44.613575+00:00"
+ "_updated": "2026-11-18T07:26:44.141484+00:00"
 }
