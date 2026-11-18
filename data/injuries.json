@@ -419,6 +419,16 @@
  ],
  "IND": [
   {
+   "id": "4395712",
+   "name": "Andrew Nembhard",
+   "pos": "G",
+   "status": "Out",
+   "type": "Hip",
+   "return": "2026-11-20",
+   "comment": "Nembhard (hip) won't play in Wednesday's game against the Rockets, Tony East of Forbes.com reports.",
+   "date": "2026-11-18T22:27Z"
+  },
+  {
    "id": "2530530",
    "name": "T.J. McConnell",
    "pos": "G",
@@ -427,16 +437,6 @@
    "return": "2026-11-18",
    "comment": "McConnell (hamstring) is probable to play Wednesday against the Rockets.",
    "date": "2026-11-17T22:24Z"
-  },
-  {
-   "id": "4395712",
-   "name": "Andrew Nembhard",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Hip",
-   "return": "2026-11-18",
-   "comment": "Nembhard (hip) is questionable for Wednesday's game against Houston.",
-   "date": "2026-11-17T22:19Z"
   },
   {
    "id": "4396993",
@@ -809,6 +809,16 @@
  ],
  "PHI": [
   {
+   "id": "3917376",
+   "name": "Jaylen Brown",
+   "pos": "G",
+   "status": "Out",
+   "type": "Hamstring",
+   "return": "2026-11-21",
+   "comment": "Brown (hamstring) will be re-evaluated at some point this weekend, per Kris Rihm of ESPN.com.",
+   "date": "2026-11-18T22:21Z"
+  },
+  {
    "id": "3912848",
    "name": "Dean Wade",
    "pos": "F",
@@ -827,16 +837,6 @@
    "return": "2026-11-21",
    "comment": "Barlow (back) is out for Wednesday's game against Orlando.",
    "date": "2026-11-17T22:12Z"
-  },
-  {
-   "id": "3917376",
-   "name": "Jaylen Brown",
-   "pos": "G",
-   "status": "Out",
-   "type": "Hamstring",
-   "return": "2026-11-21",
-   "comment": "Brown is out for Wednesday's game against the Magic with a left hamstring strain.",
-   "date": "2026-11-17T22:08Z"
   },
   {
    "id": "5105637",
@@ -1113,5 +1113,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-18T21:58:10.800303+00:00"
+ "_updated": "2026-11-18T22:44:04.376855+00:00"
 }
