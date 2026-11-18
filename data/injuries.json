@@ -63,6 +63,16 @@
  ],
  "CHA": [
   {
+   "id": "3135045",
+   "name": "Grayson Allen",
+   "pos": "G",
+   "status": "Out",
+   "type": "Concussion",
+   "return": "2026-11-20",
+   "comment": "Allen (concussion-like symptoms) has been ruled out for Tuesday's game against the Lakers.",
+   "date": "2026-11-18T02:19Z"
+  },
+  {
    "id": "5061575",
    "name": "Kon Knueppel",
    "pos": "G",
@@ -493,6 +503,16 @@
  ],
  "LAL": [
   {
+   "id": "4433136",
+   "name": "Walker Kessler",
+   "pos": "C",
+   "status": "Out",
+   "type": "Lower Leg",
+   "return": "2026-11-18",
+   "comment": "Head coach JJ Redick said he expects Walker (leg) to be available for Wednesday's game against the Jazz, Thuc Nhi Nguyen of the Los Angeles Times reports.",
+   "date": "2026-11-18T02:57Z"
+  },
+  {
    "id": "4066457",
    "name": "Austin Reaves",
    "pos": "G",
@@ -501,16 +521,6 @@
    "return": "2026-11-18",
    "comment": "Reaves (heel) is out for Tuesday's game against the Hornets, Dave McMenamin of ESPN.com reports.",
    "date": "2026-11-17T01:11Z"
-  },
-  {
-   "id": "4433136",
-   "name": "Walker Kessler",
-   "pos": "C",
-   "status": "Out",
-   "type": "Lower Leg",
-   "return": "2026-11-18",
-   "comment": "Walker (leg) has been ruled out for Tuesday's game against the Hornets.",
-   "date": "2026-11-17T01:10Z"
   }
  ],
  "MEM": [
@@ -1103,5 +1113,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-18T02:10:49.865377+00:00"
+ "_updated": "2026-11-18T03:21:01.210538+00:00"
 }
