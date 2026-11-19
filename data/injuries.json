@@ -4,11 +4,11 @@
    "id": "3146557",
    "name": "Jock Landale",
    "pos": "C",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Hip",
-   "return": "2026-11-20",
-   "comment": "Landale (hip) won't play Wednesday in Oklahoma City.",
-   "date": "2026-11-19T14:50Z"
+   "return": "2026-11-22",
+   "comment": "Landale (hip) won't play in Friday's game against the Hornets, Brad Rowland of the Locked On Podcast Network reports.",
+   "date": "2026-11-19T22:07Z"
   },
   {
    "id": "5149077",
@@ -17,8 +17,8 @@
    "status": "Day-To-Day",
    "type": "Back",
    "return": "2026-11-20",
-   "comment": "Flemings (back) is out for Wednesday's game against the Thunder.",
-   "date": "2026-11-19T14:50Z"
+   "comment": "Flemings (back) is questionable for Friday's game against the Hornets, Brad Rowland of the Locked On Podcast Network reports.",
+   "date": "2026-11-19T22:05Z"
   },
   {
    "id": "4873201",
@@ -75,14 +75,24 @@
  ],
  "CHA": [
   {
+   "id": "4066218",
+   "name": "Grant Williams",
+   "pos": "F",
+   "status": "Out",
+   "type": "Hamstring",
+   "return": "2026-11-23",
+   "comment": "Williams (hamstring) is listed as out for Friday's game versus the Hawks.",
+   "date": "2026-11-19T22:21Z"
+  },
+  {
    "id": "3135045",
    "name": "Grayson Allen",
    "pos": "G",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Concussion",
-   "return": "2026-11-20",
-   "comment": "Allen (concussion-like symptoms) has been ruled out for Tuesday's game against the Lakers.",
-   "date": "2026-11-18T15:07Z"
+   "return": "2026-11-23",
+   "comment": "Allen (concussion) has been ruled out for Friday's game against Atlanta.",
+   "date": "2026-11-19T22:02Z"
   },
   {
    "id": "5061575",
@@ -106,6 +116,16 @@
   }
  ],
  "CHI": [
+  {
+   "id": "5242496",
+   "name": "Noa Essengue",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Wrist",
+   "return": "2026-11-20",
+   "comment": "Essengue is listed as probable for Friday's game against Washington due to bilateral wrist soreness.",
+   "date": "2026-11-19T22:12Z"
+  },
   {
    "id": "5105555",
    "name": "Tobe Awaka",
@@ -132,11 +152,11 @@
    "id": "4683747",
    "name": "Jaylon Tyson",
    "pos": "G",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Ankle",
-   "return": "2026-11-20",
-   "comment": "Tyson (ankle) has been ruled out for Wednesday's game against Memphis.",
-   "date": "2026-11-19T14:45Z"
+   "return": "2026-11-23",
+   "comment": "Tyson (ankle) has been ruled out for Friday's game against Indiana.",
+   "date": "2026-11-19T21:55Z"
   },
   {
    "id": "4576087",
@@ -145,8 +165,8 @@
    "status": "Day-To-Day",
    "type": "Back",
    "return": "2026-11-20",
-   "comment": "Watson (back) is out for Wednesday's game versus Memphis.",
-   "date": "2026-11-19T14:44Z"
+   "comment": "Watson (back) is questionable for Friday's game against the Pacers.",
+   "date": "2026-11-19T21:50Z"
   },
   {
    "id": "5106268",
@@ -225,13 +245,23 @@
  ],
  "DET": [
   {
+   "id": "2990962",
+   "name": "Taurean Prince",
+   "pos": "F",
+   "status": "Out",
+   "type": "Knee",
+   "return": "2026-12-13",
+   "comment": "Prince underwent right knee surgery and is listed as out for Friday's game against the Raptors.",
+   "date": "2026-11-19T21:53Z"
+  },
+  {
    "id": "5258459",
    "name": "Ebuka Okorie",
    "pos": "G",
    "status": "Out",
    "type": "Oblique",
    "return": "2026-11-22",
-   "comment": "Okorie registered two points (2-2 FT) across two minutes during Sunday's 106-93 victory over Philadelphia.",
+   "comment": "Okorie (oblique) has been ruled out for Friday's game against Toronto.",
    "date": "2026-11-19T21:43Z"
   },
   {
@@ -263,16 +293,6 @@
    "return": "2026-11-21",
    "comment": "Onyenso agreed to a two-way contract with the Pistons on Thursday.",
    "date": "2026-11-19T16:15Z"
-  },
-  {
-   "id": "2990962",
-   "name": "Taurean Prince",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Knee",
-   "return": "2026-12-13",
-   "comment": "Prince (knee) is out for Wednesday's game against the Pelicans.",
-   "date": "2026-11-19T14:49Z"
   },
   {
    "id": "3157465",
@@ -391,14 +411,24 @@
  ],
  "IND": [
   {
+   "id": "2530530",
+   "name": "T.J. McConnell",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Hamstring",
+   "return": "2026-11-20",
+   "comment": "McConnell (hamstring) is listed as probable for Friday's game in Cleveland.",
+   "date": "2026-11-19T22:14Z"
+  },
+  {
    "id": "4395712",
    "name": "Andrew Nembhard",
    "pos": "G",
    "status": "Day-To-Day",
    "type": "Hip",
    "return": "2026-11-20",
-   "comment": "Nembhard (hip) won't play in Wednesday's game against the Rockets, Tony East of Forbes.com reports.",
-   "date": "2026-11-19T14:45Z"
+   "comment": "Nembhard (hip) is questionable for Friday's game in Cleveland.",
+   "date": "2026-11-19T22:07Z"
   },
   {
    "id": "5105854",
@@ -407,8 +437,8 @@
    "status": "Day-To-Day",
    "type": "Ankle",
    "return": "2026-11-20",
-   "comment": "Smith suffered a right ankle sprain during Wednesday's game against the Wizards, Tony East of Forbes.com reports.",
-   "date": "2026-11-19T02:52Z"
+   "comment": "Smith (ankle) is listed as questionable for Friday's game against Cleveland.",
+   "date": "2026-11-19T22:05Z"
   },
   {
    "id": "4396993",
@@ -1105,5 +1135,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-19T21:57:24.517516+00:00"
+ "_updated": "2026-11-19T22:40:51.550255+00:00"
 }
