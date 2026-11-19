@@ -327,6 +327,16 @@
  ],
  "HOU": [
   {
+   "id": "4871144",
+   "name": "Alperen Sengun",
+   "pos": "C",
+   "status": "Day-To-Day",
+   "type": "Face",
+   "return": "2026-11-18",
+   "comment": "Sengun exited Wednesday's game against the Pacers for the locker room due to an apparent facial injury, Will Guillory of The Athletic reports.",
+   "date": "2026-11-19T00:54Z"
+  },
+  {
    "id": "3102529",
    "name": "Clint Capela",
    "pos": "C",
@@ -1033,5 +1043,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-19T00:54:44.079825+00:00"
+ "_updated": "2026-11-19T01:21:00.532126+00:00"
 }

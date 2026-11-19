@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T00:54:43.767962+00:00",
+ "generated": "2026-11-19T01:21:00.084128+00:00",
  "days": [
   {
    "date": "2026-11-18",
@@ -10,10 +10,10 @@
      "home": "CLE",
      "away": "MEM",
      "state": "in",
-     "detail": "6:29 - 2nd",
+     "detail": "Halftime",
      "score": {
-      "home": "48",
-      "away": "42"
+      "home": "72",
+      "away": "71"
      }
     },
     {
@@ -22,10 +22,10 @@
      "home": "IND",
      "away": "HOU",
      "state": "in",
-     "detail": "3:33 - 2nd",
+     "detail": "11:32 - 3rd",
      "score": {
-      "home": "37",
-      "away": "51"
+      "home": "46",
+      "away": "62"
      }
     },
     {
@@ -34,10 +34,10 @@
      "home": "MIA",
      "away": "MIL",
      "state": "in",
-     "detail": "10:08 - 2nd",
+     "detail": "2:54 - 2nd",
      "score": {
-      "home": "39",
-      "away": "28"
+      "home": "68",
+      "away": "42"
      }
     },
     {
@@ -46,10 +46,10 @@
      "home": "ORL",
      "away": "PHI",
      "state": "in",
-     "detail": "6:01 - 2nd",
+     "detail": "Halftime",
      "score": {
-      "home": "56",
-      "away": "45"
+      "home": "69",
+      "away": "64"
      }
     },
     {
@@ -58,10 +58,10 @@
      "home": "BKN",
      "away": "CHI",
      "state": "in",
-     "detail": "4:33 - 1st",
+     "detail": "6:21 - 2nd",
      "score": {
-      "home": "14",
-      "away": "24"
+      "home": "34",
+      "away": "55"
      }
     },
     {
@@ -70,10 +70,10 @@
      "home": "TOR",
      "away": "WSH",
      "state": "in",
-     "detail": "5:46 - 1st",
+     "detail": "6:56 - 2nd",
      "score": {
-      "home": "15",
-      "away": "18"
+      "home": "33",
+      "away": "37"
      }
     },
     {
@@ -81,11 +81,11 @@
      "start": "2026-11-19T01:00Z",
      "home": "NO",
      "away": "DET",
-     "state": "pre",
-     "detail": "11/18 - 8:00 PM EST",
+     "state": "in",
+     "detail": "7:14 - 1st",
      "score": {
-      "home": "0",
-      "away": "0"
+      "home": "10",
+      "away": "8"
      }
     },
     {
@@ -93,11 +93,11 @@
      "start": "2026-11-19T01:00Z",
      "home": "OKC",
      "away": "ATL",
-     "state": "pre",
-     "detail": "11/18 - 8:00 PM EST",
+     "state": "in",
+     "detail": "6:44 - 1st",
      "score": {
-      "home": "0",
-      "away": "0"
+      "home": "14",
+      "away": "10"
      }
     },
     {
@@ -105,11 +105,11 @@
      "start": "2026-11-19T01:00Z",
      "home": "DAL",
      "away": "GS",
-     "state": "pre",
-     "detail": "11/18 - 8:00 PM EST",
+     "state": "in",
+     "detail": "7:57 - 1st",
      "score": {
-      "home": "0",
-      "away": "0"
+      "home": "15",
+      "away": "6"
      }
     },
     {
