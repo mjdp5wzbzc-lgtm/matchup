@@ -225,13 +225,23 @@
  ],
  "DET": [
   {
+   "id": "5258459",
+   "name": "Ebuka Okorie",
+   "pos": "G",
+   "status": "Out",
+   "type": "Oblique",
+   "return": "2026-11-22",
+   "comment": "Okorie registered two points (2-2 FT) across two minutes during Sunday's 106-93 victory over Philadelphia.",
+   "date": "2026-11-19T21:43Z"
+  },
+  {
    "id": "4683771",
    "name": "Ronald Holland II",
    "pos": "F",
    "status": "Out",
    "type": "Knee",
    "return": "2026-11-22",
-   "comment": "Holland (knee) is out for Wednesday's game against the Pelicans.",
+   "comment": "Holland (knee) won't play in Friday's game against the Raptors, Blake Murphy of Sportsnet.ca reports.",
    "date": "2026-11-19T21:41Z"
   },
   {
@@ -260,7 +270,7 @@
    "pos": "F",
    "status": "Day-To-Day",
    "type": "Knee",
-   "return": "2026-11-20",
+   "return": "2026-12-13",
    "comment": "Prince (knee) is out for Wednesday's game against the Pelicans.",
    "date": "2026-11-19T14:49Z"
   },
@@ -977,8 +987,8 @@
    "status": "Out",
    "type": "Concussion",
    "return": "2026-11-23",
-   "comment": "Murray-Boyles will not return to Wednesday's game against the Wizards due to an illness, Blake Murphy of Sportsnet.ca reports.",
-   "date": "2026-11-19T21:39Z"
+   "comment": "Murray-Boyles (concussion) has been ruled out for Friday's game against the Pistons.",
+   "date": "2026-11-19T21:41Z"
   },
   {
    "id": "4395625",
@@ -1095,5 +1105,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-19T21:42:03.093813+00:00"
+ "_updated": "2026-11-19T21:57:24.517516+00:00"
 }
