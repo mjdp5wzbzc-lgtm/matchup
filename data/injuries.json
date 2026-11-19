@@ -331,10 +331,10 @@
    "name": "Alperen Sengun",
    "pos": "C",
    "status": "Day-To-Day",
-   "type": "Face",
-   "return": "2026-11-18",
-   "comment": "Sengun exited Wednesday's game against the Pacers for the locker room due to an apparent facial injury, Will Guillory of The Athletic reports.",
-   "date": "2026-11-19T00:54Z"
+   "type": "Eye",
+   "return": "2026-11-20",
+   "comment": "Sengun (eye) will not return to Wednesday's game against the Pacers, Will Guillory of The Athletic reports.",
+   "date": "2026-11-19T01:27Z"
   },
   {
    "id": "3102529",
@@ -429,8 +429,8 @@
    "status": "Out",
    "type": "Heel",
    "return": "2026-11-20",
-   "comment": "Reaves (heel) is out for Wednesday's game against the Jazz.",
-   "date": "2026-11-18T21:03Z"
+   "comment": "Head coach JJ Redick said Reaves' (heel) pregame workout went \"well,\" but he remains without an official timetable to return, Daniel Starkand of LakersNation.com reports.",
+   "date": "2026-11-19T01:38Z"
   }
  ],
  "MEM": [
@@ -909,6 +909,16 @@
  ],
  "TOR": [
   {
+   "id": "5093267",
+   "name": "Collin Murray-Boyles",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Illness",
+   "return": "2026-11-20",
+   "comment": "Murray-Boyles will not return to Wednesday's game against the Wizards due to an illness, Blake Murphy of Sportsnet.ca reports.",
+   "date": "2026-11-19T01:34Z"
+  },
+  {
    "id": "4395625",
    "name": "RJ Barrett",
    "pos": "F",
@@ -1043,5 +1053,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-19T01:21:00.532126+00:00"
+ "_updated": "2026-11-19T02:09:04.365870+00:00"
 }
