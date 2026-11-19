@@ -159,6 +159,16 @@
  ],
  "DAL": [
   {
+   "id": "5106040",
+   "name": "Tobi Lawal",
+   "pos": "F",
+   "status": "Out",
+   "type": "Groin",
+   "return": "2026-11-21",
+   "comment": "Lawal is out for Wednesday's game against the Warriors due to tightness in his right groin.",
+   "date": "2026-11-18T23:59Z"
+  },
+  {
    "id": "5279129",
    "name": "Sergio de Larrea",
    "pos": "F",
@@ -167,16 +177,6 @@
    "return": "2026-11-27",
    "comment": "De Larrea (knee) is listed as out for Wednesday's game against the Warriors.",
    "date": "2026-11-17T22:53Z"
-  },
-  {
-   "id": "4896372",
-   "name": "Walter Clayton Jr.",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Ankle",
-   "return": "2026-11-18",
-   "comment": "Clayton (ankle) is listed as probable for Wednesday's game against the Warriors.",
-   "date": "2026-11-17T22:47Z"
   },
   {
    "id": "4683688",
@@ -189,16 +189,6 @@
    "date": "2026-11-17T22:45Z"
   },
   {
-   "id": "5106040",
-   "name": "Tobi Lawal",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Groin",
-   "return": "2026-11-18",
-   "comment": "Lawal is doubtful for Wednesday's game against the Warriors due to tightness in his right groin.",
-   "date": "2026-11-17T22:45Z"
-  },
-  {
    "id": "5148538",
    "name": "Tarik Biberovic",
    "pos": "F",
@@ -207,26 +197,6 @@
    "return": "2026-11-27",
    "comment": "Biberovic (heel) is out for Wednesday's game against the Warriors.",
    "date": "2026-11-17T22:42Z"
-  },
-  {
-   "id": "4432582",
-   "name": "Max Christie",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Ankle",
-   "return": "2026-11-18",
-   "comment": "Christie (ankle) is questionable for Wednesday's game against the Warriors.",
-   "date": "2026-11-17T22:38Z"
-  },
-  {
-   "id": "4593125",
-   "name": "Santi Aldama",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Ankle",
-   "return": "2026-11-18",
-   "comment": "Aldama (ankle) is probable for Wednesday's game against the Warriors.",
-   "date": "2026-11-17T22:36Z"
   }
  ],
  "DEN": [
@@ -246,21 +216,11 @@
    "id": "4432166",
    "name": "Cade Cunningham",
    "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Knee",
-   "return": "2026-11-18",
-   "comment": "Cunningham is questionable for Wednesday's game against the Pelicans due to right knee soreness",
-   "date": "2026-11-18T19:09Z"
-  },
-  {
-   "id": "4395702",
-   "name": "Isaiah Joe",
-   "pos": "G",
    "status": "Out",
-   "type": "Hip",
-   "return": "2026-11-18",
-   "comment": "Joe (hip) is listed as questionable for Wednesday's game against the Pelicans.",
-   "date": "2026-11-18T19:08Z"
+   "type": "Knee",
+   "return": "2026-11-20",
+   "comment": "Cunningham (knee) won't play in Wednesday's game against New Orleans.",
+   "date": "2026-11-19T00:37Z"
   },
   {
    "id": "2990962",
@@ -305,6 +265,16 @@
  ],
  "GS": [
   {
+   "id": "3213",
+   "name": "Al Horford",
+   "pos": "C",
+   "status": "Out",
+   "type": "Back",
+   "return": "2026-11-19",
+   "comment": "Horford (back) is out for Wednesday's game against the Mavericks, but will play Thursday against the Grizzlies, Nick Friedell of The Athletic reports.",
+   "date": "2026-11-18T23:38Z"
+  },
+  {
    "id": "4397040",
    "name": "Brandon Williams",
    "pos": "G",
@@ -313,26 +283,6 @@
    "return": "2026-11-22",
    "comment": "Williams (hamstring) has progressed to on-court activities and will be re-evaluated Saturday.",
    "date": "2026-11-18T17:12Z"
-  },
-  {
-   "id": "6589",
-   "name": "Draymond Green",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": null,
-   "return": null,
-   "comment": "Green is questionable for Wednesday's game in Dallas due to inflammation in his right elbow.",
-   "date": "2026-11-18T05:49Z"
-  },
-  {
-   "id": "3213",
-   "name": "Al Horford",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Back",
-   "return": "2026-11-19",
-   "comment": "Horford (back) is questionable for Wednesday's game against Dallas.",
-   "date": "2026-11-17T22:21Z"
   },
   {
    "id": "3975",
@@ -675,16 +625,6 @@
    "date": "2026-11-18T00:01Z"
   },
   {
-   "id": "4432823",
-   "name": "Jaylin Williams",
-   "pos": "F",
-   "status": "Out",
-   "type": "Back",
-   "return": "2026-11-18",
-   "comment": "Williams (back) is listed as questionable for Wednesday's game against the Hawks, Clemente Almanza of USA Today reports.",
-   "date": "2026-11-17T23:08Z"
-  },
-  {
    "id": "4683692",
    "name": "Cason Wallace",
    "pos": "G",
@@ -759,6 +699,16 @@
  ],
  "PHI": [
   {
+   "id": "4431678",
+   "name": "Tyrese Maxey",
+   "pos": "G",
+   "status": "Out",
+   "type": "Foot",
+   "return": "2026-11-21",
+   "comment": "Maxey (foot) is out for Wednesday's game in Orlando, Ky Carlin of USA Today reports.",
+   "date": "2026-11-18T23:33Z"
+  },
+  {
    "id": "3912848",
    "name": "Dean Wade",
    "pos": "F",
@@ -767,16 +717,6 @@
    "return": "2026-11-21",
    "comment": "Wade (hamstring) is out for Wednesday's game in Orlando.",
    "date": "2026-11-18T23:19Z"
-  },
-  {
-   "id": "4431678",
-   "name": "Tyrese Maxey",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Foot",
-   "return": "2026-11-21",
-   "comment": "Maxey is questionable for Wednesday's game in Orlando due to right foot soreness, Gina Mizell of The Philadelphia Inquirer reports.",
-   "date": "2026-11-18T22:59Z"
   },
   {
    "id": "3917376",
@@ -1093,5 +1033,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-18T23:41:55.655198+00:00"
+ "_updated": "2026-11-19T00:54:44.079825+00:00"
 }

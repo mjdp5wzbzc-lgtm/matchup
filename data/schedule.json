@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T23:41:55.244121+00:00",
+ "generated": "2026-11-19T00:54:43.767962+00:00",
  "days": [
   {
    "date": "2026-11-18",
@@ -9,11 +9,11 @@
      "start": "2026-11-19T00:00Z",
      "home": "CLE",
      "away": "MEM",
-     "state": "pre",
-     "detail": "11/18 - 7:00 PM EST",
+     "state": "in",
+     "detail": "6:29 - 2nd",
      "score": {
-      "home": "0",
-      "away": "0"
+      "home": "48",
+      "away": "42"
      }
     },
     {
@@ -21,11 +21,11 @@
      "start": "2026-11-19T00:00Z",
      "home": "IND",
      "away": "HOU",
-     "state": "pre",
-     "detail": "11/18 - 7:00 PM EST",
+     "state": "in",
+     "detail": "3:33 - 2nd",
      "score": {
-      "home": "0",
-      "away": "0"
+      "home": "37",
+      "away": "51"
      }
     },
     {
@@ -33,11 +33,11 @@
      "start": "2026-11-19T00:00Z",
      "home": "MIA",
      "away": "MIL",
-     "state": "pre",
-     "detail": "11/18 - 7:00 PM EST",
+     "state": "in",
+     "detail": "10:08 - 2nd",
      "score": {
-      "home": "0",
-      "away": "0"
+      "home": "39",
+      "away": "28"
      }
     },
     {
@@ -45,11 +45,11 @@
      "start": "2026-11-19T00:00Z",
      "home": "ORL",
      "away": "PHI",
-     "state": "pre",
-     "detail": "11/18 - 7:00 PM EST",
+     "state": "in",
+     "detail": "6:01 - 2nd",
      "score": {
-      "home": "0",
-      "away": "0"
+      "home": "56",
+      "away": "45"
      }
     },
     {
@@ -57,11 +57,11 @@
      "start": "2026-11-19T00:30Z",
      "home": "BKN",
      "away": "CHI",
-     "state": "pre",
-     "detail": "11/18 - 7:30 PM EST",
+     "state": "in",
+     "detail": "4:33 - 1st",
      "score": {
-      "home": "0",
-      "away": "0"
+      "home": "14",
+      "away": "24"
      }
     },
     {
@@ -69,11 +69,11 @@
      "start": "2026-11-19T00:30Z",
      "home": "TOR",
      "away": "WSH",
-     "state": "pre",
-     "detail": "11/18 - 7:30 PM EST",
+     "state": "in",
+     "detail": "5:46 - 1st",
      "score": {
-      "home": "0",
-      "away": "0"
+      "home": "15",
+      "away": "18"
      }
     },
     {
