@@ -225,6 +225,16 @@
  ],
  "DET": [
   {
+   "id": "5037878",
+   "name": "Ugonna Onyenso",
+   "pos": "C",
+   "status": "Day-To-Day",
+   "type": "Foot",
+   "return": "2026-11-21",
+   "comment": "Onyenso agreed to a two-way contract with the Pistons on Thursday.",
+   "date": "2026-11-19T16:15Z"
+  },
+  {
    "id": "2990962",
    "name": "Taurean Prince",
    "pos": "F",
@@ -280,21 +290,21 @@
    "id": "6589",
    "name": "Draymond Green",
    "pos": "F",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Rest",
-   "return": "2026-11-19",
-   "comment": "Green (elbow) is available for Wednesday's game against the Mavericks.",
-   "date": "2026-11-19T14:59Z"
+   "return": "2026-11-22",
+   "comment": "Green (elbow) is out for Thursday's game against the Grizzlies.",
+   "date": "2026-11-19T18:51Z"
   },
   {
-   "id": "3213",
-   "name": "Al Horford",
-   "pos": "C",
+   "id": "4433149",
+   "name": "LJ Cryer",
+   "pos": "G",
    "status": "Day-To-Day",
    "type": "Back",
    "return": "2026-11-19",
-   "comment": "Horford (back) is out for Wednesday's game against the Mavericks, but will play Thursday against the Grizzlies, Nick Friedell of The Athletic reports.",
-   "date": "2026-11-19T14:51Z"
+   "comment": "Cryer (back) is questionable for Thursday's game against Memphis.",
+   "date": "2026-11-19T18:46Z"
   },
   {
    "id": "4397040",
@@ -552,16 +562,6 @@
   }
  ],
  "MIN": [
-  {
-   "id": "4592979",
-   "name": "Zyon Pullin",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Quadriceps",
-   "return": "2026-11-19",
-   "comment": "Pullin (quadriceps) is listed as questionable for Thursday's game against the Knicks.",
-   "date": "2026-11-18T23:11Z"
-  },
   {
    "id": "4433247",
    "name": "Jonathan Kuminga",
@@ -925,8 +925,8 @@
    "status": "Out",
    "type": "Hip",
    "return": "2026-11-21",
-   "comment": "Harper (hip) won't play in Thursday's game against the Clippers, Jeff McDonald of the San Antonio Express-News reports.",
-   "date": "2026-11-18T23:05Z"
+   "comment": "Harper (hip) will undergo further testing Thursday, but his return date remains uncertain and he won't be available to face the Clippers, Jeff McDonald of the San Antonio Express-News reports.",
+   "date": "2026-11-19T17:40Z"
   },
   {
    "id": "6440",
@@ -1085,5 +1085,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-19T16:09:11.943802+00:00"
+ "_updated": "2026-11-19T19:07:25.998031+00:00"
 }
