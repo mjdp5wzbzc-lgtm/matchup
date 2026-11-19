@@ -349,6 +349,16 @@
  ],
  "IND": [
   {
+   "id": "5105854",
+   "name": "Braden Smith",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Ankle",
+   "return": "2026-11-20",
+   "comment": "Smith suffered a right ankle sprain during Wednesday's game against the Wizards, Tony East of Forbes.com reports.",
+   "date": "2026-11-19T02:52Z"
+  },
+  {
    "id": "4395712",
    "name": "Andrew Nembhard",
    "pos": "G",
@@ -624,6 +634,16 @@
   }
  ],
  "OKC": [
+  {
+   "id": "2991350",
+   "name": "Alex Caruso",
+   "pos": "G",
+   "status": "Out",
+   "type": "Hip",
+   "return": "2026-11-20",
+   "comment": "Caruso totaled 11 points (3-6 FG, 1-3 3Pt, 4-4 FT), two rebounds, three assists, one block and four steals across 18 minutes off the bench during Sunday's 125-103 win over the Kings.",
+   "date": "2026-11-19T03:13Z"
+  },
   {
    "id": "5061603",
    "name": "Thomas Sorber",
@@ -961,16 +981,6 @@
  ],
  "UTAH": [
   {
-   "id": "4397077",
-   "name": "Jaxson Hayes",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Knee",
-   "return": "2026-11-18",
-   "comment": "Hayes (knee) is questionable for Wednesday's game against the Lakers.",
-   "date": "2026-11-18T21:05Z"
-  },
-  {
    "id": "4066336",
    "name": "Lauri Markkanen",
    "pos": "F",
@@ -1053,5 +1063,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-19T02:09:04.365870+00:00"
+ "_updated": "2026-11-19T03:21:27.617886+00:00"
 }
