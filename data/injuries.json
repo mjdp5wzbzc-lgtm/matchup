@@ -389,14 +389,14 @@
  ],
  "HOU": [
   {
-   "id": "4871144",
-   "name": "Alperen Sengun",
+   "id": "2991235",
+   "name": "Steven Adams",
    "pos": "C",
    "status": "Day-To-Day",
-   "type": "Eye",
+   "type": "Quadriceps",
    "return": "2026-11-20",
-   "comment": "Sengun (eye) will not return to Wednesday's game against the Pacers, Will Guillory of The Athletic reports.",
-   "date": "2026-11-19T01:27Z"
+   "comment": "Adams (calf) isn't listed on the injury report for Wednesday's game against Indiana.",
+   "date": "2026-11-19T23:21Z"
   },
   {
    "id": "3102529",
@@ -404,9 +404,19 @@
    "pos": "C",
    "status": "Out",
    "type": "Ankle",
+   "return": "2026-11-23",
+   "comment": "Capela (ankle) is out for Friday's game against Denver.",
+   "date": "2026-11-19T23:19Z"
+  },
+  {
+   "id": "4871144",
+   "name": "Alperen Sengun",
+   "pos": "C",
+   "status": "Day-To-Day",
+   "type": "Eye",
    "return": "2026-11-20",
-   "comment": "Capela (ankle) has been ruled out for Wednesday's game against Indiana.",
-   "date": "2026-11-17T20:58Z"
+   "comment": "Sengun (eye) is questionable for Friday's game against the Nuggets.",
+   "date": "2026-11-19T23:17Z"
   }
  ],
  "IND": [
@@ -1135,5 +1145,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-19T22:40:51.550255+00:00"
+ "_updated": "2026-11-19T23:36:29.975382+00:00"
 }
