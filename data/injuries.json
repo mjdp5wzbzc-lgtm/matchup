@@ -4,21 +4,21 @@
    "id": "3146557",
    "name": "Jock Landale",
    "pos": "C",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Hip",
    "return": "2026-11-20",
    "comment": "Landale (hip) won't play Wednesday in Oklahoma City.",
-   "date": "2026-11-17T23:07Z"
+   "date": "2026-11-19T14:50Z"
   },
   {
    "id": "5149077",
    "name": "Kingston Flemings",
    "pos": "G",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Back",
    "return": "2026-11-20",
    "comment": "Flemings (back) is out for Wednesday's game against the Thunder.",
-   "date": "2026-11-17T23:06Z"
+   "date": "2026-11-19T14:50Z"
   },
   {
    "id": "4873201",
@@ -59,6 +59,18 @@
    "return": "2027-07-01",
    "comment": "Veesaar was diagnosed with a torn right ACL and is expected to miss the 2026-27 season, the Hawks announced Monday.",
    "date": "2026-09-21T19:50Z"
+  }
+ ],
+ "BKN": [
+  {
+   "id": "4702670",
+   "name": "Grant Nelson",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Ankle",
+   "return": "2026-11-24",
+   "comment": "Nelson signed a two-way contract with the Nets on Friday, Michael Scotto of HoopsHype.com reports.",
+   "date": "2026-11-19T15:45Z"
   }
  ],
  "CHA": [
@@ -117,24 +129,24 @@
  ],
  "CLE": [
   {
-   "id": "4576087",
-   "name": "Peyton Watson",
-   "pos": "G",
-   "status": "Out",
-   "type": "Back",
-   "return": "2026-11-20",
-   "comment": "Watson (back) is out for Wednesday's game versus Memphis.",
-   "date": "2026-11-18T23:17Z"
-  },
-  {
    "id": "4683747",
    "name": "Jaylon Tyson",
    "pos": "G",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Ankle",
    "return": "2026-11-20",
    "comment": "Tyson (ankle) has been ruled out for Wednesday's game against Memphis.",
-   "date": "2026-11-18T18:21Z"
+   "date": "2026-11-19T14:45Z"
+  },
+  {
+   "id": "4576087",
+   "name": "Peyton Watson",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Back",
+   "return": "2026-11-20",
+   "comment": "Watson (back) is out for Wednesday's game versus Memphis.",
+   "date": "2026-11-19T14:44Z"
   },
   {
    "id": "5106268",
@@ -162,11 +174,11 @@
    "id": "5106040",
    "name": "Tobi Lawal",
    "pos": "F",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Groin",
    "return": "2026-11-21",
    "comment": "Lawal is out for Wednesday's game against the Warriors due to tightness in his right groin.",
-   "date": "2026-11-18T23:59Z"
+   "date": "2026-11-19T14:51Z"
   },
   {
    "id": "5279129",
@@ -213,34 +225,34 @@
  ],
  "DET": [
   {
-   "id": "4432166",
-   "name": "Cade Cunningham",
-   "pos": "G",
-   "status": "Out",
-   "type": "Knee",
-   "return": "2026-11-20",
-   "comment": "Cunningham (knee) won't play in Wednesday's game against New Orleans.",
-   "date": "2026-11-19T00:37Z"
-  },
-  {
    "id": "2990962",
    "name": "Taurean Prince",
    "pos": "F",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Knee",
    "return": "2026-11-20",
    "comment": "Prince (knee) is out for Wednesday's game against the Pelicans.",
-   "date": "2026-11-18T19:05Z"
+   "date": "2026-11-19T14:49Z"
   },
   {
    "id": "4683771",
    "name": "Ronald Holland II",
    "pos": "F",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Knee",
    "return": "2026-11-20",
    "comment": "Holland (knee) is out for Wednesday's game against the Pelicans.",
-   "date": "2026-11-18T19:04Z"
+   "date": "2026-11-19T14:49Z"
+  },
+  {
+   "id": "4432166",
+   "name": "Cade Cunningham",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Knee",
+   "return": "2026-11-20",
+   "comment": "Cunningham (knee) won't play in Wednesday's game against New Orleans.",
+   "date": "2026-11-19T14:49Z"
   },
   {
    "id": "3157465",
@@ -265,14 +277,24 @@
  ],
  "GS": [
   {
+   "id": "6589",
+   "name": "Draymond Green",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Rest",
+   "return": "2026-11-19",
+   "comment": "Green (elbow) is available for Wednesday's game against the Mavericks.",
+   "date": "2026-11-19T14:59Z"
+  },
+  {
    "id": "3213",
    "name": "Al Horford",
    "pos": "C",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Back",
    "return": "2026-11-19",
    "comment": "Horford (back) is out for Wednesday's game against the Mavericks, but will play Thursday against the Grizzlies, Nick Friedell of The Athletic reports.",
-   "date": "2026-11-18T23:38Z"
+   "date": "2026-11-19T14:51Z"
   },
   {
    "id": "4397040",
@@ -349,6 +371,16 @@
  ],
  "IND": [
   {
+   "id": "4395712",
+   "name": "Andrew Nembhard",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Hip",
+   "return": "2026-11-20",
+   "comment": "Nembhard (hip) won't play in Wednesday's game against the Rockets, Tony East of Forbes.com reports.",
+   "date": "2026-11-19T14:45Z"
+  },
+  {
    "id": "5105854",
    "name": "Braden Smith",
    "pos": "G",
@@ -357,16 +389,6 @@
    "return": "2026-11-20",
    "comment": "Smith suffered a right ankle sprain during Wednesday's game against the Wizards, Tony East of Forbes.com reports.",
    "date": "2026-11-19T02:52Z"
-  },
-  {
-   "id": "4395712",
-   "name": "Andrew Nembhard",
-   "pos": "G",
-   "status": "Out",
-   "type": "Hip",
-   "return": "2026-11-20",
-   "comment": "Nembhard (hip) won't play in Wednesday's game against the Rockets, Tony East of Forbes.com reports.",
-   "date": "2026-11-18T22:27Z"
   },
   {
    "id": "4396993",
@@ -406,7 +428,7 @@
    "pos": "F",
    "status": "Out",
    "type": "Achilles",
-   "return": "2026-11-19",
+   "return": "2026-11-21",
    "comment": "Ingram (heel/Achilles) will remain on the inactive list for Thursday's game in San Antonio.",
    "date": "2026-11-18T23:11Z"
   },
@@ -445,6 +467,16 @@
  ],
  "MEM": [
   {
+   "id": "4432810",
+   "name": "Isaiah Stewart",
+   "pos": "C",
+   "status": "Day-To-Day",
+   "type": "Illness",
+   "return": "2026-11-19",
+   "comment": "Stewart (illness) won't play Wednesday against the Cavs.",
+   "date": "2026-11-19T14:44Z"
+  },
+  {
    "id": "5105550",
    "name": "GG Jackson",
    "pos": "F",
@@ -453,16 +485,6 @@
    "return": "2027-01-18",
    "comment": "Jackson underwent a procedure Wednesday to repair a broken fifth metatarsal in his left foot. He is expected to recover fully and will be re-evaluated in approximately three months.",
    "date": "2026-11-17T23:18Z"
-  },
-  {
-   "id": "4432810",
-   "name": "Isaiah Stewart",
-   "pos": "C",
-   "status": "Out",
-   "type": "Illness",
-   "return": "2026-11-19",
-   "comment": "Stewart (illness) won't play Wednesday against the Cavs.",
-   "date": "2026-11-17T22:10Z"
   },
   {
    "id": "4065733",
@@ -500,11 +522,11 @@
    "id": "4431772",
    "name": "Myron Gardner",
    "pos": "F",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Hamstring",
    "return": "2026-11-22",
    "comment": "Gardner (hamstring) is out for Wednesday's game against the Bucks.",
-   "date": "2026-11-18T18:09Z"
+   "date": "2026-11-19T14:45Z"
   }
  ],
  "MIL": [
@@ -512,11 +534,11 @@
    "id": "4591725",
    "name": "Ryan Rollins",
    "pos": "G",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Illness",
    "return": "2026-11-19",
    "comment": "Rollins (illness) has been ruled out for Wednesday's game at Miami.",
-   "date": "2026-11-18T18:10Z"
+   "date": "2026-11-19T14:45Z"
   },
   {
    "id": "4997526",
@@ -638,11 +660,11 @@
    "id": "2991350",
    "name": "Alex Caruso",
    "pos": "G",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Hip",
    "return": "2026-11-20",
    "comment": "Caruso won't return to Wednesday's game against the Hawks due to right hip soreness, Clemente Almanza of USA Today reports.",
-   "date": "2026-11-19T03:13Z"
+   "date": "2026-11-19T14:50Z"
   },
   {
    "id": "5061603",
@@ -692,7 +714,7 @@
    "pos": "F",
    "status": "Out",
    "type": "Ankle",
-   "return": "2026-11-28",
+   "return": "2026-11-29",
    "comment": "Head coach Sean Sweeney said Wednesday that Nelson (ankle) has been doing \"some on-court stuff,\" though Sweeney added that the work has been \"minimal,\" Jason Beede of the Orlando Sentinel reports.",
    "date": "2026-11-18T17:25Z"
   },
@@ -722,31 +744,31 @@
    "pos": "F",
    "status": "Out",
    "type": "Ankle",
-   "return": "2026-11-22",
+   "return": "2026-11-29",
    "comment": "Banchero is expected to be sidelined for the next four-to-six weeks due to a right high-ankle sprain, Shams Charania of ESPN reports.",
    "date": "2026-10-24T16:47Z"
   }
  ],
  "PHI": [
   {
-   "id": "4431678",
-   "name": "Tyrese Maxey",
-   "pos": "G",
-   "status": "Out",
-   "type": "Foot",
-   "return": "2026-11-21",
-   "comment": "Maxey (foot) is out for Wednesday's game in Orlando, Ky Carlin of USA Today reports.",
-   "date": "2026-11-18T23:33Z"
-  },
-  {
    "id": "3912848",
    "name": "Dean Wade",
    "pos": "F",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Hamstring",
    "return": "2026-11-21",
    "comment": "Wade (hamstring) is out for Wednesday's game in Orlando.",
-   "date": "2026-11-18T23:19Z"
+   "date": "2026-11-19T14:47Z"
+  },
+  {
+   "id": "4431678",
+   "name": "Tyrese Maxey",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Foot",
+   "return": "2026-11-21",
+   "comment": "Maxey (foot) is out for Wednesday's game in Orlando, Ky Carlin of USA Today reports.",
+   "date": "2026-11-19T14:46Z"
   },
   {
    "id": "3917376",
@@ -754,7 +776,7 @@
    "pos": "G",
    "status": "Out",
    "type": "Hamstring",
-   "return": "2026-11-21",
+   "return": "2026-11-23",
    "comment": "Brown (hamstring) will be re-evaluated at some point this weekend, per Kris Rihm of ESPN.com.",
    "date": "2026-11-18T22:21Z"
   },
@@ -803,6 +825,16 @@
  ],
  "POR": [
   {
+   "id": "4706557",
+   "name": "Chris Youngblood",
+   "pos": "G",
+   "status": "Out",
+   "type": "Heel",
+   "return": "2026-11-21",
+   "comment": "Youngblood (heel) has been ruled out for Thursday's game against the Bucks.",
+   "date": "2026-11-19T15:06Z"
+  },
+  {
    "id": "4066211",
    "name": "Robert Williams III",
    "pos": "C",
@@ -831,16 +863,6 @@
    "return": "2026-11-19",
    "comment": "Camara is questionable to play Thursday against the Bucks due to general soreness.",
    "date": "2026-11-18T22:53Z"
-  },
-  {
-   "id": "4706557",
-   "name": "Chris Youngblood",
-   "pos": "G",
-   "status": "Out",
-   "type": "Heel",
-   "return": "2026-11-19",
-   "comment": "Youngblood (heel) has been ruled out for Tuesday's game at Minnesota.",
-   "date": "2026-11-17T19:19Z"
   },
   {
    "id": "4578893",
@@ -929,6 +951,26 @@
  ],
  "TOR": [
   {
+   "id": "4395625",
+   "name": "RJ Barrett",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Hamstring",
+   "return": "2026-11-20",
+   "comment": "Barrett (hamstring) is out for Wednesday's game against the Wizards, Michael Grange of Sportsnet.ca reports.",
+   "date": "2026-11-19T14:48Z"
+  },
+  {
+   "id": "4433134",
+   "name": "Scottie Barnes",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Groin",
+   "return": "2026-11-20",
+   "comment": "Barnes (injury management) has been ruled out for Wednesday's game against Washington, Esfandiar Baraheni of The Athletic reports.",
+   "date": "2026-11-19T14:48Z"
+  },
+  {
    "id": "5093267",
    "name": "Collin Murray-Boyles",
    "pos": "F",
@@ -937,26 +979,6 @@
    "return": "2026-11-20",
    "comment": "Murray-Boyles will not return to Wednesday's game against the Wizards due to an illness, Blake Murphy of Sportsnet.ca reports.",
    "date": "2026-11-19T01:34Z"
-  },
-  {
-   "id": "4395625",
-   "name": "RJ Barrett",
-   "pos": "F",
-   "status": "Out",
-   "type": "Hamstring",
-   "return": "2026-11-20",
-   "comment": "Barrett (hamstring) is out for Wednesday's game against the Wizards, Michael Grange of Sportsnet.ca reports.",
-   "date": "2026-11-18T22:55Z"
-  },
-  {
-   "id": "4433134",
-   "name": "Scottie Barnes",
-   "pos": "F",
-   "status": "Out",
-   "type": "Groin",
-   "return": "2026-11-20",
-   "comment": "Barnes (injury management) has been ruled out for Wednesday's game against Washington, Esfandiar Baraheni of The Athletic reports.",
-   "date": "2026-11-18T17:46Z"
   },
   {
    "id": "6450",
@@ -1063,5 +1085,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-19T13:25:31.979502+00:00"
+ "_updated": "2026-11-19T16:09:11.943802+00:00"
 }
