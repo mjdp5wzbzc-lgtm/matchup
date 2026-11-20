@@ -521,10 +521,10 @@
    "name": "Jerami Grant",
    "pos": "F",
    "status": "Day-To-Day",
-   "type": "Lower Body",
-   "return": "2026-11-19",
-   "comment": "Grant went to the locker room during the second quarter of Thursday's game against Golden State due to an undisclosed injury, Drew Hill of The Daily Memphian reports.",
-   "date": "2026-11-20T01:48Z"
+   "type": "Calf",
+   "return": "2026-11-21",
+   "comment": "Grant won't return to Thursday's game against the Warriors due to a left calf injury. He'll finish with three points (1-2 FG, 1-1 3Pt) across five minutes.",
+   "date": "2026-11-20T02:08Z"
   },
   {
    "id": "4600663",
@@ -1135,5 +1135,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-20T01:59:46.759992+00:00"
+ "_updated": "2026-11-20T02:51:02.464746+00:00"
 }
