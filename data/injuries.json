@@ -1,6 +1,16 @@
 {
  "ATL": [
   {
+   "id": "5149077",
+   "name": "Kingston Flemings",
+   "pos": "G",
+   "status": "Out",
+   "type": "Back",
+   "return": "2026-11-22",
+   "comment": "Flemings (back) is out for Friday's game against the Hornets, Brad Rowland of the Locked On Podcast Network reports.",
+   "date": "2026-11-20T22:15Z"
+  },
+  {
    "id": "3146557",
    "name": "Jock Landale",
    "pos": "C",
@@ -9,16 +19,6 @@
    "return": "2026-11-22",
    "comment": "Landale (hip) won't play in Friday's game against the Hornets, Brad Rowland of the Locked On Podcast Network reports.",
    "date": "2026-11-19T22:07Z"
-  },
-  {
-   "id": "5149077",
-   "name": "Kingston Flemings",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Back",
-   "return": "2026-11-20",
-   "comment": "Flemings (back) is questionable for Friday's game against the Hornets, Brad Rowland of the Locked On Podcast Network reports.",
-   "date": "2026-11-19T22:05Z"
   },
   {
    "id": "4873201",
@@ -200,6 +200,26 @@
   }
  ],
  "DAL": [
+  {
+   "id": "4278078",
+   "name": "P.J. Washington",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Shoulder",
+   "return": "2026-11-21",
+   "comment": "Washington posted 21 points (7-10 FG, 5-7 3Pt, 2-2 FT), five rebounds, two assists, three blocks and one steal over 25 minutes during Wednesday's 116-94 win over the Warriors.",
+   "date": "2026-11-20T22:34Z"
+  },
+  {
+   "id": "4896372",
+   "name": "Walter Clayton Jr.",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Knee",
+   "return": "2026-11-21",
+   "comment": "Clayton (ankle) is available for Wednesday's game against the Warriors.",
+   "date": "2026-11-20T22:33Z"
+  },
   {
    "id": "4683688",
    "name": "Dereck Lively II",
@@ -695,6 +715,28 @@
    "date": "2026-11-13T20:19Z"
   }
  ],
+ "NY": [
+  {
+   "id": "2528426",
+   "name": "Jordan Clarkson",
+   "pos": "G",
+   "status": "Out",
+   "type": "Foot",
+   "return": "2026-11-22",
+   "comment": "Clarkson (foot) won't play in Saturday's game against Portland.",
+   "date": "2026-11-20T22:21Z"
+  },
+  {
+   "id": "3934719",
+   "name": "OG Anunoby",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Calf",
+   "return": "2026-11-21",
+   "comment": "Anunoby (calf) is questionable for Saturday's game against Portland.",
+   "date": "2026-11-20T22:10Z"
+  }
+ ],
  "OKC": [
   {
    "id": "5159925",
@@ -801,6 +843,36 @@
  ],
  "PHI": [
   {
+   "id": "4870562",
+   "name": "Dominick Barlow",
+   "pos": "F",
+   "status": "Out",
+   "type": "Back",
+   "return": "2026-11-21",
+   "comment": "Barlow (back) is probable for Saturday's game versus the Bucks.",
+   "date": "2026-11-20T22:13Z"
+  },
+  {
+   "id": "3912848",
+   "name": "Dean Wade",
+   "pos": "F",
+   "status": "Out",
+   "type": "Hamstring",
+   "return": "2026-11-23",
+   "comment": "Wade (hamstring) won't play Saturday against the Bucks.",
+   "date": "2026-11-20T22:11Z"
+  },
+  {
+   "id": "4431678",
+   "name": "Tyrese Maxey",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Foot",
+   "return": "2026-11-21",
+   "comment": "Maxey (foot) is questionable for Saturday's game against the Bucks.",
+   "date": "2026-11-20T22:07Z"
+  },
+  {
    "id": "5105637",
    "name": "Adem Bona",
    "pos": "C",
@@ -811,16 +883,6 @@
    "date": "2026-11-20T17:33Z"
   },
   {
-   "id": "4431678",
-   "name": "Tyrese Maxey",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Foot",
-   "return": "2026-11-21",
-   "comment": "Maxey (foot) was a full participant in Friday's practice, Tony Jones of The Athletic reports.",
-   "date": "2026-11-20T17:28Z"
-  },
-  {
    "id": "3917376",
    "name": "Jaylen Brown",
    "pos": "G",
@@ -829,16 +891,6 @@
    "return": "2026-11-23",
    "comment": "Brown (hamstring) went through individual work during Friday's practice, Tony Jones of The Athletic reports.",
    "date": "2026-11-20T17:26Z"
-  },
-  {
-   "id": "4870562",
-   "name": "Dominick Barlow",
-   "pos": "F",
-   "status": "Out",
-   "type": "Back",
-   "return": "2026-11-21",
-   "comment": "Barlow (back) is trending toward making his season debut in Saturday's game against the Bucks, Tony Jones of The Athletic reports.",
-   "date": "2026-11-20T17:20Z"
   },
   {
    "id": "4871141",
@@ -865,14 +917,14 @@
  ],
  "POR": [
   {
-   "id": "4066211",
-   "name": "Robert Williams III",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Rest",
-   "return": "2026-11-21",
-   "comment": "Williams (rest) is listed as out for Thursday's game versus the Bucks.",
-   "date": "2026-11-20T03:55Z"
+   "id": "4706557",
+   "name": "Chris Youngblood",
+   "pos": "G",
+   "status": "Out",
+   "type": "Heel",
+   "return": "2026-11-27",
+   "comment": "Youngblood (heel) has been ruled out for Saturday's game against the Knicks.",
+   "date": "2026-11-20T22:18Z"
   },
   {
    "id": "4683021",
@@ -881,18 +933,8 @@
    "status": "Day-To-Day",
    "type": "Foot",
    "return": "2026-11-21",
-   "comment": "Avdija (foot) is listed as out for Thursday's game against the Bucks.",
-   "date": "2026-11-20T03:55Z"
-  },
-  {
-   "id": "4706557",
-   "name": "Chris Youngblood",
-   "pos": "G",
-   "status": "Out",
-   "type": "Heel",
-   "return": "2026-11-21",
-   "comment": "Youngblood (heel) has been ruled out for Thursday's game against the Bucks.",
-   "date": "2026-11-19T15:06Z"
+   "comment": "Avdija (foot) is listed as questionable for Saturday's game against the Knicks.",
+   "date": "2026-11-20T22:08Z"
   },
   {
    "id": "4578893",
@@ -1125,5 +1167,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-20T21:55:45.549124+00:00"
+ "_updated": "2026-11-20T22:39:01.444809+00:00"
 }
