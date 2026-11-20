@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T01:15:07.837269+00:00",
+ "generated": "2026-11-20T01:59:46.295428+00:00",
  "days": [
   {
    "date": "2026-11-19",
@@ -10,10 +10,10 @@
      "home": "MEM",
      "away": "GS",
      "state": "in",
-     "detail": "8:54 - 1st",
+     "detail": "3:48 - 2nd",
      "score": {
-      "home": "10",
-      "away": "4"
+      "home": "52",
+      "away": "39"
      }
     },
     {
@@ -22,10 +22,10 @@
      "home": "MIL",
      "away": "POR",
      "state": "in",
-     "detail": "9:39 - 1st",
+     "detail": "5:33 - 2nd",
      "score": {
-      "home": "3",
-      "away": "5"
+      "home": "42",
+      "away": "42"
      }
     },
     {
@@ -34,10 +34,10 @@
      "home": "MIN",
      "away": "NY",
      "state": "in",
-     "detail": "8:55 - 1st",
+     "detail": "3:09 - 2nd",
      "score": {
-      "home": "7",
-      "away": "2"
+      "home": "45",
+      "away": "56"
      }
     },
     {
@@ -46,10 +46,10 @@
      "home": "SA",
      "away": "LAC",
      "state": "in",
-     "detail": "8:36 - 1st",
+     "detail": "3:01 - 2nd",
      "score": {
-      "home": "8",
-      "away": "10"
+      "home": "51",
+      "away": "49"
      }
     }
    ]

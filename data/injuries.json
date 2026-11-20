@@ -510,12 +510,22 @@
    "pos": "G",
    "status": "Out",
    "type": "Heel",
-   "return": "2026-11-20",
-   "comment": "Head coach JJ Redick said Reaves' (heel) pregame workout went \"well,\" but he remains without an official timetable to return, Daniel Starkand of LakersNation.com reports.",
-   "date": "2026-11-19T01:38Z"
+   "return": "2026-11-23",
+   "comment": "Reaves (heel) is listed as out for Friday's game against the Kings.",
+   "date": "2026-11-20T01:05Z"
   }
  ],
  "MEM": [
+  {
+   "id": "2991070",
+   "name": "Jerami Grant",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Lower Body",
+   "return": "2026-11-19",
+   "comment": "Grant went to the locker room during the second quarter of Thursday's game against Golden State due to an undisclosed injury, Drew Hill of The Daily Memphian reports.",
+   "date": "2026-11-20T01:48Z"
+  },
   {
    "id": "4600663",
    "name": "Zach Edey",
@@ -927,6 +937,26 @@
  ],
  "SAC": [
   {
+   "id": "4431679",
+   "name": "Precious Achiuwa",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Lower Leg",
+   "return": "2026-11-20",
+   "comment": "Achiuwa is doubtful for Friday's game against the Lakers due to a left lower leg bruise.",
+   "date": "2026-11-20T01:22Z"
+  },
+  {
+   "id": "4065732",
+   "name": "De'Andre Hunter",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Hip",
+   "return": "2026-11-20",
+   "comment": "Hunter (hip) is listed as questionable for Friday's game against the Lakers.",
+   "date": "2026-11-20T01:21Z"
+  },
+  {
    "id": "4898371",
    "name": "Maxime Raynaud",
    "pos": "C",
@@ -1105,5 +1135,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-20T01:15:07.931602+00:00"
+ "_updated": "2026-11-20T01:59:46.759992+00:00"
 }
