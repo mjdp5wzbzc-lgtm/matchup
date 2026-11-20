@@ -120,11 +120,11 @@
    "id": "4397189",
    "name": "Jalen Smith",
    "pos": "F",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Illness",
-   "return": "2026-11-20",
-   "comment": "Smith (illness) has been downgraded to questionable for Friday's game against the Wizards.",
-   "date": "2026-11-20T17:41Z"
+   "return": "2026-11-22",
+   "comment": "Smith (illness) is out for Friday's game against the Wizards, Joel Lorenzi of The Athletic reports.",
+   "date": "2026-11-20T23:19Z"
   },
   {
    "id": "5242496",
@@ -207,8 +207,8 @@
    "status": "Day-To-Day",
    "type": "Shoulder",
    "return": "2026-11-21",
-   "comment": "Washington posted 21 points (7-10 FG, 5-7 3Pt, 2-2 FT), five rebounds, two assists, three blocks and one steal over 25 minutes during Wednesday's 116-94 win over the Warriors.",
-   "date": "2026-11-20T22:34Z"
+   "comment": "Washington (shoulder) is listed as questionable for Saturday's game versus the Clippers.",
+   "date": "2026-11-20T22:40Z"
   },
   {
    "id": "4896372",
@@ -217,8 +217,8 @@
    "status": "Day-To-Day",
    "type": "Knee",
    "return": "2026-11-21",
-   "comment": "Clayton (ankle) is available for Wednesday's game against the Warriors.",
-   "date": "2026-11-20T22:33Z"
+   "comment": "Clayton (knee) is questionable for Saturday's game against the Clippers.",
+   "date": "2026-11-20T22:35Z"
   },
   {
    "id": "4683688",
@@ -275,6 +275,16 @@
  ],
  "DET": [
   {
+   "id": "2990962",
+   "name": "Taurean Prince",
+   "pos": "F",
+   "status": "Out",
+   "type": "Knee",
+   "return": "2026-12-13",
+   "comment": "Prince (knee) underwent surgery to address lingering issues and has no timeline for a return, Hunter Patterson of The Athletic reports.",
+   "date": "2026-11-20T23:02Z"
+  },
+  {
    "id": "4683771",
    "name": "Ronald Holland II",
    "pos": "F",
@@ -283,16 +293,6 @@
    "return": "2026-11-20",
    "comment": "Holland (knee) has been upgraded to doubtful for Friday's game against Toronto, Hunter Patterson of The Athletic reports.",
    "date": "2026-11-20T17:46Z"
-  },
-  {
-   "id": "2990962",
-   "name": "Taurean Prince",
-   "pos": "F",
-   "status": "Out",
-   "type": "Knee",
-   "return": "2026-12-13",
-   "comment": "Prince underwent right knee surgery and is listed as out for Friday's game against the Raptors.",
-   "date": "2026-11-19T21:53Z"
   },
   {
    "id": "5258459",
@@ -461,26 +461,6 @@
    "date": "2026-11-19T22:14Z"
   },
   {
-   "id": "4395712",
-   "name": "Andrew Nembhard",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Hip",
-   "return": "2026-11-20",
-   "comment": "Nembhard (hip) is questionable for Friday's game in Cleveland.",
-   "date": "2026-11-19T22:07Z"
-  },
-  {
-   "id": "5105854",
-   "name": "Braden Smith",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Ankle",
-   "return": "2026-11-20",
-   "comment": "Smith (ankle) is listed as questionable for Friday's game against Cleveland.",
-   "date": "2026-11-19T22:05Z"
-  },
-  {
    "id": "5157066",
    "name": "Johnny Furphy",
    "pos": "G",
@@ -547,14 +527,34 @@
  ],
  "MEM": [
   {
-   "id": "4600663",
-   "name": "Zach Edey",
-   "pos": "C",
-   "status": "Day-To-Day",
+   "id": "4781746",
+   "name": "Javon Small",
+   "pos": "G",
+   "status": "Out",
+   "type": "Personal",
+   "return": "2026-11-23",
+   "comment": "Small won't play Saturday against the Timberwolves due to personal reasons.",
+   "date": "2026-11-20T23:14Z"
+  },
+  {
+   "id": "5041935",
+   "name": "Cameron Boozer",
+   "pos": "F",
+   "status": "Out",
    "type": "Ankle",
+   "return": "2026-11-23",
+   "comment": "Boozer is out for Saturday's game against Minnesota due to a right ankle sprain.",
+   "date": "2026-11-20T23:12Z"
+  },
+  {
+   "id": "4065733",
+   "name": "Ty Jerome",
+   "pos": "G",
+   "status": "Out",
+   "type": "Hip",
    "return": "2026-11-21",
-   "comment": "Edey (hip) has been ruled out for Thursday's game against the Warriors.",
-   "date": "2026-11-20T03:53Z"
+   "comment": "Jerome (hip) is probable for Saturday's game in Minnesota.",
+   "date": "2026-11-20T23:11Z"
   },
   {
    "id": "2991070",
@@ -565,16 +565,6 @@
    "return": "2026-11-21",
    "comment": "Grant won't return to Thursday's game against the Warriors due to a left calf injury. He'll finish with three points (1-2 FG, 1-1 3Pt) across five minutes.",
    "date": "2026-11-20T02:08Z"
-  },
-  {
-   "id": "4065733",
-   "name": "Ty Jerome",
-   "pos": "G",
-   "status": "Out",
-   "type": "Hip",
-   "return": "2026-11-21",
-   "comment": "Jerome (hip) has been ruled out for Thursday's game against the Warriors.",
-   "date": "2026-11-19T19:07Z"
   },
   {
    "id": "5105550",
@@ -739,6 +729,16 @@
  ],
  "OKC": [
   {
+   "id": "2991350",
+   "name": "Alex Caruso",
+   "pos": "G",
+   "status": "Out",
+   "type": "Hip",
+   "return": "2026-11-22",
+   "comment": "Caruso (hip) is listed as out for Friday's game against the Pelicans.",
+   "date": "2026-11-20T23:24Z"
+  },
+  {
    "id": "5159925",
    "name": "Nikola Topic",
    "pos": "G",
@@ -747,16 +747,6 @@
    "return": "2026-11-22",
    "comment": "Topic (hip) is out for Friday's game against New Orleans.",
    "date": "2026-11-20T17:02Z"
-  },
-  {
-   "id": "2991350",
-   "name": "Alex Caruso",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Hip",
-   "return": "2026-11-20",
-   "comment": "Caruso is questionable for Friday's game against the Pelicans due to right hip soreness, Justin Martinez of The Oklahoman reports.",
-   "date": "2026-11-19T23:21Z"
   },
   {
    "id": "5061603",
@@ -1090,9 +1080,9 @@
    "pos": "C",
    "status": "Out",
    "type": "Foot",
-   "return": "2026-11-27",
-   "comment": "Nurkic (toe) is listed as out for Friday's game against Phoenix.",
-   "date": "2026-11-20T00:05Z"
+   "return": "2026-11-29",
+   "comment": "Nurkic (foot) has been cleared for on-court work and will be re-evaluated in one week.",
+   "date": "2026-11-20T22:40Z"
   },
   {
    "id": "4066336",
@@ -1167,5 +1157,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-20T22:39:01.444809+00:00"
+ "_updated": "2026-11-20T23:39:43.573824+00:00"
 }
