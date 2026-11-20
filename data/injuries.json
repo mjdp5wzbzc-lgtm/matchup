@@ -320,11 +320,11 @@
    "id": "6589",
    "name": "Draymond Green",
    "pos": "F",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Rest",
    "return": "2026-11-22",
    "comment": "Green (elbow) is out for Thursday's game against the Grizzlies.",
-   "date": "2026-11-19T18:51Z"
+   "date": "2026-11-20T03:53Z"
   },
   {
    "id": "4397040",
@@ -517,6 +517,16 @@
  ],
  "MEM": [
   {
+   "id": "4600663",
+   "name": "Zach Edey",
+   "pos": "C",
+   "status": "Day-To-Day",
+   "type": "Ankle",
+   "return": "2026-11-21",
+   "comment": "Edey (hip) has been ruled out for Thursday's game against the Warriors.",
+   "date": "2026-11-20T03:53Z"
+  },
+  {
    "id": "2991070",
    "name": "Jerami Grant",
    "pos": "F",
@@ -525,16 +535,6 @@
    "return": "2026-11-21",
    "comment": "Grant won't return to Thursday's game against the Warriors due to a left calf injury. He'll finish with three points (1-2 FG, 1-1 3Pt) across five minutes.",
    "date": "2026-11-20T02:08Z"
-  },
-  {
-   "id": "4600663",
-   "name": "Zach Edey",
-   "pos": "C",
-   "status": "Out",
-   "type": "Ankle",
-   "return": "2026-11-21",
-   "comment": "Edey (hip) has been ruled out for Thursday's game against the Warriors.",
-   "date": "2026-11-19T19:09Z"
   },
   {
    "id": "4065733",
@@ -875,14 +875,24 @@
  ],
  "POR": [
   {
+   "id": "4066211",
+   "name": "Robert Williams III",
+   "pos": "C",
+   "status": "Day-To-Day",
+   "type": "Rest",
+   "return": "2026-11-21",
+   "comment": "Williams (rest) is listed as out for Thursday's game versus the Bucks.",
+   "date": "2026-11-20T03:55Z"
+  },
+  {
    "id": "4683021",
    "name": "Deni Avdija",
    "pos": "F",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Foot",
    "return": "2026-11-21",
    "comment": "Avdija (foot) is listed as out for Thursday's game against the Bucks.",
-   "date": "2026-11-20T00:21Z"
+   "date": "2026-11-20T03:55Z"
   },
   {
    "id": "4706557",
@@ -893,16 +903,6 @@
    "return": "2026-11-21",
    "comment": "Youngblood (heel) has been ruled out for Thursday's game against the Bucks.",
    "date": "2026-11-19T15:06Z"
-  },
-  {
-   "id": "4066211",
-   "name": "Robert Williams III",
-   "pos": "C",
-   "status": "Out",
-   "type": "Rest",
-   "return": "2026-11-21",
-   "comment": "Williams (rest) is listed as out for Thursday's game versus the Bucks.",
-   "date": "2026-11-18T22:58Z"
   },
   {
    "id": "4578893",
@@ -1135,5 +1135,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-20T03:59:52.429858+00:00"
+ "_updated": "2026-11-20T07:25:43.123918+00:00"
 }

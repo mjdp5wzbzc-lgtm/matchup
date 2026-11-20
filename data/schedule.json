@@ -1,59 +1,6 @@
 {
- "generated": "2026-11-20T03:59:52.074707+00:00",
+ "generated": "2026-11-20T07:25:43.017223+00:00",
  "days": [
-  {
-   "date": "2026-11-19",
-   "games": [
-    {
-     "id": "401910019",
-     "start": "2026-11-20T01:00Z",
-     "home": "MEM",
-     "away": "GS",
-     "state": "post",
-     "detail": "Final",
-     "score": {
-      "home": "126",
-      "away": "98"
-     }
-    },
-    {
-     "id": "401910020",
-     "start": "2026-11-20T01:00Z",
-     "home": "MIL",
-     "away": "POR",
-     "state": "post",
-     "detail": "Final",
-     "score": {
-      "home": "114",
-      "away": "124"
-     }
-    },
-    {
-     "id": "401910021",
-     "start": "2026-11-20T01:00Z",
-     "home": "MIN",
-     "away": "NY",
-     "state": "post",
-     "detail": "Final",
-     "score": {
-      "home": "99",
-      "away": "102"
-     }
-    },
-    {
-     "id": "401910022",
-     "start": "2026-11-20T01:00Z",
-     "home": "SA",
-     "away": "LAC",
-     "state": "post",
-     "detail": "Final",
-     "score": {
-      "home": "124",
-      "away": "112"
-     }
-    }
-   ]
-  },
   {
    "date": "2026-11-20",
    "games": [
