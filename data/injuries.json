@@ -201,6 +201,16 @@
  ],
  "DAL": [
   {
+   "id": "4683688",
+   "name": "Dereck Lively II",
+   "pos": "C",
+   "status": "Out",
+   "type": "Foot",
+   "return": "2026-11-27",
+   "comment": "Head coach Dusty May said Friday that Lively (foot) is moving well and progressing in his recovery, and the big man told May he's \"close\" to returning, Mike Curtis of The Dallas Morning News reports.",
+   "date": "2026-11-20T19:31Z"
+  },
+  {
    "id": "5106040",
    "name": "Tobi Lawal",
    "pos": "F",
@@ -219,16 +229,6 @@
    "return": "2026-11-27",
    "comment": "De Larrea (knee) is listed as out for Wednesday's game against the Warriors.",
    "date": "2026-11-17T22:53Z"
-  },
-  {
-   "id": "4683688",
-   "name": "Dereck Lively II",
-   "pos": "C",
-   "status": "Out",
-   "type": "Foot",
-   "return": "2026-11-27",
-   "comment": "Lively (foot) is out for Wednesday's game against the Warriors.",
-   "date": "2026-11-17T22:45Z"
   },
   {
    "id": "5148538",
@@ -421,6 +421,16 @@
  ],
  "IND": [
   {
+   "id": "4396993",
+   "name": "Tyrese Haliburton",
+   "pos": "G",
+   "status": "Out",
+   "type": "Hamstring",
+   "return": "2026-12-13",
+   "comment": "Haliburton (hamstring) is expected to miss at least two more weeks, Shams Charania of ESPN reports.",
+   "date": "2026-11-20T20:41Z"
+  },
+  {
    "id": "2530530",
    "name": "T.J. McConnell",
    "pos": "G",
@@ -451,16 +461,6 @@
    "date": "2026-11-19T22:05Z"
   },
   {
-   "id": "4396993",
-   "name": "Tyrese Haliburton",
-   "pos": "G",
-   "status": "Out",
-   "type": "Hamstring",
-   "return": "2026-11-28",
-   "comment": "Head coach Rick Carlisle said Tuesday that Haliburton (hamstring) is \"getting there,\" but there's still no definitive timetable for his return to game action, Dustin Dopirak of The Indianapolis Star reports.",
-   "date": "2026-11-17T18:46Z"
-  },
-  {
    "id": "5157066",
    "name": "Johnny Furphy",
    "pos": "G",
@@ -488,9 +488,9 @@
    "pos": "F",
    "status": "Out",
    "type": "Achilles",
-   "return": "2026-11-21",
-   "comment": "Ingram (heel/Achilles) will remain on the inactive list for Thursday's game in San Antonio.",
-   "date": "2026-11-18T23:11Z"
+   "return": "2026-11-23",
+   "comment": "Ingram (Achilles) is expected to make his season and team debut Monday against the Rockets, per Shams Charania of ESPN.",
+   "date": "2026-11-20T20:20Z"
   },
   {
    "id": "6580",
@@ -600,26 +600,6 @@
   }
  ],
  "MIL": [
-  {
-   "id": "3133628",
-   "name": "Myles Turner",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Shoulder",
-   "return": "2026-11-21",
-   "comment": "Turner (shoulder) has been ruled out for Thursday's game against Portland due to a left shoulder contusion,",
-   "date": "2026-11-20T03:55Z"
-  },
-  {
-   "id": "3134907",
-   "name": "Kyle Kuzma",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Shoulder",
-   "return": "2026-11-21",
-   "comment": "Kuzma (shoulder) has been ruled out for Thursday's game against Portland due to a right shoulder contusion.",
-   "date": "2026-11-20T03:55Z"
-  },
   {
    "id": "4997526",
    "name": "Ousmane Dieng",
@@ -950,11 +930,11 @@
    "id": "4431679",
    "name": "Precious Achiuwa",
    "pos": "F",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Lower Leg",
-   "return": "2026-11-20",
-   "comment": "Achiuwa is doubtful for Friday's game against the Lakers due to a left lower leg bruise.",
-   "date": "2026-11-20T01:22Z"
+   "return": "2026-11-21",
+   "comment": "Achiuwa (lower leg) has been ruled out for Friday's game against the Lakers.",
+   "date": "2026-11-20T21:21Z"
   },
   {
    "id": "4065732",
@@ -1021,6 +1001,16 @@
  ],
  "TOR": [
   {
+   "id": "6450",
+   "name": "Kawhi Leonard",
+   "pos": "F",
+   "status": "Out",
+   "type": "Knee",
+   "return": "2026-12-03",
+   "comment": "Leonard (knee) could return in the next few weeks, per Shams Charania of ESPN.",
+   "date": "2026-11-20T20:42Z"
+  },
+  {
    "id": "5093267",
    "name": "Collin Murray-Boyles",
    "pos": "F",
@@ -1039,16 +1029,6 @@
    "return": "2026-12-13",
    "comment": "Barrett has been diagnosed with a right hamstring strain and will be re-evaluated in two weeks, Brett Siegel of ClutchPoints.com reports.",
    "date": "2026-11-19T21:13Z"
-  },
-  {
-   "id": "6450",
-   "name": "Kawhi Leonard",
-   "pos": "F",
-   "status": "Out",
-   "type": "Knee",
-   "return": "2026-11-27",
-   "comment": "Leonard (knee) has progressed in his strength and conditioning program but will miss at least one more week, Michael Scotto of HoopsHype.com reports.",
-   "date": "2026-11-17T22:25Z"
   },
   {
    "id": "4432586",
@@ -1145,5 +1125,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-20T19:07:39.680456+00:00"
+ "_updated": "2026-11-20T21:39:14.938186+00:00"
 }
