@@ -591,24 +591,24 @@
  ],
  "MIL": [
   {
-   "id": "3134907",
-   "name": "Kyle Kuzma",
-   "pos": "F",
-   "status": "Out",
-   "type": "Shoulder",
-   "return": "2026-11-21",
-   "comment": "Kuzma (shoulder) has been ruled out for Thursday's game against Portland due to a right shoulder contusion.",
-   "date": "2026-11-19T19:20Z"
-  },
-  {
    "id": "3133628",
    "name": "Myles Turner",
    "pos": "C",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Shoulder",
    "return": "2026-11-21",
    "comment": "Turner (shoulder) has been ruled out for Thursday's game against Portland due to a left shoulder contusion,",
-   "date": "2026-11-19T19:15Z"
+   "date": "2026-11-20T03:55Z"
+  },
+  {
+   "id": "3134907",
+   "name": "Kyle Kuzma",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Shoulder",
+   "return": "2026-11-21",
+   "comment": "Kuzma (shoulder) has been ruled out for Thursday's game against Portland due to a right shoulder contusion.",
+   "date": "2026-11-20T03:55Z"
   },
   {
    "id": "4997526",
@@ -1135,5 +1135,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-20T03:45:56.803290+00:00"
+ "_updated": "2026-11-20T03:59:52.429858+00:00"
 }
