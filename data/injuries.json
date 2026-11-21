@@ -16,7 +16,7 @@
    "pos": "C",
    "status": "Out",
    "type": "Hip",
-   "return": "2026-11-22",
+   "return": "2026-11-27",
    "comment": "Landale (hip) won't play in Friday's game against the Hornets, Brad Rowland of the Locked On Podcast Network reports.",
    "date": "2026-11-19T22:07Z"
   },
@@ -297,6 +297,16 @@
  ],
  "DET": [
   {
+   "id": "4432166",
+   "name": "Cade Cunningham",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Knee",
+   "return": "2026-11-22",
+   "comment": "Cunningham recorded 23 points (10-22 FG, 2-7 3Pt, 1-4 FT), five rebounds, nine assists and one steal over 36 minutes in Friday's 105-102 loss to the Raptors.",
+   "date": "2026-11-21T22:24Z"
+  },
+  {
    "id": "5258459",
    "name": "Ebuka Okorie",
    "pos": "G",
@@ -432,6 +442,16 @@
   }
  ],
  "IND": [
+  {
+   "id": "3149673",
+   "name": "Pascal Siakam",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Hip",
+   "return": "2026-11-22",
+   "comment": "Siakam chipped in 24 points (10-17 FG, 2-2 3Pt, 2-2 FT), four rebounds, three assists, one block and three steals across 33 minutes during Wednesday's 119-104 loss to the Rockets.",
+   "date": "2026-11-21T22:14Z"
+  },
   {
    "id": "2530530",
    "name": "T.J. McConnell",
@@ -702,11 +722,11 @@
    "id": "3934719",
    "name": "OG Anunoby",
    "pos": "F",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Calf",
-   "return": "2026-11-21",
-   "comment": "Anunoby (calf) has been downgraded to doubtful for Saturday's game against the Trail Bllazers.",
-   "date": "2026-11-21T16:09Z"
+   "return": "2026-11-22",
+   "comment": "Anunoby (calf) has been ruled out for Saturday's game against the Trail Blazers.",
+   "date": "2026-11-21T21:49Z"
   },
   {
    "id": "3136195",
@@ -907,16 +927,6 @@
    "return": "2026-11-27",
    "comment": "Youngblood (heel) has been ruled out for Saturday's game against the Knicks.",
    "date": "2026-11-20T22:18Z"
-  },
-  {
-   "id": "4683021",
-   "name": "Deni Avdija",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Foot",
-   "return": "2026-11-21",
-   "comment": "Avdija (foot) is listed as questionable for Saturday's game against the Knicks.",
-   "date": "2026-11-20T22:08Z"
   },
   {
    "id": "4578893",
@@ -1129,5 +1139,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-21T21:49:47.408383+00:00"
+ "_updated": "2026-11-21T22:30:22.709651+00:00"
 }
