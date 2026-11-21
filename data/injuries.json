@@ -85,6 +85,16 @@
  ],
  "BKN": [
   {
+   "id": "5279130",
+   "name": "Nolan Traore",
+   "pos": "G",
+   "status": "Out",
+   "type": "Hamstring",
+   "return": "2026-11-20",
+   "comment": "Traore (hamstring) won't return to Friday's game against Orlando, Meghan Triplett of YES Network reports. He finished with four points (2-6 FG, 0-2 3Pt) and two assists over 18 minutes.",
+   "date": "2026-11-21T02:25Z"
+  },
+  {
    "id": "4702670",
    "name": "Grant Nelson",
    "pos": "F",
@@ -96,16 +106,6 @@
   }
  ],
  "CHA": [
-  {
-   "id": "4433287",
-   "name": "Brandon Miller",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Ankle",
-   "return": "2026-11-20",
-   "comment": "Miller amassed 28 points (10-19 FG, 5-12 3Pt, 3-3 FT), two rebounds, four assists and one block in 32 minutes during Tuesday's 118-114 overtime loss to the Lakers.",
-   "date": "2026-11-21T00:35Z"
-  },
   {
    "id": "4066218",
    "name": "Grant Williams",
@@ -931,16 +931,6 @@
    "date": "2026-11-20T21:21Z"
   },
   {
-   "id": "4065732",
-   "name": "De'Andre Hunter",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Hip",
-   "return": "2026-11-20",
-   "comment": "Hunter (hip) is listed as questionable for Friday's game against the Lakers.",
-   "date": "2026-11-20T01:21Z"
-  },
-  {
    "id": "4898371",
    "name": "Maxime Raynaud",
    "pos": "C",
@@ -1119,5 +1109,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-21T02:02:30.008921+00:00"
+ "_updated": "2026-11-21T03:14:25.624679+00:00"
 }
