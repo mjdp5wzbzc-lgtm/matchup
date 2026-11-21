@@ -88,21 +88,21 @@
    "id": "5279130",
    "name": "Nolan Traore",
    "pos": "G",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Hamstring",
    "return": "2026-11-23",
    "comment": "Traore (hamstring) won't return to Friday's game against Orlando, Meghan Triplett of YES Network reports. He finished with four points (2-6 FG, 0-2 3Pt) and two assists over 18 minutes.",
-   "date": "2026-11-21T02:25Z"
+   "date": "2026-11-21T14:51Z"
   },
   {
    "id": "4702670",
    "name": "Grant Nelson",
    "pos": "F",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Ankle",
    "return": "2026-11-23",
    "comment": "Nelson (ankle) has been ruled out for Friday's game against Orlando.",
-   "date": "2026-11-19T21:18Z"
+   "date": "2026-11-21T14:51Z"
   }
  ],
  "CHA": [
@@ -110,21 +110,21 @@
    "id": "4066218",
    "name": "Grant Williams",
    "pos": "F",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Hamstring",
    "return": "2026-11-23",
    "comment": "Williams (hamstring) is listed as out for Friday's game versus the Hawks.",
-   "date": "2026-11-19T22:21Z"
+   "date": "2026-11-21T14:49Z"
   },
   {
    "id": "3135045",
    "name": "Grayson Allen",
    "pos": "G",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Concussion",
    "return": "2026-11-23",
    "comment": "Allen (concussion) has been ruled out for Friday's game against Atlanta.",
-   "date": "2026-11-19T22:02Z"
+   "date": "2026-11-21T14:49Z"
   },
   {
    "id": "5061575",
@@ -152,11 +152,11 @@
    "id": "4397189",
    "name": "Jalen Smith",
    "pos": "F",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Illness",
    "return": "2026-11-22",
    "comment": "Smith (illness) is out for Friday's game against the Wizards, Joel Lorenzi of The Athletic reports.",
-   "date": "2026-11-20T23:19Z"
+   "date": "2026-11-21T14:54Z"
   },
   {
    "id": "5105555",
@@ -213,6 +213,16 @@
  ],
  "DAL": [
   {
+   "id": "5106040",
+   "name": "Tobi Lawal",
+   "pos": "F",
+   "status": "Out",
+   "type": "Groin",
+   "return": "2026-11-22",
+   "comment": "Lawal (groin) is out for Saturday's game against the Clippers.",
+   "date": "2026-11-21T15:08Z"
+  },
+  {
    "id": "4278078",
    "name": "P.J. Washington",
    "pos": "F",
@@ -241,16 +251,6 @@
    "return": "2026-11-27",
    "comment": "Head coach Dusty May said Friday that Lively (foot) is moving well and progressing in his recovery, and the big man told May he's \"close\" to returning, Mike Curtis of The Dallas Morning News reports.",
    "date": "2026-11-20T19:31Z"
-  },
-  {
-   "id": "5106040",
-   "name": "Tobi Lawal",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Groin",
-   "return": "2026-11-21",
-   "comment": "Lawal is out for Wednesday's game against the Warriors due to tightness in his right groin.",
-   "date": "2026-11-19T14:51Z"
   },
   {
    "id": "5279129",
@@ -287,6 +287,16 @@
  ],
  "DET": [
   {
+   "id": "5258459",
+   "name": "Ebuka Okorie",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Oblique",
+   "return": "2026-11-22",
+   "comment": "Okorie (oblique) has been ruled out for Friday's game against Toronto.",
+   "date": "2026-11-21T14:53Z"
+  },
+  {
    "id": "4683771",
    "name": "Ronald Holland II",
    "pos": "F",
@@ -305,16 +315,6 @@
    "return": "2026-12-13",
    "comment": "Prince (knee) underwent surgery to address lingering issues and has no timeline for a return, Hunter Patterson of The Athletic reports.",
    "date": "2026-11-20T23:02Z"
-  },
-  {
-   "id": "5258459",
-   "name": "Ebuka Okorie",
-   "pos": "G",
-   "status": "Out",
-   "type": "Oblique",
-   "return": "2026-11-22",
-   "comment": "Okorie (oblique) has been ruled out for Friday's game against Toronto.",
-   "date": "2026-11-19T21:43Z"
   },
   {
    "id": "5037878",
@@ -426,11 +426,11 @@
    "id": "2530530",
    "name": "T.J. McConnell",
    "pos": "G",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Hamstring",
    "return": "2026-11-22",
    "comment": "Rick Carlisle revealed during his postgame interview that McConnell exited Friday's 128-119 loss with a left hamstring issue, Tony East of Forbes.com reports.",
-   "date": "2026-11-21T04:58Z"
+   "date": "2026-11-21T14:51Z"
   },
   {
    "id": "4396993",
@@ -701,24 +701,24 @@
  ],
  "OKC": [
   {
-   "id": "2991350",
-   "name": "Alex Caruso",
-   "pos": "G",
-   "status": "Out",
-   "type": "Hip",
-   "return": "2026-11-22",
-   "comment": "Caruso (hip) is listed as out for Friday's game against the Pelicans.",
-   "date": "2026-11-20T23:24Z"
-  },
-  {
    "id": "5159925",
    "name": "Nikola Topic",
    "pos": "G",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Hip",
    "return": "2026-11-22",
    "comment": "Topic (hip) is out for Friday's game against New Orleans.",
-   "date": "2026-11-20T17:02Z"
+   "date": "2026-11-21T14:54Z"
+  },
+  {
+   "id": "2991350",
+   "name": "Alex Caruso",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Hip",
+   "return": "2026-11-22",
+   "comment": "Caruso (hip) is listed as out for Friday's game against the Pelicans.",
+   "date": "2026-11-21T14:54Z"
   },
   {
    "id": "5061603",
@@ -870,11 +870,11 @@
    "id": "4888725",
    "name": "Ryan Dunn",
    "pos": "F",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Quadriceps",
    "return": "2026-11-23",
    "comment": "Dunn won't return to Friday's game against the Jazz due to a right quad injury, Amanda Pflugrad of 3TV Phoenix reports.",
-   "date": "2026-11-21T04:06Z"
+   "date": "2026-11-21T14:55Z"
   },
   {
    "id": "4701232",
@@ -944,11 +944,11 @@
    "id": "4431679",
    "name": "Precious Achiuwa",
    "pos": "F",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Lower Leg",
    "return": "2026-11-21",
    "comment": "Achiuwa (lower leg) has been ruled out for Friday's game against the Lakers.",
-   "date": "2026-11-20T21:21Z"
+   "date": "2026-11-21T14:55Z"
   },
   {
    "id": "4898371",
@@ -1005,6 +1005,16 @@
  ],
  "TOR": [
   {
+   "id": "5093267",
+   "name": "Collin Murray-Boyles",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Concussion",
+   "return": "2026-11-23",
+   "comment": "Murray-Boyles (concussion) has been ruled out for Friday's game against the Pistons.",
+   "date": "2026-11-21T14:52Z"
+  },
+  {
    "id": "6450",
    "name": "Kawhi Leonard",
    "pos": "F",
@@ -1013,16 +1023,6 @@
    "return": "2026-12-03",
    "comment": "Leonard (knee) could return in the next few weeks, per Shams Charania of ESPN.",
    "date": "2026-11-20T20:42Z"
-  },
-  {
-   "id": "5093267",
-   "name": "Collin Murray-Boyles",
-   "pos": "F",
-   "status": "Out",
-   "type": "Concussion",
-   "return": "2026-11-23",
-   "comment": "Murray-Boyles (concussion) has been ruled out for Friday's game against the Pistons.",
-   "date": "2026-11-19T21:41Z"
   },
   {
    "id": "4395625",
@@ -1082,11 +1082,11 @@
    "id": "5105841",
    "name": "Felix Okpara",
    "pos": "F",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Back",
    "return": "2026-11-22",
    "comment": "Okpara (illness) is available for Friday's game against Toronto.",
-   "date": "2026-11-21T00:43Z"
+   "date": "2026-11-21T14:54Z"
   },
   {
    "id": "4997537",
@@ -1129,5 +1129,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-21T13:03:16.631145+00:00"
+ "_updated": "2026-11-21T15:52:52.457735+00:00"
 }
