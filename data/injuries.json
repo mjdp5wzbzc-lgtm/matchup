@@ -857,6 +857,16 @@
  ],
  "PHX": [
   {
+   "id": "4888725",
+   "name": "Ryan Dunn",
+   "pos": "F",
+   "status": "Out",
+   "type": "Quadriceps",
+   "return": "2026-11-23",
+   "comment": "Dunn won't return to Friday's game against the Jazz due to a right quad injury, Amanda Pflugrad of 3TV Phoenix reports.",
+   "date": "2026-11-21T04:06Z"
+  },
+  {
    "id": "4701232",
    "name": "Mark Williams",
    "pos": "C",
@@ -1109,5 +1119,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-21T03:58:24.995181+00:00"
+ "_updated": "2026-11-21T04:23:35.406585+00:00"
 }
