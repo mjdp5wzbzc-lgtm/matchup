@@ -7,8 +7,8 @@
    "status": "Out",
    "type": "Back",
    "return": "2026-11-22",
-   "comment": "Flemings (back) is out for Friday's game against the Hornets, Brad Rowland of the Locked On Podcast Network reports.",
-   "date": "2026-11-20T22:15Z"
+   "comment": "Flemings (back) is questionable to play Sunday against the Pistons.",
+   "date": "2026-11-21T22:16Z"
   },
   {
    "id": "3146557",
@@ -17,8 +17,8 @@
    "status": "Out",
    "type": "Hip",
    "return": "2026-11-27",
-   "comment": "Landale (hip) won't play in Friday's game against the Hornets, Brad Rowland of the Locked On Podcast Network reports.",
-   "date": "2026-11-19T22:07Z"
+   "comment": "Landale (hip) won't play Sunday against the Pistons.",
+   "date": "2026-11-21T22:12Z"
   },
   {
    "id": "4873201",
@@ -226,11 +226,11 @@
    "id": "4278078",
    "name": "P.J. Washington",
    "pos": "F",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Illness",
-   "return": "2026-11-21",
-   "comment": "Washington (illness/shoulder) has been downgraded from questionable to doubtful ahead of Saturday's game against the Clippers.",
-   "date": "2026-11-21T19:22Z"
+   "return": "2026-11-22",
+   "comment": "Washington (illness/shoulder) is listed as out for Saturday's game against the Clippers.",
+   "date": "2026-11-21T23:14Z"
   },
   {
    "id": "5106040",
@@ -241,16 +241,6 @@
    "return": "2026-11-22",
    "comment": "Lawal (groin) is out for Saturday's game against the Clippers.",
    "date": "2026-11-21T15:08Z"
-  },
-  {
-   "id": "4896372",
-   "name": "Walter Clayton Jr.",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Knee",
-   "return": "2026-11-21",
-   "comment": "Clayton (knee) is questionable for Saturday's game against the Clippers.",
-   "date": "2026-11-20T22:35Z"
   },
   {
    "id": "4683688",
@@ -297,34 +287,34 @@
  ],
  "DET": [
   {
-   "id": "4432166",
-   "name": "Cade Cunningham",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Knee",
-   "return": "2026-11-22",
-   "comment": "Cunningham recorded 23 points (10-22 FG, 2-7 3Pt, 1-4 FT), five rebounds, nine assists and one steal over 36 minutes in Friday's 105-102 loss to the Raptors.",
-   "date": "2026-11-21T22:24Z"
-  },
-  {
-   "id": "5258459",
-   "name": "Ebuka Okorie",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Oblique",
-   "return": "2026-11-22",
-   "comment": "Okorie (oblique) has been ruled out for Friday's game against Toronto.",
-   "date": "2026-11-21T14:53Z"
-  },
-  {
    "id": "4683771",
    "name": "Ronald Holland II",
    "pos": "F",
    "status": "Out",
    "type": "Knee",
    "return": "2026-11-22",
-   "comment": "Holland (knee) is listed as out for Friday's game against Toronto.",
-   "date": "2026-11-21T00:34Z"
+   "comment": "Holland (knee) is listed as questionable for Sunday's game against Atlanta.",
+   "date": "2026-11-21T23:05Z"
+  },
+  {
+   "id": "5258459",
+   "name": "Ebuka Okorie",
+   "pos": "G",
+   "status": "Out",
+   "type": "Oblique",
+   "return": "2026-11-24",
+   "comment": "Okorie (oblique) is out for Sunday's game in Atlanta.",
+   "date": "2026-11-21T22:34Z"
+  },
+  {
+   "id": "4432166",
+   "name": "Cade Cunningham",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Knee",
+   "return": "2026-11-22",
+   "comment": "Cunningham (knee) is probable to play Sunday in Atlanta.",
+   "date": "2026-11-21T22:23Z"
   },
   {
    "id": "2990962",
@@ -443,24 +433,24 @@
  ],
  "IND": [
   {
+   "id": "2530530",
+   "name": "T.J. McConnell",
+   "pos": "G",
+   "status": "Out",
+   "type": "Hamstring",
+   "return": "2026-11-23",
+   "comment": "McConnell (hamstring) is listed as out for Sunday's game in New York.",
+   "date": "2026-11-21T22:29Z"
+  },
+  {
    "id": "3149673",
    "name": "Pascal Siakam",
    "pos": "F",
    "status": "Day-To-Day",
    "type": "Hip",
    "return": "2026-11-22",
-   "comment": "Siakam chipped in 24 points (10-17 FG, 2-2 3Pt, 2-2 FT), four rebounds, three assists, one block and three steals across 33 minutes during Wednesday's 119-104 loss to the Rockets.",
-   "date": "2026-11-21T22:14Z"
-  },
-  {
-   "id": "2530530",
-   "name": "T.J. McConnell",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Hamstring",
-   "return": "2026-11-22",
-   "comment": "Rick Carlisle revealed during his postgame interview that McConnell exited Friday's 128-119 loss with a left hamstring issue, Tony East of Forbes.com reports.",
-   "date": "2026-11-21T14:51Z"
+   "comment": "Siakam (hip) is listed as questionable for Sunday's game against New York.",
+   "date": "2026-11-21T22:19Z"
   },
   {
    "id": "4396993",
@@ -719,6 +709,16 @@
  ],
  "NY": [
   {
+   "id": "3136195",
+   "name": "Karl-Anthony Towns",
+   "pos": "C",
+   "status": "Out",
+   "type": "Illness",
+   "return": "2026-11-22",
+   "comment": "Towns (illness) won't play in Saturday's game versus the Trail Blazers.",
+   "date": "2026-11-21T22:51Z"
+  },
+  {
    "id": "3934719",
    "name": "OG Anunoby",
    "pos": "F",
@@ -727,16 +727,6 @@
    "return": "2026-11-22",
    "comment": "Anunoby (calf) has been ruled out for Saturday's game against the Trail Blazers.",
    "date": "2026-11-21T21:49Z"
-  },
-  {
-   "id": "3136195",
-   "name": "Karl-Anthony Towns",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Illness",
-   "return": "2026-11-21",
-   "comment": "Towns is questionable for Saturday's game against the Trail Blazers due to an illness.",
-   "date": "2026-11-21T16:05Z"
   },
   {
    "id": "2528426",
@@ -751,24 +741,44 @@
  ],
  "OKC": [
   {
+   "id": "4278073",
+   "name": "Shai Gilgeous-Alexander",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Back",
+   "return": "2026-11-22",
+   "comment": "Gilgeous-Alexander (back/neck) is listed as questionable for Sunday's game versus Miami.",
+   "date": "2026-11-21T22:45Z"
+  },
+  {
    "id": "5159925",
    "name": "Nikola Topic",
    "pos": "G",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Hip",
-   "return": "2026-11-22",
-   "comment": "Topic (hip) is out for Friday's game against New Orleans.",
-   "date": "2026-11-21T14:54Z"
+   "return": "2026-11-23",
+   "comment": "Topic (hip) is listed as out for Sunday's game versus the Heat.",
+   "date": "2026-11-21T22:39Z"
+  },
+  {
+   "id": "4432823",
+   "name": "Jaylin Williams",
+   "pos": "F",
+   "status": "Out",
+   "type": "Back",
+   "return": "2026-11-23",
+   "comment": "Williams (back) is listed as out for Sunday's game against Miami.",
+   "date": "2026-11-21T22:34Z"
   },
   {
    "id": "2991350",
    "name": "Alex Caruso",
    "pos": "G",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Hip",
-   "return": "2026-11-22",
-   "comment": "Caruso (hip) is listed as out for Friday's game against the Pelicans.",
-   "date": "2026-11-21T14:54Z"
+   "return": "2026-11-23",
+   "comment": "Caruso (hip) won't play Sunday against the Heat.",
+   "date": "2026-11-21T22:29Z"
   },
   {
    "id": "5061603",
@@ -1139,5 +1149,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-21T22:30:22.709651+00:00"
+ "_updated": "2026-11-21T23:29:42.767752+00:00"
 }
