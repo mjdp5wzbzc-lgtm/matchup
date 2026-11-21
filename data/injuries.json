@@ -63,24 +63,34 @@
  ],
  "BOS": [
   {
-   "id": "4065648",
-   "name": "Jayson Tatum",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Rest",
-   "return": "2026-11-21",
-   "comment": "Tatum (rest) is listed as questionable for Saturday's game against Sacramento.",
-   "date": "2026-11-21T01:07Z"
+   "id": "4351852",
+   "name": "Mitchell Robinson",
+   "pos": "C",
+   "status": "Out",
+   "type": "Illness",
+   "return": "2026-11-22",
+   "comment": "Robinson (illness) has been ruled out for Saturday's game against the Kings, Keith Smith of Spotrac.com reports.",
+   "date": "2026-11-21T20:55Z"
   },
   {
    "id": "3078576",
    "name": "Derrick White",
    "pos": "G",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Shoulder",
-   "return": "2026-11-21",
-   "comment": "White (shoulder) is questionable to play in Saturday's game against Sacramento.",
-   "date": "2026-11-21T01:00Z"
+   "return": "2026-11-22",
+   "comment": "White (shoulder) has been ruled out for Saturday's game against Sacramento.",
+   "date": "2026-11-21T20:53Z"
+  },
+  {
+   "id": "4065648",
+   "name": "Jayson Tatum",
+   "pos": "F",
+   "status": "Out",
+   "type": "Rest",
+   "return": "2026-11-22",
+   "comment": "Tatum (rest) has been ruled out for Saturday's game against the Kings.",
+   "date": "2026-11-21T20:51Z"
   }
  ],
  "BKN": [
@@ -213,6 +223,16 @@
  ],
  "DAL": [
   {
+   "id": "4278078",
+   "name": "P.J. Washington",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Illness",
+   "return": "2026-11-21",
+   "comment": "Washington (illness/shoulder) has been downgraded from questionable to doubtful ahead of Saturday's game against the Clippers.",
+   "date": "2026-11-21T19:22Z"
+  },
+  {
    "id": "5106040",
    "name": "Tobi Lawal",
    "pos": "F",
@@ -221,16 +241,6 @@
    "return": "2026-11-22",
    "comment": "Lawal (groin) is out for Saturday's game against the Clippers.",
    "date": "2026-11-21T15:08Z"
-  },
-  {
-   "id": "4278078",
-   "name": "P.J. Washington",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Shoulder",
-   "return": "2026-11-21",
-   "comment": "Washington (shoulder) is listed as questionable for Saturday's game versus the Clippers.",
-   "date": "2026-11-20T22:40Z"
   },
   {
    "id": "4896372",
@@ -539,16 +549,6 @@
    "date": "2026-11-20T23:12Z"
   },
   {
-   "id": "4065733",
-   "name": "Ty Jerome",
-   "pos": "G",
-   "status": "Out",
-   "type": "Hip",
-   "return": "2026-11-21",
-   "comment": "Jerome (hip) is probable for Saturday's game in Minnesota.",
-   "date": "2026-11-20T23:11Z"
-  },
-  {
    "id": "5105550",
    "name": "GG Jackson",
    "pos": "F",
@@ -587,8 +587,18 @@
    "status": "Day-To-Day",
    "type": "Hamstring",
    "return": "2026-11-22",
-   "comment": "Gardner (hamstring) is out for Wednesday's game against the Bucks.",
-   "date": "2026-11-19T14:45Z"
+   "comment": "Gardner (hamstring) is probable for Sunday's game against the Thunder.",
+   "date": "2026-11-21T20:35Z"
+  },
+  {
+   "id": "3032977",
+   "name": "Giannis Antetokounmpo",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Groin",
+   "return": "2026-11-22",
+   "comment": "Antetokounmpo (groin) is listed as questionable for Sunday's game against Oklahoma City, Ira Winderman of the South Florida Sun Sentinel reports.",
+   "date": "2026-11-21T20:33Z"
   }
  ],
  "MIL": [
@@ -783,6 +793,16 @@
  ],
  "ORL": [
   {
+   "id": "4065654",
+   "name": "Jonathan Isaac",
+   "pos": "F",
+   "status": "Out",
+   "type": "Knee",
+   "return": "2026-11-29",
+   "comment": "Isaac (knee) is out for Sunday's game against the Wizards.",
+   "date": "2026-11-21T21:09Z"
+  },
+  {
    "id": "5107251",
    "name": "Izaiyah Nelson",
    "pos": "F",
@@ -793,22 +813,12 @@
    "date": "2026-11-18T17:25Z"
   },
   {
-   "id": "4065654",
-   "name": "Jonathan Isaac",
-   "pos": "F",
-   "status": "Out",
-   "type": "Knee",
-   "return": "2026-11-22",
-   "comment": "Isaac (knee) has been ruled out for Monday's game against the Celtics.",
-   "date": "2026-11-15T18:22Z"
-  },
-  {
    "id": "5214637",
    "name": "Noah Penda",
    "pos": "F",
    "status": "Out",
    "type": "Hamstring",
-   "return": "2026-11-22",
+   "return": "2026-11-29",
    "comment": "Penda (hamstring) is making progress but remains without a timetable to return to game action, Jason Beede of the Orlando Sentinel reports.",
    "date": "2026-11-14T17:33Z"
   },
@@ -947,8 +957,8 @@
    "status": "Day-To-Day",
    "type": "Lower Leg",
    "return": "2026-11-21",
-   "comment": "Achiuwa (lower leg) has been ruled out for Friday's game against the Lakers.",
-   "date": "2026-11-21T14:55Z"
+   "comment": "Achiuwa (lower leg) is questionable for Saturday's game against the Celtics.",
+   "date": "2026-11-21T21:19Z"
   },
   {
    "id": "4898371",
@@ -1119,5 +1129,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-21T18:55:46.518979+00:00"
+ "_updated": "2026-11-21T21:30:49.839206+00:00"
 }
