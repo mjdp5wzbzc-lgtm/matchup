@@ -61,6 +61,28 @@
    "date": "2026-09-21T19:50Z"
   }
  ],
+ "BOS": [
+  {
+   "id": "3078576",
+   "name": "Derrick White",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Shoulder",
+   "return": "2026-11-21",
+   "comment": "White (shoulder) is questionable to play in Saturday's game against Sacramento.",
+   "date": "2026-11-21T01:00Z"
+  },
+  {
+   "id": "4065648",
+   "name": "Jayson Tatum",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Rest",
+   "return": "2026-11-21",
+   "comment": "Tatum had 24 points (10-22 FG, 3-8 3Pt, 1-2 FT), eight rebounds, three assists and one steal over 37 minutes during Wednesday's 105-101 loss to the Nuggets.",
+   "date": "2026-11-21T00:56Z"
+  }
+ ],
  "BKN": [
   {
    "id": "4702670",
@@ -1117,5 +1139,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-21T00:51:11.391300+00:00"
+ "_updated": "2026-11-21T01:19:11.069950+00:00"
 }
