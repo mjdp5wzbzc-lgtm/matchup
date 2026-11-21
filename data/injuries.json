@@ -63,6 +63,16 @@
  ],
  "BOS": [
   {
+   "id": "4065648",
+   "name": "Jayson Tatum",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Rest",
+   "return": "2026-11-21",
+   "comment": "Tatum (rest) is listed as questionable for Saturday's game against Sacramento.",
+   "date": "2026-11-21T01:07Z"
+  },
+  {
    "id": "3078576",
    "name": "Derrick White",
    "pos": "G",
@@ -71,16 +81,6 @@
    "return": "2026-11-21",
    "comment": "White (shoulder) is questionable to play in Saturday's game against Sacramento.",
    "date": "2026-11-21T01:00Z"
-  },
-  {
-   "id": "4065648",
-   "name": "Jayson Tatum",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Rest",
-   "return": "2026-11-21",
-   "comment": "Tatum had 24 points (10-22 FG, 3-8 3Pt, 1-2 FT), eight rebounds, three assists and one steal over 37 minutes during Wednesday's 105-101 loss to the Nuggets.",
-   "date": "2026-11-21T00:56Z"
   }
  ],
  "BKN": [
@@ -411,16 +411,6 @@
  ],
  "HOU": [
   {
-   "id": "2991235",
-   "name": "Steven Adams",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Quadriceps",
-   "return": "2026-11-20",
-   "comment": "Adams (quadriceps) is listed as questionable for Friday's game against Denver.",
-   "date": "2026-11-19T23:22Z"
-  },
-  {
    "id": "3102529",
    "name": "Clint Capela",
    "pos": "C",
@@ -429,16 +419,6 @@
    "return": "2026-11-23",
    "comment": "Capela (ankle) is out for Friday's game against Denver.",
    "date": "2026-11-19T23:19Z"
-  },
-  {
-   "id": "4871144",
-   "name": "Alperen Sengun",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Eye",
-   "return": "2026-11-20",
-   "comment": "Sengun (eye) is questionable for Friday's game against the Nuggets.",
-   "date": "2026-11-19T23:17Z"
   }
  ],
  "IND": [
@@ -513,8 +493,8 @@
    "status": "Out",
    "type": "Heel",
    "return": "2026-11-23",
-   "comment": "Reaves (heel) is listed as out for Friday's game against the Kings.",
-   "date": "2026-11-20T01:05Z"
+   "comment": "Head coach JJ Redick said he expects Reaves (heel) to return for Monday's matchup with Utah or Friday's game in San Antonio, Mark Medina of TheSportingTribune.com reports.",
+   "date": "2026-11-21T01:26Z"
   }
  ],
  "MEM": [
@@ -1139,5 +1119,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-21T01:19:11.069950+00:00"
+ "_updated": "2026-11-21T02:02:30.008921+00:00"
 }
