@@ -637,14 +637,14 @@
  ],
  "NO": [
   {
-   "id": "4576086",
-   "name": "Bryce McGowens",
-   "pos": "G",
+   "id": "4397688",
+   "name": "Trey Murphy III",
+   "pos": "F",
    "status": "Out",
-   "type": "Elbow",
-   "return": "2026-11-27",
-   "comment": "McGowens (elbow) has been ruled out for Friday's game against the Thunder.",
-   "date": "2026-11-19T21:15Z"
+   "type": "Knee",
+   "return": "2026-11-23",
+   "comment": "Murphy (knee) has been ruled out for Saturday's game against the Spurs.",
+   "date": "2026-11-21T18:22Z"
   },
   {
    "id": "4431675",
@@ -653,8 +653,18 @@
    "status": "Out",
    "type": "Ankle",
    "return": "2026-11-27",
-   "comment": "Watford (ankle) has been ruled out for Friday's game against Oklahoma City.",
-   "date": "2026-11-19T21:09Z"
+   "comment": "Watford (ankle) is out for Saturday's game against the Spurs.",
+   "date": "2026-11-21T18:21Z"
+  },
+  {
+   "id": "4576086",
+   "name": "Bryce McGowens",
+   "pos": "G",
+   "status": "Out",
+   "type": "Elbow",
+   "return": "2026-11-27",
+   "comment": "McGowens (elbow) has been ruled out for Friday's game against the Thunder.",
+   "date": "2026-11-19T21:15Z"
   },
   {
    "id": "4683634",
@@ -679,6 +689,26 @@
  ],
  "NY": [
   {
+   "id": "3934719",
+   "name": "OG Anunoby",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Calf",
+   "return": "2026-11-21",
+   "comment": "Anunoby (calf) has been downgraded to doubtful for Saturday's game against the Trail Bllazers.",
+   "date": "2026-11-21T16:09Z"
+  },
+  {
+   "id": "3136195",
+   "name": "Karl-Anthony Towns",
+   "pos": "C",
+   "status": "Day-To-Day",
+   "type": "Illness",
+   "return": "2026-11-21",
+   "comment": "Towns is questionable for Saturday's game against the Trail Blazers due to an illness.",
+   "date": "2026-11-21T16:05Z"
+  },
+  {
    "id": "2528426",
    "name": "Jordan Clarkson",
    "pos": "G",
@@ -687,16 +717,6 @@
    "return": "2026-11-22",
    "comment": "Clarkson (foot) won't play in Saturday's game against Portland.",
    "date": "2026-11-20T22:21Z"
-  },
-  {
-   "id": "3934719",
-   "name": "OG Anunoby",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Calf",
-   "return": "2026-11-21",
-   "comment": "Anunoby (calf) is questionable for Saturday's game against Portland.",
-   "date": "2026-11-20T22:10Z"
   }
  ],
  "OKC": [
@@ -805,16 +825,6 @@
  ],
  "PHI": [
   {
-   "id": "4870562",
-   "name": "Dominick Barlow",
-   "pos": "F",
-   "status": "Out",
-   "type": "Back",
-   "return": "2026-11-21",
-   "comment": "Barlow (back) is probable for Saturday's game versus the Bucks.",
-   "date": "2026-11-20T22:13Z"
-  },
-  {
    "id": "3912848",
    "name": "Dean Wade",
    "pos": "F",
@@ -823,16 +833,6 @@
    "return": "2026-11-23",
    "comment": "Wade (hamstring) won't play Saturday against the Bucks.",
    "date": "2026-11-20T22:11Z"
-  },
-  {
-   "id": "4431678",
-   "name": "Tyrese Maxey",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Foot",
-   "return": "2026-11-21",
-   "comment": "Maxey (foot) is questionable for Saturday's game against the Bucks.",
-   "date": "2026-11-20T22:07Z"
   },
   {
    "id": "5105637",
@@ -1079,16 +1079,6 @@
  ],
  "WSH": [
   {
-   "id": "5105841",
-   "name": "Felix Okpara",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Back",
-   "return": "2026-11-22",
-   "comment": "Okpara (illness) is available for Friday's game against Toronto.",
-   "date": "2026-11-21T14:54Z"
-  },
-  {
    "id": "4997537",
    "name": "Tristan Vukcevic",
    "pos": "F",
@@ -1129,5 +1119,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-21T15:52:52.457735+00:00"
+ "_updated": "2026-11-21T18:55:46.518979+00:00"
 }
