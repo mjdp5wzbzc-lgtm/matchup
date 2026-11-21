@@ -75,6 +75,16 @@
  ],
  "CHA": [
   {
+   "id": "4433287",
+   "name": "Brandon Miller",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Ankle",
+   "return": "2026-11-20",
+   "comment": "Miller amassed 28 points (10-19 FG, 5-12 3Pt, 3-3 FT), two rebounds, four assists and one block in 32 minutes during Tuesday's 118-114 overtime loss to the Lakers.",
+   "date": "2026-11-21T00:35Z"
+  },
+  {
    "id": "4066218",
    "name": "Grant Williams",
    "pos": "F",
@@ -127,16 +137,6 @@
    "date": "2026-11-20T23:19Z"
   },
   {
-   "id": "5242496",
-   "name": "Noa Essengue",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Wrist",
-   "return": "2026-11-20",
-   "comment": "Essengue is listed as probable for Friday's game against Washington due to bilateral wrist soreness.",
-   "date": "2026-11-19T22:12Z"
-  },
-  {
    "id": "5105555",
    "name": "Tobe Awaka",
    "pos": "F",
@@ -167,16 +167,6 @@
    "return": "2026-11-23",
    "comment": "Tyson (ankle) has been ruled out for Friday's game against Indiana.",
    "date": "2026-11-19T21:55Z"
-  },
-  {
-   "id": "4576087",
-   "name": "Peyton Watson",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Back",
-   "return": "2026-11-20",
-   "comment": "Watson (back) is questionable for Friday's game against the Pacers.",
-   "date": "2026-11-19T21:50Z"
   },
   {
    "id": "5106268",
@@ -275,6 +265,16 @@
  ],
  "DET": [
   {
+   "id": "4683771",
+   "name": "Ronald Holland II",
+   "pos": "F",
+   "status": "Out",
+   "type": "Knee",
+   "return": "2026-11-22",
+   "comment": "Holland (knee) is listed as out for Friday's game against Toronto.",
+   "date": "2026-11-21T00:34Z"
+  },
+  {
    "id": "2990962",
    "name": "Taurean Prince",
    "pos": "F",
@@ -285,16 +285,6 @@
    "date": "2026-11-20T23:02Z"
   },
   {
-   "id": "4683771",
-   "name": "Ronald Holland II",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Knee",
-   "return": "2026-11-20",
-   "comment": "Holland (knee) has been upgraded to doubtful for Friday's game against Toronto, Hunter Patterson of The Athletic reports.",
-   "date": "2026-11-20T17:46Z"
-  },
-  {
    "id": "5258459",
    "name": "Ebuka Okorie",
    "pos": "G",
@@ -303,16 +293,6 @@
    "return": "2026-11-22",
    "comment": "Okorie (oblique) has been ruled out for Friday's game against Toronto.",
    "date": "2026-11-19T21:43Z"
-  },
-  {
-   "id": "4432166",
-   "name": "Cade Cunningham",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Knee",
-   "return": "2026-11-20",
-   "comment": "Cunningham (knee) is expected to play in Friday's game against the Raptors, Blake Murphy of Sportsnet.ca reports.",
-   "date": "2026-11-19T21:36Z"
   },
   {
    "id": "5037878",
@@ -449,16 +429,6 @@
    "return": "2026-12-13",
    "comment": "Haliburton (hamstring) is expected to miss at least two more weeks, Shams Charania of ESPN reports.",
    "date": "2026-11-20T20:41Z"
-  },
-  {
-   "id": "2530530",
-   "name": "T.J. McConnell",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Hamstring",
-   "return": "2026-11-20",
-   "comment": "McConnell (hamstring) is listed as probable for Friday's game in Cleveland.",
-   "date": "2026-11-19T22:14Z"
   },
   {
    "id": "5157066",
@@ -683,16 +653,6 @@
    "return": "2026-11-27",
    "comment": "Mathurin (foot) has been ruled out for Friday's game against the Thunder.",
    "date": "2026-11-19T21:07Z"
-  },
-  {
-   "id": "4397688",
-   "name": "Trey Murphy III",
-   "pos": "F",
-   "status": "Out",
-   "type": "Knee",
-   "return": "2026-11-20",
-   "comment": "Murphy (knee) is questionable for Friday's game against the Thunder.",
-   "date": "2026-11-19T21:05Z"
   },
   {
    "id": "3907497",
@@ -1110,11 +1070,11 @@
    "id": "5105841",
    "name": "Felix Okpara",
    "pos": "F",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Back",
-   "return": "2026-11-20",
+   "return": "2026-11-22",
    "comment": "Okpara (illness) is available for Friday's game against Toronto.",
-   "date": "2026-11-17T16:38Z"
+   "date": "2026-11-21T00:43Z"
   },
   {
    "id": "4997537",
@@ -1157,5 +1117,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-20T23:39:43.573824+00:00"
+ "_updated": "2026-11-21T00:51:11.391300+00:00"
 }
