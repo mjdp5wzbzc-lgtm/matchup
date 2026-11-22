@@ -53,47 +53,27 @@
  ],
  "BOS": [
   {
-   "id": "3078576",
-   "name": "Derrick White",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Shoulder",
-   "return": "2026-11-22",
-   "comment": "White (shoulder) has been ruled out for Saturday's game against Sacramento.",
-   "date": "2026-11-22T15:03Z"
-  },
-  {
    "id": "4351852",
    "name": "Mitchell Robinson",
    "pos": "C",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Illness",
-   "return": "2026-11-22",
-   "comment": "Robinson (illness) has been ruled out for Saturday's game against the Kings, Keith Smith of Spotrac.com reports.",
-   "date": "2026-11-22T15:03Z"
+   "return": "2026-11-24",
+   "comment": "Robinson (illness) has been ruled out for Sunday's game against Golden State, Justin Turpin of WEEI.com reports.",
+   "date": "2026-11-22T20:58Z"
   },
   {
-   "id": "4065648",
-   "name": "Jayson Tatum",
+   "id": "4251",
+   "name": "Paul George",
    "pos": "F",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Rest",
-   "return": "2026-11-22",
-   "comment": "Tatum (rest) has been ruled out for Saturday's game against the Kings.",
-   "date": "2026-11-22T15:02Z"
+   "return": "2026-11-24",
+   "comment": "George (rest) has been ruled out for Sunday's game against Golden State, Justin Turpin of WEEI.com reports.",
+   "date": "2026-11-22T20:56Z"
   }
  ],
  "BKN": [
-  {
-   "id": "5279130",
-   "name": "Nolan Traore",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Hamstring",
-   "return": "2026-11-23",
-   "comment": "Traore (hamstring) won't return to Friday's game against Orlando, Meghan Triplett of YES Network reports. He finished with four points (2-6 FG, 0-2 3Pt) and two assists over 18 minutes.",
-   "date": "2026-11-21T14:51Z"
-  },
   {
    "id": "4702670",
    "name": "Grant Nelson",
@@ -101,8 +81,18 @@
    "status": "Day-To-Day",
    "type": "Ankle",
    "return": "2026-11-23",
-   "comment": "Nelson (ankle) has been ruled out for Friday's game against Orlando.",
-   "date": "2026-11-21T14:51Z"
+   "comment": "Nelson (ankle) is probable for Monday's game against the Timberwolves.",
+   "date": "2026-11-22T20:39Z"
+  },
+  {
+   "id": "5279130",
+   "name": "Nolan Traore",
+   "pos": "G",
+   "status": "Out",
+   "type": "Hamstring",
+   "return": "2026-11-25",
+   "comment": "Traore (hamstring) has been ruled out for Monday's game against the Timberwolves.",
+   "date": "2026-11-22T20:37Z"
   }
  ],
  "CHA": [
@@ -152,11 +142,11 @@
    "id": "4278067",
    "name": "Nic Claxton",
    "pos": "C",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Illness",
-   "return": "2026-11-22",
-   "comment": "Claxton (illness) is questionable to play in Sunday's game against the Nuggets.",
-   "date": "2026-11-22T17:24Z"
+   "return": "2026-11-23",
+   "comment": "Claxton (illness) won't play in Sunday's game against the Nuggets.",
+   "date": "2026-11-22T20:22Z"
   },
   {
    "id": "4397189",
@@ -239,18 +229,28 @@
    "status": "Day-To-Day",
    "type": "Illness",
    "return": "2026-11-22",
-   "comment": "Washington (illness/shoulder) is listed as out for Saturday's game against the Clippers.",
-   "date": "2026-11-22T15:02Z"
+   "comment": "Washington (illness) is doubtful to play Sunday's game against the Jazz.",
+   "date": "2026-11-22T19:07Z"
+  },
+  {
+   "id": "4896372",
+   "name": "Walter Clayton Jr.",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Knee",
+   "return": "2026-11-22",
+   "comment": "Clayton (knee) is listed as questionable for Sunday's game against the Jazz.",
+   "date": "2026-11-22T19:07Z"
   },
   {
    "id": "5106040",
    "name": "Tobi Lawal",
    "pos": "F",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Groin",
-   "return": "2026-11-22",
-   "comment": "Lawal (groin) is out for Saturday's game against the Clippers.",
-   "date": "2026-11-22T15:02Z"
+   "return": "2026-11-24",
+   "comment": "Lawal (groin) has been ruled out for Sunday's game against the Jazz.",
+   "date": "2026-11-22T19:04Z"
   },
   {
    "id": "4683688",
@@ -297,16 +297,6 @@
  ],
  "DET": [
   {
-   "id": "4683771",
-   "name": "Ronald Holland II",
-   "pos": "F",
-   "status": "Out",
-   "type": null,
-   "return": null,
-   "comment": "Holland (knee) is listed as questionable for Sunday's game against Atlanta.",
-   "date": "2026-11-21T23:05Z"
-  },
-  {
    "id": "5258459",
    "name": "Ebuka Okorie",
    "pos": "G",
@@ -315,16 +305,6 @@
    "return": "2026-11-24",
    "comment": "Okorie (oblique) is out for Sunday's game in Atlanta.",
    "date": "2026-11-21T22:34Z"
-  },
-  {
-   "id": "4432166",
-   "name": "Cade Cunningham",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Knee",
-   "return": "2026-11-22",
-   "comment": "Cunningham (knee) is probable to play Sunday in Atlanta.",
-   "date": "2026-11-21T22:23Z"
   },
   {
    "id": "2990962",
@@ -407,18 +387,6 @@
    "return": "2027-01-02",
    "comment": "Butler (knee) could return sometime between January and February as he continues recovering from a torn right ACL, Anthony Slater of ESPN reports.",
    "date": "2026-10-16T16:11Z"
-  }
- ],
- "HOU": [
-  {
-   "id": "3102529",
-   "name": "Clint Capela",
-   "pos": "C",
-   "status": "Out",
-   "type": "Ankle",
-   "return": "2026-11-23",
-   "comment": "Capela (ankle) is out for Friday's game against Denver.",
-   "date": "2026-11-19T23:19Z"
   }
  ],
  "IND": [
@@ -513,8 +481,8 @@
    "status": "Out",
    "type": "Heel",
    "return": "2026-11-23",
-   "comment": "Head coach JJ Redick said he expects Reaves (heel) to return for Monday's matchup with Utah or Friday's game in San Antonio, Mark Medina of TheSportingTribune.com reports.",
-   "date": "2026-11-21T01:26Z"
+   "comment": "Reaves (heel) was a full participant in Sunday's practice, Thuc Nhi Nguyen of the Los Angeles Times reports.",
+   "date": "2026-11-22T20:25Z"
   }
  ],
  "MEM": [
@@ -581,16 +549,6 @@
  ],
  "MIA": [
   {
-   "id": "4431772",
-   "name": "Myron Gardner",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Hamstring",
-   "return": "2026-11-22",
-   "comment": "Gardner (hamstring) is probable for Sunday's game against the Thunder.",
-   "date": "2026-11-21T20:35Z"
-  },
-  {
    "id": "3032977",
    "name": "Giannis Antetokounmpo",
    "pos": "F",
@@ -647,24 +605,34 @@
  ],
  "NO": [
   {
-   "id": "4395628",
-   "name": "Zion Williamson",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Thigh",
-   "return": "2026-11-23",
-   "comment": "Williamson is out for Saturday's game against the Spurs due to a left thigh contusion.",
-   "date": "2026-11-22T15:07Z"
-  },
-  {
    "id": "4397688",
    "name": "Trey Murphy III",
    "pos": "F",
    "status": "Day-To-Day",
    "type": "Knee",
    "return": "2026-11-23",
-   "comment": "Murphy (knee) has been ruled out for Saturday's game against the Spurs.",
-   "date": "2026-11-22T15:07Z"
+   "comment": "Murphy (knees) is listed as probable for Monday's game against the Suns.",
+   "date": "2026-11-22T21:02Z"
+  },
+  {
+   "id": "4576086",
+   "name": "Bryce McGowens",
+   "pos": "G",
+   "status": "Out",
+   "type": "Elbow",
+   "return": "2026-11-23",
+   "comment": "McGowens (elbow) is listed as probable for Monday's game against Phoenix.",
+   "date": "2026-11-22T20:53Z"
+  },
+  {
+   "id": "4395628",
+   "name": "Zion Williamson",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Thigh",
+   "return": "2026-11-23",
+   "comment": "Williamson (thigh) is probable for Monday's game against Phoenix.",
+   "date": "2026-11-22T20:50Z"
   },
   {
    "id": "4431675",
@@ -675,16 +643,6 @@
    "return": "2026-11-27",
    "comment": "Watford (ankle) is out for Saturday's game against the Spurs.",
    "date": "2026-11-21T18:21Z"
-  },
-  {
-   "id": "4576086",
-   "name": "Bryce McGowens",
-   "pos": "G",
-   "status": "Out",
-   "type": "Elbow",
-   "return": "2026-11-27",
-   "comment": "McGowens (elbow) has been ruled out for Friday's game against the Thunder.",
-   "date": "2026-11-19T21:15Z"
   },
   {
    "id": "4683634",
@@ -746,7 +704,7 @@
    "pos": "G",
    "status": "Day-To-Day",
    "type": "Back",
-   "return": "2026-11-22",
+   "return": "2026-11-23",
    "comment": "Gilgeous-Alexander (back/neck) is listed as questionable for Sunday's game versus Miami.",
    "date": "2026-11-21T22:45Z"
   },
@@ -1031,8 +989,18 @@
    "status": "Day-To-Day",
    "type": "Concussion",
    "return": "2026-11-23",
-   "comment": "Murray-Boyles (concussion) participated in Sunday's practice, Michael Grange of Sportsnet.ca reports.",
-   "date": "2026-11-22T17:10Z"
+   "comment": "Murray-Boyles (concussion) is listed as probable for Monday's game against Milwaukee, Blake Murphy of Sportsnet.ca reports.",
+   "date": "2026-11-22T21:15Z"
+  },
+  {
+   "id": "4432586",
+   "name": "Nate Bittle",
+   "pos": "C",
+   "status": "Out",
+   "type": "Foot",
+   "return": "2026-11-27",
+   "comment": "Bittle (foot) has been ruled out for Monday's game against the Bucks, Blake Murphy of Sportsnet.ca reports.",
+   "date": "2026-11-22T21:13Z"
   },
   {
    "id": "6450",
@@ -1053,16 +1021,6 @@
    "return": "2026-12-13",
    "comment": "Barrett has been diagnosed with a right hamstring strain and will be re-evaluated in two weeks, Brett Siegel of ClutchPoints.com reports.",
    "date": "2026-11-19T21:13Z"
-  },
-  {
-   "id": "4432586",
-   "name": "Nate Bittle",
-   "pos": "C",
-   "status": "Out",
-   "type": "Foot",
-   "return": "2026-11-23",
-   "comment": "Bittle (foot) has been ruled out for Sunday's game against the Knicks, Zulfi Sheikh of Sportsnet.ca reports.",
-   "date": "2026-11-14T21:59Z"
   }
  ],
  "UTAH": [
@@ -1159,5 +1117,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-22T18:56:37.691866+00:00"
+ "_updated": "2026-11-22T21:34:46.500167+00:00"
 }
