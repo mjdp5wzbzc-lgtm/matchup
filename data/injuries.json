@@ -165,8 +165,8 @@
    "status": "Day-To-Day",
    "type": "Hamstring",
    "return": "2026-11-22",
-   "comment": "Powell tallied 16 points (7-18 FG, 1-5 3Pt, 1-2 FT), three rebounds, two assists and one steal in 33 minutes during Friday's 98-84 loss to Washington.",
-   "date": "2026-11-22T00:06Z"
+   "comment": "Powell is questionable for Sunday's game against the Nuggets due to a right hamstring strain.",
+   "date": "2026-11-22T00:11Z"
   },
   {
    "id": "4397189",
@@ -667,6 +667,16 @@
  ],
  "NO": [
   {
+   "id": "4395628",
+   "name": "Zion Williamson",
+   "pos": "F",
+   "status": "Out",
+   "type": "Thigh",
+   "return": "2026-11-23",
+   "comment": "Williamson is out for Saturday's game against the Spurs due to a left thigh contusion.",
+   "date": "2026-11-22T00:39Z"
+  },
+  {
    "id": "4397688",
    "name": "Trey Murphy III",
    "pos": "F",
@@ -1159,5 +1169,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-22T00:10:42.603093+00:00"
+ "_updated": "2026-11-22T01:15:24.098571+00:00"
 }

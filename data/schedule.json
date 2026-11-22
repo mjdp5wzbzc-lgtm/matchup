@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T00:10:42.414039+00:00",
+ "generated": "2026-11-22T01:15:23.900893+00:00",
  "days": [
   {
    "date": "2026-11-21",
@@ -21,11 +21,11 @@
      "start": "2026-11-22T00:30Z",
      "home": "NY",
      "away": "POR",
-     "state": "pre",
-     "detail": "11/21 - 7:30 PM EST",
+     "state": "in",
+     "detail": "9:03 - 2nd",
      "score": {
-      "home": "0",
-      "away": "0"
+      "home": "44",
+      "away": "30"
      }
     },
     {
@@ -33,11 +33,11 @@
      "start": "2026-11-22T01:00Z",
      "home": "DAL",
      "away": "LAC",
-     "state": "pre",
-     "detail": "11/21 - 8:00 PM EST",
+     "state": "in",
+     "detail": "8:27 - 1st",
      "score": {
-      "home": "0",
-      "away": "0"
+      "home": "6",
+      "away": "4"
      }
     },
     {
@@ -45,11 +45,11 @@
      "start": "2026-11-22T01:00Z",
      "home": "MIN",
      "away": "MEM",
-     "state": "pre",
-     "detail": "11/21 - 8:00 PM EST",
+     "state": "in",
+     "detail": "8:49 - 1st",
      "score": {
-      "home": "0",
-      "away": "0"
+      "home": "9",
+      "away": "10"
      }
     },
     {
@@ -57,11 +57,11 @@
      "start": "2026-11-22T01:00Z",
      "home": "SA",
      "away": "NO",
-     "state": "pre",
-     "detail": "11/21 - 8:00 PM EST",
+     "state": "in",
+     "detail": "9:56 - 1st",
      "score": {
-      "home": "0",
-      "away": "0"
+      "home": "5",
+      "away": "4"
      }
     },
     {
