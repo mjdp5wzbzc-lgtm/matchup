@@ -732,31 +732,31 @@
    "id": "3136195",
    "name": "Karl-Anthony Towns",
    "pos": "C",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Illness",
    "return": "2026-11-22",
    "comment": "Towns (illness) won't play in Saturday's game versus the Trail Blazers.",
-   "date": "2026-11-21T22:51Z"
-  },
-  {
-   "id": "3934719",
-   "name": "OG Anunoby",
-   "pos": "F",
-   "status": "Out",
-   "type": "Calf",
-   "return": "2026-11-22",
-   "comment": "Anunoby (calf) has been ruled out for Saturday's game against the Trail Blazers.",
-   "date": "2026-11-21T21:49Z"
+   "date": "2026-11-22T03:05Z"
   },
   {
    "id": "2528426",
    "name": "Jordan Clarkson",
    "pos": "G",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Foot",
    "return": "2026-11-22",
    "comment": "Clarkson (foot) won't play in Saturday's game against Portland.",
-   "date": "2026-11-20T22:21Z"
+   "date": "2026-11-22T03:05Z"
+  },
+  {
+   "id": "3934719",
+   "name": "OG Anunoby",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Calf",
+   "return": "2026-11-22",
+   "comment": "Anunoby (calf) has been ruled out for Saturday's game against the Trail Blazers.",
+   "date": "2026-11-22T03:04Z"
   }
  ],
  "OKC": [
@@ -1159,5 +1159,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-22T02:46:36.815400+00:00"
+ "_updated": "2026-11-22T03:46:47.546535+00:00"
 }
