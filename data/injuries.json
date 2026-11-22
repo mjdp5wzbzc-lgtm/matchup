@@ -159,6 +159,16 @@
  ],
  "CHI": [
   {
+   "id": "2595516",
+   "name": "Norman Powell",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Hamstring",
+   "return": "2026-11-22",
+   "comment": "Powell tallied 16 points (7-18 FG, 1-5 3Pt, 1-2 FT), three rebounds, two assists and one steal in 33 minutes during Friday's 98-84 loss to Washington.",
+   "date": "2026-11-22T00:06Z"
+  },
+  {
    "id": "4397189",
    "name": "Jalen Smith",
    "pos": "F",
@@ -1149,5 +1159,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-21T23:29:42.767752+00:00"
+ "_updated": "2026-11-22T00:10:42.603093+00:00"
 }
