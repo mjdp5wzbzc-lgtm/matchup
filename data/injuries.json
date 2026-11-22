@@ -566,7 +566,7 @@
    "pos": "F",
    "status": "Out",
    "type": "Finger",
-   "return": "2026-12-14",
+   "return": "2026-11-23",
    "comment": "Dieng will undergo a procedure to repair a fractured left finger Monday, Justin Garcia of the Milwaukee Bucks Radio Network reports.",
    "date": "2026-11-15T23:46Z"
   }
@@ -702,11 +702,11 @@
    "id": "4278073",
    "name": "Shai Gilgeous-Alexander",
    "pos": "G",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Back",
    "return": "2026-11-23",
-   "comment": "Gilgeous-Alexander (back/neck) is listed as questionable for Sunday's game versus Miami.",
-   "date": "2026-11-21T22:45Z"
+   "comment": "Gilgeous-Alexander (back/neck) is listed as out for Sunday's game against the Heat.",
+   "date": "2026-11-22T21:35Z"
   },
   {
    "id": "5159925",
@@ -1117,5 +1117,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-22T21:34:46.500167+00:00"
+ "_updated": "2026-11-22T21:51:19.934697+00:00"
 }
