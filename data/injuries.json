@@ -63,34 +63,34 @@
  ],
  "BOS": [
   {
-   "id": "4351852",
-   "name": "Mitchell Robinson",
-   "pos": "C",
-   "status": "Out",
-   "type": "Illness",
-   "return": "2026-11-22",
-   "comment": "Robinson (illness) has been ruled out for Saturday's game against the Kings, Keith Smith of Spotrac.com reports.",
-   "date": "2026-11-21T20:55Z"
-  },
-  {
    "id": "3078576",
    "name": "Derrick White",
    "pos": "G",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Shoulder",
    "return": "2026-11-22",
    "comment": "White (shoulder) has been ruled out for Saturday's game against Sacramento.",
-   "date": "2026-11-21T20:53Z"
+   "date": "2026-11-22T15:03Z"
+  },
+  {
+   "id": "4351852",
+   "name": "Mitchell Robinson",
+   "pos": "C",
+   "status": "Day-To-Day",
+   "type": "Illness",
+   "return": "2026-11-22",
+   "comment": "Robinson (illness) has been ruled out for Saturday's game against the Kings, Keith Smith of Spotrac.com reports.",
+   "date": "2026-11-22T15:03Z"
   },
   {
    "id": "4065648",
    "name": "Jayson Tatum",
    "pos": "F",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Rest",
    "return": "2026-11-22",
    "comment": "Tatum (rest) has been ruled out for Saturday's game against the Kings.",
-   "date": "2026-11-21T20:51Z"
+   "date": "2026-11-22T15:02Z"
   }
  ],
  "BKN": [
@@ -159,6 +159,16 @@
  ],
  "CHI": [
   {
+   "id": "2595516",
+   "name": "Norman Powell",
+   "pos": "G",
+   "status": "Out",
+   "type": "Hamstring",
+   "return": "2026-11-28",
+   "comment": "Powell has been diagnosed with a mild right hamstring strain and will be re-evaluated later this week.",
+   "date": "2026-11-22T15:25Z"
+  },
+  {
    "id": "4431687",
    "name": "Patrick Williams",
    "pos": "F",
@@ -167,16 +177,6 @@
    "return": "2026-11-22",
    "comment": "Williams is probable for Sunday's game against the Nuggets due to a left thumb sprain.",
    "date": "2026-11-22T06:06Z"
-  },
-  {
-   "id": "2595516",
-   "name": "Norman Powell",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Hamstring",
-   "return": "2026-11-22",
-   "comment": "Powell is questionable for Sunday's game against the Nuggets due to a right hamstring strain.",
-   "date": "2026-11-22T00:11Z"
   },
   {
    "id": "4397189",
@@ -246,21 +246,21 @@
    "id": "4278078",
    "name": "P.J. Washington",
    "pos": "F",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Illness",
    "return": "2026-11-22",
    "comment": "Washington (illness/shoulder) is listed as out for Saturday's game against the Clippers.",
-   "date": "2026-11-21T23:14Z"
+   "date": "2026-11-22T15:02Z"
   },
   {
    "id": "5106040",
    "name": "Tobi Lawal",
    "pos": "F",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Groin",
    "return": "2026-11-22",
    "comment": "Lawal (groin) is out for Saturday's game against the Clippers.",
-   "date": "2026-11-21T15:08Z"
+   "date": "2026-11-22T15:02Z"
   },
   {
    "id": "4683688",
@@ -539,34 +539,34 @@
  ],
  "MEM": [
   {
-   "id": "2991070",
-   "name": "Jerami Grant",
-   "pos": "F",
-   "status": "Out",
-   "type": "Calf",
-   "return": "2026-11-23",
-   "comment": "Grant (calf) is out for Saturday's game against the Timberwolves.",
-   "date": "2026-11-21T08:08Z"
-  },
-  {
    "id": "4781746",
    "name": "Javon Small",
    "pos": "G",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Personal",
    "return": "2026-11-23",
    "comment": "Small won't play Saturday against the Timberwolves due to personal reasons.",
-   "date": "2026-11-20T23:14Z"
+   "date": "2026-11-22T15:09Z"
   },
   {
    "id": "5041935",
    "name": "Cameron Boozer",
    "pos": "F",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Ankle",
    "return": "2026-11-23",
    "comment": "Boozer is out for Saturday's game against Minnesota due to a right ankle sprain.",
-   "date": "2026-11-20T23:12Z"
+   "date": "2026-11-22T15:09Z"
+  },
+  {
+   "id": "2991070",
+   "name": "Jerami Grant",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Calf",
+   "return": "2026-11-23",
+   "comment": "Grant (calf) is out for Saturday's game against the Timberwolves.",
+   "date": "2026-11-22T15:08Z"
   },
   {
    "id": "5105550",
@@ -670,21 +670,21 @@
    "id": "4395628",
    "name": "Zion Williamson",
    "pos": "F",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Thigh",
    "return": "2026-11-23",
    "comment": "Williamson is out for Saturday's game against the Spurs due to a left thigh contusion.",
-   "date": "2026-11-22T00:39Z"
+   "date": "2026-11-22T15:07Z"
   },
   {
    "id": "4397688",
    "name": "Trey Murphy III",
    "pos": "F",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Knee",
    "return": "2026-11-23",
    "comment": "Murphy (knee) has been ruled out for Saturday's game against the Spurs.",
-   "date": "2026-11-21T18:22Z"
+   "date": "2026-11-22T15:07Z"
   },
   {
    "id": "4431675",
@@ -888,11 +888,21 @@
    "id": "3912848",
    "name": "Dean Wade",
    "pos": "F",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Hamstring",
    "return": "2026-11-23",
    "comment": "Wade (hamstring) won't play Saturday against the Bucks.",
-   "date": "2026-11-20T22:11Z"
+   "date": "2026-11-22T15:06Z"
+  },
+  {
+   "id": "3917376",
+   "name": "Jaylen Brown",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Hamstring",
+   "return": "2026-11-23",
+   "comment": "Brown (hamstring) went through individual work during Friday's practice, Tony Jones of The Athletic reports.",
+   "date": "2026-11-22T15:05Z"
   },
   {
    "id": "5105637",
@@ -903,16 +913,6 @@
    "return": "2026-11-23",
    "comment": "Bona (back) participated in Friday's practice, though he still needs to go through a full practice with contact before being cleared to return to game action, Adam Aaronson of PhillyVoice.com reports.",
    "date": "2026-11-20T17:33Z"
-  },
-  {
-   "id": "3917376",
-   "name": "Jaylen Brown",
-   "pos": "G",
-   "status": "Out",
-   "type": "Hamstring",
-   "return": "2026-11-23",
-   "comment": "Brown (hamstring) went through individual work during Friday's practice, Tony Jones of The Athletic reports.",
-   "date": "2026-11-20T17:26Z"
   },
   {
    "id": "4871141",
@@ -1159,5 +1159,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-22T13:01:33.932115+00:00"
+ "_updated": "2026-11-22T15:52:48.404724+00:00"
 }
