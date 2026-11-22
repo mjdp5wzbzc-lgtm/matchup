@@ -159,6 +159,16 @@
  ],
  "CHI": [
   {
+   "id": "4431687",
+   "name": "Patrick Williams",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Thumb",
+   "return": "2026-11-22",
+   "comment": "Williams is probable for Sunday's game against the Nuggets due to a left thumb sprain.",
+   "date": "2026-11-22T06:06Z"
+  },
+  {
    "id": "2595516",
    "name": "Norman Powell",
    "pos": "G",
@@ -369,24 +379,14 @@
  ],
  "GS": [
   {
-   "id": "6589",
-   "name": "Draymond Green",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Rest",
-   "return": "2026-11-22",
-   "comment": "Green (elbow) is out for Thursday's game against the Grizzlies.",
-   "date": "2026-11-20T03:53Z"
-  },
-  {
    "id": "4397040",
    "name": "Brandon Williams",
    "pos": "G",
    "status": "Out",
    "type": "Hamstring",
-   "return": "2026-11-22",
-   "comment": "Williams (hamstring) has progressed to on-court activities and will be re-evaluated Saturday.",
-   "date": "2026-11-18T17:12Z"
+   "return": "2026-11-25",
+   "comment": "Williams (hamstring) is out for Sunday's game against the Celtics.",
+   "date": "2026-11-22T06:10Z"
   },
   {
    "id": "3975",
@@ -848,7 +848,7 @@
    "pos": "F",
    "status": "Out",
    "type": "Knee",
-   "return": "2026-11-29",
+   "return": "2026-11-28",
    "comment": "Isaac (knee) is out for Sunday's game against the Wizards.",
    "date": "2026-11-21T21:09Z"
   },
@@ -1159,5 +1159,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-22T03:59:44.050492+00:00"
+ "_updated": "2026-11-22T07:17:07.926303+00:00"
 }
