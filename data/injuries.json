@@ -991,16 +991,6 @@
  ],
  "SAC": [
   {
-   "id": "4431679",
-   "name": "Precious Achiuwa",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Lower Leg",
-   "return": "2026-11-21",
-   "comment": "Achiuwa (lower leg) is questionable for Saturday's game against the Celtics.",
-   "date": "2026-11-21T21:19Z"
-  },
-  {
    "id": "4898371",
    "name": "Maxime Raynaud",
    "pos": "C",
@@ -1169,5 +1159,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-22T01:43:12.956275+00:00"
+ "_updated": "2026-11-22T02:46:36.815400+00:00"
 }
