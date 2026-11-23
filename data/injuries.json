@@ -450,11 +450,11 @@
    "id": "2991070",
    "name": "Jerami Grant",
    "pos": "F",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Calf",
    "return": "2026-12-12",
    "comment": "Grant was diagnosed with a grade 1 left calf strain and will be re-evaluated in two weeks.",
-   "date": "2026-11-23T01:14Z"
+   "date": "2026-11-23T04:04Z"
   },
   {
    "id": "5041935",
@@ -1087,5 +1087,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-23T04:14:57.767026+00:00"
+ "_updated": "2026-11-23T04:42:03.029868+00:00"
 }
