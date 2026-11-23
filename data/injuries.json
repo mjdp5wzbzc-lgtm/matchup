@@ -911,6 +911,16 @@
  ],
  "SA": [
   {
+   "id": "5104157",
+   "name": "Victor Wembanyama",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Back",
+   "return": "2026-11-23",
+   "comment": "Wembanyama (back) is questionable for Monday's game against the Kings, Jared Weiss of The Athletic reports.",
+   "date": "2026-11-23T04:52Z"
+  },
+  {
    "id": "4066259",
    "name": "De'Aaron Fox",
    "pos": "G",
@@ -1087,5 +1097,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-23T04:42:03.029868+00:00"
+ "_updated": "2026-11-23T07:43:30.016312+00:00"
 }
