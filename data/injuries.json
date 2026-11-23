@@ -911,6 +911,26 @@
  ],
  "SA": [
   {
+   "id": "4066259",
+   "name": "De'Aaron Fox",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Lower Leg",
+   "return": "2026-11-23",
+   "comment": "Fox is questionable for Monday's game against the Kings due to a right shin contusion, Jared Weiss of The Athletic reports.",
+   "date": "2026-11-23T01:39Z"
+  },
+  {
+   "id": "3134916",
+   "name": "Jordan McLaughlin",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Shoulder",
+   "return": "2026-11-23",
+   "comment": "McLaughlin (shoulder) is listed as questionable for Monday's game against the Kings.",
+   "date": "2026-11-23T01:38Z"
+  },
+  {
    "id": "5037871",
    "name": "Dylan Harper",
    "pos": "G",
@@ -988,11 +1008,11 @@
    "id": "4397077",
    "name": "Jaxson Hayes",
    "pos": "C",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Knee",
-   "return": "2026-11-22",
-   "comment": "Hayes is questionable to return to Sunday's game against the Mavericks due to a left knee injury, Shreyas Laddha of The Salt Lake Tribune reports.",
-   "date": "2026-11-23T01:04Z"
+   "return": "2026-11-23",
+   "comment": "Hayes (knee) has been ruled out for the remainder of Sunday's game against the Mavericks, Grant Afseth of DallasHoopsJournal.com reports.",
+   "date": "2026-11-23T01:16Z"
   },
   {
    "id": "3102530",
@@ -1067,5 +1087,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-23T01:22:03.876799+00:00"
+ "_updated": "2026-11-23T02:09:01.899300+00:00"
 }
