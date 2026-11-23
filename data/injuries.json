@@ -53,24 +53,14 @@
  ],
  "BOS": [
   {
-   "id": "4251",
-   "name": "Paul George",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Rest",
-   "return": "2026-11-24",
-   "comment": "George (rest) has been ruled out for Sunday's game against Golden State, Justin Turpin of WEEI.com reports.",
-   "date": "2026-11-23T15:07Z"
-  },
-  {
    "id": "4351852",
    "name": "Mitchell Robinson",
    "pos": "C",
    "status": "Out",
    "type": "Illness",
-   "return": "2026-11-24",
-   "comment": "Robinson (illness) has been ruled out for Sunday's game against Golden State, Justin Turpin of WEEI.com reports.",
-   "date": "2026-11-22T20:58Z"
+   "return": "2026-11-27",
+   "comment": "Robinson (illness) is out for Tuesday's game against Washington, Taylor Snow of the Celtics' official site reports.",
+   "date": "2026-11-23T21:09Z"
   }
  ],
  "BKN": [
@@ -325,8 +315,8 @@
    "status": "Out",
    "type": "Hamstring",
    "return": "2026-11-25",
-   "comment": "Williams (hamstring) is out for Sunday's game against the Celtics.",
-   "date": "2026-11-22T06:10Z"
+   "comment": "Head coach Steve Kerr said Monday that Williams (hamstring) is on track to return Wednesday against the Kings, Kenzo Fukuda of ClutchPoints.com reports.",
+   "date": "2026-11-23T20:52Z"
   },
   {
    "id": "3975",
@@ -637,6 +627,16 @@
  ],
  "OKC": [
   {
+   "id": "4432823",
+   "name": "Jaylin Williams",
+   "pos": "F",
+   "status": "Out",
+   "type": "Back",
+   "return": "2026-11-25",
+   "comment": "Williams (back) has been ruled out for Monday's game against the Pacers",
+   "date": "2026-11-23T19:09Z"
+  },
+  {
    "id": "5159925",
    "name": "Nikola Topic",
    "pos": "G",
@@ -644,16 +644,6 @@
    "type": "Hip",
    "return": "2026-11-25",
    "comment": "Topic (hip) has been ruled out for Monday's game against the Pacers, according to the NBA's official injury report.",
-   "date": "2026-11-23T18:49Z"
-  },
-  {
-   "id": "4432823",
-   "name": "Jaylin Williams",
-   "pos": "F",
-   "status": "Out",
-   "type": "Back",
-   "return": "2026-11-25",
-   "comment": "Williams (back) is listed as out for Sunday's game against Miami.",
    "date": "2026-11-23T18:49Z"
   },
   {
@@ -812,16 +802,6 @@
   }
  ],
  "PHX": [
-  {
-   "id": "4888725",
-   "name": "Ryan Dunn",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Quadriceps",
-   "return": "2026-11-23",
-   "comment": "Dunn (quadriceps) is listed as questionable for Monday's game against the Pelicans.",
-   "date": "2026-11-22T23:24Z"
-  },
   {
    "id": "4701232",
    "name": "Mark Williams",
@@ -1016,11 +996,11 @@
    "id": "4397077",
    "name": "Jaxson Hayes",
    "pos": "C",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Knee",
-   "return": "2026-11-23",
-   "comment": "Hayes (knee) has been ruled out for the remainder of Sunday's game against the Mavericks, Grant Afseth of DallasHoopsJournal.com reports.",
-   "date": "2026-11-23T15:06Z"
+   "return": "2026-11-27",
+   "comment": "Hayes (knee) has been ruled out for Monday's game against the Lakers.",
+   "date": "2026-11-23T21:04Z"
   },
   {
    "id": "3102530",
@@ -1095,5 +1075,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-23T19:10:19.650288+00:00"
+ "_updated": "2026-11-23T21:43:44.103258+00:00"
 }
