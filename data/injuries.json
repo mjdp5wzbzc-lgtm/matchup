@@ -440,9 +440,9 @@
    "pos": "G",
    "status": "Out",
    "type": "Heel",
-   "return": "2026-11-23",
-   "comment": "Reaves (heel) was a full participant in Sunday's practice, Thuc Nhi Nguyen of the Los Angeles Times reports.",
-   "date": "2026-11-22T20:25Z"
+   "return": "2026-11-27",
+   "comment": "Reaves (heel) has been ruled out for Monday's game against the Jazz, Jovan Buha of The Athletic reports.",
+   "date": "2026-11-23T01:09Z"
   }
  ],
  "MEM": [
@@ -452,9 +452,9 @@
    "pos": "F",
    "status": "Day-To-Day",
    "type": "Calf",
-   "return": "2026-11-23",
-   "comment": "Grant (calf) has been ruled out for Monday's game against the Hornets.",
-   "date": "2026-11-22T22:21Z"
+   "return": "2026-12-12",
+   "comment": "Grant was diagnosed with a grade 1 left calf strain and will be re-evaluated in two weeks.",
+   "date": "2026-11-23T01:14Z"
   },
   {
    "id": "5041935",
@@ -985,6 +985,16 @@
  ],
  "UTAH": [
   {
+   "id": "4397077",
+   "name": "Jaxson Hayes",
+   "pos": "C",
+   "status": "Day-To-Day",
+   "type": "Knee",
+   "return": "2026-11-22",
+   "comment": "Hayes is questionable to return to Sunday's game against the Mavericks due to a left knee injury, Shreyas Laddha of The Salt Lake Tribune reports.",
+   "date": "2026-11-23T01:04Z"
+  },
+  {
    "id": "3102530",
    "name": "Jusuf Nurkic",
    "pos": "C",
@@ -1057,5 +1067,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-23T00:48:08.810977+00:00"
+ "_updated": "2026-11-23T01:22:03.876799+00:00"
 }
