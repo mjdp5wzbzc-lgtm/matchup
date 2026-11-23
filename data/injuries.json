@@ -83,16 +83,6 @@
    "return": "2027-01-27",
    "comment": "Traore will be re-evaluated in approximately 8-10 weeks due to a right hamstring strain, Michael Scotto of HoopsHype.com reports.",
    "date": "2026-11-23T15:22Z"
-  },
-  {
-   "id": "4702670",
-   "name": "Grant Nelson",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Ankle",
-   "return": "2026-11-23",
-   "comment": "Nelson (ankle) is probable for Monday's game against the Timberwolves.",
-   "date": "2026-11-22T20:39Z"
   }
  ],
  "CHA": [
@@ -149,14 +139,24 @@
  ],
  "CHI": [
   {
+   "id": "4397189",
+   "name": "Jalen Smith",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Illness",
+   "return": "2026-11-23",
+   "comment": "Smith (illness) is probable for Monday's game against Cleveland.",
+   "date": "2026-11-23T18:40Z"
+  },
+  {
    "id": "4278067",
    "name": "Nic Claxton",
    "pos": "C",
    "status": "Day-To-Day",
    "type": "Illness",
    "return": "2026-11-23",
-   "comment": "Claxton (illness) won't play in Sunday's game against the Nuggets.",
-   "date": "2026-11-23T15:06Z"
+   "comment": "Claxton (illness) is questionable for Monday's game against Cleveland.",
+   "date": "2026-11-23T18:35Z"
   },
   {
    "id": "2595516",
@@ -374,11 +374,31 @@
    "id": "2530530",
    "name": "T.J. McConnell",
    "pos": "G",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Hamstring",
+   "return": "2026-11-27",
+   "comment": "McConnell is out for Monday's game against the Thunder due to left hamstring soreness.",
+   "date": "2026-11-23T18:25Z"
+  },
+  {
+   "id": "4396909",
+   "name": "Aaron Nesmith",
+   "pos": "G",
+   "status": "Out",
+   "type": "Foot",
+   "return": "2026-11-27",
+   "comment": "Nesmith is out for Monday's game against the Thunder due to right foot soreness.",
+   "date": "2026-11-23T18:22Z"
+  },
+  {
+   "id": "3149673",
+   "name": "Pascal Siakam",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Hip",
    "return": "2026-11-23",
-   "comment": "McConnell (hamstring) is listed as out for Sunday's game in New York.",
-   "date": "2026-11-23T15:06Z"
+   "comment": "Siakam is questionable for Monday's game against Oklahoma City due to left hip injury management, according to the NBA's injury report.",
+   "date": "2026-11-23T18:22Z"
   },
   {
    "id": "4396993",
@@ -509,18 +529,6 @@
    "date": "2026-11-23T15:04Z"
   }
  ],
- "MIL": [
-  {
-   "id": "4997526",
-   "name": "Ousmane Dieng",
-   "pos": "F",
-   "status": "Out",
-   "type": "Finger",
-   "return": "2026-11-23",
-   "comment": "Dieng (finger) is questionable for Monday's game against the Raptors.",
-   "date": "2026-11-22T21:37Z"
-  }
- ],
  "MIN": [
   {
    "id": "4432247",
@@ -554,26 +562,6 @@
   }
  ],
  "NO": [
-  {
-   "id": "4397688",
-   "name": "Trey Murphy III",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Knee",
-   "return": "2026-11-23",
-   "comment": "Murphy (knees) is listed as probable for Monday's game against the Suns.",
-   "date": "2026-11-22T21:02Z"
-  },
-  {
-   "id": "4576086",
-   "name": "Bryce McGowens",
-   "pos": "G",
-   "status": "Out",
-   "type": "Elbow",
-   "return": "2026-11-23",
-   "comment": "McGowens (elbow) is listed as probable for Monday's game against Phoenix.",
-   "date": "2026-11-22T20:53Z"
-  },
   {
    "id": "4395628",
    "name": "Zion Williamson",
@@ -649,54 +637,54 @@
  ],
  "OKC": [
   {
-   "id": "5174983",
-   "name": "Aday Mara",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Lower Leg",
-   "return": "2026-11-23",
-   "comment": "Mara (shin) is listed as out for Sunday's game versus Miami.",
-   "date": "2026-11-23T15:04Z"
+   "id": "5159925",
+   "name": "Nikola Topic",
+   "pos": "G",
+   "status": "Out",
+   "type": "Hip",
+   "return": "2026-11-25",
+   "comment": "Topic (hip) has been ruled out for Monday's game against the Pacers, according to the NBA's official injury report.",
+   "date": "2026-11-23T18:49Z"
   },
   {
    "id": "4432823",
    "name": "Jaylin Williams",
    "pos": "F",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Back",
-   "return": "2026-11-23",
+   "return": "2026-11-25",
    "comment": "Williams (back) is listed as out for Sunday's game against Miami.",
-   "date": "2026-11-23T15:03Z"
+   "date": "2026-11-23T18:49Z"
   },
   {
-   "id": "5159925",
-   "name": "Nikola Topic",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Hip",
-   "return": "2026-11-23",
-   "comment": "Topic (hip) is listed as out for Sunday's game versus the Heat.",
-   "date": "2026-11-23T15:03Z"
+   "id": "5174983",
+   "name": "Aday Mara",
+   "pos": "C",
+   "status": "Out",
+   "type": "Lower Leg",
+   "return": "2026-11-25",
+   "comment": "Mara (shin) has been ruled out for Monday's game against the Pacers.",
+   "date": "2026-11-23T18:45Z"
   },
   {
-   "id": "4278073",
-   "name": "Shai Gilgeous-Alexander",
+   "id": "4593803",
+   "name": "Jalen Williams",
    "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Back",
-   "return": "2026-11-23",
-   "comment": "Gilgeous-Alexander (back/neck) is listed as out for Sunday's game against the Heat.",
-   "date": "2026-11-23T15:03Z"
+   "status": "Out",
+   "type": "Leg",
+   "return": "2027-03-02",
+   "comment": "Williams (ankle) has been ruled out for Monday's game against the Pacers, according to the NBA's official injury report.",
+   "date": "2026-11-23T18:43Z"
   },
   {
    "id": "2991350",
    "name": "Alex Caruso",
    "pos": "G",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Hip",
-   "return": "2026-11-23",
-   "comment": "Caruso (hip) won't play Sunday against the Heat.",
-   "date": "2026-11-23T15:03Z"
+   "return": "2026-11-25",
+   "comment": "Caruso (hip) has been ruled out for Monday's game against the Pacers, according to the NBA's official injury report.",
+   "date": "2026-11-23T18:38Z"
   },
   {
    "id": "5061603",
@@ -727,16 +715,6 @@
    "return": "2027-01-02",
    "comment": "Holmgren underwent a biological treatment Friday to address a small patellar tendon tear and will miss at least 8-10 weeks, Nick Crain of Slam reports.",
    "date": "2026-10-31T01:02Z"
-  },
-  {
-   "id": "4593803",
-   "name": "Jalen Williams",
-   "pos": "G",
-   "status": "Out",
-   "type": "Leg",
-   "return": "2027-03-02",
-   "comment": "Williams (leg) underwent successful surgery Wednesday to \"address a fractured left fibula and reconstruction of ankle ligaments following a fracture and dislocation.\" He will be re-evaluated before the end of the regular season, Tim MacMahon of ESPN.com reports.",
-   "date": "2026-10-28T23:41Z"
   }
  ],
  "ORL": [
@@ -782,6 +760,16 @@
   }
  ],
  "PHI": [
+  {
+   "id": "3059318",
+   "name": "Joel Embiid",
+   "pos": "C",
+   "status": "Day-To-Day",
+   "type": "Illness",
+   "return": "2026-11-23",
+   "comment": "Embiid (knee) has been downgraded to questionable for Monday's game against Portland.",
+   "date": "2026-11-23T16:49Z"
+  },
   {
    "id": "5105637",
    "name": "Adem Bona",
@@ -973,6 +961,16 @@
  ],
  "TOR": [
   {
+   "id": "4432737",
+   "name": "Jaden Bradley",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Ankle",
+   "return": "2026-11-23",
+   "comment": "Bradley is questionable for Monday's game against the Bucks due to an ankle sprain, Blake Murphy of Sportsnet.ca reports.",
+   "date": "2026-11-23T17:37Z"
+  },
+  {
    "id": "5093267",
    "name": "Collin Murray-Boyles",
    "pos": "F",
@@ -1097,5 +1095,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-23T16:16:55.485136+00:00"
+ "_updated": "2026-11-23T19:10:19.650288+00:00"
 }
