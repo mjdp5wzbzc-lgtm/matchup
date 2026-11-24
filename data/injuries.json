@@ -329,6 +329,26 @@
  ],
  "IND": [
   {
+   "id": "2530530",
+   "name": "T.J. McConnell",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Hamstring",
+   "return": "2026-11-27",
+   "comment": "McConnell (hamstring) was assigned to the G League's Noblesville Boom on Tuesday.",
+   "date": "2026-11-24T16:02Z"
+  },
+  {
+   "id": "4396993",
+   "name": "Tyrese Haliburton",
+   "pos": "G",
+   "status": "Out",
+   "type": "Hamstring",
+   "return": "2026-12-13",
+   "comment": "Haliburton (hamstring) was assigned to the G League's Noblesville Boom on Tuesday.",
+   "date": "2026-11-24T15:57Z"
+  },
+  {
    "id": "4396909",
    "name": "Aaron Nesmith",
    "pos": "G",
@@ -336,16 +356,6 @@
    "type": "Foot",
    "return": "2026-11-27",
    "comment": "Nesmith is out for Monday's game against the Thunder due to right foot soreness.",
-   "date": "2026-11-24T04:40Z"
-  },
-  {
-   "id": "2530530",
-   "name": "T.J. McConnell",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Hamstring",
-   "return": "2026-11-27",
-   "comment": "McConnell is out for Monday's game against the Thunder due to left hamstring soreness.",
    "date": "2026-11-24T04:40Z"
   },
   {
@@ -357,26 +367,6 @@
    "return": "2026-11-27",
    "comment": "Nance exited Monday's game against the Thunder due to a sore right ankle and he will not return, Tony East of Forbes.com reports.",
    "date": "2026-11-24T02:00Z"
-  },
-  {
-   "id": "4396993",
-   "name": "Tyrese Haliburton",
-   "pos": "G",
-   "status": "Out",
-   "type": "Hamstring",
-   "return": "2026-12-13",
-   "comment": "Haliburton (hamstring) is expected to miss at least two more weeks, Shams Charania of ESPN reports.",
-   "date": "2026-11-20T20:41Z"
-  },
-  {
-   "id": "5157066",
-   "name": "Johnny Furphy",
-   "pos": "G",
-   "status": "Out",
-   "type": "Knee",
-   "return": "2027-01-02",
-   "comment": "Furphy (knee) is practicing with the G League's Noblesville Boom, per Alex Golden of SI.com.",
-   "date": "2026-10-30T19:06Z"
   },
   {
    "id": "4433076",
@@ -973,5 +963,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-24T13:25:24.042561+00:00"
+ "_updated": "2026-11-24T16:20:39.483684+00:00"
 }
