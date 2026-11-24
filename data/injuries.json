@@ -77,24 +77,34 @@
  ],
  "CHA": [
   {
-   "id": "4066218",
-   "name": "Grant Williams",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Hamstring",
-   "return": "2026-11-25",
-   "comment": "Williams (hamstring) won't play Monday's game against the Grizzlies.",
-   "date": "2026-11-24T04:32Z"
-  },
-  {
    "id": "4576060",
    "name": "Ryan Kalkbrenner",
    "pos": "C",
    "status": "Day-To-Day",
    "type": "Hip",
    "return": "2026-11-25",
-   "comment": "Kalkbrenner has been ruled out for the rest of Monday's game against Memphis due to left hip soreness. He'll end with two rebounds in nine minutes.",
-   "date": "2026-11-24T02:14Z"
+   "comment": "Kalkbrenner (hip) is doubtful to play Wednesday against the Bulls.",
+   "date": "2026-11-24T22:33Z"
+  },
+  {
+   "id": "3032979",
+   "name": "Dennis Schroder",
+   "pos": "G",
+   "status": "Out",
+   "type": "Hamstring",
+   "return": "2026-12-12",
+   "comment": "Schroder (hamstring) is out for Wednesday's game the Bulls.",
+   "date": "2026-11-24T22:32Z"
+  },
+  {
+   "id": "4602025",
+   "name": "Sion James",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Undisclosed",
+   "return": "2026-11-25",
+   "comment": "James is probable for Wednesday's game against the Bulls due to general soreness.",
+   "date": "2026-11-24T22:30Z"
   },
   {
    "id": "3135045",
@@ -103,8 +113,8 @@
    "status": "Out",
    "type": "Concussion",
    "return": "2026-11-25",
-   "comment": "Allen (concussion) has been ruled out for Monday's game against the Grizzlies.",
-   "date": "2026-11-22T22:08Z"
+   "comment": "Allen (concussion) is listed as questionable for Wednesday's game versus Chicago.",
+   "date": "2026-11-24T22:29Z"
   },
   {
    "id": "5061575",
@@ -115,16 +125,6 @@
    "return": "2026-12-12",
    "comment": "Knueppel (hamstring) was diagnosed with a left hamstring strain Sunday and will be re-evaluated in four weeks.",
    "date": "2026-11-08T22:31Z"
-  },
-  {
-   "id": "3032979",
-   "name": "Dennis Schroder",
-   "pos": "G",
-   "status": "Out",
-   "type": "Hamstring",
-   "return": "2026-11-25",
-   "comment": "Schroder has been diagnosed with a left hamstring strain and will be reevaluated in two weeks, Michael Scotto of HoopsHype.com reports.",
-   "date": "2026-11-08T22:26Z"
   }
  ],
  "CHI": [
@@ -483,8 +483,8 @@
    "status": "Day-To-Day",
    "type": "Groin",
    "return": "2026-11-25",
-   "comment": "Antetokounmpo (groin) participated in most of Tuesday's practice, Zachary Weinberger of ClutchPoints.com reports.",
-   "date": "2026-11-24T18:56Z"
+   "comment": "Antetokounmpo (groin) is questionable for Wednesday's game in Philadelphia.",
+   "date": "2026-11-24T22:07Z"
   }
  ],
  "MIN": [
@@ -553,14 +553,34 @@
  ],
  "NY": [
   {
+   "id": "4431823",
+   "name": "Miles McBride",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Groin",
+   "return": "2026-11-25",
+   "comment": "McBride (adductor) is listed as questionable for Wednesday's game versus Cleveland.",
+   "date": "2026-11-24T21:56Z"
+  },
+  {
+   "id": "2528426",
+   "name": "Jordan Clarkson",
+   "pos": "G",
+   "status": "Out",
+   "type": "Foot",
+   "return": "2026-11-27",
+   "comment": "Clarkson (foot) is out for Wednesday's game against Cleveland.",
+   "date": "2026-11-24T21:56Z"
+  },
+  {
    "id": "3062679",
    "name": "Josh Hart",
    "pos": "G",
    "status": "Day-To-Day",
    "type": "Shoulder",
    "return": "2026-11-25",
-   "comment": "Hart recorded 10 points (5-11 FG, 0-4 3Pt), 11 rebounds, 10 assists and one steal in 39 minutes during Sunday's 113-106 win over the Pacers.",
-   "date": "2026-11-24T21:53Z"
+   "comment": "Hart (shoulder) is listed as questionable for Wednesday's game against Cleveland.",
+   "date": "2026-11-24T21:54Z"
   },
   {
    "id": "3934719",
@@ -569,8 +589,8 @@
    "status": "Out",
    "type": "Calf",
    "return": "2026-11-27",
-   "comment": "Anunoby (calf) did not participate in Tuesday's practice, Jared Schwartz of the New York Post reports.",
-   "date": "2026-11-24T21:52Z"
+   "comment": "Anunoby (calf) is out for Wednesday's game against Cleveland.",
+   "date": "2026-11-24T21:53Z"
   },
   {
    "id": "3136195",
@@ -581,26 +601,6 @@
    "return": "2026-11-25",
    "comment": "Towns (knee) is questionable for Wednesday's game against Cleveland.",
    "date": "2026-11-24T21:50Z"
-  },
-  {
-   "id": "2528426",
-   "name": "Jordan Clarkson",
-   "pos": "G",
-   "status": "Out",
-   "type": "Foot",
-   "return": "2026-11-25",
-   "comment": "Clarkson (foot) didn't participate in Tuesday's practice, Jared Schwartz of the New York Post reports.",
-   "date": "2026-11-24T18:48Z"
-  },
-  {
-   "id": "4431823",
-   "name": "Miles McBride",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Groin",
-   "return": "2026-11-25",
-   "comment": "McBride (groin) practiced Tuesday, per Jared Schwartz of the New York Post.",
-   "date": "2026-11-24T18:40Z"
   }
  ],
  "OKC": [
@@ -734,9 +734,9 @@
    "pos": "C",
    "status": "Day-To-Day",
    "type": "Illness",
-   "return": "2026-11-25",
-   "comment": "Embiid (illness) is out for Monday's game against Portland, Austin Krell of OnPattison.com reports.",
-   "date": "2026-11-24T04:33Z"
+   "return": "2026-11-27",
+   "comment": "Embiid (illness) is listed as doubtful for Wednesday's game versus Miami.",
+   "date": "2026-11-24T22:09Z"
   },
   {
    "id": "4871141",
@@ -1003,5 +1003,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-24T22:05:58.106173+00:00"
+ "_updated": "2026-11-24T22:49:33.593451+00:00"
 }
