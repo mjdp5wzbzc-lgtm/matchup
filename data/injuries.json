@@ -293,8 +293,8 @@
    "status": "Out",
    "type": "Hamstring",
    "return": "2026-11-25",
-   "comment": "Head coach Steve Kerr said Monday that Williams (hamstring) is on track to return Wednesday against the Kings, Kenzo Fukuda of ClutchPoints.com reports.",
-   "date": "2026-11-23T20:52Z"
+   "comment": "Head coach Steve Kerr said Tuesday that Williams (hamstring) is questionable to play Wednesday against the Kings, per Dalton Johnson of NBC Sports Bay Area.",
+   "date": "2026-11-24T20:58Z"
   },
   {
    "id": "3975",
@@ -345,8 +345,8 @@
    "status": "Day-To-Day",
    "type": "Hamstring",
    "return": "2026-11-27",
-   "comment": "McConnell (hamstring) was assigned to the G League's Noblesville Boom on Tuesday.",
-   "date": "2026-11-24T16:02Z"
+   "comment": "McConnell (hamstring) was recalled from the G League's Noblesville Boom on Tuesday, Shams Charania of ESPN reports.",
+   "date": "2026-11-24T19:43Z"
   },
   {
    "id": "4396993",
@@ -355,8 +355,8 @@
    "status": "Out",
    "type": "Hamstring",
    "return": "2026-12-13",
-   "comment": "Haliburton (hamstring) was assigned to the G League's Noblesville Boom on Tuesday.",
-   "date": "2026-11-24T15:57Z"
+   "comment": "Haliburton (hamstring) was recalled from the G League's Noblesville Boom on Tuesday, Tony East of Forbes.com reports.",
+   "date": "2026-11-24T19:41Z"
   },
   {
    "id": "4396909",
@@ -859,6 +859,16 @@
  ],
  "TOR": [
   {
+   "id": "6450",
+   "name": "Kawhi Leonard",
+   "pos": "F",
+   "status": "Out",
+   "type": "Knee",
+   "return": "2026-12-03",
+   "comment": "Leonard has begun individual on-court workouts following treatment to address swelling in his left knee, and he will be re-evaluated in one week, Marc J. Spears of ESPN.com reports.",
+   "date": "2026-11-24T21:15Z"
+  },
+  {
    "id": "4432586",
    "name": "Nate Bittle",
    "pos": "C",
@@ -867,16 +877,6 @@
    "return": "2026-11-27",
    "comment": "Bittle (foot) has been ruled out for Monday's game against the Bucks, Blake Murphy of Sportsnet.ca reports.",
    "date": "2026-11-22T21:13Z"
-  },
-  {
-   "id": "6450",
-   "name": "Kawhi Leonard",
-   "pos": "F",
-   "status": "Out",
-   "type": "Knee",
-   "return": "2026-12-03",
-   "comment": "Leonard (knee) could return in the next few weeks, per Shams Charania of ESPN.",
-   "date": "2026-11-20T20:42Z"
   },
   {
    "id": "4395625",
@@ -983,5 +983,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-24T19:07:40.146606+00:00"
+ "_updated": "2026-11-24T21:48:42.198011+00:00"
 }
