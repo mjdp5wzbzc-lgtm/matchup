@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T04:07:34.853091+00:00",
+ "generated": "2026-11-24T04:32:30.925070+00:00",
  "days": [
   {
    "date": "2026-11-23",
@@ -106,10 +106,10 @@
      "home": "LAL",
      "away": "UTAH",
      "state": "in",
-     "detail": "1:30 - 2nd",
+     "detail": "10:19 - 3rd",
      "score": {
-      "home": "50",
-      "away": "36"
+      "home": "53",
+      "away": "45"
      }
     },
     {
@@ -118,10 +118,10 @@
      "home": "SAC",
      "away": "SA",
      "state": "in",
-     "detail": "22.5 - 2nd",
+     "detail": "7:35 - 3rd",
      "score": {
-      "home": "51",
-      "away": "60"
+      "home": "59",
+      "away": "71"
      }
     }
    ]
