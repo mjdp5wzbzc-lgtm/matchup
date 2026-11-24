@@ -553,6 +553,36 @@
  ],
  "NY": [
   {
+   "id": "3062679",
+   "name": "Josh Hart",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Shoulder",
+   "return": "2026-11-25",
+   "comment": "Hart recorded 10 points (5-11 FG, 0-4 3Pt), 11 rebounds, 10 assists and one steal in 39 minutes during Sunday's 113-106 win over the Pacers.",
+   "date": "2026-11-24T21:53Z"
+  },
+  {
+   "id": "3934719",
+   "name": "OG Anunoby",
+   "pos": "F",
+   "status": "Out",
+   "type": "Calf",
+   "return": "2026-11-27",
+   "comment": "Anunoby (calf) did not participate in Tuesday's practice, Jared Schwartz of the New York Post reports.",
+   "date": "2026-11-24T21:52Z"
+  },
+  {
+   "id": "3136195",
+   "name": "Karl-Anthony Towns",
+   "pos": "C",
+   "status": "Day-To-Day",
+   "type": "Knee",
+   "return": "2026-11-25",
+   "comment": "Towns (knee) is questionable for Wednesday's game against Cleveland.",
+   "date": "2026-11-24T21:50Z"
+  },
+  {
    "id": "2528426",
    "name": "Jordan Clarkson",
    "pos": "G",
@@ -563,21 +593,11 @@
    "date": "2026-11-24T18:48Z"
   },
   {
-   "id": "3934719",
-   "name": "OG Anunoby",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Calf",
-   "return": "2026-11-25",
-   "comment": "Anunoby (calf) did not participate in Tuesday's practice, Jared Schwartz of the New York Post reports.",
-   "date": "2026-11-24T18:42Z"
-  },
-  {
    "id": "4431823",
    "name": "Miles McBride",
    "pos": "G",
    "status": "Day-To-Day",
-   "type": "Abdomen",
+   "type": "Groin",
    "return": "2026-11-25",
    "comment": "McBride (groin) practiced Tuesday, per Jared Schwartz of the New York Post.",
    "date": "2026-11-24T18:40Z"
@@ -983,5 +1003,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-24T21:48:42.198011+00:00"
+ "_updated": "2026-11-24T22:05:58.106173+00:00"
 }
