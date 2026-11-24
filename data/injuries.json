@@ -141,16 +141,6 @@
  ],
  "CLE": [
   {
-   "id": "4683747",
-   "name": "Jaylon Tyson",
-   "pos": "G",
-   "status": "Out",
-   "type": "Ankle",
-   "return": "2026-11-23",
-   "comment": "Tyson (ankle) is probable for Monday's game against the Bulls.",
-   "date": "2026-11-22T21:51Z"
-  },
-  {
    "id": "5106268",
    "name": "Nae'Qwan Tomlin",
    "pos": "F",
@@ -221,18 +211,6 @@
    "return": "2026-11-27",
    "comment": "Biberovic (heel) is out for Wednesday's game against the Warriors.",
    "date": "2026-11-17T22:42Z"
-  }
- ],
- "DEN": [
-  {
-   "id": "4432181",
-   "name": "Julian Strawther",
-   "pos": "G",
-   "status": "Out",
-   "type": "Knee",
-   "return": "2026-11-29",
-   "comment": "Strawther (knee) was diagnosed with a left knee sprain Friday and will be re-evaluated in six weeks, Vinny Benedetto of The Denver Gazette reports.",
-   "date": "2026-10-17T00:52Z"
   }
  ],
  "DET": [
@@ -522,16 +500,6 @@
   }
  ],
  "NO": [
-  {
-   "id": "4395628",
-   "name": "Zion Williamson",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Thigh",
-   "return": "2026-11-23",
-   "comment": "Williamson (thigh) is probable for Monday's game against Phoenix.",
-   "date": "2026-11-22T20:50Z"
-  },
   {
    "id": "4431675",
    "name": "Trendon Watford",
@@ -995,5 +963,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-23T23:42:57.611523+00:00"
+ "_updated": "2026-11-24T00:51:22.809257+00:00"
 }
