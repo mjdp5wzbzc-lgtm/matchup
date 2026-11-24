@@ -129,6 +129,16 @@
  ],
  "CHI": [
   {
+   "id": "4397189",
+   "name": "Jalen Smith",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Illness",
+   "return": "2026-11-25",
+   "comment": "Smith (illness) is listed as questionable for Wednesday's game against the Hornets.",
+   "date": "2026-11-24T18:21Z"
+  },
+  {
    "id": "2595516",
    "name": "Norman Powell",
    "pos": "G",
@@ -230,9 +240,29 @@
    "pos": "G",
    "status": "Out",
    "type": "Oblique",
-   "return": "2026-11-30",
-   "comment": "Okorie (oblique) won't play Tuesday in Orlando.",
-   "date": "2026-11-23T22:10Z"
+   "return": "2026-12-13",
+   "comment": "The Pistons announced Tuesday that Okorie (oblique) will miss at least two weeks, per Eric Vincent of ClutchPoints.com.",
+   "date": "2026-11-24T18:37Z"
+  },
+  {
+   "id": "2990962",
+   "name": "Taurean Prince",
+   "pos": "F",
+   "status": "Out",
+   "type": "Knee",
+   "return": "2026-12-26",
+   "comment": "Prince underwent arthroscopic right knee surgery Nov. 18 and will be re-evaluated in four weeks, Eric Vincent of ClutchPoints.com reports.",
+   "date": "2026-11-24T18:33Z"
+  },
+  {
+   "id": "3157465",
+   "name": "Duncan Robinson",
+   "pos": "F",
+   "status": "Out",
+   "type": "Quadriceps",
+   "return": "2026-11-27",
+   "comment": "Robinson (quadriceps) is considered day-to-day as he progresses in his rehab, Eric Vincent of ClutchPoints.com reports.",
+   "date": "2026-11-24T18:30Z"
   },
   {
    "id": "4433621",
@@ -241,8 +271,8 @@
    "status": "Out",
    "type": "Hamstring",
    "return": "2026-11-30",
-   "comment": "Duren (hamstring) has been ruled out for Tuesday's game against the Magic.",
-   "date": "2026-11-23T22:08Z"
+   "comment": "Duren (hamstring) is being assigned to the Motor City Cruise on Wednesday for practice as he ramps up for a return, Eric Vincent of ClutchPoints.com reports.",
+   "date": "2026-11-24T18:27Z"
   },
   {
    "id": "4432166",
@@ -253,26 +283,6 @@
    "return": "2026-11-24",
    "comment": "Cunningham (knee) is probable for Tuesday's game against the Orlando.",
    "date": "2026-11-23T22:07Z"
-  },
-  {
-   "id": "2990962",
-   "name": "Taurean Prince",
-   "pos": "F",
-   "status": "Out",
-   "type": "Knee",
-   "return": "2026-12-13",
-   "comment": "Prince (knee) underwent surgery to address lingering issues and has no timeline for a return, Hunter Patterson of The Athletic reports.",
-   "date": "2026-11-20T23:02Z"
-  },
-  {
-   "id": "3157465",
-   "name": "Duncan Robinson",
-   "pos": "F",
-   "status": "Out",
-   "type": "Quadriceps",
-   "return": "2026-11-27",
-   "comment": "Robinson will be re-evaluated in one week due to a left quadriceps strain, Coty M. Davis of The Detroit News reports.",
-   "date": "2026-11-17T16:25Z"
   }
  ],
  "GS": [
@@ -473,11 +483,21 @@
    "status": "Day-To-Day",
    "type": "Groin",
    "return": "2026-11-25",
-   "comment": "Antetokounmpo (groin) won't play in Sunday's game against Oklahoma City, Clemente Almanza of USA Today reports.",
-   "date": "2026-11-23T15:04Z"
+   "comment": "Antetokounmpo (groin) participated in most of Tuesday's practice, Zachary Weinberger of ClutchPoints.com reports.",
+   "date": "2026-11-24T18:56Z"
   }
  ],
  "MIN": [
+  {
+   "id": "3934673",
+   "name": "Donte DiVincenzo",
+   "pos": "G",
+   "status": "Out",
+   "type": "Achilles",
+   "return": "2027-01-03",
+   "comment": "DiVincenzo (Achilles) has been cleared for team basketball activities and is targeting a return to game action in January, Jon Krawczynski of The Athletic reports.",
+   "date": "2026-11-24T17:10Z"
+  },
   {
    "id": "4432247",
    "name": "Jaylen Clark",
@@ -497,16 +517,6 @@
    "return": "2026-12-21",
    "comment": "Edwards underwent a successful arthroscopic procedure on his right knee Thursday, the Timberwolves announced.",
    "date": "2026-10-29T18:33Z"
-  },
-  {
-   "id": "3934673",
-   "name": "Donte DiVincenzo",
-   "pos": "G",
-   "status": "Out",
-   "type": "Achilles",
-   "return": "2027-04-02",
-   "comment": "DiVincenzo (Achilles) remains confident that he'll return during the 2026-27 season, Jon Krawczynski of The Athletic reports.",
-   "date": "2026-10-05T20:53Z"
   }
  ],
  "NO": [
@@ -543,14 +553,14 @@
  ],
  "NY": [
   {
-   "id": "4431823",
-   "name": "Miles McBride",
+   "id": "2528426",
+   "name": "Jordan Clarkson",
    "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Abdomen",
+   "status": "Out",
+   "type": "Foot",
    "return": "2026-11-25",
-   "comment": "McBride (abdomen) has been ruled out for Sunday's game against the Pacers.",
-   "date": "2026-11-23T15:07Z"
+   "comment": "Clarkson (foot) didn't participate in Tuesday's practice, Jared Schwartz of the New York Post reports.",
+   "date": "2026-11-24T18:48Z"
   },
   {
    "id": "3934719",
@@ -559,18 +569,18 @@
    "status": "Day-To-Day",
    "type": "Calf",
    "return": "2026-11-25",
-   "comment": "Anunoby (calf) won't play Sunday against the Pacers.",
-   "date": "2026-11-23T15:07Z"
+   "comment": "Anunoby (calf) did not participate in Tuesday's practice, Jared Schwartz of the New York Post reports.",
+   "date": "2026-11-24T18:42Z"
   },
   {
-   "id": "2528426",
-   "name": "Jordan Clarkson",
+   "id": "4431823",
+   "name": "Miles McBride",
    "pos": "G",
-   "status": "Out",
-   "type": "Foot",
+   "status": "Day-To-Day",
+   "type": "Abdomen",
    "return": "2026-11-25",
-   "comment": "Clarkson (foot) has been ruled out for Sunday's game against Indiana.",
-   "date": "2026-11-22T18:05Z"
+   "comment": "McBride (groin) practiced Tuesday, per Jared Schwartz of the New York Post.",
+   "date": "2026-11-24T18:40Z"
   }
  ],
  "OKC": [
@@ -923,6 +933,16 @@
  ],
  "WSH": [
   {
+   "id": "4432819",
+   "name": "Tre Mann",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Illness",
+   "return": "2026-11-24",
+   "comment": "Mann (illness) has been downgraded to questionable for Tuesday's game against Boston.",
+   "date": "2026-11-24T16:47Z"
+  },
+  {
    "id": "4997537",
    "name": "Tristan Vukcevic",
    "pos": "F",
@@ -963,5 +983,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-24T16:20:39.483684+00:00"
+ "_updated": "2026-11-24T19:07:40.146606+00:00"
 }
