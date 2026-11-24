@@ -77,6 +77,16 @@
  ],
  "CHA": [
   {
+   "id": "4066218",
+   "name": "Grant Williams",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Hamstring",
+   "return": "2026-11-25",
+   "comment": "Williams (hamstring) won't play Monday's game against the Grizzlies.",
+   "date": "2026-11-24T04:32Z"
+  },
+  {
    "id": "4576060",
    "name": "Ryan Kalkbrenner",
    "pos": "C",
@@ -95,16 +105,6 @@
    "return": "2026-11-25",
    "comment": "Allen (concussion) has been ruled out for Monday's game against the Grizzlies.",
    "date": "2026-11-22T22:08Z"
-  },
-  {
-   "id": "4066218",
-   "name": "Grant Williams",
-   "pos": "F",
-   "status": "Out",
-   "type": "Hamstring",
-   "return": "2026-11-25",
-   "comment": "Williams (hamstring) won't play Monday's game against the Grizzlies.",
-   "date": "2026-11-22T22:05Z"
   },
   {
    "id": "5061575",
@@ -329,6 +329,26 @@
  ],
  "IND": [
   {
+   "id": "4396909",
+   "name": "Aaron Nesmith",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Foot",
+   "return": "2026-11-27",
+   "comment": "Nesmith is out for Monday's game against the Thunder due to right foot soreness.",
+   "date": "2026-11-24T04:40Z"
+  },
+  {
+   "id": "2530530",
+   "name": "T.J. McConnell",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Hamstring",
+   "return": "2026-11-27",
+   "comment": "McConnell is out for Monday's game against the Thunder due to left hamstring soreness.",
+   "date": "2026-11-24T04:40Z"
+  },
+  {
    "id": "2580365",
    "name": "Larry Nance Jr.",
    "pos": "F",
@@ -337,26 +357,6 @@
    "return": "2026-11-27",
    "comment": "Nance exited Monday's game against the Thunder due to a sore right ankle and he will not return, Tony East of Forbes.com reports.",
    "date": "2026-11-24T02:00Z"
-  },
-  {
-   "id": "2530530",
-   "name": "T.J. McConnell",
-   "pos": "G",
-   "status": "Out",
-   "type": "Hamstring",
-   "return": "2026-11-27",
-   "comment": "McConnell is out for Monday's game against the Thunder due to left hamstring soreness.",
-   "date": "2026-11-23T18:25Z"
-  },
-  {
-   "id": "4396909",
-   "name": "Aaron Nesmith",
-   "pos": "G",
-   "status": "Out",
-   "type": "Foot",
-   "return": "2026-11-27",
-   "comment": "Nesmith is out for Monday's game against the Thunder due to right foot soreness.",
-   "date": "2026-11-23T18:22Z"
   },
   {
    "id": "4396993",
@@ -588,11 +588,21 @@
    "id": "4432823",
    "name": "Jaylin Williams",
    "pos": "F",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Back",
    "return": "2026-11-25",
    "comment": "Williams (back) has been ruled out for Monday's game against the Pacers",
-   "date": "2026-11-23T19:09Z"
+   "date": "2026-11-24T04:36Z"
+  },
+  {
+   "id": "5174983",
+   "name": "Aday Mara",
+   "pos": "C",
+   "status": "Day-To-Day",
+   "type": "Lower Leg",
+   "return": "2026-11-25",
+   "comment": "Mara (shin) has been ruled out for Monday's game against the Pacers.",
+   "date": "2026-11-24T04:36Z"
   },
   {
    "id": "5159925",
@@ -603,16 +613,6 @@
    "return": "2026-11-25",
    "comment": "Topic (hip) has been ruled out for Monday's game against the Pacers, according to the NBA's official injury report.",
    "date": "2026-11-23T18:49Z"
-  },
-  {
-   "id": "5174983",
-   "name": "Aday Mara",
-   "pos": "C",
-   "status": "Out",
-   "type": "Lower Leg",
-   "return": "2026-11-25",
-   "comment": "Mara (shin) has been ruled out for Monday's game against the Pacers.",
-   "date": "2026-11-23T18:45Z"
   },
   {
    "id": "4593803",
@@ -712,11 +712,11 @@
    "id": "3059318",
    "name": "Joel Embiid",
    "pos": "C",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Illness",
    "return": "2026-11-25",
    "comment": "Embiid (illness) is out for Monday's game against Portland, Austin Krell of OnPattison.com reports.",
-   "date": "2026-11-23T22:49Z"
+   "date": "2026-11-24T04:33Z"
   },
   {
    "id": "4871141",
@@ -807,24 +807,24 @@
  ],
  "SA": [
   {
-   "id": "4066259",
-   "name": "De'Aaron Fox",
-   "pos": "G",
-   "status": "Out",
-   "type": "Lower Leg",
-   "return": "2026-11-25",
-   "comment": "Fox (shin) has been ruled out for Monday's game against the Kings, Jeff McDonald of the San Antonio Express-News reports.",
-   "date": "2026-11-24T01:24Z"
-  },
-  {
    "id": "5104157",
    "name": "Victor Wembanyama",
    "pos": "F",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Back",
    "return": "2026-11-25",
    "comment": "Wembanyama (back) won't play Monday against the Kings, Jeff McDonald of the San Antonio Express-News reports.",
-   "date": "2026-11-24T01:24Z"
+   "date": "2026-11-24T06:06Z"
+  },
+  {
+   "id": "4066259",
+   "name": "De'Aaron Fox",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Lower Leg",
+   "return": "2026-11-25",
+   "comment": "Fox (shin) has been ruled out for Monday's game against the Kings, Jeff McDonald of the San Antonio Express-News reports.",
+   "date": "2026-11-24T06:06Z"
   },
   {
    "id": "5037871",
@@ -894,11 +894,11 @@
    "id": "4397077",
    "name": "Jaxson Hayes",
    "pos": "C",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Knee",
    "return": "2026-11-27",
    "comment": "Hayes (knee) has been ruled out for Monday's game against the Lakers.",
-   "date": "2026-11-23T21:04Z"
+   "date": "2026-11-24T06:07Z"
   },
   {
    "id": "3102530",
@@ -973,5 +973,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-24T04:32:31.977873+00:00"
+ "_updated": "2026-11-24T07:27:46.214915+00:00"
 }
