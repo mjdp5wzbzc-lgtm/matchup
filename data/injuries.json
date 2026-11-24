@@ -77,6 +77,16 @@
  ],
  "CHA": [
   {
+   "id": "4576060",
+   "name": "Ryan Kalkbrenner",
+   "pos": "C",
+   "status": "Day-To-Day",
+   "type": "Hip",
+   "return": "2026-11-25",
+   "comment": "Kalkbrenner has been ruled out for the rest of Monday's game against Memphis due to left hip soreness. He'll end with two rebounds in nine minutes.",
+   "date": "2026-11-24T02:14Z"
+  },
+  {
    "id": "3135045",
    "name": "Grayson Allen",
    "pos": "G",
@@ -721,6 +731,16 @@
  ],
  "PHX": [
   {
+   "id": "4278585",
+   "name": "Collin Gillespie",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Undisclosed",
+   "return": "2026-11-23",
+   "comment": "Gillespie went to the locker room during the third quarter of Monday's game against the Pelicans due to an undisclosed injury, Duane Rankin of The Arizona Republic reports.",
+   "date": "2026-11-24T02:48Z"
+  },
+  {
    "id": "4701232",
    "name": "Mark Williams",
    "pos": "C",
@@ -963,5 +983,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-24T02:09:23.419262+00:00"
+ "_updated": "2026-11-24T03:22:13.129130+00:00"
 }
