@@ -193,16 +193,6 @@
    "date": "2026-11-23T23:25Z"
   },
   {
-   "id": "4278078",
-   "name": "P.J. Washington",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Illness",
-   "return": "2026-11-24",
-   "comment": "Washington (illness) is questionable for Tuesday's game against the Nuggets.",
-   "date": "2026-11-23T23:21Z"
-  },
-  {
    "id": "4683688",
    "name": "Dereck Lively II",
    "pos": "C",
@@ -993,5 +983,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-25T02:16:54.014322+00:00"
+ "_updated": "2026-11-25T03:30:02.890026+00:00"
 }
