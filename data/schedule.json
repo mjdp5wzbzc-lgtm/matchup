@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T23:41:43.743148+00:00",
+ "generated": "2026-11-25T00:54:52.148382+00:00",
  "days": [
   {
    "date": "2026-11-24",
@@ -9,11 +9,11 @@
      "start": "2026-11-25T00:00Z",
      "home": "ORL",
      "away": "DET",
-     "state": "pre",
-     "detail": "11/24 - 7:00 PM EST",
+     "state": "in",
+     "detail": "5:34 - 2nd",
      "score": {
-      "home": "0",
-      "away": "0"
+      "home": "27",
+      "away": "36"
      }
     },
     {

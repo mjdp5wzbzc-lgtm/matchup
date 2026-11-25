@@ -953,16 +953,6 @@
  ],
  "WSH": [
   {
-   "id": "4432819",
-   "name": "Tre Mann",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Illness",
-   "return": "2026-11-24",
-   "comment": "Mann (illness) has been downgraded to questionable for Tuesday's game against Boston.",
-   "date": "2026-11-24T16:47Z"
-  },
-  {
    "id": "4997537",
    "name": "Tristan Vukcevic",
    "pos": "F",
@@ -1003,5 +993,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-24T23:41:44.334060+00:00"
+ "_updated": "2026-11-25T00:54:52.258893+00:00"
 }
