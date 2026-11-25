@@ -800,9 +800,9 @@
    "pos": "C",
    "status": "Out",
    "type": "Knee",
-   "return": "2026-11-25",
-   "comment": "Raynaud (knee) will remain on the inactive list for Wednesday's game against the Suns.",
-   "date": "2026-11-18T05:54Z"
+   "return": "2026-12-02",
+   "comment": "Raynaud (knee) is out for Wednesday's game against the Warriors.",
+   "date": "2026-11-25T04:21Z"
   },
   {
    "id": "3907387",
@@ -983,5 +983,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-25T04:15:08.794840+00:00"
+ "_updated": "2026-11-25T04:40:43.030884+00:00"
 }

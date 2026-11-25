@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T04:15:08.625179+00:00",
+ "generated": "2026-11-25T04:40:42.656244+00:00",
  "days": [
   {
    "date": "2026-11-24",
@@ -34,10 +34,10 @@
      "home": "DEN",
      "away": "DAL",
      "state": "in",
-     "detail": "Halftime",
+     "detail": "5:01 - 3rd",
      "score": {
-      "home": "39",
-      "away": "58"
+      "home": "65",
+      "away": "73"
      }
     }
    ]
