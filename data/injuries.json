@@ -80,11 +80,21 @@
    "id": "4576060",
    "name": "Ryan Kalkbrenner",
    "pos": "C",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Hip",
-   "return": "2026-11-25",
-   "comment": "Kalkbrenner (hip) is doubtful to play Wednesday against the Bulls.",
-   "date": "2026-11-24T22:33Z"
+   "return": "2026-11-28",
+   "comment": "Kalkbrenner (hip) has been ruled out for Wednesday's matchup with Chicago.",
+   "date": "2026-11-25T17:41Z"
+  },
+  {
+   "id": "3135045",
+   "name": "Grayson Allen",
+   "pos": "G",
+   "status": "Out",
+   "type": "Concussion",
+   "return": "2026-11-28",
+   "comment": "Allen (concussion) has been ruled out for Wednesday's game against Chicago.",
+   "date": "2026-11-25T17:39Z"
   },
   {
    "id": "3032979",
@@ -105,16 +115,6 @@
    "return": "2026-11-25",
    "comment": "James is probable for Wednesday's game against the Bulls due to general soreness.",
    "date": "2026-11-24T22:30Z"
-  },
-  {
-   "id": "3135045",
-   "name": "Grayson Allen",
-   "pos": "G",
-   "status": "Out",
-   "type": "Concussion",
-   "return": "2026-11-25",
-   "comment": "Allen (concussion) is listed as questionable for Wednesday's game versus Chicago.",
-   "date": "2026-11-24T22:29Z"
   },
   {
    "id": "5061575",
@@ -521,6 +521,16 @@
  ],
  "NO": [
   {
+   "id": "4683742",
+   "name": "Julian Reese",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Knee",
+   "return": "2026-11-25",
+   "comment": "The Pelicans transferred Reese from the G League's Laketown Squadron, and he will be available for New Orleans' game against the Warriors on Monday.",
+   "date": "2026-11-25T16:11Z"
+  },
+  {
    "id": "4431675",
    "name": "Trendon Watford",
    "pos": "F",
@@ -553,14 +563,44 @@
  ],
  "NY": [
   {
+   "id": "3062679",
+   "name": "Josh Hart",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Shoulder",
+   "return": "2026-11-25",
+   "comment": "Hart (shoulder) has been upgraded to probable for Wednesday's game against the Cavaliers.",
+   "date": "2026-11-25T17:57Z"
+  },
+  {
    "id": "4431823",
    "name": "Miles McBride",
    "pos": "G",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Groin",
+   "return": "2026-11-27",
+   "comment": "McBride (adductor) has been ruled out for Wednesday's game against the Cavaliers.",
+   "date": "2026-11-25T17:57Z"
+  },
+  {
+   "id": "3136195",
+   "name": "Karl-Anthony Towns",
+   "pos": "C",
+   "status": "Day-To-Day",
+   "type": "Knee",
    "return": "2026-11-25",
-   "comment": "McBride (adductor) is listed as questionable for Wednesday's game versus Cleveland.",
-   "date": "2026-11-24T21:56Z"
+   "comment": "Towns (knee) is probable for Wednesday's game against Cleveland.",
+   "date": "2026-11-25T17:54Z"
+  },
+  {
+   "id": "3934672",
+   "name": "Jalen Brunson",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Illness",
+   "return": "2026-11-25",
+   "comment": "Brunson (illness) has been downgraded to questionable for Wednesday's game against the Cavaliers.",
+   "date": "2026-11-25T17:53Z"
   },
   {
    "id": "2528426",
@@ -573,16 +613,6 @@
    "date": "2026-11-24T21:56Z"
   },
   {
-   "id": "3062679",
-   "name": "Josh Hart",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Shoulder",
-   "return": "2026-11-25",
-   "comment": "Hart (shoulder) is listed as questionable for Wednesday's game against Cleveland.",
-   "date": "2026-11-24T21:54Z"
-  },
-  {
    "id": "3934719",
    "name": "OG Anunoby",
    "pos": "F",
@@ -591,16 +621,6 @@
    "return": "2026-11-27",
    "comment": "Anunoby (calf) is out for Wednesday's game against Cleveland.",
    "date": "2026-11-24T21:53Z"
-  },
-  {
-   "id": "3136195",
-   "name": "Karl-Anthony Towns",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Knee",
-   "return": "2026-11-25",
-   "comment": "Towns (knee) is questionable for Wednesday's game against Cleveland.",
-   "date": "2026-11-24T21:50Z"
   }
  ],
  "OKC": [
@@ -801,8 +821,8 @@
    "status": "Out",
    "type": "Knee",
    "return": "2026-12-02",
-   "comment": "Raynaud (knee) is out for Wednesday's game against the Warriors.",
-   "date": "2026-11-25T04:21Z"
+   "comment": "Raynaud (knee) was assigned to the G League's Stockton Kings on Wednesday, James Ham of ESPN 1320 Sacramento reports.",
+   "date": "2026-11-25T16:25Z"
   },
   {
    "id": "3907387",
@@ -983,5 +1003,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-25T16:18:18.494098+00:00"
+ "_updated": "2026-11-25T19:00:29.069449+00:00"
 }
