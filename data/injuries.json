@@ -541,24 +541,14 @@
  ],
  "NY": [
   {
-   "id": "3934672",
-   "name": "Jalen Brunson",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Illness",
-   "return": "2026-11-25",
-   "comment": "Brunson (illness) is probable for Wednesday's game against Cleveland.",
-   "date": "2026-11-25T21:35Z"
-  },
-  {
-   "id": "3062679",
-   "name": "Josh Hart",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Shoulder",
-   "return": "2026-11-25",
-   "comment": "Hart (shoulder) has been upgraded to probable for Wednesday's game against the Cavaliers.",
-   "date": "2026-11-25T17:57Z"
+   "id": "3934719",
+   "name": "OG Anunoby",
+   "pos": "F",
+   "status": "Out",
+   "type": "Calf",
+   "return": "2026-11-27",
+   "comment": "Anunoby (calf) participated in on-court work for the first time since sustaining the injury, Ian Begley of SportsNet New York reports.",
+   "date": "2026-11-25T23:19Z"
   },
   {
    "id": "4431823",
@@ -571,16 +561,6 @@
    "date": "2026-11-25T17:57Z"
   },
   {
-   "id": "3136195",
-   "name": "Karl-Anthony Towns",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Knee",
-   "return": "2026-11-25",
-   "comment": "Towns (knee) is probable for Wednesday's game against Cleveland.",
-   "date": "2026-11-25T17:54Z"
-  },
-  {
    "id": "2528426",
    "name": "Jordan Clarkson",
    "pos": "G",
@@ -589,16 +569,6 @@
    "return": "2026-11-27",
    "comment": "Clarkson (foot) is out for Wednesday's game against Cleveland.",
    "date": "2026-11-24T21:56Z"
-  },
-  {
-   "id": "3934719",
-   "name": "OG Anunoby",
-   "pos": "F",
-   "status": "Out",
-   "type": "Calf",
-   "return": "2026-11-27",
-   "comment": "Anunoby (calf) is out for Wednesday's game against Cleveland.",
-   "date": "2026-11-24T21:53Z"
   }
  ],
  "OKC": [
@@ -716,6 +686,16 @@
   }
  ],
  "PHI": [
+  {
+   "id": "3917376",
+   "name": "Jaylen Brown",
+   "pos": "G",
+   "status": "Out",
+   "type": "Hamstring",
+   "return": "2026-11-27",
+   "comment": "Brown (hamstring) won't return to Wednesday's game against Miami, Kyle Neubeck of AllPHLY.com reports. He finished with six points (2-8 FG, 0-1 3Pt, 2-2 FT), one rebound and one assist over 17 minutes.",
+   "date": "2026-11-25T23:30Z"
+  },
   {
    "id": "3059318",
    "name": "Joel Embiid",
@@ -991,5 +971,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-25T22:46:22.270665+00:00"
+ "_updated": "2026-11-25T23:42:25.994392+00:00"
 }
