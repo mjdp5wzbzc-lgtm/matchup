@@ -107,16 +107,6 @@
    "date": "2026-11-24T22:32Z"
   },
   {
-   "id": "4602025",
-   "name": "Sion James",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Undisclosed",
-   "return": "2026-11-25",
-   "comment": "James is probable for Wednesday's game against the Bulls due to general soreness.",
-   "date": "2026-11-24T22:30Z"
-  },
-  {
    "id": "5061575",
    "name": "Kon Knueppel",
    "pos": "G",
@@ -132,11 +122,11 @@
    "id": "4397189",
    "name": "Jalen Smith",
    "pos": "F",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Illness",
-   "return": "2026-11-25",
-   "comment": "Smith (illness) is listed as questionable for Wednesday's game against the Hornets.",
-   "date": "2026-11-24T18:21Z"
+   "return": "2026-11-28",
+   "comment": "Smith (illness) is listed as out for Wednesday's game against Charlotte.",
+   "date": "2026-11-25T22:07Z"
   },
   {
    "id": "2595516",
@@ -803,6 +793,16 @@
  ],
  "SAC": [
   {
+   "id": "3064440",
+   "name": "Zach LaVine",
+   "pos": "G",
+   "status": "Out",
+   "type": "Knee",
+   "return": "2026-11-29",
+   "comment": "LaVine (knee) is listed as out for Wednesday's game versus the Warriors.",
+   "date": "2026-11-25T22:40Z"
+  },
+  {
    "id": "4898371",
    "name": "Maxime Raynaud",
    "pos": "C",
@@ -811,16 +811,6 @@
    "return": "2026-12-02",
    "comment": "Raynaud (knee) was recalled from the G League's Stockton Kings on Wednesday, Marc J. Spears of ESPN.com reports.",
    "date": "2026-11-25T21:38Z"
-  },
-  {
-   "id": "3064440",
-   "name": "Zach LaVine",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Knee",
-   "return": "2026-11-25",
-   "comment": "LaVine (knee) has been downgraded to questionable for Wednesday's game against Golden State.",
-   "date": "2026-11-25T20:49Z"
   },
   {
    "id": "3907387",
@@ -1001,5 +991,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-25T22:03:58.272442+00:00"
+ "_updated": "2026-11-25T22:46:22.270665+00:00"
 }

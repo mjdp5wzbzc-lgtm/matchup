@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T22:03:58.179319+00:00",
+ "generated": "2026-11-25T22:46:22.143983+00:00",
  "days": [
   {
    "date": "2026-11-25",
@@ -9,11 +9,11 @@
      "start": "2026-11-25T22:00Z",
      "home": "PHI",
      "away": "MIA",
-     "state": "pre",
-     "detail": "11/25 - 5:00 PM EST",
+     "state": "in",
+     "detail": "8:47 - 2nd",
      "score": {
-      "home": "0",
-      "away": "0"
+      "home": "42",
+      "away": "39"
      }
     },
     {
