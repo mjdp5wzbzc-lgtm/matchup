@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T03:30:02.475501+00:00",
+ "generated": "2026-11-25T04:15:08.625179+00:00",
  "days": [
   {
    "date": "2026-11-24",
@@ -21,11 +21,11 @@
      "start": "2026-11-25T01:00Z",
      "home": "WSH",
      "away": "BOS",
-     "state": "in",
-     "detail": "1:34 - 4th",
+     "state": "post",
+     "detail": "Final",
      "score": {
-      "home": "112",
-      "away": "122"
+      "home": "116",
+      "away": "131"
      }
     },
     {
@@ -34,10 +34,10 @@
      "home": "DEN",
      "away": "DAL",
      "state": "in",
-     "detail": "4:59 - 1st",
+     "detail": "Halftime",
      "score": {
-      "home": "8",
-      "away": "15"
+      "home": "39",
+      "away": "58"
      }
     }
    ]
