@@ -228,11 +228,11 @@
    "id": "4432166",
    "name": "Cade Cunningham",
    "pos": "G",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Knee",
    "return": "2026-11-27",
    "comment": "Cunningham (knee) is listed as out for Tuesday's game against Orlando.",
-   "date": "2026-11-24T23:36Z"
+   "date": "2026-11-25T19:00Z"
   },
   {
    "id": "5258459",
@@ -419,8 +419,8 @@
    "status": "Out",
    "type": "Heel",
    "return": "2026-11-27",
-   "comment": "Coach JJ Redick stated Monday that the team is optimistic Reaves (heel) will return for Friday's game against San Antonio, Daniel Starkand of LakersNation.com reports.",
-   "date": "2026-11-24T01:31Z"
+   "comment": "Reaves (heel) was a full participant in Wednesday's practice, Daniel Starkand of LakersNation.com reports.",
+   "date": "2026-11-25T20:33Z"
   }
  ],
  "MEM": [
@@ -473,18 +473,6 @@
    "return": "2026-12-01",
    "comment": "Saunders signed a two-way contract with the Grizzlies on Saturday, Shams Charania of ESPN reports.",
    "date": "2026-11-07T17:24Z"
-  }
- ],
- "MIA": [
-  {
-   "id": "3032977",
-   "name": "Giannis Antetokounmpo",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Groin",
-   "return": "2026-11-25",
-   "comment": "Antetokounmpo (groin) is questionable for Wednesday's game in Philadelphia.",
-   "date": "2026-11-24T22:07Z"
   }
  ],
  "MIN": [
@@ -563,6 +551,16 @@
  ],
  "NY": [
   {
+   "id": "3934672",
+   "name": "Jalen Brunson",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Illness",
+   "return": "2026-11-25",
+   "comment": "Brunson (illness) is probable for Wednesday's game against Cleveland.",
+   "date": "2026-11-25T21:35Z"
+  },
+  {
    "id": "3062679",
    "name": "Josh Hart",
    "pos": "G",
@@ -591,16 +589,6 @@
    "return": "2026-11-25",
    "comment": "Towns (knee) is probable for Wednesday's game against Cleveland.",
    "date": "2026-11-25T17:54Z"
-  },
-  {
-   "id": "3934672",
-   "name": "Jalen Brunson",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Illness",
-   "return": "2026-11-25",
-   "comment": "Brunson (illness) has been downgraded to questionable for Wednesday's game against the Cavaliers.",
-   "date": "2026-11-25T17:53Z"
   },
   {
    "id": "2528426",
@@ -742,11 +730,11 @@
    "id": "3059318",
    "name": "Joel Embiid",
    "pos": "C",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Illness",
    "return": "2026-11-27",
-   "comment": "Embiid (illness) is listed as doubtful for Wednesday's game versus Miami.",
-   "date": "2026-11-24T22:09Z"
+   "comment": "Embiid (illness) is out for Wednesday's game against Miami, Ira Winderman of the South Florida Sun Sentinel reports.",
+   "date": "2026-11-25T20:07Z"
   },
   {
    "id": "4871141",
@@ -821,8 +809,18 @@
    "status": "Out",
    "type": "Knee",
    "return": "2026-12-02",
-   "comment": "Raynaud (knee) was assigned to the G League's Stockton Kings on Wednesday, James Ham of ESPN 1320 Sacramento reports.",
-   "date": "2026-11-25T16:25Z"
+   "comment": "Raynaud (knee) was recalled from the G League's Stockton Kings on Wednesday, Marc J. Spears of ESPN.com reports.",
+   "date": "2026-11-25T21:38Z"
+  },
+  {
+   "id": "3064440",
+   "name": "Zach LaVine",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Knee",
+   "return": "2026-11-25",
+   "comment": "LaVine (knee) has been downgraded to questionable for Wednesday's game against Golden State.",
+   "date": "2026-11-25T20:49Z"
   },
   {
    "id": "3907387",
@@ -1003,5 +1001,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-25T19:00:29.069449+00:00"
+ "_updated": "2026-11-25T21:49:51.258972+00:00"
 }
