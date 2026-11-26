@@ -665,6 +665,16 @@
  ],
  "ORL": [
   {
+   "id": "4397204",
+   "name": "Colin Castleton",
+   "pos": "C",
+   "status": "Day-To-Day",
+   "type": "Calf",
+   "return": "2026-11-27",
+   "comment": "Castleton totaled five points (2-4 FG, 1-1 3Pt) and four rebounds in seven minutes during Tuesday's 132-116 preseason win over the Cavaliers.",
+   "date": "2026-11-26T16:10Z"
+  },
+  {
    "id": "4065654",
    "name": "Jonathan Isaac",
    "pos": "F",
@@ -981,5 +991,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-26T16:14:23.279991+00:00"
+ "_updated": "2026-11-26T19:07:44.232099+00:00"
 }
