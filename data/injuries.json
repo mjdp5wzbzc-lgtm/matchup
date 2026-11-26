@@ -267,26 +267,6 @@
  ],
  "GS": [
   {
-   "id": "5175737",
-   "name": "Yaxel Lendeborg",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Illness",
-   "return": "2026-11-25",
-   "comment": "Lendeborg is questionable for Wednesday's game against the Kings with an illness.",
-   "date": "2026-11-24T23:20Z"
-  },
-  {
-   "id": "4397040",
-   "name": "Brandon Williams",
-   "pos": "G",
-   "status": "Out",
-   "type": "Hamstring",
-   "return": "2026-11-25",
-   "comment": "Head coach Steve Kerr said Tuesday that Williams (hamstring) is questionable to play Wednesday against the Kings, per Dalton Johnson of NBC Sports Bay Area.",
-   "date": "2026-11-24T20:58Z"
-  },
-  {
    "id": "3975",
    "name": "Stephen Curry",
    "pos": "G",
@@ -687,24 +667,24 @@
  ],
  "PHI": [
   {
-   "id": "3917376",
-   "name": "Jaylen Brown",
-   "pos": "G",
-   "status": "Out",
-   "type": "Hamstring",
-   "return": "2026-11-27",
-   "comment": "Brown (hamstring) won't return to Wednesday's game against Miami, Kyle Neubeck of AllPHLY.com reports. He finished with six points (2-8 FG, 0-1 3Pt, 2-2 FT), one rebound and one assist over 17 minutes.",
-   "date": "2026-11-25T23:30Z"
-  },
-  {
    "id": "3059318",
    "name": "Joel Embiid",
    "pos": "C",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Illness",
    "return": "2026-11-27",
    "comment": "Embiid (illness) is out for Wednesday's game against Miami, Ira Winderman of the South Florida Sun Sentinel reports.",
-   "date": "2026-11-25T20:07Z"
+   "date": "2026-11-26T01:06Z"
+  },
+  {
+   "id": "3917376",
+   "name": "Jaylen Brown",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Hamstring",
+   "return": "2026-11-27",
+   "comment": "Brown (hamstring) will receive imaging, and the Sixers will provide an update Thursday, Ky Carlin of USA Today reports.",
+   "date": "2026-11-26T01:06Z"
   },
   {
    "id": "4871141",
@@ -971,5 +951,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-26T00:54:48.938245+00:00"
+ "_updated": "2026-11-26T01:25:31.934218+00:00"
 }
