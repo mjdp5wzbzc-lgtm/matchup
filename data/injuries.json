@@ -273,8 +273,18 @@
    "status": "Out",
    "type": "Abdomen",
    "return": "2026-12-12",
-   "comment": "Curry has been diagnosed with an oblique abdominal tear and will be re-evaluated in two weeks, Shams Charania of ESPN reports.",
-   "date": "2026-11-12T17:03Z"
+   "comment": "Curry (abdomen) will be re-evaluated Friday after Thanksgiving, Anthony Slater of ESPN.com reports.",
+   "date": "2026-11-26T01:36Z"
+  },
+  {
+   "id": "4397040",
+   "name": "Brandon Williams",
+   "pos": "G",
+   "status": "Out",
+   "type": "Hamstring",
+   "return": "2026-11-25",
+   "comment": "Head coach Steve Kerr said Tuesday that Williams (hamstring) is questionable to play Wednesday against the Kings, per Dalton Johnson of NBC Sports Bay Area.",
+   "date": "2026-11-26T01:32Z"
   },
   {
    "id": "3102531",
@@ -951,5 +961,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-26T01:25:31.934218+00:00"
+ "_updated": "2026-11-26T02:15:57.386436+00:00"
 }
