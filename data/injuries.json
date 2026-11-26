@@ -90,11 +90,11 @@
    "id": "4576060",
    "name": "Ryan Kalkbrenner",
    "pos": "C",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Hip",
    "return": "2026-11-28",
    "comment": "Kalkbrenner (hip) has been ruled out for Wednesday's matchup with Chicago.",
-   "date": "2026-11-25T17:41Z"
+   "date": "2026-11-26T05:30Z"
   },
   {
    "id": "3135045",
@@ -132,11 +132,11 @@
    "id": "4397189",
    "name": "Jalen Smith",
    "pos": "F",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Illness",
    "return": "2026-11-28",
    "comment": "Smith (illness) is listed as out for Wednesday's game against Charlotte.",
-   "date": "2026-11-25T22:07Z"
+   "date": "2026-11-26T05:29Z"
   },
   {
    "id": "2595516",
@@ -514,7 +514,7 @@
    "pos": "F",
    "status": "Day-To-Day",
    "type": "Knee",
-   "return": "2026-11-25",
+   "return": "2026-12-01",
    "comment": "The Pelicans transferred Reese from the G League's Laketown Squadron, and he will be available for New Orleans' game against the Warriors on Monday.",
    "date": "2026-11-25T16:11Z"
   },
@@ -551,6 +551,16 @@
  ],
  "NY": [
   {
+   "id": "4431823",
+   "name": "Miles McBride",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Groin",
+   "return": "2026-11-27",
+   "comment": "McBride (adductor) has been ruled out for Wednesday's game against the Cavaliers.",
+   "date": "2026-11-26T05:31Z"
+  },
+  {
    "id": "6585",
    "name": "Andre Drummond",
    "pos": "C",
@@ -569,16 +579,6 @@
    "return": "2026-11-27",
    "comment": "Anunoby (calf) participated in on-court work for the first time since sustaining the injury, Ian Begley of SportsNet New York reports.",
    "date": "2026-11-25T23:19Z"
-  },
-  {
-   "id": "4431823",
-   "name": "Miles McBride",
-   "pos": "G",
-   "status": "Out",
-   "type": "Groin",
-   "return": "2026-11-27",
-   "comment": "McBride (adductor) has been ruled out for Wednesday's game against the Cavaliers.",
-   "date": "2026-11-25T17:57Z"
   },
   {
    "id": "2528426",
@@ -796,11 +796,11 @@
    "id": "3064440",
    "name": "Zach LaVine",
    "pos": "G",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Knee",
    "return": "2026-11-29",
    "comment": "LaVine (knee) is listed as out for Wednesday's game versus the Warriors.",
-   "date": "2026-11-25T22:40Z"
+   "date": "2026-11-26T05:33Z"
   },
   {
    "id": "4898371",
@@ -828,11 +828,11 @@
    "id": "4066259",
    "name": "De'Aaron Fox",
    "pos": "G",
-   "status": "Out",
+   "status": "Day-To-Day",
    "type": "Lower Leg",
    "return": "2026-11-27",
    "comment": "Fox (shin) has been ruled out for Wednesday's game against Portland, Jeff McDonald of the San Antonio Express-News reports.",
-   "date": "2026-11-26T02:20Z"
+   "date": "2026-11-26T06:01Z"
   },
   {
    "id": "5037871",
@@ -981,5 +981,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-26T04:38:40.764910+00:00"
+ "_updated": "2026-11-26T07:30:23.748970+00:00"
 }
