@@ -410,9 +410,9 @@
    "pos": "C",
    "status": "Day-To-Day",
    "type": "Ankle",
-   "return": "2026-11-25",
-   "comment": "Edey (ankle) is doubtful to return to Wednesday's game against the Clippers.",
-   "date": "2026-11-26T02:48Z"
+   "return": "2026-11-27",
+   "comment": "Edey (ankle) did not return to Wednesday's 115-97 win over the Clippers. He finished with seven points (3-4 FG, 1-1 FT), four rebounds, two assists and two blocks across nine minutes.",
+   "date": "2026-11-26T03:43Z"
   },
   {
    "id": "4431785",
@@ -472,9 +472,9 @@
    "pos": "G",
    "status": "Day-To-Day",
    "type": "Ankle",
-   "return": "2026-11-25",
-   "comment": "Ball headed to the locker room after turning his left ankle against the Thunder, Tim MacMahon of ESPN.com reports.",
-   "date": "2026-11-26T03:08Z"
+   "return": "2026-11-27",
+   "comment": "Ball (ankle) did not return to Wednesday's 113-106 win over the Thunder.",
+   "date": "2026-11-26T03:37Z"
   },
   {
    "id": "3934673",
@@ -556,9 +556,9 @@
    "pos": "C",
    "status": "Day-To-Day",
    "type": "Head",
-   "return": "2026-11-25",
-   "comment": "Drummond is questionable to return to Wednesday's game against Cleveland due to a head injury, Stefan Bondy of The New York Post reports.",
-   "date": "2026-11-26T02:31Z"
+   "return": "2026-11-27",
+   "comment": "Drummond (head) did not return to Wednesday's 121-102 win over the Cavaliers.",
+   "date": "2026-11-26T03:40Z"
   },
   {
    "id": "3934719",
@@ -981,5 +981,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-26T03:28:09.641452+00:00"
+ "_updated": "2026-11-26T04:10:58.906827+00:00"
 }
