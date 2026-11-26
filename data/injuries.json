@@ -71,8 +71,8 @@
    "status": "Out",
    "type": "Knee",
    "return": "2026-11-28",
-   "comment": "Wagner (knee) will not return to Wednesday's game against the Bucks, C.J. Holmes of the New York Daily News reports.",
-   "date": "2026-11-26T02:48Z"
+   "comment": "Wagner (knee) won't be available for Friday's game against Toronto.",
+   "date": "2026-11-26T21:33Z"
   },
   {
    "id": "5279130",
@@ -1023,5 +1023,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-26T21:44:57.126465+00:00"
+ "_updated": "2026-11-26T22:02:26.903216+00:00"
 }
