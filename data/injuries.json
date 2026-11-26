@@ -225,6 +225,26 @@
  ],
  "DET": [
   {
+   "id": "3157465",
+   "name": "Duncan Robinson",
+   "pos": "F",
+   "status": "Out",
+   "type": "Quadriceps",
+   "return": "2026-11-29",
+   "comment": "Robinson (quadriceps) is out for Friday's game against the Bucks.",
+   "date": "2026-11-26T22:26Z"
+  },
+  {
+   "id": "4432166",
+   "name": "Cade Cunningham",
+   "pos": "G",
+   "status": "Out",
+   "type": "Knee",
+   "return": "2026-11-29",
+   "comment": "Cunningham (knee) is out for Friday's game against the Bucks.",
+   "date": "2026-11-26T22:25Z"
+  },
+  {
    "id": "4433621",
    "name": "Jalen Duren",
    "pos": "C",
@@ -233,16 +253,6 @@
    "return": "2026-11-30",
    "comment": "Detroit recalled Duren (hamstring) from the G League's Motor City Cruise on Wednesday.",
    "date": "2026-11-26T15:31Z"
-  },
-  {
-   "id": "4432166",
-   "name": "Cade Cunningham",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Knee",
-   "return": "2026-11-27",
-   "comment": "Cunningham (knee) is listed as out for Tuesday's game against Orlando.",
-   "date": "2026-11-25T19:00Z"
   },
   {
    "id": "5258459",
@@ -263,16 +273,6 @@
    "return": "2026-12-26",
    "comment": "Prince underwent arthroscopic right knee surgery Nov. 18 and will be re-evaluated in four weeks, Eric Vincent of ClutchPoints.com reports.",
    "date": "2026-11-24T18:33Z"
-  },
-  {
-   "id": "3157465",
-   "name": "Duncan Robinson",
-   "pos": "F",
-   "status": "Out",
-   "type": "Quadriceps",
-   "return": "2026-11-27",
-   "comment": "Robinson (quadriceps) is considered day-to-day as he progresses in his rehab, Eric Vincent of ClutchPoints.com reports.",
-   "date": "2026-11-24T18:30Z"
   }
  ],
  "GS": [
@@ -319,14 +319,24 @@
  ],
  "IND": [
   {
+   "id": "4396909",
+   "name": "Aaron Nesmith",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Foot",
+   "return": "2026-11-27",
+   "comment": "Nesmith (foot) is questionable for Friday's game against the 76ers.",
+   "date": "2026-11-26T22:31Z"
+  },
+  {
    "id": "2530530",
    "name": "T.J. McConnell",
    "pos": "G",
    "status": "Day-To-Day",
    "type": "Hamstring",
    "return": "2026-11-27",
-   "comment": "McConnell (hamstring) was recalled from the G League's Noblesville Boom on Tuesday, Shams Charania of ESPN reports.",
-   "date": "2026-11-24T19:43Z"
+   "comment": "McConnell (hamstring) is questionable for Friday's game against the 76ers.",
+   "date": "2026-11-26T22:29Z"
   },
   {
    "id": "4396993",
@@ -337,16 +347,6 @@
    "return": "2026-12-13",
    "comment": "Haliburton (hamstring) was recalled from the G League's Noblesville Boom on Tuesday, Tony East of Forbes.com reports.",
    "date": "2026-11-24T19:41Z"
-  },
-  {
-   "id": "4396909",
-   "name": "Aaron Nesmith",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Foot",
-   "return": "2026-11-27",
-   "comment": "Nesmith is out for Monday's game against the Thunder due to right foot soreness.",
-   "date": "2026-11-24T04:40Z"
   },
   {
    "id": "2580365",
@@ -579,28 +579,8 @@
    "status": "Day-To-Day",
    "type": "Groin",
    "return": "2026-11-27",
-   "comment": "McBride (adductor) has been ruled out for Wednesday's game against the Cavaliers.",
-   "date": "2026-11-26T05:31Z"
-  },
-  {
-   "id": "6585",
-   "name": "Andre Drummond",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Head",
-   "return": "2026-11-27",
-   "comment": "Drummond (head) did not return to Wednesday's 121-102 win over the Cavaliers.",
-   "date": "2026-11-26T03:40Z"
-  },
-  {
-   "id": "3934719",
-   "name": "OG Anunoby",
-   "pos": "F",
-   "status": "Out",
-   "type": "Calf",
-   "return": "2026-11-27",
-   "comment": "Anunoby (calf) participated in on-court work for the first time since sustaining the injury, Ian Begley of SportsNet New York reports.",
-   "date": "2026-11-25T23:19Z"
+   "comment": "McBride (groin) is questionable for Friday's game against the Heat.",
+   "date": "2026-11-26T22:11Z"
   },
   {
    "id": "2528426",
@@ -609,8 +589,28 @@
    "status": "Out",
    "type": "Foot",
    "return": "2026-11-27",
-   "comment": "Clarkson (foot) is out for Wednesday's game against Cleveland.",
-   "date": "2026-11-24T21:56Z"
+   "comment": "Clarkson (foot) is questionable for Friday's game against the Heat.",
+   "date": "2026-11-26T22:03Z"
+  },
+  {
+   "id": "3934719",
+   "name": "OG Anunoby",
+   "pos": "F",
+   "status": "Out",
+   "type": "Calf",
+   "return": "2026-11-27",
+   "comment": "Anunoby (calf) is doubtful for Friday's game against the Heat.",
+   "date": "2026-11-26T21:57Z"
+  },
+  {
+   "id": "6585",
+   "name": "Andre Drummond",
+   "pos": "C",
+   "status": "Day-To-Day",
+   "type": "Head",
+   "return": "2026-11-27",
+   "comment": "Drummond (head) is questionable for Friday's game against the Heat.",
+   "date": "2026-11-26T21:51Z"
   }
  ],
  "OKC": [
@@ -745,18 +745,18 @@
    "status": "Day-To-Day",
    "type": "Illness",
    "return": "2026-11-27",
-   "comment": "Embiid (illness) is out for Wednesday's game against Miami, Ira Winderman of the South Florida Sun Sentinel reports.",
-   "date": "2026-11-26T01:06Z"
+   "comment": "Embiid (illness) is questionable for Friday's game against the Pacers.",
+   "date": "2026-11-26T22:16Z"
   },
   {
    "id": "3917376",
    "name": "Jaylen Brown",
    "pos": "G",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Hamstring",
-   "return": "2026-11-27",
-   "comment": "Brown (hamstring) will receive imaging, and the Sixers will provide an update Thursday, Ky Carlin of USA Today reports.",
-   "date": "2026-11-26T01:06Z"
+   "return": "2026-11-28",
+   "comment": "Brown (hamstring) is out for Friday's game against the Pacers.",
+   "date": "2026-11-26T22:13Z"
   },
   {
    "id": "4871141",
@@ -1023,5 +1023,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-26T22:02:26.903216+00:00"
+ "_updated": "2026-11-26T22:47:56.370129+00:00"
 }
