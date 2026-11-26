@@ -6,9 +6,9 @@
    "pos": "C",
    "status": "Out",
    "type": "Hip",
-   "return": "2026-11-27",
-   "comment": "Landale (hip) won't play Sunday against the Pistons.",
-   "date": "2026-11-21T22:12Z"
+   "return": "2026-11-29",
+   "comment": "Landale (hip) is out for Friday's game against the Celtics.",
+   "date": "2026-11-26T22:44Z"
   },
   {
    "id": "4873201",
@@ -319,6 +319,16 @@
  ],
  "IND": [
   {
+   "id": "2580365",
+   "name": "Larry Nance Jr.",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Ankle",
+   "return": "2026-11-27",
+   "comment": "Nance (ankle) is questionable for Friday's game against the 76ers.",
+   "date": "2026-11-26T22:43Z"
+  },
+  {
    "id": "4396909",
    "name": "Aaron Nesmith",
    "pos": "G",
@@ -347,16 +357,6 @@
    "return": "2026-12-13",
    "comment": "Haliburton (hamstring) was recalled from the G League's Noblesville Boom on Tuesday, Tony East of Forbes.com reports.",
    "date": "2026-11-24T19:41Z"
-  },
-  {
-   "id": "2580365",
-   "name": "Larry Nance Jr.",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Ankle",
-   "return": "2026-11-27",
-   "comment": "Nance exited Monday's game against the Thunder due to a sore right ankle and he will not return, Tony East of Forbes.com reports.",
-   "date": "2026-11-24T02:00Z"
   },
   {
    "id": "4433076",
@@ -399,11 +399,21 @@
    "status": "Out",
    "type": "Heel",
    "return": "2026-11-27",
-   "comment": "Reaves (heel) was a full participant in Wednesday's practice, Daniel Starkand of LakersNation.com reports.",
-   "date": "2026-11-25T20:33Z"
+   "comment": "Reaves (heel) is questionable for Friday's game against the Spurs.",
+   "date": "2026-11-26T23:21Z"
   }
  ],
  "MEM": [
+  {
+   "id": "4432810",
+   "name": "Isaiah Stewart",
+   "pos": "C",
+   "status": "Day-To-Day",
+   "type": "Hip",
+   "return": "2026-11-27",
+   "comment": "Stewart is questionable for Friday's game against the Timberwolves due to right hip soreness.",
+   "date": "2026-11-26T23:27Z"
+  },
   {
    "id": "4600663",
    "name": "Zach Edey",
@@ -411,8 +421,8 @@
    "status": "Day-To-Day",
    "type": "Ankle",
    "return": "2026-11-27",
-   "comment": "Edey (ankle) did not return to Wednesday's 115-97 win over the Clippers. He finished with seven points (3-4 FG, 1-1 FT), four rebounds, two assists and two blocks across nine minutes.",
-   "date": "2026-11-26T03:43Z"
+   "comment": "Edey (ankle) is questionable for Friday's game against the Timberwolves.",
+   "date": "2026-11-26T23:24Z"
   },
   {
    "id": "4431785",
@@ -495,8 +505,8 @@
    "status": "Day-To-Day",
    "type": "Ankle",
    "return": "2026-11-27",
-   "comment": "Ball (ankle) did not return to Wednesday's 113-106 win over the Thunder.",
-   "date": "2026-11-26T03:37Z"
+   "comment": "Ball (ankle) is questionable for Friday's game against the Grizzlies.",
+   "date": "2026-11-26T23:14Z"
   },
   {
    "id": "3934673",
@@ -857,24 +867,24 @@
  ],
  "SA": [
   {
+   "id": "5037871",
+   "name": "Dylan Harper",
+   "pos": "G",
+   "status": "Out",
+   "type": "Hip",
+   "return": "2026-11-27",
+   "comment": "Harper (hip) is questionable for Friday's game against the Lakers.",
+   "date": "2026-11-26T23:41Z"
+  },
+  {
    "id": "4066259",
    "name": "De'Aaron Fox",
    "pos": "G",
    "status": "Day-To-Day",
    "type": "Lower Leg",
    "return": "2026-11-27",
-   "comment": "Fox (shin) has been ruled out for Wednesday's game against Portland, Jeff McDonald of the San Antonio Express-News reports.",
-   "date": "2026-11-26T06:01Z"
-  },
-  {
-   "id": "5037871",
-   "name": "Dylan Harper",
-   "pos": "G",
-   "status": "Out",
-   "type": "Hip",
-   "return": "2026-12-13",
-   "comment": "Harper (hip) is expected to miss two to three weeks, Brett Siegel of ClutchPoints.com reports.",
-   "date": "2026-11-19T20:07Z"
+   "comment": "Fox (shin) is questionable for Friday's game against the Lakers.",
+   "date": "2026-11-26T23:35Z"
   },
   {
    "id": "6440",
@@ -1023,5 +1033,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-26T22:47:56.370129+00:00"
+ "_updated": "2026-11-26T23:46:22.939939+00:00"
 }
