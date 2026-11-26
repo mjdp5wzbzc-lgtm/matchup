@@ -65,6 +65,16 @@
  ],
  "BKN": [
   {
+   "id": "3150844",
+   "name": "Moritz Wagner",
+   "pos": "C",
+   "status": "Out",
+   "type": "Knee",
+   "return": "2026-11-27",
+   "comment": "Wagner (knee) will not return to Wednesday's game against the Bucks, C.J. Holmes of the New York Daily News reports.",
+   "date": "2026-11-26T02:48Z"
+  },
+  {
    "id": "5279130",
    "name": "Nolan Traore",
    "pos": "G",
@@ -277,16 +287,6 @@
    "date": "2026-11-26T01:36Z"
   },
   {
-   "id": "4397040",
-   "name": "Brandon Williams",
-   "pos": "G",
-   "status": "Out",
-   "type": "Hamstring",
-   "return": "2026-11-25",
-   "comment": "Head coach Steve Kerr said Tuesday that Williams (hamstring) is questionable to play Wednesday against the Kings, per Dalton Johnson of NBC Sports Bay Area.",
-   "date": "2026-11-26T01:32Z"
-  },
-  {
    "id": "3102531",
    "name": "Kristaps Porzingis",
    "pos": "C",
@@ -405,6 +405,16 @@
  ],
  "MEM": [
   {
+   "id": "4600663",
+   "name": "Zach Edey",
+   "pos": "C",
+   "status": "Day-To-Day",
+   "type": "Ankle",
+   "return": "2026-11-25",
+   "comment": "Edey (ankle) is doubtful to return to Wednesday's game against the Clippers.",
+   "date": "2026-11-26T02:48Z"
+  },
+  {
    "id": "4431785",
    "name": "Scotty Pippen Jr.",
    "pos": "G",
@@ -456,6 +466,16 @@
   }
  ],
  "MIN": [
+  {
+   "id": "4432816",
+   "name": "LaMelo Ball",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Ankle",
+   "return": "2026-11-25",
+   "comment": "Ball headed to the locker room after turning his left ankle against the Thunder, Tim MacMahon of ESPN.com reports.",
+   "date": "2026-11-26T03:08Z"
+  },
   {
    "id": "3934673",
    "name": "Donte DiVincenzo",
@@ -530,6 +550,16 @@
   }
  ],
  "NY": [
+  {
+   "id": "6585",
+   "name": "Andre Drummond",
+   "pos": "C",
+   "status": "Day-To-Day",
+   "type": "Head",
+   "return": "2026-11-25",
+   "comment": "Drummond is questionable to return to Wednesday's game against Cleveland due to a head injury, Stefan Bondy of The New York Post reports.",
+   "date": "2026-11-26T02:31Z"
+  },
   {
    "id": "3934719",
    "name": "OG Anunoby",
@@ -798,21 +828,11 @@
    "id": "4066259",
    "name": "De'Aaron Fox",
    "pos": "G",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Lower Leg",
-   "return": "2026-11-25",
-   "comment": "Fox (shin) is questionable to play Wednesday's game against the Trail Blazers.",
-   "date": "2026-11-25T01:27Z"
-  },
-  {
-   "id": "5104157",
-   "name": "Victor Wembanyama",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Back",
-   "return": "2026-11-25",
-   "comment": "Wembanyama (back) is questionable for Wednesday's game in Portland.",
-   "date": "2026-11-25T01:23Z"
+   "return": "2026-11-27",
+   "comment": "Fox (shin) has been ruled out for Wednesday's game against Portland, Jeff McDonald of the San Antonio Express-News reports.",
+   "date": "2026-11-26T02:20Z"
   },
   {
    "id": "5037871",
@@ -961,5 +981,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-26T02:15:57.386436+00:00"
+ "_updated": "2026-11-26T03:28:09.641452+00:00"
 }
