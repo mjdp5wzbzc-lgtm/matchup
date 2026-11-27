@@ -58,9 +58,9 @@
    "pos": "C",
    "status": "Out",
    "type": "Illness",
-   "return": "2026-11-27",
-   "comment": "Robinson (illness) is questionable for Friday's game against the Hawks.",
-   "date": "2026-11-26T19:00Z"
+   "return": "2026-11-29",
+   "comment": "Robinson has been ruled out Marc D'Amico of the Celtics' official sitefor Friday's game.",
+   "date": "2026-11-27T17:31Z"
   }
  ],
  "BKN": [
@@ -135,8 +135,8 @@
    "status": "Day-To-Day",
    "type": "Illness",
    "return": "2026-11-28",
-   "comment": "Smith (illness) is listed as out for Wednesday's game against Charlotte.",
-   "date": "2026-11-26T05:29Z"
+   "comment": "Smith (illness) is listed as probable for Saturday's game against Indiana.",
+   "date": "2026-11-27T18:36Z"
   },
   {
    "id": "2595516",
@@ -319,6 +319,26 @@
  ],
  "IND": [
   {
+   "id": "2580365",
+   "name": "Larry Nance Jr.",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Ankle",
+   "return": "2026-11-27",
+   "comment": "Nance (ankle) is probable for Friday's game against the 76ers.",
+   "date": "2026-11-27T18:07Z"
+  },
+  {
+   "id": "4396993",
+   "name": "Tyrese Haliburton",
+   "pos": "G",
+   "status": "Out",
+   "type": "Hamstring",
+   "return": "2026-12-13",
+   "comment": "Haliburton (hamstring) has been ruled out per Scott Agness of FieldhouseFiles.com for Friday's game against the 76ers. The guard participated in practice activities earlier this week as he continues working toward his return.",
+   "date": "2026-11-27T16:20Z"
+  },
+  {
    "id": "3133603",
    "name": "Kelly Oubre Jr.",
    "pos": "G",
@@ -329,16 +349,6 @@
    "date": "2026-11-27T00:42Z"
   },
   {
-   "id": "2580365",
-   "name": "Larry Nance Jr.",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Ankle",
-   "return": "2026-11-27",
-   "comment": "Nance (ankle) is questionable for Friday's game against the 76ers.",
-   "date": "2026-11-26T22:43Z"
-  },
-  {
    "id": "2530530",
    "name": "T.J. McConnell",
    "pos": "G",
@@ -347,16 +357,6 @@
    "return": "2026-11-27",
    "comment": "McConnell (hamstring) is questionable for Friday's game against the 76ers.",
    "date": "2026-11-26T22:29Z"
-  },
-  {
-   "id": "4396993",
-   "name": "Tyrese Haliburton",
-   "pos": "G",
-   "status": "Out",
-   "type": "Hamstring",
-   "return": "2026-12-13",
-   "comment": "Haliburton (hamstring) was recalled from the G League's Noblesville Boom on Tuesday, Tony East of Forbes.com reports.",
-   "date": "2026-11-24T19:41Z"
   },
   {
    "id": "4433076",
@@ -485,16 +485,18 @@
    "return": "2026-11-27",
    "comment": "Antetokounmpo is probable for Friday's game against the Knicks due to right groin tendinitis.",
    "date": "2026-11-26T21:15Z"
-  },
+  }
+ ],
+ "MIL": [
   {
-   "id": "3059319",
-   "name": "Andrew Wiggins",
-   "pos": "F",
-   "status": "Day-To-Day",
+   "id": "5214640",
+   "name": "Kasparas Jakucionis",
+   "pos": "G",
+   "status": "Out",
    "type": "Ankle",
-   "return": "2026-11-27",
-   "comment": "Wiggins is probable for Friday's game against the Knicks due to a right ankle sprain.",
-   "date": "2026-11-26T21:08Z"
+   "return": "2026-11-28",
+   "comment": "Jakucionis (ankle) won't play Friday's game against the Pistons.",
+   "date": "2026-11-27T17:58Z"
   }
  ],
  "MIN": [
@@ -502,11 +504,11 @@
    "id": "4432816",
    "name": "LaMelo Ball",
    "pos": "G",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Ankle",
-   "return": "2026-11-27",
-   "comment": "Ball (ankle) is questionable for Friday's game against the Grizzlies.",
-   "date": "2026-11-26T23:14Z"
+   "return": "2026-11-29",
+   "comment": "Ball (ankle) has been ruled out for Friday's game against the Grizzlies. The guard was previously questionable after spraining his left ankle during Wednesday's win over Oklahoma City.",
+   "date": "2026-11-27T18:52Z"
   },
   {
    "id": "3934673",
@@ -583,6 +585,46 @@
  ],
  "NY": [
   {
+   "id": "4431823",
+   "name": "Miles McBride",
+   "pos": "G",
+   "status": "Out",
+   "type": "Groin",
+   "return": "2026-11-29",
+   "comment": "McBride (groin) is out for Friday's game against the Heat.",
+   "date": "2026-11-27T18:21Z"
+  },
+  {
+   "id": "3934719",
+   "name": "OG Anunoby",
+   "pos": "F",
+   "status": "Out",
+   "type": "Calf",
+   "return": "2026-11-29",
+   "comment": "Anunoby (calf) has been ruled out for Friday's game against the Heat. The forward was previously listed as doubtful and will miss his third consecutive contest due to a left calf strain.",
+   "date": "2026-11-27T18:20Z"
+  },
+  {
+   "id": "2528426",
+   "name": "Jordan Clarkson",
+   "pos": "G",
+   "status": "Out",
+   "type": "Foot",
+   "return": "2026-11-29",
+   "comment": "Clarkson (foot) is out for Friday's game against the Heat.",
+   "date": "2026-11-27T18:19Z"
+  },
+  {
+   "id": "3136195",
+   "name": "Karl-Anthony Towns",
+   "pos": "C",
+   "status": "Day-To-Day",
+   "type": "Abdomen",
+   "return": "2026-11-27",
+   "comment": "Towns is questionable for Friday's game against the Heat due to a right abdominal contusion.",
+   "date": "2026-11-27T16:51Z"
+  },
+  {
    "id": "6585",
    "name": "Andre Drummond",
    "pos": "C",
@@ -591,36 +633,6 @@
    "return": "2026-11-29",
    "comment": "Drummond (concussion) has been ruled out for Friday's game against the Heat.",
    "date": "2026-11-27T15:36Z"
-  },
-  {
-   "id": "4431823",
-   "name": "Miles McBride",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Groin",
-   "return": "2026-11-27",
-   "comment": "McBride (groin) is questionable for Friday's game against the Heat.",
-   "date": "2026-11-26T22:11Z"
-  },
-  {
-   "id": "2528426",
-   "name": "Jordan Clarkson",
-   "pos": "G",
-   "status": "Out",
-   "type": "Foot",
-   "return": "2026-11-27",
-   "comment": "Clarkson (foot) is questionable for Friday's game against the Heat.",
-   "date": "2026-11-26T22:03Z"
-  },
-  {
-   "id": "3934719",
-   "name": "OG Anunoby",
-   "pos": "F",
-   "status": "Out",
-   "type": "Calf",
-   "return": "2026-11-27",
-   "comment": "Anunoby (calf) is doubtful for Friday's game against the Heat.",
-   "date": "2026-11-26T21:57Z"
   }
  ],
  "OKC": [
@@ -755,8 +767,8 @@
    "status": "Day-To-Day",
    "type": "Illness",
    "return": "2026-11-27",
-   "comment": "Embiid (illness) is questionable for Friday's game against the Pacers.",
-   "date": "2026-11-26T22:16Z"
+   "comment": "Embiid (illness) was at shootaround for the 76ers on Friday, Chris Hine of The Philly Inquirer reports.",
+   "date": "2026-11-27T16:32Z"
   },
   {
    "id": "3917376",
@@ -792,6 +804,16 @@
   }
  ],
  "POR": [
+  {
+   "id": "6606",
+   "name": "Damian Lillard",
+   "pos": "G",
+   "status": "Out",
+   "type": "Calf",
+   "return": "2026-11-29",
+   "comment": "Lillard (calf) has been ruled out for Friday's game against the Warriors. The veteran guard is dealing with right calf tightness and soreness.",
+   "date": "2026-11-27T18:38Z"
+  },
   {
    "id": "4706557",
    "name": "Chris Youngblood",
@@ -873,8 +895,8 @@
    "status": "Out",
    "type": "Hip",
    "return": "2026-11-27",
-   "comment": "Harper (hip) is questionable for Friday's game against the Lakers.",
-   "date": "2026-11-26T23:41Z"
+   "comment": "Harper (hip) participated in Friday's morning shootaround, per Matt Guzman of SI.com.",
+   "date": "2026-11-27T18:51Z"
   },
   {
    "id": "4066259",
@@ -950,6 +972,16 @@
   }
  ],
  "UTAH": [
+  {
+   "id": "4277919",
+   "name": "Mo Bamba",
+   "pos": "C",
+   "status": "Day-To-Day",
+   "type": "Illness",
+   "return": "2026-11-29",
+   "comment": "Bamba (illness) is listed as questionable for Friday's game against the Nuggets, according to the Jazz's injury report.",
+   "date": "2026-11-27T16:41Z"
+  },
   {
    "id": "4397077",
    "name": "Jaxson Hayes",
@@ -1033,5 +1065,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-27T16:13:23.574844+00:00"
+ "_updated": "2026-11-27T19:05:56.886819+00:00"
 }
