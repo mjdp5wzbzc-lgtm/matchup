@@ -583,6 +583,16 @@
  ],
  "NY": [
   {
+   "id": "6585",
+   "name": "Andre Drummond",
+   "pos": "C",
+   "status": "Out",
+   "type": "Concussion",
+   "return": "2026-11-29",
+   "comment": "Drummond (concussion) has been ruled out for Friday's game against the Heat.",
+   "date": "2026-11-27T15:36Z"
+  },
+  {
    "id": "4431823",
    "name": "Miles McBride",
    "pos": "G",
@@ -611,16 +621,6 @@
    "return": "2026-11-27",
    "comment": "Anunoby (calf) is doubtful for Friday's game against the Heat.",
    "date": "2026-11-26T21:57Z"
-  },
-  {
-   "id": "6585",
-   "name": "Andre Drummond",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Head",
-   "return": "2026-11-27",
-   "comment": "Drummond (head) is questionable for Friday's game against the Heat.",
-   "date": "2026-11-26T21:51Z"
   }
  ],
  "OKC": [
@@ -1033,5 +1033,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-27T13:25:23.246039+00:00"
+ "_updated": "2026-11-27T16:13:23.574844+00:00"
 }
