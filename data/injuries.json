@@ -351,6 +351,16 @@
  ],
  "IND": [
   {
+   "id": "2530530",
+   "name": "T.J. McConnell",
+   "pos": "G",
+   "status": "Out",
+   "type": "Hamstring",
+   "return": "2026-11-28",
+   "comment": "McConnell (hamstring) has been ruled out for Friday's game against the 76ers, Alex Golden of SI.com reports.",
+   "date": "2026-11-27T23:02Z"
+  },
+  {
    "id": "2580365",
    "name": "Larry Nance Jr.",
    "pos": "F",
@@ -369,26 +379,6 @@
    "return": "2026-12-13",
    "comment": "Haliburton (hamstring) has been ruled out per Scott Agness of FieldhouseFiles.com for Friday's game against the 76ers. The guard participated in practice activities earlier this week as he continues working toward his return.",
    "date": "2026-11-27T16:20Z"
-  },
-  {
-   "id": "3133603",
-   "name": "Kelly Oubre Jr.",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Hand",
-   "return": "2026-11-27",
-   "comment": "Oubre is questionable for Friday's game against the 76ers due to a right hand laceration.",
-   "date": "2026-11-27T00:42Z"
-  },
-  {
-   "id": "2530530",
-   "name": "T.J. McConnell",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Hamstring",
-   "return": "2026-11-27",
-   "comment": "McConnell (hamstring) is questionable for Friday's game against the 76ers.",
-   "date": "2026-11-26T22:29Z"
   },
   {
    "id": "4433076",
@@ -623,16 +613,6 @@
    "date": "2026-11-27T18:19Z"
   },
   {
-   "id": "3136195",
-   "name": "Karl-Anthony Towns",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Abdomen",
-   "return": "2026-11-27",
-   "comment": "Towns is questionable for Friday's game against the Heat due to a right abdominal contusion.",
-   "date": "2026-11-27T16:51Z"
-  },
-  {
    "id": "6585",
    "name": "Andre Drummond",
    "pos": "C",
@@ -645,12 +625,22 @@
  ],
  "OKC": [
   {
+   "id": "5174983",
+   "name": "Aday Mara",
+   "pos": "C",
+   "status": "Out",
+   "type": "Lower Leg",
+   "return": "2026-11-30",
+   "comment": "Mara (leg) is out for Saturday's game versus the Bucks, per Clemente Almanza of USA Today.",
+   "date": "2026-11-27T23:10Z"
+  },
+  {
    "id": "5159925",
    "name": "Nikola Topic",
    "pos": "G",
    "status": "Out",
    "type": "Hip",
-   "return": "2026-11-28",
+   "return": "2026-12-13",
    "comment": "Topic (hip) is listed as out for Wednesday's game versus Minnesota.",
    "date": "2026-11-24T23:29Z"
   },
@@ -663,16 +653,6 @@
    "return": "2026-11-28",
    "comment": "Williams (back) is listed as out for Wednesday's game against Minnesota.",
    "date": "2026-11-24T23:24Z"
-  },
-  {
-   "id": "5174983",
-   "name": "Aday Mara",
-   "pos": "C",
-   "status": "Out",
-   "type": "Lower Leg",
-   "return": "2026-11-28",
-   "comment": "Mara (leg) is out for Wednesday's game versus the Timberwolves.",
-   "date": "2026-11-24T23:19Z"
   },
   {
    "id": "4593803",
@@ -789,6 +769,16 @@
  ],
  "PHI": [
   {
+   "id": "3917376",
+   "name": "Jaylen Brown",
+   "pos": "G",
+   "status": "Out",
+   "type": "Hamstring",
+   "return": "2026-12-01",
+   "comment": "Brown (hamstring) underwent an MRI that showed no signs of a new injury or re-aggravation, but he didn't travel with the team for the road trip, so he will miss the team's next two games, Kris Rhim of ESPN reports.",
+   "date": "2026-11-27T23:15Z"
+  },
+  {
    "id": "3059318",
    "name": "Joel Embiid",
    "pos": "C",
@@ -797,16 +787,6 @@
    "return": "2026-11-27",
    "comment": "Embiid (illness) was at shootaround for the 76ers on Friday, Chris Hine of The Philly Inquirer reports.",
    "date": "2026-11-27T16:32Z"
-  },
-  {
-   "id": "3917376",
-   "name": "Jaylen Brown",
-   "pos": "G",
-   "status": "Out",
-   "type": "Hamstring",
-   "return": "2026-11-28",
-   "comment": "Brown (hamstring) is out for Friday's game against the Pacers.",
-   "date": "2026-11-26T22:13Z"
   },
   {
    "id": "4871141",
@@ -959,16 +939,6 @@
  ],
  "TOR": [
   {
-   "id": "4702656",
-   "name": "Alijah Martin",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Knee",
-   "return": "2026-11-27",
-   "comment": "Martin is questionable for Friday's game against the Nets due to left knee soreness.",
-   "date": "2026-11-26T21:18Z"
-  },
-  {
    "id": "6450",
    "name": "Kawhi Leonard",
    "pos": "F",
@@ -1093,5 +1063,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-27T22:49:11.952616+00:00"
+ "_updated": "2026-11-27T23:44:49.767221+00:00"
 }
