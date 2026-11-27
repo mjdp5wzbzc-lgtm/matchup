@@ -87,24 +87,24 @@
  ],
  "CHA": [
   {
-   "id": "4576060",
-   "name": "Ryan Kalkbrenner",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Hip",
-   "return": "2026-11-28",
-   "comment": "Kalkbrenner (hip) has been ruled out for Wednesday's matchup with Chicago.",
-   "date": "2026-11-26T05:30Z"
-  },
-  {
    "id": "3135045",
    "name": "Grayson Allen",
    "pos": "G",
    "status": "Out",
    "type": "Concussion",
    "return": "2026-11-28",
-   "comment": "Allen (concussion) has been ruled out for Wednesday's game against Chicago.",
-   "date": "2026-11-25T17:39Z"
+   "comment": "Allen (concussion) is questionable for Saturday's game against the Nets.",
+   "date": "2026-11-27T22:17Z"
+  },
+  {
+   "id": "4576060",
+   "name": "Ryan Kalkbrenner",
+   "pos": "C",
+   "status": "Day-To-Day",
+   "type": "Hip",
+   "return": "2026-11-28",
+   "comment": "Kalkbrenner (hip) is probable for Saturday's matchup with Brooklyn.",
+   "date": "2026-11-27T22:04Z"
   },
   {
    "id": "3032979",
@@ -337,6 +337,18 @@
    "date": "2026-10-16T16:11Z"
   }
  ],
+ "HOU": [
+  {
+   "id": "2991235",
+   "name": "Steven Adams",
+   "pos": "C",
+   "status": "Day-To-Day",
+   "type": "Knee",
+   "return": "2026-11-28",
+   "comment": "Adams (knee) is questionable for Saturday's game against the 76ers.",
+   "date": "2026-11-27T22:06Z"
+  }
+ ],
  "IND": [
   {
    "id": "2580365",
@@ -481,18 +493,6 @@
    "return": "2026-12-01",
    "comment": "Saunders signed a two-way contract with the Grizzlies on Saturday, Shams Charania of ESPN reports.",
    "date": "2026-11-07T17:24Z"
-  }
- ],
- "MIA": [
-  {
-   "id": "3032977",
-   "name": "Giannis Antetokounmpo",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Groin",
-   "return": "2026-11-27",
-   "comment": "Antetokounmpo is probable for Friday's game against the Knicks due to right groin tendinitis.",
-   "date": "2026-11-26T21:15Z"
   }
  ],
  "MIL": [
@@ -1093,5 +1093,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-27T22:03:52.702722+00:00"
+ "_updated": "2026-11-27T22:49:11.952616+00:00"
 }
