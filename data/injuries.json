@@ -798,9 +798,9 @@
    "pos": "G",
    "status": "Out",
    "type": "Heel",
-   "return": "2026-11-27",
-   "comment": "Youngblood (heel) has been ruled out for Saturday's game against the Knicks.",
-   "date": "2026-11-20T22:18Z"
+   "return": "2026-11-29",
+   "comment": "Youngblood (heel) is out for Friday's game against the Warriors.",
+   "date": "2026-11-27T00:56Z"
   },
   {
    "id": "4578893",
@@ -1033,5 +1033,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-27T00:58:16.051949+00:00"
+ "_updated": "2026-11-27T01:28:20.331144+00:00"
 }
