@@ -129,6 +129,16 @@
  ],
  "CHI": [
   {
+   "id": "5242496",
+   "name": "Noa Essengue",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Thumb",
+   "return": "2026-11-28",
+   "comment": "Essengue (thumb) is probable to play Saturday against the Pacers.",
+   "date": "2026-11-27T19:06Z"
+  },
+  {
    "id": "4397189",
    "name": "Jalen Smith",
    "pos": "F",
@@ -182,6 +192,16 @@
   }
  ],
  "DAL": [
+  {
+   "id": "6442",
+   "name": "Kyrie Irving",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Knee",
+   "return": "2026-11-27",
+   "comment": "Irving (knee) is listed as questionable for Friday's game against the Suns due to left knee injury management.",
+   "date": "2026-11-27T19:07Z"
+  },
   {
    "id": "5106040",
    "name": "Tobi Lawal",
@@ -389,18 +409,6 @@
    "return": "2027-03-02",
    "comment": "Miller underwent surgery Wednesday to repair a torn left rotator cuff and will be re-evaluated in six months, per Law Murray of The Athletic.",
    "date": "2026-08-26T20:04Z"
-  }
- ],
- "LAL": [
-  {
-   "id": "4066457",
-   "name": "Austin Reaves",
-   "pos": "G",
-   "status": "Out",
-   "type": "Heel",
-   "return": "2026-11-27",
-   "comment": "Reaves (heel) is questionable for Friday's game against the Spurs.",
-   "date": "2026-11-26T23:21Z"
   }
  ],
  "MEM": [
@@ -709,6 +717,26 @@
  ],
  "ORL": [
   {
+   "id": "4397140",
+   "name": "Kevin Porter Jr.",
+   "pos": "G",
+   "status": "Out",
+   "type": "Not Injury Related",
+   "return": "2026-11-29",
+   "comment": "Porter won't play Saturday against the Wizards as he's still in the process of getting up to speed on his conditioning.",
+   "date": "2026-11-27T21:08Z"
+  },
+  {
+   "id": "4712849",
+   "name": "Anthony Black",
+   "pos": "G",
+   "status": "Day-To-Day",
+   "type": "Back",
+   "return": "2026-11-28",
+   "comment": "Black (back) is questionable for Saturday's game against the Wizards.",
+   "date": "2026-11-27T21:05Z"
+  },
+  {
    "id": "4397204",
    "name": "Colin Castleton",
    "pos": "C",
@@ -978,7 +1006,7 @@
    "pos": "C",
    "status": "Day-To-Day",
    "type": "Illness",
-   "return": "2026-11-29",
+   "return": "2026-11-27",
    "comment": "Bamba (illness) is listed as questionable for Friday's game against the Nuggets, according to the Jazz's injury report.",
    "date": "2026-11-27T16:41Z"
   },
@@ -1065,5 +1093,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-27T19:05:56.886819+00:00"
+ "_updated": "2026-11-27T21:48:05.977091+00:00"
 }
