@@ -196,11 +196,11 @@
    "id": "6442",
    "name": "Kyrie Irving",
    "pos": "G",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Knee",
-   "return": "2026-11-27",
-   "comment": "Irving (knee) is listed as questionable for Friday's game against the Suns due to left knee injury management.",
-   "date": "2026-11-27T19:07Z"
+   "return": "2026-11-30",
+   "comment": "Irving (knee) has been ruled out for Friday's game against the Suns, Noah Weber of TheSmokingCuban.com reports.",
+   "date": "2026-11-28T00:30Z"
   },
   {
    "id": "5106040",
@@ -361,16 +361,6 @@
    "date": "2026-11-27T23:02Z"
   },
   {
-   "id": "2580365",
-   "name": "Larry Nance Jr.",
-   "pos": "F",
-   "status": "Day-To-Day",
-   "type": "Ankle",
-   "return": "2026-11-27",
-   "comment": "Nance (ankle) is probable for Friday's game against the 76ers.",
-   "date": "2026-11-27T18:07Z"
-  },
-  {
    "id": "4396993",
    "name": "Tyrese Haliburton",
    "pos": "G",
@@ -418,11 +408,11 @@
    "id": "4432810",
    "name": "Isaiah Stewart",
    "pos": "C",
-   "status": "Day-To-Day",
+   "status": "Out",
    "type": "Hip",
-   "return": "2026-11-27",
-   "comment": "Stewart is questionable for Friday's game against the Timberwolves due to right hip soreness.",
-   "date": "2026-11-26T23:27Z"
+   "return": "2026-11-29",
+   "comment": "Stewart (hip) is out for Friday's game against the Timberwolves, Jon Krawczynski of The Athletic reports.",
+   "date": "2026-11-28T00:26Z"
   },
   {
    "id": "4600663",
@@ -431,8 +421,8 @@
    "status": "Day-To-Day",
    "type": "Ankle",
    "return": "2026-11-27",
-   "comment": "Edey (ankle) is questionable for Friday's game against the Timberwolves.",
-   "date": "2026-11-26T23:24Z"
+   "comment": "Edey (ankle) is a game-time decision for Friday's game versus Minnesota, Jon Krawczynski of The Athletic reports.",
+   "date": "2026-11-28T00:23Z"
   },
   {
    "id": "4431785",
@@ -625,6 +615,16 @@
  ],
  "OKC": [
   {
+   "id": "5159925",
+   "name": "Nikola Topic",
+   "pos": "G",
+   "status": "Out",
+   "type": "Hip",
+   "return": "2026-12-13",
+   "comment": "Topic (hip) is out for Saturday's game against the Bucks, Brandon Rahbar of DailyThunder.com reports.",
+   "date": "2026-11-27T23:49Z"
+  },
+  {
    "id": "5174983",
    "name": "Aday Mara",
    "pos": "C",
@@ -633,16 +633,6 @@
    "return": "2026-11-30",
    "comment": "Mara (leg) is out for Saturday's game versus the Bucks, per Clemente Almanza of USA Today.",
    "date": "2026-11-27T23:10Z"
-  },
-  {
-   "id": "5159925",
-   "name": "Nikola Topic",
-   "pos": "G",
-   "status": "Out",
-   "type": "Hip",
-   "return": "2026-12-13",
-   "comment": "Topic (hip) is listed as out for Wednesday's game versus Minnesota.",
-   "date": "2026-11-24T23:29Z"
   },
   {
    "id": "4432823",
@@ -769,6 +759,16 @@
  ],
  "PHI": [
   {
+   "id": "3912848",
+   "name": "Dean Wade",
+   "pos": "F",
+   "status": "Out",
+   "type": "Hamstring",
+   "return": "2026-11-28",
+   "comment": "Wade (hamstring) is out for Friday's game against the Pacers, Austin Krell of Vertical 76 reports.",
+   "date": "2026-11-27T23:33Z"
+  },
+  {
    "id": "3917376",
    "name": "Jaylen Brown",
    "pos": "G",
@@ -777,16 +777,6 @@
    "return": "2026-12-01",
    "comment": "Brown (hamstring) underwent an MRI that showed no signs of a new injury or re-aggravation, but he didn't travel with the team for the road trip, so he will miss the team's next two games, Kris Rhim of ESPN reports.",
    "date": "2026-11-27T23:15Z"
-  },
-  {
-   "id": "3059318",
-   "name": "Joel Embiid",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Illness",
-   "return": "2026-11-27",
-   "comment": "Embiid (illness) was at shootaround for the 76ers on Friday, Chris Hine of The Philly Inquirer reports.",
-   "date": "2026-11-27T16:32Z"
   },
   {
    "id": "4871141",
@@ -1063,5 +1053,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-27T23:44:49.767221+00:00"
+ "_updated": "2026-11-28T00:54:58.866524+00:00"
 }
