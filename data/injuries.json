@@ -129,6 +129,16 @@
  ],
  "CHI": [
   {
+   "id": "2595516",
+   "name": "Norman Powell",
+   "pos": "G",
+   "status": "Out",
+   "type": "Hamstring",
+   "return": "2026-12-01",
+   "comment": "Powell (hamstring) is out for Saturday's game against the Pacers.",
+   "date": "2026-11-28T01:54Z"
+  },
+  {
    "id": "5242496",
    "name": "Noa Essengue",
    "pos": "F",
@@ -147,16 +157,6 @@
    "return": "2026-11-28",
    "comment": "Smith (illness) is listed as probable for Saturday's game against Indiana.",
    "date": "2026-11-27T18:36Z"
-  },
-  {
-   "id": "2595516",
-   "name": "Norman Powell",
-   "pos": "G",
-   "status": "Out",
-   "type": "Hamstring",
-   "return": "2026-11-28",
-   "comment": "Powell has been diagnosed with a mild right hamstring strain and will be re-evaluated later this week.",
-   "date": "2026-11-22T15:25Z"
   },
   {
    "id": "5095151",
@@ -527,8 +527,8 @@
    "status": "Out",
    "type": "Foot",
    "return": "2026-11-29",
-   "comment": "Mathurin (foot) is doubtful for Friday's game against the Clippers.",
-   "date": "2026-11-26T21:21Z"
+   "comment": "Mathurin (foot) is out for Friday's game against the Clippers.",
+   "date": "2026-11-28T01:22Z"
   },
   {
    "id": "4683742",
@@ -667,6 +667,16 @@
  ],
  "ORL": [
   {
+   "id": "4397204",
+   "name": "Colin Castleton",
+   "pos": "C",
+   "status": "Out",
+   "type": "Calf",
+   "return": "2026-11-29",
+   "comment": "Castleton totaled five points (2-4 FG, 1-1 3Pt) and four rebounds in seven minutes during Tuesday's 132-116 preseason win over the Cavaliers.",
+   "date": "2026-11-28T01:53Z"
+  },
+  {
    "id": "4397140",
    "name": "Kevin Porter Jr.",
    "pos": "G",
@@ -685,16 +695,6 @@
    "return": "2026-11-28",
    "comment": "Black (back) is questionable for Saturday's game against the Wizards.",
    "date": "2026-11-27T21:05Z"
-  },
-  {
-   "id": "4397204",
-   "name": "Colin Castleton",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Calf",
-   "return": "2026-11-27",
-   "comment": "Castleton totaled five points (2-4 FG, 1-1 3Pt) and four rebounds in seven minutes during Tuesday's 132-116 preseason win over the Cavaliers.",
-   "date": "2026-11-26T16:10Z"
   },
   {
    "id": "4065654",
@@ -867,26 +867,6 @@
  ],
  "SA": [
   {
-   "id": "5037871",
-   "name": "Dylan Harper",
-   "pos": "G",
-   "status": "Out",
-   "type": "Hip",
-   "return": "2026-11-27",
-   "comment": "Harper (hip) participated in Friday's morning shootaround, per Matt Guzman of SI.com.",
-   "date": "2026-11-27T18:51Z"
-  },
-  {
-   "id": "4066259",
-   "name": "De'Aaron Fox",
-   "pos": "G",
-   "status": "Day-To-Day",
-   "type": "Lower Leg",
-   "return": "2026-11-27",
-   "comment": "Fox (shin) is questionable for Friday's game against the Lakers.",
-   "date": "2026-11-26T23:35Z"
-  },
-  {
    "id": "6440",
    "name": "Tobias Harris",
    "pos": "F",
@@ -944,31 +924,11 @@
    "id": "4277919",
    "name": "Mo Bamba",
    "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Illness",
-   "return": "2026-11-27",
-   "comment": "Bamba (illness) is listed as questionable for Friday's game against the Nuggets, according to the Jazz's injury report.",
-   "date": "2026-11-27T16:41Z"
-  },
-  {
-   "id": "4397077",
-   "name": "Jaxson Hayes",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Knee",
-   "return": "2026-11-27",
-   "comment": "Hayes (knee) is questionable for Friday's game against the Nuggets.",
-   "date": "2026-11-27T00:11Z"
-  },
-  {
-   "id": "3102530",
-   "name": "Jusuf Nurkic",
-   "pos": "C",
    "status": "Out",
-   "type": "Foot",
-   "return": "2026-11-27",
-   "comment": "Nurkic (foot) is questionable for Friday's game against the Nuggets.",
-   "date": "2026-11-27T00:08Z"
+   "type": "Illness",
+   "return": "2026-11-29",
+   "comment": "Bamba (illness) has been ruled out for Friday's game against the Nuggets.",
+   "date": "2026-11-28T01:37Z"
   },
   {
    "id": "4066336",
@@ -1033,5 +993,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-28T01:24:22.109602+00:00"
+ "_updated": "2026-11-28T02:12:42.351153+00:00"
 }
