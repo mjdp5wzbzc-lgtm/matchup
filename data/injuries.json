@@ -889,6 +889,16 @@
  ],
  "TOR": [
   {
+   "id": "4684272",
+   "name": "Ja'Kobe Walter",
+   "pos": "G",
+   "status": "Out",
+   "type": "Quadriceps",
+   "return": "2026-11-29",
+   "comment": "Walter won't return to Friday's game against Brooklyn due to a right quad contusion, Josh Lewenberg of TSN.ca reports.",
+   "date": "2026-11-28T02:34Z"
+  },
+  {
    "id": "6450",
    "name": "Kawhi Leonard",
    "pos": "F",
@@ -993,5 +1003,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-28T02:12:42.351153+00:00"
+ "_updated": "2026-11-28T03:23:01.712820+00:00"
 }
