@@ -1,139 +1,67 @@
 {
- "generated": "2026-11-28T04:28:39.686572+00:00",
+ "generated": "2026-11-28T07:23:55.012560+00:00",
  "days": [
   {
-   "date": "2026-11-27",
+   "date": "2026-11-28",
    "games": [
     {
-     "id": "401909326",
-     "start": "2026-11-28T00:00Z",
-     "home": "NY",
-     "away": "MIA",
-     "state": "post",
-     "detail": "Final",
+     "id": "401910046",
+     "start": "2026-11-28T22:00Z",
+     "home": "WSH",
+     "away": "ORL",
+     "state": "pre",
+     "detail": "11/28 - 5:00 PM EST",
      "score": {
-      "home": "105",
-      "away": "108"
+      "home": "0",
+      "away": "0"
      }
     },
     {
-     "id": "401909327",
-     "start": "2026-11-28T00:30Z",
-     "home": "DET",
-     "away": "MIL",
-     "state": "post",
-     "detail": "Final",
-     "score": {
-      "home": "113",
-      "away": "98"
-     }
-    },
-    {
-     "id": "401909328",
-     "start": "2026-11-28T00:30Z",
-     "home": "IND",
-     "away": "PHI",
-     "state": "post",
-     "detail": "Final",
-     "score": {
-      "home": "87",
-      "away": "111"
-     }
-    },
-    {
-     "id": "401909329",
-     "start": "2026-11-28T00:30Z",
-     "home": "TOR",
+     "id": "401910047",
+     "start": "2026-11-28T23:00Z",
+     "home": "CHA",
      "away": "BKN",
-     "state": "post",
-     "detail": "Final",
+     "state": "pre",
+     "detail": "11/28 - 6:00 PM EST",
      "score": {
-      "home": "124",
-      "away": "100"
+      "home": "0",
+      "away": "0"
      }
     },
     {
-     "id": "401909330",
-     "start": "2026-11-28T01:00Z",
-     "home": "BOS",
-     "away": "ATL",
-     "state": "post",
-     "detail": "Final",
+     "id": "401910048",
+     "start": "2026-11-29T01:00Z",
+     "home": "CHI",
+     "away": "IND",
+     "state": "pre",
+     "detail": "11/28 - 8:00 PM EST",
      "score": {
-      "home": "86",
-      "away": "87"
+      "home": "0",
+      "away": "0"
      }
     },
     {
-     "id": "401909331",
-     "start": "2026-11-28T01:30Z",
-     "home": "MIN",
-     "away": "MEM",
-     "state": "post",
-     "detail": "Final",
+     "id": "401910049",
+     "start": "2026-11-29T01:00Z",
+     "home": "MIL",
+     "away": "OKC",
+     "state": "pre",
+     "detail": "11/28 - 8:00 PM EST",
      "score": {
-      "home": "109",
-      "away": "114"
+      "home": "0",
+      "away": "0"
      }
     },
     {
-     "id": "401909332",
-     "start": "2026-11-28T02:00Z",
-     "home": "PHX",
-     "away": "DAL",
-     "state": "in",
-     "detail": "5.1 - 4th",
+     "id": "401910050",
+     "start": "2026-11-29T01:30Z",
+     "home": "HOU",
+     "away": "PHI",
+     "state": "pre",
+     "detail": "11/28 - 8:30 PM EST",
      "score": {
-      "home": "109",
-      "away": "111"
-     }
-    },
-    {
-     "id": "401909333",
-     "start": "2026-11-28T02:30Z",
-     "home": "SA",
-     "away": "LAL",
-     "state": "in",
-     "detail": "10:48 - 4th",
-     "score": {
-      "home": "70",
-      "away": "68"
-     }
-    },
-    {
-     "id": "401909334",
-     "start": "2026-11-28T02:30Z",
-     "home": "UTAH",
-     "away": "DEN",
-     "state": "in",
-     "detail": "7:22 - 4th",
-     "score": {
-      "home": "95",
-      "away": "95"
-     }
-    },
-    {
-     "id": "401909335",
-     "start": "2026-11-28T02:30Z",
-     "home": "LAC",
-     "away": "NO",
-     "state": "in",
-     "detail": "8:54 - 4th",
-     "score": {
-      "home": "82",
-      "away": "85"
-     }
-    },
-    {
-     "id": "401909336",
-     "start": "2026-11-28T02:30Z",
-     "home": "POR",
-     "away": "GS",
-     "state": "in",
-     "detail": "End of 3rd",
-     "score": {
-      "home": "91",
-      "away": "78"
+      "home": "0",
+      "away": "0"
      }
     }
    ]

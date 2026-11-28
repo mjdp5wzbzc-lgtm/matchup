@@ -193,6 +193,16 @@
  ],
  "DAL": [
   {
+   "id": "3138160",
+   "name": "Caleb Martin",
+   "pos": "F",
+   "status": "Day-To-Day",
+   "type": "Ankle",
+   "return": "2026-11-30",
+   "comment": "Martin didn't return for the second half of Friday's win over the Suns due to a left ankle sprain, Grant Afseth of DallasHoopsJournal.com reports.",
+   "date": "2026-11-28T05:35Z"
+  },
+  {
    "id": "6442",
    "name": "Kyrie Irving",
    "pos": "G",
@@ -303,8 +313,8 @@
    "status": "Out",
    "type": "Knee",
    "return": "2026-11-29",
-   "comment": "Santos registered 22 points (8-11 FG, 2-4 3Pt, 4-4 FT), three rebounds, one assist and two steals across 24 minutes off the bench during Wednesday's 129-110 win over Sacramento.",
-   "date": "2026-11-28T04:20Z"
+   "comment": "Santos exited Friday's game against the Trail Blazers with a knee injury in the second half and won't return.",
+   "date": "2026-11-28T04:19Z"
   },
   {
    "id": "3975",
@@ -392,6 +402,16 @@
   }
  ],
  "LAC": [
+  {
+   "id": "5108024",
+   "name": "Yanic Konan Niederhauser",
+   "pos": "C",
+   "status": "Out",
+   "type": "Toe",
+   "return": "2026-11-29",
+   "comment": "Niederhauser suffered a right toe injury during Friday's game against the Pelicans and won't return, Joey Linn of SI.com reports.",
+   "date": "2026-11-28T04:17Z"
+  },
   {
    "id": "6580",
    "name": "Bradley Beal",
@@ -749,6 +769,26 @@
  ],
  "PHI": [
   {
+   "id": "3059318",
+   "name": "Joel Embiid",
+   "pos": "C",
+   "status": "Out",
+   "type": "Foot",
+   "return": "2026-12-01",
+   "comment": "Embiid has been ruled out for Saturday's game against the Rockets due to right foot plantar fasciitis management, Kris Rhim of ESPN.com reports.",
+   "date": "2026-11-28T05:48Z"
+  },
+  {
+   "id": "1966",
+   "name": "LeBron James",
+   "pos": "F",
+   "status": "Out",
+   "type": "Back",
+   "return": "2026-12-01",
+   "comment": "James (back injury management) won't be available for Saturday's game against the Rockets, according to Kris Rhim of ESPN.",
+   "date": "2026-11-28T05:46Z"
+  },
+  {
    "id": "3912848",
    "name": "Dean Wade",
    "pos": "F",
@@ -1013,5 +1053,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-28T04:28:40.311759+00:00"
+ "_updated": "2026-11-28T07:23:55.281727+00:00"
 }
