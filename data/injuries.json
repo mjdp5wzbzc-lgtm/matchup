@@ -303,8 +303,8 @@
    "status": "Out",
    "type": "Abdomen",
    "return": "2026-12-12",
-   "comment": "Curry (abdomen) will be re-evaluated Friday after Thanksgiving, Anthony Slater of ESPN.com reports.",
-   "date": "2026-11-26T01:36Z"
+   "comment": "Curry (abdomen/oblique) has been ruled out for each of the Warriors' next three games, Anthony Slater of ESPN.com reports",
+   "date": "2026-11-28T00:47Z"
   },
   {
    "id": "3102531",
@@ -415,16 +415,6 @@
    "date": "2026-11-28T00:26Z"
   },
   {
-   "id": "4600663",
-   "name": "Zach Edey",
-   "pos": "C",
-   "status": "Day-To-Day",
-   "type": "Ankle",
-   "return": "2026-11-27",
-   "comment": "Edey (ankle) is a game-time decision for Friday's game versus Minnesota, Jon Krawczynski of The Athletic reports.",
-   "date": "2026-11-28T00:23Z"
-  },
-  {
    "id": "4431785",
    "name": "Scotty Pippen Jr.",
    "pos": "G",
@@ -531,22 +521,12 @@
  ],
  "NO": [
   {
-   "id": "4431675",
-   "name": "Trendon Watford",
-   "pos": "F",
-   "status": "Out",
-   "type": "Ankle",
-   "return": "2026-11-27",
-   "comment": "Watford (ankle) is probable for Friday's game against the Clippers.",
-   "date": "2026-11-26T21:22Z"
-  },
-  {
    "id": "4683634",
    "name": "Bennedict Mathurin",
    "pos": "G",
    "status": "Out",
    "type": "Foot",
-   "return": "2026-11-27",
+   "return": "2026-11-29",
    "comment": "Mathurin (foot) is doubtful for Friday's game against the Clippers.",
    "date": "2026-11-26T21:21Z"
   },
@@ -1053,5 +1033,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-28T00:54:58.866524+00:00"
+ "_updated": "2026-11-28T01:24:22.109602+00:00"
 }
