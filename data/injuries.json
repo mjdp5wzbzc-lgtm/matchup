@@ -297,6 +297,16 @@
  ],
  "GS": [
   {
+   "id": "4997536",
+   "name": "Gui Santos",
+   "pos": "F",
+   "status": "Out",
+   "type": "Knee",
+   "return": "2026-11-29",
+   "comment": "Santos registered 22 points (8-11 FG, 2-4 3Pt, 4-4 FT), three rebounds, one assist and two steals across 24 minutes off the bench during Wednesday's 129-110 win over Sacramento.",
+   "date": "2026-11-28T04:20Z"
+  },
+  {
    "id": "3975",
    "name": "Stephen Curry",
    "pos": "G",
@@ -1003,5 +1013,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "_updated": "2026-11-28T04:03:33.146953+00:00"
+ "_updated": "2026-11-28T04:28:40.311759+00:00"
 }

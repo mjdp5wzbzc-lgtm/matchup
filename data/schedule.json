@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-28T04:03:33.049111+00:00",
+ "generated": "2026-11-28T04:28:39.686572+00:00",
  "days": [
   {
    "date": "2026-11-27",
@@ -82,10 +82,10 @@
      "home": "PHX",
      "away": "DAL",
      "state": "in",
-     "detail": "8:42 - 4th",
+     "detail": "5.1 - 4th",
      "score": {
-      "home": "98",
-      "away": "85"
+      "home": "109",
+      "away": "111"
      }
     },
     {
@@ -94,10 +94,10 @@
      "home": "SA",
      "away": "LAL",
      "state": "in",
-     "detail": "9:11 - 3rd",
+     "detail": "10:48 - 4th",
      "score": {
-      "home": "50",
-      "away": "61"
+      "home": "70",
+      "away": "68"
      }
     },
     {
@@ -106,10 +106,10 @@
      "home": "UTAH",
      "away": "DEN",
      "state": "in",
-     "detail": "3:49 - 3rd",
+     "detail": "7:22 - 4th",
      "score": {
-      "home": "76",
-      "away": "72"
+      "home": "95",
+      "away": "95"
      }
     },
     {
@@ -118,10 +118,10 @@
      "home": "LAC",
      "away": "NO",
      "state": "in",
-     "detail": "6:57 - 3rd",
+     "detail": "8:54 - 4th",
      "score": {
-      "home": "61",
-      "away": "66"
+      "home": "82",
+      "away": "85"
      }
     },
     {
@@ -130,10 +130,10 @@
      "home": "POR",
      "away": "GS",
      "state": "in",
-     "detail": "8:32 - 3rd",
+     "detail": "End of 3rd",
      "score": {
-      "home": "73",
-      "away": "53"
+      "home": "91",
+      "away": "78"
      }
     }
    ]
